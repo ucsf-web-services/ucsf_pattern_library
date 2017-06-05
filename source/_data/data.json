@@ -120,9 +120,43 @@
       "title": "Page Title"
     }
   },
-
   "site-name": "UCSF PatternLab",
   "title": "Page Title",
   "htmlClass": "pl",
-  "bodyClass": "body"
+  "bodyClass": "body",
+  "year": {
+    "long": "2013",
+    "short": "13"
+  },
+  "month": {
+    "long": "January",
+    "short": "Jan",
+    "digit": "01"
+  },
+  "dayofweek": {
+    "long": "Sunday",
+    "short": "Sun"
+  },
+  "day": {
+    "long": "01",
+    "short": "1",
+    "ordinal": "st"
+  },
+  "hour": {
+    "long": "06",
+    "short": "6",
+    "military": "06",
+    "ampm": "am"
+  },
+  "minute": {
+    "long": "20",
+    "short": "20"
+  },
+  "seconds": "31",
+  "all_articles":[
+    {},
+    {},
+    {},
+    {}
+  ]
 }

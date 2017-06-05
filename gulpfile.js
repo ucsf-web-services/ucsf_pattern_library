@@ -7,7 +7,6 @@ var gulp = require('gulp'),
   path = require('path'),
   browserSync = require('browser-sync').create(),
   sass = require('gulp-sass'),
-  argv = require('minimist')(process.argv.slice(2)),
   chalk = require('chalk');
   flatten = require('gulp-flatten');
   fs = require('fs');
@@ -133,25 +132,6 @@ function getTask(task) {
 //Task kicked off from js.js for all js compliation tasks
 gulp.task('js:compile', getTask('js'));
 
-
-/**
- * Performs the actual build step. Accomodates both async and sync
- * versions of Pattern Lab.
- * @param {function} done - Gulp done callback
- */
-// function build(done) {
-//   const buildResult = patternlab.build(() => {}, getConfiguredCleanOption());
-//
-//   // handle async version of Pattern Lab
-//   if (buildResult instanceof Promise) {
-//     return buildResult.then(done);
-//   }
-//
-//   // handle sync version of Pattern Lab
-//   done();
-//   return null;
-// }
-
 gulp.task('pl-assets', gulp.series(
   'js:compile',
   'pl-copy:sass',
@@ -163,62 +143,15 @@ gulp.task('pl-assets', gulp.series(
   'pl-copy:styleguide-css'
 ));
 
-// gulp.task('patternlab:version', function (done) {
-//   patternlab.version();
-//   done();
-// });
-
-// gulp.task('patternlab:help', function (done) {
-//   patternlab.help();
-//   done();
-// });
-
-// gulp.task('patternlab:patternsonly', function (done) {
-//   patternlab.patternsonly(done, getConfiguredCleanOption());
-// });
-
-// gulp.task('patternlab:liststarterkits', function (done) {
-//   patternlab.liststarterkits();
-//   done();
-// });
-//
-// gulp.task('patternlab:loadstarterkit', function (done) {
-//   patternlab.loadstarterkit(argv.kit, argv.clean);
-//   done();
-// });
-
-// gulp.task('', function () {
-//   return gulp.src('', {read: false, })
-//     .pipe(shell([
-//
-//     ]));
-// });
-
-
 gulp.task('pl-build', shell.task([
   'php pattern-lab-source/core/console --generate'
 ]))
 
 gulp.task('patternlab:build', gulp.series('pl-build', 'pl-assets'));
 
-// gulp.task('patternlab:installplugin', function (done) {
-//   patternlab.installplugin(argv.plugin);
-//   done();
-// });
-
 /******************************************************
  * SERVER AND WATCH TASKS
 ******************************************************/
-// watch task utility functions
-// function getSupportedTemplateExtensions() {
-//   var engines = require('./node_modules/patternlab-node/core/lib/pattern_engines');
-//   return engines.getSupportedFileExtensions();
-// }
-// function getTemplateWatches() {
-//   return getSupportedTemplateExtensions().map(function (dotExtension) {
-//     return normalizePath(paths().source.patterns, '**', '*' + dotExtension);
-//   });
-// }
 
 /**
  * Reloads BrowserSync.
