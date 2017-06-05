@@ -1,0 +1,30 @@
+.basic-page {
+  .main {
+    margin-bottom: 2em;
+    @include breakpoint($display_large_min) {
+      @include grid-span(8, 1, (12));
+      padding-right: 2em;
+    }
+  }
+  .sidebar {
+    margin-bottom: 2em;
+    @include breakpoint($display_large_min) {
+      @include grid-span(4, 9, (12));
+      padding-left: 2em;
+      padding-right: 0;
+      h1, h2, h3, h4, h5, h6 {
+        padding-top: 0;
+        margin-top: 0;
+      }
+    }
+  }
+  &__hero {
+    padding: 1em 0;
+  }
+}
+
+section {
+  display: block;
+  clear: both;
+  margin-bottom: 3rem;
+}

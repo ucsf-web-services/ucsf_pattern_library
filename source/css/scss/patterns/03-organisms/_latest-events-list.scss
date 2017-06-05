@@ -1,0 +1,29 @@
+.lastest-events-list {
+  .lastest-events-list__heading {
+    border-bottom: 2px solid #B4B9BF;
+    margin-bottom: 30px;
+    h2 {
+      margin-bottom: 0px;
+      display: inline-block;
+    }
+    .btn-2 {
+      float: right;
+      border-radius: 5px;
+      padding: 5px 20px;
+      font-size: 12px;
+      display: inline-block;
+      margin-top: 28px;
+    }
+  }
+  .lastest-events-list__item {
+    margin-bottom: 28px;
+  }
+}
+
+@media only screen and (max-width: $display_large_min){
+  .lastest-events-list {
+    .lastest-events-list__heading {
+      width: 100%;
+    }
+  }
+}

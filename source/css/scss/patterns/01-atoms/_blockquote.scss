@@ -1,0 +1,31 @@
+blockquote {
+  width: 250px;
+  background-color: #E6E6E6;
+  padding: 20px;
+  p {
+   &:before {
+     content: "\201C";
+   }
+   &:after {
+     content: "\201D";
+   }
+ }
+
+.blockquote-title, .blockquote-source {
+  word-wrap: break-word;
+  font-size: 80%;
+  }
+}
+
+blockquote.blockquote-orange {
+  box-shadow: 10px 10px $ucsf-orange;
+}
+blockquote.blockquote-green {
+  box-shadow: 10px 10px $ucsf-green;
+}
+blockquote.blockquote-blue {
+  box-shadow: 10px 10px $ucsf-blue;
+}
+blockquote.blockquote-navyblue {
+  box-shadow: 10px 10px $ucsf-navyblue;
+}

@@ -1,0 +1,27 @@
+.event-card {
+  margin-right: 64px;
+  .event-card__image {
+    float: left;
+    margin-right: 18px;
+  }
+  .event-card__detail {
+    p {
+      margin-bottom: 0px;
+      height: 69px;
+      clear: right;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+  .event-card__date-time {
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+    clear: left;
+    p {
+      margin: 0px;
+    }
+  }
+}

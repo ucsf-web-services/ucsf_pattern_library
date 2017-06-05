@@ -1,0 +1,54 @@
+.img-banner {
+  overflow: hidden;
+  .img-banner__left{
+    display: inline-block;
+    float: left;
+    padding: 30px;
+    background-color: $background-gray;
+    max-width: 332px;
+    height: 225px;
+    h5 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 26px;
+    }
+    p {
+      margin-top: 1em;
+      font-size: 16px;
+    }
+  }
+  .img-banner__right{
+    display: inline-block;
+    float: left;
+    max-width: 100%;
+  }
+}
+
+@include breakpoint($display_medium){
+  .img-banner{
+    .img-banner__left {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .img-banner__right {
+      display: block;
+      width: 100%;
+      height: 225px;
+    }
+  }
+}
+@include breakpoint($display_small){
+  .img-banner{
+    .img-banner__left {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+    .img-banner__right {
+      display: block;
+      width: 100%;
+      height: 225px;
+    }
+  }
+}

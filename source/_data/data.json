@@ -1,0 +1,128 @@
+{
+  "img": {
+    "banner1": {
+      "src":  "../../images/905x40.png",
+      "alt": "This is the Banner Image 1",
+      "title": "This is the Banner Image 1"
+    },
+    "banner2": {
+      "src":  "../../images/735x435.png",
+      "alt": "This is the Banner Image 2",
+      "title": "This is the Banner Image 2"
+    },
+    "banner3": {
+      "src":  "../../images/845x500.png",
+      "alt": "This is the Banner Image 3",
+      "title": "This is the Banner Image 3"
+    },
+    "banner4": {
+      "src":  "../../images/748x500.png",
+      "alt": "This is the Banner Image 4",
+      "title": "This is the Banner Image 4"
+    },
+    "banner5": {
+      "src":  "../../images/1280x500.png",
+      "alt": "This is the Banner Image 5",
+      "title": "This is the Banner Image 5"
+    },
+    "card": {
+      "src":  "../../images/170x145.png",
+      "alt": "Card Image",
+      "title": "Card Image"
+    },
+    "event": {
+      "src":  "../../images/69x69.png",
+      "alt": "Event Image",
+      "title": "Event Image"
+    },
+    "featuredContent": {
+      "src":  "../../images/332x225.png",
+      "alt": "Featured Content Image",
+      "title": "Featured Content Image"
+    },
+    "icon": {
+      "src":  "../../images/64x64.png",
+      "alt": "Featured Content Image",
+      "title": "Featured Content Image"
+    },
+    "locationLarge": {
+      "src":  "../../images/444x296.png",
+      "alt": "Location Image - Large",
+      "title": "Location Image - Large"
+    },
+    "locationSmall": {
+      "src":  "../../images/332x222.png",
+      "alt": "Location Image - Small",
+      "title": "Location Image - Small"
+    },
+    "logo": {
+      "src":  "../../images/285x114.png",
+      "alt": "This is the Logo",
+      "title": "This is the Logo"
+    },
+    "offsetTextBanner": {
+      "src":  "../../images/776x225.png",
+      "alt": "Offset Text Banner Image",
+      "title": "Offset Text Banner Image"
+    },
+    "profileLarge": {
+      "src":  "../../images/180x180.png",
+      "alt": "Profile Image - Large",
+      "title": "Profile Image - Large"
+    },
+    "profileSmall": {
+      "src":  "../../images/150x150.png",
+      "alt": "Profile Image - Small",
+      "title": "Profile Image - Small"
+    },
+    "teaser": {
+      "src":  "../../images/112x112.png",
+      "alt": "Teaser Image",
+      "title": "Teaser Image"
+    }
+  },
+
+  "hero": {
+    "hero1": {
+      "title": "Headline 1 lacinia bibendu nulla sed consec",
+      "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+    },
+    "hero2": {
+      "title": "Headline 1 lacinia bibendu nulla sed consec",
+      "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+    },
+    "hero5": {
+      "title": "Headline 1 lacinia bibendu nulla sed consec"
+    }
+  },
+  "text": {
+    "author": "Author Name",
+    "newsTeaser": {
+      "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
+      "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
+    },
+    "publicationShortTeaser": {
+      "title": "Publication Title: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+      "subtitle": "Publication Subtitle: Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+      "source": "Publication Source: Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+    },
+    "linkList": {
+      "link1": "Quis nostrud exercitation",
+      "link2": "Ullamco laboris nisi",
+      "link3": "Utaliquip ex ea commodo",
+      "link4": "Euismod tempur elsed"
+    },
+    "featuredContent": {
+      "title": "Headline 3",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "basicPage": {
+      "title": "Page Title"
+    }
+  },
+
+  "site-name": "UCSF PatternLab",
+  "title": "Page Title",
+  "htmlClass": "pl",
+  "bodyClass": "body"
+}

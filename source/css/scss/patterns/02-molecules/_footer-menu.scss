@@ -1,0 +1,10 @@
+ul.footer-menu__links {
+  column-count: 3;
+  list-style: none;
+  margin-left: 0;
+}
+@media only screen and (max-width: $display_large_min) {
+  ul.footer-menu__links {
+    column-count: 1;
+  }
+}

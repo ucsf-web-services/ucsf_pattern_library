@@ -1,0 +1,27 @@
+.submenu {
+  display: block;
+  @include breakpoint($display_large_min) {
+    float: left;
+  }
+  li {
+    list-style: none;
+    float: left;
+    background-color: #EFEFEF;
+    margin: 0;
+    border: 1px solid #B4B9BF;
+    a {
+      color: $ucsf-navyblue;
+      display: inline-block;
+      padding: 15px 20px 15px 30px;
+      margin: 0;
+      width: 100%;
+      @include breakpoint($display_large_min) {
+        width: 270px;
+      }
+      &:hover {
+        background-color: #DFE0E0;
+        border: 0px;
+      }
+    }
+  }
+}

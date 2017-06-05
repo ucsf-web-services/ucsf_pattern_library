@@ -1,0 +1,85 @@
+//** Text Fields **/
+fieldset {
+  border: none;
+  .form {
+    label{
+      display: block;
+    }
+    .field-container {
+      padding-bottom: 1em;
+    }
+  }
+}
+label{
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+input {
+  padding: 10px;
+  width: 60%;
+  font-size: inherit;
+  border: 1px solid $lightgray;
+  background: $white;
+}
+textarea{
+  font-size: inherit;
+  width: 100%;
+}
+
+@media only screen and (max-width: $display_medium_min) {
+  .field-container {
+    input {
+      width: 100%;
+    }
+  }
+}
+
+//** Select Menu **/
+.select-style {
+  background-color: $white;
+}
+select{
+  background-color: $white;
+  height: 50px;
+  width: 300px;
+}
+
+//** Checkbox & Radio Buttons **/
+ul.checkbox, ul.radio {
+    padding-left: 0;
+    margin-left: 0;
+  li {
+    list-style: none;
+  }
+  label {
+      font-weight: normal;
+      padding: 0px;
+      div {
+        display: inline-block;
+        vertical-align: middle;
+        padding-left: 10px;
+      }
+    }
+  input {
+    width: 20px;
+    height: 20px;
+    background: $white;
+    border-radius: 50%;
+    border: 1px solid $ucsf-blue;
+    -webkit-appearance: none;
+    position: relative;
+    vertical-align: middle;
+    &:checked {
+      background: $ucsf-blue;
+      &:after {
+        content: "\2713";
+        color: $white;
+        position: absolute;
+        bottom: 3px;
+        right: 5px;
+        font-size: 10px;
+      }
+    }
+  }
+}

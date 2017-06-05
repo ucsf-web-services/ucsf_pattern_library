@@ -1,0 +1,14 @@
+img {
+  max-width: 100%;
+}
+
+a img {
+  &:hover {
+     filter: brightness(105%);
+  }
+}
+
+// This is necessary so images are always viewable.
+body {
+  max-width: 100%;
+}

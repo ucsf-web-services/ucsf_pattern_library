@@ -1,0 +1,14 @@
+.all-events-list {
+  .all-events-list__heading {
+    h2 {
+      border-bottom: 2px solid #B4B9BF;
+      margin-bottom: 30px;
+    }
+  }
+  .all-events-list__row {
+    clear: both;
+    .all-events-list__item {
+      margin-bottom: 28px;
+    }
+  }
+}

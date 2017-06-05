@@ -1,0 +1,48 @@
+.offset-text-banner {
+  position: relative;
+  .offset-text-banner__text {
+    background-color: $background-gray;
+    width: 50%;
+    height: 225px;
+    z-index: 1;
+    padding: 30px;
+    h5 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 26px;
+    }
+    p {
+      margin-top: 1em;
+      font-size: 16px;
+    }
+  }
+  .offset-text-banner__img {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: -1;
+  }
+}
+
+@include breakpoint($display_medium){
+  .offset-text-banner {
+    .offset-text-banner__img {
+      display: none;
+    }
+    .offset-text-banner__text {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@include breakpoint($display_small){
+  .offset-text-banner {
+    .offset-text-banner__img {
+      display: none;
+    }
+    .offset-text-banner__text {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.breadcrumbs {
+  .breadcrumbs__list{
+    font-size: 12px;
+    padding-bottom: 0;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+    li {
+      list-style: none;
+      display: inline-block;
+      font-weight: bold;
+      &:after {
+        content: " >";
+        color: $ucsf-blue;
+        }
+      &:last-child {
+        &:after {
+          content: "";
+        }
+      }
+      a {
+        color: $ucsf-blue;
+        &:hover {
+          color: $ucsf-navyblue;
+        }
+      }
+    }
+    .breadcrumb-page-title {
+        color: #999999;
+    }
+  }
+}

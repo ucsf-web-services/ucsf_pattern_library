@@ -1,0 +1,27 @@
+.latest-articles-list {
+  .latest-articles-list__heading {
+    border-bottom: 2px solid #B4B9BF;
+    h2 {
+      display: inline-block;
+      margin: 0;
+    }
+    .btn-2 {
+      float: right;
+      border-radius: 5px;
+      padding: 5px 20px;
+      font-size: 12px;
+    }
+  }
+    .latest-articles-list__item {
+      display: inline-block;
+      width: 49%;
+  }
+}
+
+@media only screen and (max-width: $display_large_min){
+  .latest-articles-list {
+    .latest-articles-list__item {
+      width: 100%;
+    }
+  }
+}

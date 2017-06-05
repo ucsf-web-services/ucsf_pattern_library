@@ -1,0 +1,32 @@
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: http://www.fontshop.com
+*/
+
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=0499af03-9201-48f1-8809-4cec9cbc68bb&fontids=706329");
+@font-face{
+    font-family: "Granjon LT W01 Roman";
+    src:url("../fonts/aaafa9cb-fbd8-4112-9799-6bd7e21ac9c7.eot?#iefix");
+    src:url("../fonts/aaafa9cb-fbd8-4112-9799-6bd7e21ac9c7.eot?#iefix") format("eot"),url("../fonts/5661f5e8-4294-4956-b6d5-acb6c42277a7.woff2") format("woff2"),url("../fonts/be1ab8f1-19f3-4e0b-9a7a-8153b07871e8.woff") format("woff"),url("../fonts/91e8f703-265a-4342-b688-bbe50adc8c44.ttf") format("truetype");
+}
+@font-face{
+    font-family:"Granjon LT W01 Italic";
+    src:url("Fonts/706326/1312b0b1-7f4a-40de-9e7f-d75a956756a0.eot?#iefix");        src:url("Fonts/706326/1312b0b1-7f4a-40de-9e7f-d75a956756a0.eot?#iefix") format("eot"),url("Fonts/706326/1d0754b7-4d12-4d70-9799-7b646eb1ec39.woff2") format("woff2"),url("Fonts/706326/2b90bc04-bfbd-42d5-abcd-bacd6045af17.woff") format("woff"),url("Fonts/706326/59965288-a6fe-4533-92aa-c13a1992124d.ttf") format("truetype");
+    font-style: italic;
+}
+@font-face{
+    font-family:"Granjon LT W01 Bold";
+    src:url("Fonts/706323/8572d185-8204-4d97-8df1-dcaf685d5cb4.eot?#iefix");        src:url("Fonts/706323/8572d185-8204-4d97-8df1-dcaf685d5cb4.eot?#iefix") format("eot"),url("Fonts/706323/25967e22-f423-45bc-baa0-31292ce05f55.woff2") format("woff2"),url("Fonts/706323/40110ed7-1f10-48e8-b48b-37868775c4a4.woff") format("woff"),url("Fonts/706323/2b4038a4-8163-4c4f-866e-5add383e36f7.ttf") format("truetype");
+    font-weight: bold;
+}
+
+/* Flexslider Fonts */
+@font-face {
+  font-family: 'flexslider-icon';
+  src:url('../fonts/flexslider-icon.eot');
+  src:url('../fonts/flexslider-icon.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/flexslider-icon.woff') format('woff'),
+  url('../fonts/flexslider-icon.ttf') format('truetype'),
+  url('../fonts/flexslider-icon.svg#flexslider-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

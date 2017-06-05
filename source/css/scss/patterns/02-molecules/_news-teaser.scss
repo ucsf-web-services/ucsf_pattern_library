@@ -1,0 +1,37 @@
+.news-teaser {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  .news-teaser__image {
+    margin-right: 40px;
+    float: left;
+  }
+  .news-teaser__detail {
+    h3 {
+      font-size: 25px;
+      margin-bottom: 5px;
+      margin-top: 0;
+      font-weight: 300;
+      a {
+        color: $ucsf-navyblue;
+        &:hover {
+          color: $ucsf-blue;
+        }
+      }
+    }
+    time {
+      line-height: 1.5rem;
+    }
+    .news-teaser__author-date {
+      color: #808285;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+  }
+}
+@media only screen and (max-width: $display_medium_min) {
+  .news-teaser {
+    .news-teaser__detail {
+      clear: left;
+    }
+  }
+}

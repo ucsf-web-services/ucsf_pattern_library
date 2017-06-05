@@ -1,0 +1,33 @@
+.profile-teaser {
+  .profile-teaser__image {
+    float: left;
+    margin-right: 40px;
+    width: 150px;
+  }
+  .profile-teaser__detail {
+    float: left;
+    h4 {
+      font-weight: 300;
+      font-size: 26px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 18px;
+      margin: 0;
+    }
+    a {
+      display: inline-block;
+      margin-bottom: 30px;
+    }
+    .profile-teaser__phone{
+      margin-top: 8px;
+      font-size: 16px;
+    }
+  }
+  .profile-teaser__text{
+    float: left;
+    padding-top: 15px;
+    width: 100%;
+  }
+}

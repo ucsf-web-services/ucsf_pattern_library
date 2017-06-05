@@ -1,0 +1,232 @@
+// Establish responsive columns
+//@include sgs-change('gutter styles', 'split');
+@include add-grid(3 at $display_small);
+@include add-grid(6 at $display_medium);
+@include add-grid(12 at $display_large);
+
+@include add-gutter(1em);
+
+body {
+  margin-right: 20px;
+  margin-left: 20px;
+  @include breakpoint($display_medium_min) {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+//** Two Column Grid Layout **//
+.two-col{
+  @include breakpoint($display_medium) {
+    .two-col__item1 {
+      @include grid-span(3, 1);
+    }
+    .two-col__item2 {
+      @include grid-span(3, 4);
+    }
+  }
+  @include breakpoint($display_large) {
+    .two-col__item1 {
+      @include grid-span(6, 1);
+    }
+    .two-col__item2 {
+      @include grid-span(6, 7);
+    }
+  }
+  //Forced grids
+  @include breakpoint($display_large) {
+    .two-col__left {
+      @include grid-span(6,1);
+    }
+    .two-col__right {
+      @include grid-span(6,7);
+    }
+    .two-col__center {
+      @include grid-span(6,4);
+    }
+  }
+  @include breakpoint($display_medium) {
+    .two-col__left {
+      @include grid-span(3,1);
+    }
+    .two-col__right {
+      @include grid-span(3,4);
+    }
+    .two-col__center {
+      @include grid-span(3,2.5);
+    }
+  }
+}
+
+//** Three Column Grid Layout **//
+.three-col {
+  @include breakpoint($display_medium) {
+    .three-col__item1 {
+      @include grid-span(3, 1);
+    }
+    .three-col__item2 {
+      @include grid-span(3, 4);
+    }
+    .three-col__item3 {
+      @include grid-span(3, 1);
+      clear: both;
+    }
+  }
+  @include breakpoint($display_large) {
+    .three-col__item1 {
+      @include grid-span(4, 1);
+    }
+    .three-col__item2 {
+      @include grid-span(4, 5);
+    }
+    .three-col__item3 {
+      @include grid-span(4, 9);
+    }
+  }
+  //Forced grids
+  @include breakpoint($display_medium){
+    .three-col__left {
+      @include grid-span(3,1);
+      }
+    .three-col__center {
+      @include grid-span(3,4);
+      }
+    .three-col__right {
+      @include grid-span(3,1);
+      clear: both;
+      }
+    .three-col__two-thirds-left {
+      @include grid-span(4,1);
+      }
+    .three-col__two-thirds-right{
+      @include grid-span(4,3);
+    }
+  }
+
+  @include breakpoint($display_large){
+    .three-col__left {
+      @include grid-span(4,1);
+      }
+    .three-col__center {
+      @include grid-span(4,5);
+      }
+    .three-col__right {
+      @include grid-span(4,9);
+      }
+    .three-col__two-thirds-left {
+      @include grid-span(8,1);
+      }
+    .three-col__two-thirds-right{
+      @include grid-span(8,5);
+    }
+  }
+}
+
+//** Four Column Grid Layout -- RESPONSIVE **//
+.four-col{
+  @include breakpoint($display_medium) {
+    .four-col__item1 {
+      @include grid-span(3, 1);
+    }
+    .four-col__item2 {
+      @include grid-span(3, 4);
+    }
+    .four-col__item3 {
+      @include grid-span(3, 1);
+      clear:both;
+    }
+    .four-col__item4 {
+      @include grid-span(3, 4);
+    }
+  }
+  @include breakpoint($display_large) {
+    .four-col__item1 {
+      @include grid-span(3, 1);
+    }
+    .four-col__item2 {
+      @include grid-span(3, 4);
+    }
+    .four-col__item3 {
+      @include grid-span(3, 7);
+    }
+    .four-col__item4 {
+      @include grid-span(3, 10);
+    }
+  }
+  //Forced grids
+  @include breakpoint($display_medium) {
+    .four-col__left {
+      @include grid-span(3,1);
+    }
+    .four-col__center-left {
+      @include grid-span(3,4);
+    }
+    .four-col__center-right {
+      @include grid-span(3,1);
+      clear: both;
+    }
+    .four-col__right{
+      @include grid-span(3,4);
+    }
+    .four-col__two-fourths-left{
+      @include grid-span(3,1);
+    }
+    .four-col__two-fourths-right{
+      @include grid-span(3,4);
+    }
+    .four-col__three-fourths-left {
+      @include grid-span(4.5,1);
+    }
+    .four-col__three-fourths-right {
+      @include grid-span(4.5,2.5);
+    }
+  }
+  @include breakpoint($display_large){
+    .four-col__left {
+      @include grid-span(3,1);
+    }
+    .four-col__center-left {
+      @include grid-span(3,4);
+    }
+    .four-col__center-right {
+      @include grid-span(3,7);
+    }
+    .four-col__right{
+      @include grid-span(3,10);
+    }
+    .four-col__two-fourths-left{
+      @include grid-span(6,1);
+    }
+    .four-col__two-fourths-right{
+      @include grid-span(6,7);
+    }
+    .four-col__three-fourths-left {
+      @include grid-span(9,1);
+    }
+    .four-col__three-fourths-right {
+      @include grid-span(9,4);
+    }
+  }
+}
+
+.container {
+  @include background-grid($color: #DDD);
+  @include clearfix;
+}
+
+.row {
+  clear: left;
+}
+
+.clearfix {
+  zoom: 1;
+  &:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+}

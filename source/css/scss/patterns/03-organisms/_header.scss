@@ -1,0 +1,101 @@
+.header {
+  .header__ucsf-main-menu {
+    margin-left: -50px;
+    margin-right: -50px;
+    height: 36px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+    background-color: $ucsf-navyblue;
+    color: $white;
+    .header__ucsf-main-menu__university {
+      display: inline-block;
+      margin-left: 50px;
+      height: inherit;
+    }
+    .header__ucsf-main-menu__links {
+      display: inline-block;
+      float: right;
+      color: $white;
+      margin-right: 50px;
+      height: inherit;
+      a {
+        padding-right: 40px;
+        color: $white;
+        &:last-of-type {
+          padding-right: 0px;
+        }
+      }
+    }
+  }
+  .header__section {
+    margin-top: 10px;
+    .header__logo {
+      display: inline-block;
+      float: left;
+      img {
+        max-width: 285px;
+      }
+    }
+  }
+  .header__social-media-search {
+    overflow: auto;
+    width: 100%;
+    text-align: right;
+    .header__social-media-links {
+      display: inline-block;
+      margin-right: 35px;
+    }
+    .header__search {
+      display: inline-block;
+      vertical-align: middle;
+      .search {
+      width: 275px;
+      padding-top: 0;
+      padding-bottom: 0;
+      input {
+        border: 0;
+      }
+      input#edit-search-block-form, input#edit-submit {
+        border-bottom: 1px solid $lightgray;
+        }
+      }
+    }
+  }
+  .header__header-menu {
+    width: 100%;
+    text-align: right;
+  }
+}
+@include breakpoint($display_medium) {
+  .header{
+    .header__ucsf-main-menu{
+      .header__ucsf-main-menu__links {
+        display: none;
+      }
+    }
+    .header__social-media-search {
+      display: none;
+    }
+    .header__header-menu {
+      width: 100%;
+    }
+  }
+}
+@include breakpoint($display_small) {
+  .header {
+    .header__ucsf-main-menu{
+      .header__ucsf-main-menu__links {
+        display: none;
+      }
+    }
+    .header__social-media-search {
+      display: none;
+    }
+    .header__header-menu {
+      width: 100%;
+    }
+    .header__ucsf-main-menu {
+      height: auto;
+    }
+  }
+}

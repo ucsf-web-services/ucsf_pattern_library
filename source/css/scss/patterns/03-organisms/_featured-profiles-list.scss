@@ -1,0 +1,28 @@
+.featured-profiles-list {
+  .featured-profiles-list__col {
+    width: 31%;
+    clear: none;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    .profile-card {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: $display_large_min){
+  .featured-profiles-list {
+    .featured-profiles-list__col {
+      width: 48.5%;
+    }
+  }
+}
+
+@media only screen and (max-width: $display_medium_min){
+  .featured-profiles-list {
+    .featured-profiles-list__col {
+      width: 100%;
+    }
+  }
+}

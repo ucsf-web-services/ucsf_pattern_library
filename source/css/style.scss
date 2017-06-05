@@ -1,0 +1,18 @@
+//******* LIBRARY ELEMENTS *******//
+
+@import "breakpoint";
+@import "singularitygs";
+@import "singularitygs/helpers/clearfix";
+@import "font-awesome";
+
+//******* GLOBAL ELEMENTS *******//
+
+@import "scss/base/*.scss";
+
+//******* ATOMIC ELEMENTS *******//
+
+@import "scss/patterns/**/*.scss";
+
+//****** VENDOR CSS ************//
+
+@import "vendor/flexslider";

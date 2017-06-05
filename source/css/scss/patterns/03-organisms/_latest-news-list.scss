@@ -1,0 +1,30 @@
+.latest-news-list {
+  .latest-news-list__heading {
+    border-bottom: 2px solid #B4B9BF;
+    h2 {
+      display: inline-block;
+      margin: 0;
+    }
+    .btn-2 {
+      float: right;
+      border-radius: 5px;
+      padding: 5px 20px;
+      font-size: 12px;
+    }
+  }
+    .latest-news-list__item {
+      display: inline-block;
+      width: 49%;
+      .news-short-teaser {
+        margin-right: 8%;
+      }
+  }
+}
+
+@media only screen and (max-width: $display_large_min){
+  .latest-news-list {
+    .latest-news-list__item {
+      width: 100%;
+    }
+  }
+}

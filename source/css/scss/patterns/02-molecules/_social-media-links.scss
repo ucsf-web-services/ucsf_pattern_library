@@ -1,0 +1,63 @@
+i {
+  margin-right: 10px;
+}
+.facebook-link {
+  color: white;
+  padding: 5px 8px;
+  background-color: $darkgray;
+  &:hover {
+    background-color: #3b5998;
+  }
+}
+.facebook-share {
+  color: $darkgray;
+  padding: 5px 15px;
+  border-bottom: 5px solid $darkgray;
+  &:hover {
+    color: #3b5998;
+    border-bottom: 5px solid #3b5998;
+  }
+}
+.twitter-link {
+    color: white;
+    background: $darkgray;
+    padding: 5px;
+    &:hover {
+      background-color: #4099FF;
+    }
+}
+.twitter-share {
+  color: $darkgray;
+  padding: 5px 15px;
+  border-bottom: 5px solid $darkgray;
+  &:hover {
+    color: #4099FF;
+    border-bottom: 5px solid #4099FF;
+  }
+}
+.youtube-link {
+  color: white;
+  background: $darkgray;
+  padding: 5px;
+  &:hover {
+    background-color: #BB0000;
+  }
+}
+.email-share {
+  color: $darkgray;
+  padding: 5px 15px;
+  border-bottom: 5px solid $darkgray;
+  &:hover {
+    color: $black;
+    border-bottom: 5px solid $black;
+  }
+}
+.generic-share{
+  color: $darkgray;
+  padding: 5px 15px;
+  border-bottom: 5px solid $darkgray;
+  &:hover {
+    color: #00BF00;
+    border-bottom: 5px solid #00BF00;
+  }
+}

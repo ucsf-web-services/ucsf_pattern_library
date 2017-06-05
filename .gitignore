@@ -1,0 +1,10 @@
+.DS_Store
+pattern-lab-source
+node_modules
+source/fonts/vendor
+source/js/vendor
+source/css/vendor
+# IDE plugins
+.idea
+
+npm-debug.log

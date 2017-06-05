@@ -1,0 +1,30 @@
+.accordion {
+  padding-left: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  clear: left;
+  float: left;
+  &:before {
+    content: "\25B8";
+    margin-right: 10px;
+  }
+}
+.downarrow {
+  &:before {
+    content: "\25BE";
+    margin-right: 10px;
+  }
+}
+
+.accordion__header {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  clear: left;
+  p {
+    display: inline-block;
+    padding-left: 1.5rem;
+  }
+}

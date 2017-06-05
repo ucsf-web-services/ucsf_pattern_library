@@ -1,0 +1,66 @@
+.hero-2 {
+  min-height: 300px;
+  position: relative;
+  margin-bottom: 45px;
+  @include breakpoint($display_medium_min) {
+    &:after {
+      display: block;
+      height: 40px;
+      width: 50%;
+      background: $ucsf-orange;
+      position: absolute;
+      content: " ";
+      left: 5px;
+    }
+  }
+  &__wrapper {
+    position: relative;
+    overflow: hidden;
+    height:1%;
+  }
+  &__top-image {
+    @include breakpoint($display_medium_min) {
+      position: relative;
+      right: 0;
+      width: 60%;
+      max-width: 735px;
+      float: right;
+      margin-left: -40%;
+    }
+  }
+  &__text {
+    background-color: $ucsf-navyblue;
+    border-bottom: 20px solid $ucsf-orange;
+    padding: 6em 4em 6em;
+    color: $white;
+    @include breakpoint($display_medium_min) {
+      border-bottom: none;
+      width: 60%;
+      position: relative;
+      min-height: 475px;
+      z-index: 2;
+      float: left;
+      left: 45px;
+      top: 45px;
+      &:after {
+        display: block;
+        height: 100%;
+        width: 40px;
+        background: $ucsf-orange;
+        position: absolute;
+        left: -40px;
+        top: 40px;
+        content: " ";
+      }
+    }
+  }
+  &__button {
+    text-align: center;
+    margin-top: 35px;
+    a {
+      font-size: 14px;
+      font-weight: 100;
+      padding: 10px 10px;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.btn {
+  background-color: $ucsf-blue;
+  color: $white;
+  padding: 10px 60px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  &:hover {
+    background-color: #66b0d8;
+    color: $white;
+  }
+  &:active{
+    background-color: $lightgray;
+    color: #007CBE;
+  }
+}
+.btn-2 {
+  @extend .btn;
+  background-color: $white;
+  color: $ucsf-blue;
+  border: 1px solid $ucsf-blue;
+  &:hover {
+    background-color: $lightgray;
+    color: $ucsf-blue;
+  }
+  &:active{
+    background-color: $ucsf-blue;
+    color: $white;
+  }
+}
+
+.btn-3 {
+  @extend .btn;
+  background-color: transparent;
+  color: $white;
+  border: 1px solid $white;
+  &:hover {
+    background-color: $white;
+    color: $ucsf-blue;
+  }
+  &:active {
+    background-color: $white;
+    color: $ucsf-blue;
+  }
+}

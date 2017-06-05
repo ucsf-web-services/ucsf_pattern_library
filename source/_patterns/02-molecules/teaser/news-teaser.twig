@@ -1,0 +1,10 @@
+<div class="news-teaser clearfix">
+  <div class="news-teaser__image">
+    {% include "atoms-card-image" %}
+  </div>
+  <div class="news-teaser__detail">
+    <h3 class="font-helvetica-neue-light"><a href="#"> {{ text.newsTeaser.title }}</a></h3>
+    <p class="news-teaser__author-date">By {{ text.author }} on {% include "atoms-date" %}</p>
+    <p>{{ text.newsTeaser.paragraph }}</p>
+  </div>
+</div>

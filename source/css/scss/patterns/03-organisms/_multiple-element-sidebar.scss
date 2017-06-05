@@ -1,0 +1,11 @@
+.multiple-element-sidebar {
+  .multiple-element-sidebar__section {
+    .multiple-element-sidebar__section-item {
+      border-bottom: 1px solid $background-gray;
+    }
+    .multiple-element-sidebar__section-item-last {
+      border-bottom: 5px solid #90BD31;
+      margin-bottom: 15px;
+    }
+  }
+}

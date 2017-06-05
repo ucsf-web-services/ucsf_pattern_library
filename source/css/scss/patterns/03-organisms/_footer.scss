@@ -1,0 +1,45 @@
+.footer-menu {
+  padding-top: 35px;
+  padding-bottom: 15px;
+  background-color: $ucsf-navyblue;
+  color: #b4b9bf;
+  overflow: auto;
+  margin-right: -50px;
+  margin-left: -50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  clear: both;
+  .footer-menu__header {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #b4b9bf;
+    line-height: 1em;
+    font-weight: bold;
+    }
+  .footer-menu__links {
+    a {
+      color: #b4b9bf;
+      display: block;
+      padding-bottom: 15px;
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  .footer-menu__address {
+    .footer-menu__contact-and-links {
+      column-count: 2;
+      border-bottom: 1px solid #b4b9bf;
+      padding-bottom: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  .footer-menu__copyright {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    clear: left;
+    color: $white;
+  }
+  .footer-menu__address-header {
+    font-weight: bold;
+  }
+}

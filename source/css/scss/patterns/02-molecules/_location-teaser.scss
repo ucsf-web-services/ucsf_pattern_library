@@ -1,0 +1,22 @@
+.location-teaser {
+  margin-top: 30px;
+  display: block;
+  .location-teaser__image {
+    float: left;
+    margin-right: 30px;
+    display: block;
+  }
+  .location-teaser__detail{
+    display: block;
+    h3 {
+      margin: 0;
+    }
+    .contact {
+      p {
+        &:first-of-type {
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}

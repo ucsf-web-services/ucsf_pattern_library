@@ -1,0 +1,45 @@
+{
+  "img": {
+    "logo": {
+      "src":  "../../images/samples/logo.png",
+      "alt": "UCSF Logo",
+      "title": "UCSF"
+    },
+    "banner5": {
+      "src":  "../../images/samples/banner5.png",
+      "alt": "UCSF Logo",
+      "title": "UCSF"
+    },
+    "card": {
+      "src":  "../../images/samples/card.png",
+      "alt": "Card Image",
+      "title": "Card Image"
+    }
+  },
+  "hero":{
+    "hero3": {
+      "title": "Leading Revolutions in Brain Health",
+      "paragraph": "The UCSF Weill Institute for Neurosciences unites the UC San Francisco neurosciences community to fortify its mission to treat, cure and prevent brain disorders and disease"
+    }
+  },
+  "text": {
+    "newsTeaser": {
+      "title": "Pediatric Nephrology Celebrates 50 Years",
+      "paragraph":"The Division of Pediatric Nephrology celebrated its 50th anniversary in October with an academic symposium followed by a patient and family event at UCSF Benioff Children’s Hospital. “We wanted to reflect on our many achievements over five decades,” said the division’s acting..."
+    },
+    "linkList": {
+      "link1": "Location & Directions",
+      "link2": "Request an Appointment",
+      "link3": "Physician Referrals",
+      "link4": "Find a Program"
+    },
+    "publicationShortTeaser": {
+      "title": "Effects of MMP12 on cell motility and inflammation during corneal epithelial repair",
+      "subtitle": "Corneal epithelial defects are a common cause of ocular morbidity and can result in corneal scarring if they do not heal properly.",
+      "source": "Journal / Book title: Experimental Eye Research"
+    },
+    "basicPage": {
+      "title": "UCSF in the News"
+    }
+  }
+}

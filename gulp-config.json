@@ -1,0 +1,37 @@
+{
+  "sass_config": {
+    "includePaths": ["node_modules/breakpoints-js/dist/", "node_modules/singularitygs/stylesheets/", "node_modules/breakpoint-sass/stylesheets/", "node_modules/font-awesome/scss/"]
+  },
+  "js_config": {
+    "concatOrder": ["./vendor/jquery.min.js", "./vendor/*.js", "./custom/*.js"]
+  },
+  "patternlab": {
+    "paths" : {
+      "source": {
+        "root": "./source/",
+        "patterns": "./source/_patterns/",
+        "data": "./source/_data/",
+        "meta": "./source/_meta/",
+        "annotations": "./source/_annotations/",
+        "styleguide": "./node_modules/styleguidekit-assets-default/dist/",
+        "patternlabFiles": "./views/",
+        "js": "./source/js",
+        "images": "./source/images",
+        "fonts": "./source/fonts",
+        "css": "./source/css/"
+      },
+      "public": {
+        "root": "./pattern-lab-source/public/",
+        "patterns": "./pattern-lab-source/public/patterns/",
+        "data": "./pattern-lab-source/public/styleguide/data/",
+        "annotations": "./pattern-lab-source/public/annotations/",
+        "styleguide": "./pattern-lab-source/public/styleguide/",
+        "js": "./pattern-lab-source/public/js",
+        "images": "./pattern-lab-source/public/images",
+        "fonts": "./pattern-lab-source/public/fonts",
+        "css": "./pattern-lab-source/public/css",
+        "sass": "./pattern-lab-source/public/sass"
+      }
+    }
+  }
+}

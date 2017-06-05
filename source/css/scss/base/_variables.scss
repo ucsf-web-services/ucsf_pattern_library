@@ -1,0 +1,45 @@
+//** Color Variables ** //
+
+/*Neutral Palette */
+$black:           #000;
+$white:           #FFF;
+$lightgray:       #D1D3D3;
+$darkgray:        #B4B9BF;
+
+/*Primary Palette */
+$ucsf-navyblue:   #052049;
+$ucsf-teal:       #058488;
+$ucsf-blue:       #007CBE;
+$ucsf-orange:     #F26D04;
+$ucsf-green:      #6EA400;
+
+/*Secondary Palette */
+$ucsf-purple:     #716FB2;
+$ucsf-coral:      #EB093C;
+$ucsf-yellow:     #FFDD00;
+
+
+/*Other Color Variables*/
+$background-gray: #E6E9ED;
+
+//** Breakpoints **//
+
+//-- Minumum Dimensions for Singularity Breakpoints
+
+$display_large_min: 820px;
+$display_medium_min: 630px;
+$display_small_min: 0px;
+
+//-- Ranges for Breakpoint itself:
+
+// Desktop & large display
+$display_large: $display_large_min;
+// Devices and medium size displays
+$display_medium: $display_medium_min ($display_large_min - 1);
+// Handheld and small display screen
+$display_small: $display_small_min ($display_medium_min - 1);
+
+
+//** Singularity Grids **//
+// This enables debug including the grid background display
+@include sgs-change('debug', true);

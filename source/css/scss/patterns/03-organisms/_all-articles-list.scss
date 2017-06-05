@@ -1,0 +1,23 @@
+.all-articles-list {
+  .all-article-list__item {
+      border-bottom: 1px solid #B4B9BF;
+      clear: left;
+      .news-teaser {
+        overflow: auto;
+      }
+  }
+  h2 {
+    display: inline-block;
+    margin: 0;
+  }
+  .btn-2 {
+    float: right;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 12px;
+  }
+  .pagination {
+    padding-top: 50px;
+    text-align: center;
+  }
+}

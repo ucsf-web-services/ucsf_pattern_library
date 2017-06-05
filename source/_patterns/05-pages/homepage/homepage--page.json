@@ -1,0 +1,106 @@
+{
+  "img": {
+    "banner1": {
+      "src":  "../../images/905x40.png",
+      "alt": "This is the Banner Image 1",
+      "title": "This is the Banner Image 1"
+    },
+    "banner2": {
+      "src":  "../../images/735x435.png",
+      "alt": "This is the Banner Image 2",
+      "title": "This is the Banner Image 2"
+    },
+    "banner3": {
+      "src":  "../../images/845x500.png",
+      "alt": "This is the Banner Image 3",
+      "title": "This is the Banner Image 3"
+    },
+    "banner4": {
+      "src":  "../../images/748x500.png",
+      "alt": "This is the Banner Image 4",
+      "title": "This is the Banner Image 4"
+    },
+    "banner5": {
+      "src":  "../../images/samples/img-background-hero-3.png",
+      "alt": "People Talking",
+      "title": "People Talking"
+    },
+    "card": {
+      "src":  "../../images/samples/child-playing-project-evo.jpg",
+      "alt": "Card Image",
+      "title": "Card Image"
+    },
+    "featuredContent": {
+      "src":  "../../images/samples/img-background-hero-2.png",
+      "alt": "Featured Content Image",
+      "title": "Featured Content Image"
+    },
+    "icon": {
+      "src":  "../../images/64x64.png",
+      "alt": "Featured Content Image",
+      "title": "Featured Content Image"
+    },
+    "locationLarge": {
+      "src":  "../../images/444x296.png",
+      "alt": "Location Image - Large",
+      "title": "Location Image - Large"
+    },
+    "locationSmall": {
+      "src":  "../../images/332x222.png",
+      "alt": "Location Image - Small",
+      "title": "Location Image - Small"
+    },
+    "logo": {
+      "src":  "../../images/samples/logo.png",
+      "alt": "UCSF Logo",
+      "title": "UCSF"
+    },
+    "offsetTextBanner": {
+      "src":  "../../images/776x225.png",
+      "alt": "Offset Text Banner Image",
+      "title": "Offset Text Banner Image"
+    },
+    "profileLarge": {
+      "src":  "../../images/180x180.png",
+      "alt": "Profile Image - Large",
+      "title": "Profile Image - Large"
+    },
+    "profileSmall": {
+      "src":  "../../images/150x150.png",
+      "alt": "Profile Image - Small",
+      "title": "Profile Image - Small"
+    },
+    "teaser": {
+      "src":  "../../images/112x112.png",
+      "alt": "Teaser Image",
+      "title": "Teaser Image"
+    }
+  },
+  "text": {
+    "author": "Author Name",
+    "newsTeaser": {
+      "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
+      "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
+    },
+    "publicationShortTeaser": {
+      "title": "Publication Title: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+      "subtitle": "Publication Subtitle: Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+      "source": "Publication Source: Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+    },
+    "linkList": {
+      "link1": "Quis nostrud exercitation",
+      "link2": "Ullamco laboris nisi",
+      "link3": "Utaliquip ex ea commodo",
+      "link4": "Euismod tempur elsed"
+    },
+    "featuredContent": {
+      "title": "This is featured content",
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  },
+
+  "site-name": "UCSF PatternLab",
+  "title": "Page Title",
+  "htmlClass": "pl",
+  "bodyClass": "body"
+}

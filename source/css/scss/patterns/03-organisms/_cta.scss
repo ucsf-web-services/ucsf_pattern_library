@@ -1,0 +1,43 @@
+.cta-button {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cta-text {
+  padding-top: 35px;
+  padding-left: 30px;
+  padding-right: 20px!important;
+  padding-bottom: 10px;
+  h5 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 26px;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+.cta-blue {
+  background-color: $ucsf-navyblue;
+  color: $white;
+}
+.cta-gray {
+  background-color: $background-gray;
+  color: $black;
+}
+
+.cta-offset-image {
+  position: relative;
+  .cta-image {
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    z-index: -1;
+  }
+}
+.cta-image-top{
+  .cta-image {
+    position: relative;
+  }
+}

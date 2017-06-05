@@ -1,0 +1,15 @@
+<div class="all-articles-list">
+    <div class="all-articles-list__heading">
+      <h1 class="font-helvetica-neue-light">News Articles</h1>
+    </div>
+    {% for i in 0..2 %}
+        <div class="all-article-list__item">
+            {% include "molecules-news-teaser" %}
+        </div>
+    {% endfor %}
+</div>
+<div class="all-articles-list four-col row">
+  <div class="pagination">
+    {% include "molecules-pagination" %}
+  </div>
+</div>

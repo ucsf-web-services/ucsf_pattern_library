@@ -1,0 +1,18 @@
+.drop-shadow-banner {
+  background-color: $background-gray;
+  padding: 2rem;
+  box-shadow: 20px 20px $ucsf-green;
+  h5 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 26px;
+  }
+  .drop-shadow-banner__text {
+    margin-top: 1rem;
+  }
+}
+@include breakpoint($display_small){
+  .drop-shadow-banner{
+    box-shadow: none;
+  }
+}

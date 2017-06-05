@@ -1,0 +1,20 @@
+ul, ol {
+  margin: 0 0 0 10px;
+  padding: 0px;
+}
+.ul-circle {
+  li {
+    list-style: none;
+    margin-bottom: 8px;
+    &:before {
+      content: "\2022";
+      margin-right: 14px;
+    }
+  }
+}
+ol {
+  li {
+    list-style: decimal;
+    margin-bottom: 8px;
+  }
+}
