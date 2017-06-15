@@ -1,6 +1,6 @@
 //Accordion 1
 
-var acc = document.getElementsByClassName("accordion");
+var acc = document.getElementsByClassName("accordion__header");
 var i;
 
 for (i = 0; i < acc.length; i++) {
