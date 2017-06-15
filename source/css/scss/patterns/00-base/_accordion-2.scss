@@ -2,13 +2,15 @@
   .accordion__header {
     background-color: $white;
     color: $ucsf-blue;
-    padding: 15px;
+    padding: 1em;
     width: 100%;
     margin-bottom: 0;
     // Borders
     border-radius: 3px;
-    border: 1px solid $border-gray;
-    border-bottom: transparent;
+    border-top: 2px solid $border-gray;
+    border-right: 2px solid $border-gray;
+    border-left: 2px solid $border-gray;
+    font-weight: normal;
     &:before {
       content: "+";
       margin-right: 10px;
@@ -21,17 +23,29 @@
     }
   }
   .accordion__body {
-    padding: 1em 18px;
+    padding: 1.5em;
     border: 2px solid $ucsf-blue;
-    border-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    p {
+      padding-left: 0;
+    }
   }
   .downarrow {
     color: $white;
     background-color: $ucsf-blue;
     border: 0;
+    border-top: 2px solid $ucsf-blue;
+    border-right: 2px solid $ucsf-blue;
+    border-left: 2px solid $ucsf-blue;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
     &:before {
       content: "-";
       margin-right: 10px;
+    }
+    &.last {
+      border-bottom: none;
     }
   }
 }
