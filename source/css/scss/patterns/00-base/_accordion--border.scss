@@ -1,0 +1,41 @@
+.accordion--border {
+  .accordion__header {
+    background-color: $white;
+    color: $ucsf-blue;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 0;
+    // Borders
+    border-radius: 3px;
+    border: 1px solid darken($background-gray, 10%);
+    border-bottom: transparent;
+    &:before {
+      content: "+";
+      margin-right: 10px;
+    }
+    p {
+      width: inherit;
+    }
+    &.last {
+      border-bottom: 1px solid darken($background-gray, 10%);
+    }
+  }
+  .accordion__body {
+    padding: 1em 18px;
+    border: 2px solid $ucsf-blue;
+    border-radius: 3px;
+  }
+  .downarrow {
+    color: $white;
+    background-color: $ucsf-blue;
+    border: 0;
+    &:before {
+      content: "-";
+      margin-right: 10px;
+    }
+  }
+}
+
+
+
+

@@ -1,4 +1,4 @@
-.accordion {
+.accordion__header {
   padding-left: 20px;
   cursor: pointer;
   font-weight: bold;
@@ -11,6 +11,7 @@
     margin-right: 10px;
   }
 }
+
 .downarrow {
   &:before {
     content: "\25BE";
@@ -18,7 +19,7 @@
   }
 }
 
-.accordion__header {
+.accordion__body {
   padding: 0 18px;
   display: none;
   background-color: white;
