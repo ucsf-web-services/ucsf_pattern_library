@@ -20,7 +20,7 @@ var gulp = require('gulp'),
  * relative to the process root, and with backslashes converted to
  * forward slashes. Should work regardless of how the path was
  * written. Accepts any number of parameters, and passes them along to
- * path.resolve().
+ * path.resolve(). Testing change.
  *
  * This is intended to avoid all known limitations of gulp.watch().
  *
