@@ -3,35 +3,50 @@
     display: inline-block;
     position: relative;
     top: 5px;
+    margin-left: 0;
     li {
-      width: 210px;
       list-style-type: none;
       display: block;
       float: left;
       background-color: $white;
-      margin: auto 0px;
-      padding: 10px 15px !important;
+      margin: auto 0;
+      padding: 1em;
       cursor: pointer;
-      border: 2px solid #DDD;
+      border-right: 2px solid #DDD;
+      border-top: 2px solid #DDD;
+      color: $ucsf-blue;
     }
     li.open {
       background-color: $ucsf-blue;
       color: $white;
       display: block;
-      border: 2px solid $ucsf-blue;
+      border-right: 2px solid $ucsf-blue;
+      border-top: 2px solid $ucsf-blue;
+      margin-left: -2px;
+    }
+    li:first-child {
+      border-top-left-radius: 3px;
+      border-left: 2px solid #DDD;
+    }
+    li:last-child {
+      border-top-right-radius: 3px;
+    }
+    li.open:first-child {
+      border-left: 2px solid $ucsf-blue;
+      margin-left: 0;
     }
   }
-  #horizontal-tab__content{
+  #horizontal-tab__content {
+    margin-left: 0;
     li {
       display:none;
       list-style: none;
       border: 2px solid $ucsf-blue;
       background-color: $white;
       margin-top: -2px;
-      min-height: 200px;
+      min-height: 3em;
       position: relative;
-      padding: 12px;
-      border-radius: 2px;
+      padding: 1em;
       &:first-child {
         display: block;
       }
@@ -46,12 +61,21 @@
       li {
         float: none;
         width: 100%;
+        border-left: 2px solid #DDD;
         &:before {
           content: "+";
           margin-right: 10px;
         }
       }
+      li.first {
+        border-top-left-radius: 0;
+      }
+      li.last {
+        border-top-right-radius: 0;
+      }
       li.open {
+        margin-left: 0;
+        border-left: 2px solid $ucsf-blue;
         &:before {
           content: "-";
           margin-right: 10px;

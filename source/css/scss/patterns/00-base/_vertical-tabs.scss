@@ -1,57 +1,66 @@
-.vertical-tab{
+.vertical-tab {
   #vertical-tab__title {
     display: inline-block;
     float: left;
-    border: 1px solid #DDD;
+    margin-left: 0;
     li {
-      width: 210px;
+      width: 15em;
       list-style-type: none;
       display: block;
       position: relative;
       background-color: $white;
-      margin: auto 0px;
-      padding: 10px 15px !important;
+      margin: auto 0;
+      padding: 1em;
       outline: 0;
       text-decoration: none;
       cursor: pointer;
       color: $ucsf-blue;
-      border: 1px solid #ddd;
+      border-left: 2px solid #ddd;
+      border-bottom: 2px solid #ddd;
     }
     li.current {
       background-color: $ucsf-blue;
       color: $white;
-      border: 2px solid $ucsf-blue;
-      margin-top: -1px;
-      margin-bottom: -1px;
-      margin-left: -1px;
-      z-index: 1;
+      border-left: 2px solid $ucsf-blue;
+      border-bottom: 2px solid $ucsf-blue;
+      margin-top: -2px;
+    }
+    li:first-child {
+      border-top-left-radius: 3px;
+      border-top: 2px solid #DDD;
+    }
+    li.current:first-child {
+      border-top-left-radius: 3px;
+      border-top: 2px solid $ucsf-blue;
+      margin-top: 0;
     }
   }
-  #vertical-tab__content{
+  #vertical-tab__content {
+    margin-left: 0;
     li {
       display:none;
       list-style: none;
       border: 2px solid $ucsf-blue;
       background-color: #FFF;
-      margin-left: 210px;
-      min-height: 200px;
+      margin-left: 15em;
+      min-height: 15em;
       position: relative;
-      padding: 12px;
-      border-radius: 2px;
+      padding: 1.5em 1em 1em 1em;
       &:first-child {
         display: block;
       }
     }
   }
 }
-@media only screen and (max-width: $display_medium_min){
-  .vertical-tab{
-    #vertical-tab__title{
+@media only screen and (max-width: $display_medium_min) {
+  .vertical-tab {
+    #vertical-tab__title {
       float: none;
       width: 100%;
       margin: 0;
       li {
         width: inherit;
+        border-right: 2px solid #DDD;
         &:before {
           content: "+";
           margin-right: 10px;
@@ -59,10 +68,14 @@
       }
       li.current {
         margin-left: 0;
+        border-right: 2px solid $ucsf-blue;
         &:before {
           content: "-";
           margin-right: 10px;
         }
+      }
+      li:first-child {
+        border-top-left-radius: 0;
       }
     }
     #vertical-tab__content {
