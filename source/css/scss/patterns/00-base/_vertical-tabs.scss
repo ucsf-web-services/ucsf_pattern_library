@@ -15,19 +15,21 @@
       text-decoration: none;
       cursor: pointer;
       color: $ucsf-blue;
-      border-left: 2px solid #ddd;
-      border-bottom: 2px solid #ddd;
+      border-left: 2px solid $border-gray;
+      border-bottom: 2px solid $border-gray;
+      line-height: 1.1em;
     }
     li.current {
       background-color: $ucsf-blue;
       color: $white;
+      border-top: 2px solid $ucsf-blue;
       border-left: 2px solid $ucsf-blue;
       border-bottom: 2px solid $ucsf-blue;
       margin-top: -2px;
     }
     li:first-child {
       border-top-left-radius: 3px;
-      border-top: 2px solid #DDD;
+      border-top: 2px solid $border-gray;
     }
     li.current:first-child {
       border-top-left-radius: 3px;
@@ -46,6 +48,9 @@
       min-height: 15em;
       position: relative;
       padding: 1.5em 1em 1em 1em;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      border-bottom-left-radius: 2px;
       &:first-child {
         display: block;
       }
@@ -60,7 +65,7 @@
       margin: 0;
       li {
         width: inherit;
-        border-right: 2px solid #DDD;
+        border-right: 2px solid $border-gray;
         &:before {
           content: "+";
           margin-right: 10px;
@@ -74,14 +79,20 @@
           margin-right: 10px;
         }
       }
-      li:first-child {
+      li:first-child, li.current:first-child {
         border-top-left-radius: 0;
+      }
+      li:last-child {
+        border-bottom: 0;
       }
     }
     #vertical-tab__content {
       margin: 0;
       li {
         margin-left: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
       }
     }
   }

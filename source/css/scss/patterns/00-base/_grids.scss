@@ -210,7 +210,7 @@ body {
 }
 
 .container {
-  @include background-grid($color: #DDD);
+  @include background-grid($color: $border-gray);
   @include clearfix;
 }
 

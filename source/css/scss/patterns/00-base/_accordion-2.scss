@@ -7,7 +7,7 @@
     margin-bottom: 0;
     // Borders
     border-radius: 3px;
-    border: 1px solid darken($background-gray, 10%);
+    border: 1px solid $border-gray;
     border-bottom: transparent;
     &:before {
       content: "+";
@@ -17,7 +17,7 @@
       width: inherit;
     }
     &.last {
-      border-bottom: 1px solid darken($background-gray, 10%);
+      border-bottom: 1px solid $border-gray;
     }
   }
   .accordion__body {

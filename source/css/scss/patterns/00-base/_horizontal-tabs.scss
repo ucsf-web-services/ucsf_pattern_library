@@ -12,8 +12,8 @@
       margin: auto 0;
       padding: 1em;
       cursor: pointer;
-      border-right: 2px solid #DDD;
-      border-top: 2px solid #DDD;
+      border-right: 2px solid $border-gray;
+      border-top: 2px solid $border-gray;
       color: $ucsf-blue;
     }
     li.open {
@@ -22,11 +22,12 @@
       display: block;
       border-right: 2px solid $ucsf-blue;
       border-top: 2px solid $ucsf-blue;
+      border-left: 2px solid $ucsf-blue;
       margin-left: -2px;
     }
     li:first-child {
       border-top-left-radius: 3px;
-      border-left: 2px solid #DDD;
+      border-left: 2px solid $border-gray;
     }
     li:last-child {
       border-top-right-radius: 3px;
@@ -47,6 +48,9 @@
       min-height: 3em;
       position: relative;
       padding: 1em;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      border-bottom-left-radius: 2px;
       &:first-child {
         display: block;
       }
@@ -61,16 +65,16 @@
       li {
         float: none;
         width: 100%;
-        border-left: 2px solid #DDD;
+        border-left: 2px solid $border-gray;
         &:before {
           content: "+";
           margin-right: 10px;
         }
       }
-      li.first {
+      li:first-child {
         border-top-left-radius: 0;
       }
-      li.last {
+      li:last-child {
         border-top-right-radius: 0;
       }
       li.open {
@@ -81,6 +85,11 @@
           margin-right: 10px;
         }
       }
+    }
+    #horizontal-tab__content li {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
     }
   }
 }
