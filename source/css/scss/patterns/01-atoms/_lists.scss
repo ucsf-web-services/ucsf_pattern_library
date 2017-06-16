@@ -1,17 +1,31 @@
 ul, ol {
   margin: 0 0 0 10px;
-  padding: 0px;
+  padding: 0;
 }
+
+ul {
+  text-align: left;
+  li {
+    margin-bottom: 8px;
+  }
+}
+
 .ul-circle {
   li {
     list-style: none;
     margin-bottom: 8px;
+    padding-left: 8px;
+    position: relative;
     &:before {
+      position: absolute;
       content: "\2022";
-      margin-right: 14px;
+      left: -14px;
+      font-size: 20px;
+      top: -2px;
     }
   }
 }
+
 ol {
   li {
     list-style: decimal;

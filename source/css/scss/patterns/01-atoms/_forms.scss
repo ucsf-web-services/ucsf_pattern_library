@@ -10,22 +10,33 @@ fieldset {
     }
   }
 }
-label{
+
+label {
   display: inline-block;
   font-weight: bold;
-  padding: 10px 0px;
+  padding: 5px 0;
 }
+
 input {
-  padding: 10px;
-  width: 60%;
+  padding: 5px;
+  width: 100%;
   font-size: inherit;
   border: 1px solid $lightgray;
   background: $white;
 }
-textarea{
+
+textarea {
   font-size: inherit;
   width: 100%;
+  padding: 5px;
+  border-color: $lightgray;
 }
+
+abbr[title="Required"] {
+  text-decoration: none;
+  color: $ucsf-coral;
+}
+
 
 @media only screen and (max-width: $display_medium_min) {
   .field-container {
@@ -39,7 +50,8 @@ textarea{
 .select-style {
   background-color: $white;
 }
-select{
+
+select {
   background-color: $white;
   height: 50px;
   width: 300px;
@@ -47,18 +59,21 @@ select{
 
 //** Checkbox & Radio Buttons **/
 ul.checkbox, ul.radio {
-    padding-left: 0;
-    margin-left: 0;
+  padding-left: 0;
+  margin-left: 0;
+  margin-bottom: 5px;
   li {
     list-style: none;
+    margin-bottom: 5px;
   }
   label {
       font-weight: normal;
-      padding: 0px;
+      padding: 0;
       div {
         display: inline-block;
         vertical-align: middle;
         padding-left: 10px;
+        width: calc(100% - 20px);
       }
     }
   input {
@@ -69,16 +84,18 @@ ul.checkbox, ul.radio {
     border: 1px solid $ucsf-blue;
     -webkit-appearance: none;
     position: relative;
-    vertical-align: middle;
+    margin: 1px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
     &:checked {
       background: $ucsf-blue;
       &:after {
         content: "\2713";
         color: $white;
         position: absolute;
-        bottom: 3px;
-        right: 5px;
-        font-size: 10px;
+        bottom: 1px;
+        right: 3px;
+        font-size: 15px;
       }
     }
   }

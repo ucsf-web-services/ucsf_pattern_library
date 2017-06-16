@@ -18,7 +18,7 @@ cacheBusterOn: 'true'
 exportDir: export
 publicDir: public
 sourceDir: ../source
-defaultPattern: all
+defaultPattern: pages-homepage--page
 defaultShowPatternInfo: false
 ishMinimum: '240'
 ishMaximum: '2600'
