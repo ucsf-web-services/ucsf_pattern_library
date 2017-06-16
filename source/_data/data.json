@@ -125,22 +125,22 @@
   "htmlClass": "pl",
   "bodyClass": "body",
   "year": {
-    "long": "2013",
-    "short": "13"
+    "long": "2017",
+    "short": "17"
   },
   "month": {
-    "long": "January",
-    "short": "Jan",
-    "digit": "01"
+    "long": "June",
+    "short": "Jun",
+    "digit": "21"
   },
   "dayofweek": {
-    "long": "Sunday",
-    "short": "Sun"
+    "long": "Wednesday",
+    "short": "Wed"
   },
   "day": {
-    "long": "01",
-    "short": "1",
-    "ordinal": "st"
+    "long": "21",
+    "short": "21",
+    "ordinal": "nd"
   },
   "hour": {
     "long": "06",

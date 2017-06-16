@@ -44,3 +44,6 @@ $display_small: $display_small_min ($display_medium_min - 1);
 //** Singularity Grids **//
 // This enables debug including the grid background display
 @include sgs-change('debug', true);
+
+// Fonts
+$font_light: '"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif';

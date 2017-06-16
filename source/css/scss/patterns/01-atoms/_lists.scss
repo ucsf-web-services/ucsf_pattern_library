@@ -1,6 +1,7 @@
 ul, ol {
   margin: 0 0 0 10px;
   padding: 0;
+  line-height: 1.4;
 }
 
 ul {
@@ -13,15 +14,16 @@ ul {
 .ul-circle {
   li {
     list-style: none;
-    margin-bottom: 8px;
-    padding-left: 8px;
     position: relative;
+    padding-left: 14px;
+    margin-bottom: 8px;
     &:before {
-      position: absolute;
+      position: relative;
       content: "\2022";
-      left: -14px;
-      font-size: 20px;
-      top: -2px;
+      line-height: 0;
+      display: inline-block;
+      width: 14px;
+      margin-left: -14px;
     }
   }
 }
