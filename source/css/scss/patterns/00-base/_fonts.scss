@@ -1,17 +1,24 @@
-p, body {
-  font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, sans-serif;
+.font-helvetica-neue {
+  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
 }
-.font-granjon{
+
+$font-helvetica-neue: '"HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif';
+
+p, body {
+  font-family: $font-helvetica-neue;
+}
+
+.font-granjon {
   font-family: "Granjon LT W01 Roman", Garamond, "Times New Roman", serif;
 }
+
+$font-granjon: '"Granjon LT W01 Roman", Garamond, "Times New Roman", serif';
+
 .font-granjon-bold {
   font-family:"Granjon LT W01 Bold", "Granjon LT W01 Roman", Garamond, "Times New Roman", serif;
   font-weight: bold;
 }
 
-.font-helvetica-neue {
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
-}
 .font-helvetica-neue-light{
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
@@ -19,12 +26,15 @@ p, body {
 .font-helvetica-neue-medium {
   font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
+
 .font-helvetica-neue-roman {
   font-family: "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
 }
- .font-arial {
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
- }
- .font-garamond {
-   font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
- }
+
+.font-arial {
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.font-garamond {
+ font-family: Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif;
+}

@@ -1,30 +1,65 @@
-blockquote {
+.blockquote {
   background-color: #E6E6E6;
-  padding: 20px;
-  p {
-   &:before {
+  padding: 30px 20px 30px 30px;
+  margin-right: 36px;
+  margin-bottom: 30px;
+  &--content {
+    font-size: 25px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    position: relative;
+    &:before {
      content: "\201C";
-   }
-   &:after {
-     content: "\201D";
-   }
- }
-
-.blockquote-title, .blockquote-source {
-  word-wrap: break-word;
-  font-size: 80%;
+      display: block;
+      left: -15px;
+      position: absolute;
+    }
+    &:after {
+      content: "\201D";
+    }
+  }
+  &--title,
+  &--source {
+    word-wrap: break-word;
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  &--title {
+    font-weight: 700;
   }
 }
 
-blockquote.blockquote-orange {
+.blockquote--orange {
   box-shadow: 10px 10px $ucsf-orange;
 }
-blockquote.blockquote-green {
+.blockquote--green {
   box-shadow: 10px 10px $ucsf-green;
 }
-blockquote.blockquote-blue {
+.blockquote--blue {
   box-shadow: 10px 10px $ucsf-blue;
 }
-blockquote.blockquote-navyblue {
+.blockquote--navyblue {
   box-shadow: 10px 10px $ucsf-navyblue;
+}
+
+.align--left {
+  float: left;
+}
+
+.align--right {
+  float: right;
+}
+
+.blockquote.align--right {
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.blockquote {
+  @include breakpoint($display_small) {
+    width: 100%!important;
+  }
+  @include breakpoint($display_medium) {
+    width: 100%!important;
+  }
 }

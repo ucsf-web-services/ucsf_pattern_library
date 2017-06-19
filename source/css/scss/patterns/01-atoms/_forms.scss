@@ -48,13 +48,56 @@ abbr[title="Required"] {
 
 //** Select Menu **/
 .select-style {
-  background-color: $white;
-}
-
-select {
-  background-color: $white;
-  height: 50px;
-  width: 300px;
+  position: relative;
+  label {
+    width: 100%;
+    display: block;
+  }
+  .select-wrapper {
+    width: auto;
+    position: relative;
+    display: inline-block;
+    &:after, &:before {
+      color: $ucsf-blue;
+      position: absolute;
+      right: 10px;
+      top: 8px;
+      display: block;
+      width: 10px;
+      height: 10px;
+      content: "\25BE";
+    }
+    &:before {
+      color: $ucsf-blue;
+      position: absolute;
+      right: 10px;
+      top: 0;
+      display: block;
+      width: 10px;
+      content: "\25BE";
+      transform: rotate(180deg);
+      border-right: 1px solid $border-gray;
+      height: 100%;
+      line-height: 2;
+      padding-right: 10px;
+      }
+    }
+  select {
+    display: block;
+    background: transparent;
+    border: 1px solid $border-gray;
+    border-radius: 0;
+    font-size: 14px;
+    outline: none;
+    padding: 5px 40px 5px 5px;
+    -webkit-appearance: button;
+    -webkit-border-radius: 0;
+    -webkit-user-select: none;
+    overflow: hidden;
+    -moz-border-radius: 0;
+    position: relative;
+    z-index: 2;
+  }
 }
 
 //** Checkbox & Radio Buttons **/
@@ -99,4 +142,29 @@ ul.checkbox, ul.radio {
       }
     }
   }
+}
+
+.bootstrap-select .dropdown-menu {
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1000;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    display: none;
+    list-style: none;
+    margin: 9px 0 0;
+    min-width: 160px;
+    padding: 5px 0;
+    font-size: 14px;
+    text-align: left;
+}
+
+.bootstrap-select.open>.dropdown-menu {
+    display: block;
 }
