@@ -1,7 +1,7 @@
 # Ordered List
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description

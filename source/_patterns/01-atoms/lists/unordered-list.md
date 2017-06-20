@@ -1,23 +1,22 @@
 # Unordered List
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is an unordered list.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Use different types of lists to group information according to its nature to provide orientation for users. Unordered lists are used when the order of the items is not relevant. List items in unordered lists are marked with a bullet.
-* https://www.w3.org/WAI/tutorials/page-structure/content/
+Use different types of lists to group information according to its nature to provide orientation for users. Unordered lists are used when the order of the items is not relevant. List items in unordered lists are marked with a bullet. Please ensure accessibility by testing the whole page, including this element, in context.
+* About list accessibilty properties: http://webaim.org/techniques/semanticstructure/#lists
+* About list markup: https://www.w3schools.com/tags/tag_li.asp
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Unordered lists should be used when there is no order of sequence or importance. Lists should never be used for merely indenting or other layout purposes.
-* http://webaim.org/techniques/semanticstructure/#lists
-* https://www.w3schools.com/tags/tag_li.asp
+Anything special technical-wise will be shared here.
