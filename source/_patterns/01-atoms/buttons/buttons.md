@@ -1,23 +1,26 @@
 # Buttons
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are buttons.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
-@todo Is the all caps a standard in the styleguide?
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
 Color contrast and font size is important.
+The button description should be descriptive. Be sure to specify the type of button (button, reset, submit).
+Please ensure accessibility by testing the whole page, including this element, in context.
+* About button accessibilty properties: http://webaim.org/techniques/forms/controls
+* About button markup: https://www.w3schools.com/tags/tag_button.asp
 
 ### SEO Considerations
-Lead Generation considerations: the button description should NOT just be "Submit", but more descriptive, such as: "Request a Quote", "Contact Us", etc.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-* Be sure to specify the type of button (button, reset, submit).
-* About button markup: https://www.w3schools.com/tags/tag_button.asp
+To implement the btn btn-1, use the markup structure shown here, with the class btn btn-1.
+To implement the btn btn-2, use the markup structure shown here, with the class btn btn-2.
+To implement the btn btn-3, use the markup structure shown here, with the class btn btn-3.
