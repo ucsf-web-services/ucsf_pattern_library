@@ -1,20 +1,22 @@
 # Basic Colors
 
 ---
-state: inreview
+state: complete
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are the colors.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Be sure there is sufficient contrast between foreground and background colors.
+Ensure that color is not the only means of conveying content or information.
+* http://webaim.org/resources/contrastchecker/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+To implement the sg-colors, use the markup structure shown here, with the class sg-colors.
