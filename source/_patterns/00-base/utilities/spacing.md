@@ -21,4 +21,4 @@ This section is left intentionally blank and is for future consideration.
 To implement no-space-left, use the markup structure shown here, with the class no-space-left.
 To implement space-left-small use the markup structure shown here, with the class space-left-small.
 To implement space-left, use the markup structure shown here, with the space-left.
-To implement pace-left-large, use the markup structure shown here, with the class pace-left-large.
+To implement space-left-large, use the markup structure shown here, with the class pace-left-large.
