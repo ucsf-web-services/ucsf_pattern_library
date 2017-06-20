@@ -5,7 +5,7 @@ state: inprogress
 ---
 
 ### Description
-This is the Location Image.
+This is the Large Location Image.
 
 ### Usage
 #### @todo Sara fix me.
