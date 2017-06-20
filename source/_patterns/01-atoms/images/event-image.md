@@ -1,7 +1,7 @@
 Event Image
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
