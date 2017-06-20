@@ -5,7 +5,7 @@ state: inprogress
 ---
 
 ### Description
-This is the Card Image.
+This is the Event Image.
 
 ### Usage
 #### @todo Sara fix me.
