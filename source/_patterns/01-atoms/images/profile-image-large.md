@@ -5,7 +5,7 @@ state: complete
 ---
 
 ### Description
-This is the Offset Banner Image.
+This is the Large Profile Image.
 
 ### Usage
 #### @todo Sara fix me.
