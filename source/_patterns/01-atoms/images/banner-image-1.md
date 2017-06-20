@@ -5,18 +5,17 @@ state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is Banner Image 1.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Images must have text alternatives that describe the information or function represented by them.
+Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
 * About image accessibilty properties: https://www.w3.org/WAI/tutorials/images/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-* Be sure to specify the type of image.
-* About image markup: https://www.w3schools.com/tags/tag_img.asp
+Anything special technical-wise will be shared here.
