@@ -6,7 +6,7 @@ state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is a basic accordion.
 
 ### Usage
 Information regarding how is the atomic element used goes here.
