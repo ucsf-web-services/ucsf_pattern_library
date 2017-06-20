@@ -17,4 +17,4 @@ There are no specific requirements for accessibility. Please ensure accessibilit
 This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-To implement the four-col container, use the markup structure shown here, with the class four-col container
+To implement the four-col container, use the markup structure shown here, with the class four-col container.
