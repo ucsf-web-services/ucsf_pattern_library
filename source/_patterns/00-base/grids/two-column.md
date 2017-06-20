@@ -5,16 +5,17 @@ state: inreview
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is a two column layout.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
+
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+To implement the two-col container, use the markup structure shown here, with the class two-col container.
