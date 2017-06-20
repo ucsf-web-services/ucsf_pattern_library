@@ -5,21 +5,19 @@ state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are checkboxes.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Accessible Form Controls
-* http://webaim.org/techniques/forms/controls#checkbox
-
-Be sure to validate user input to help avoid user mistakes
-* https://www.w3.org/WAI/tutorials/forms/validation/
+Images must have text alternatives that describe the information or function represented by them. Please ensure accessibility by testing the whole page, including this element, in context. Be sure to validate user input to help avoid user mistakes.
+* About form control accessibilty properties: http://webaim.org/techniques/forms/controls#checkbox
+* About form validation properties: https://www.w3.org/WAI/tutorials/forms/validation/
+* About form markup: https://www.w3schools.com/tags/tag_form.asp
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Ask users to enter what is required to complete the transaction or process; if irrelevant or excessive data is requested, users are more likely to abandon the form.
-* About form markup: https://www.w3schools.com/tags/tag_form.asp
+To implement the checkbox, use the markup structure shown here, with the class checkbox.
