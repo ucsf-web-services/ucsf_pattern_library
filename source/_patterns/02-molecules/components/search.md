@@ -1,20 +1,24 @@
+---
 # Search
+---
 
 ---
 state: inreview
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is the search feature.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+The site search feature itself should be easy to find and simple to operate. The site search feature is often most usable if it appears on every page, though there is no requirement that it do so. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About search accessibility properties: http://webaim.org/techniques/sitetools/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+To implement search, use the markup structure shown here, with the class select-style.

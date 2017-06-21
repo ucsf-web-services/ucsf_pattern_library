@@ -1,20 +1,24 @@
+---
 # Social Media Links
+---
 
 ---
 state: inreview
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are social media links.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About link accessibility properties: http://webaim.org/techniques/hypertext/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+To implement a link, use the markup structure shown here, with the link tag.
