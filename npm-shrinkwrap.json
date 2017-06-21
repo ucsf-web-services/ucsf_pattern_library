@@ -999,18 +999,10 @@
       "dev": true
     },
     "fined": {
-      "version": "1.1.0",
+      "version": "1.0.2",
       "from": "fined@>=1.0.1 <2.0.0",
-      "resolved": "https://registry.npmjs.org/fined/-/fined-1.1.0.tgz",
-      "dev": true,
-      "dependencies": {
-        "expand-tilde": {
-          "version": "2.0.2",
-          "from": "expand-tilde@>=2.0.2 <3.0.0",
-          "resolved": "https://registry.npmjs.org/expand-tilde/-/expand-tilde-2.0.2.tgz",
-          "dev": true
-        }
-      }
+      "resolved": "https://registry.npmjs.org/fined/-/fined-1.0.2.tgz",
+      "dev": true
     },
     "first-chunk-stream": {
       "version": "1.0.0",
@@ -1022,12 +1014,6 @@
       "version": "0.3.2",
       "from": "flagged-respawn@>=0.3.2 <0.4.0",
       "resolved": "https://registry.npmjs.org/flagged-respawn/-/flagged-respawn-0.3.2.tgz",
-      "dev": true
-    },
-    "flexslider": {
-      "version": "2.6.3",
-      "from": "flexslider@>=2.6.3 <3.0.0",
-      "resolved": "https://registry.npmjs.org/flexslider/-/flexslider-2.6.3.tgz",
       "dev": true
     },
     "font-awesome": {
@@ -2727,6 +2713,12 @@
       "resolved": "https://registry.npmjs.org/lodash.assign/-/lodash.assign-4.2.0.tgz",
       "dev": true
     },
+    "lodash.assignwith": {
+      "version": "4.2.0",
+      "from": "lodash.assignwith@>=4.0.7 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.assignwith/-/lodash.assignwith-4.2.0.tgz",
+      "dev": true
+    },
     "lodash.clonedeep": {
       "version": "4.5.0",
       "from": "lodash.clonedeep@>=4.3.2 <5.0.0",
@@ -2755,6 +2747,12 @@
       "version": "3.0.4",
       "from": "lodash.isarray@>=3.0.0 <4.0.0",
       "resolved": "https://registry.npmjs.org/lodash.isarray/-/lodash.isarray-3.0.4.tgz",
+      "dev": true
+    },
+    "lodash.isempty": {
+      "version": "4.4.0",
+      "from": "lodash.isempty@>=4.2.1 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.isempty/-/lodash.isempty-4.4.0.tgz",
       "dev": true
     },
     "lodash.isequal": {
@@ -2797,6 +2795,12 @@
       "version": "4.6.0",
       "from": "lodash.mapvalues@>=4.4.0 <5.0.0",
       "resolved": "https://registry.npmjs.org/lodash.mapvalues/-/lodash.mapvalues-4.6.0.tgz",
+      "dev": true
+    },
+    "lodash.pick": {
+      "version": "4.4.0",
+      "from": "lodash.pick@>=4.2.1 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash.pick/-/lodash.pick-4.4.0.tgz",
       "dev": true
     },
     "lodash.restparam": {
@@ -3137,12 +3141,6 @@
       "resolved": "https://registry.npmjs.org/object.omit/-/object.omit-2.0.1.tgz",
       "dev": true
     },
-    "object.pick": {
-      "version": "1.2.0",
-      "from": "object.pick@>=1.2.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/object.pick/-/object.pick-1.2.0.tgz",
-      "dev": true
-    },
     "object.reduce": {
       "version": "0.1.7",
       "from": "object.reduce@>=0.1.7 <0.2.0",
@@ -3406,9 +3404,9 @@
       "dev": true
     },
     "readable-stream": {
-      "version": "2.3.1",
+      "version": "2.2.11",
       "from": "readable-stream@>=2.0.2 <3.0.0",
-      "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.1.tgz",
+      "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.2.11.tgz",
       "dev": true
     },
     "readdirp": {
@@ -3542,9 +3540,9 @@
       "dev": true
     },
     "safe-buffer": {
-      "version": "5.1.0",
-      "from": "safe-buffer@>=5.1.0 <5.2.0",
-      "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.0.tgz",
+      "version": "5.0.1",
+      "from": "safe-buffer@>=5.0.1 <5.1.0",
+      "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.0.1.tgz",
       "dev": true
     },
     "sass-graph": {
@@ -3725,6 +3723,12 @@
       "resolved": "https://registry.npmjs.org/singularitygs/-/singularitygs-1.8.0.tgz",
       "dev": true
     },
+    "slick": {
+      "version": "1.12.2",
+      "from": "slick@latest",
+      "resolved": "https://registry.npmjs.org/slick/-/slick-1.12.2.tgz",
+      "dev": true
+    },
     "sntp": {
       "version": "1.0.9",
       "from": "sntp@>=1.0.0 <2.0.0",
@@ -3895,15 +3899,7 @@
       "version": "1.0.2",
       "from": "string_decoder@>=1.0.0 <1.1.0",
       "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.2.tgz",
-      "dev": true,
-      "dependencies": {
-        "safe-buffer": {
-          "version": "5.0.1",
-          "from": "safe-buffer@>=5.0.1 <5.1.0",
-          "resolved": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.0.1.tgz",
-          "dev": true
-        }
-      }
+      "dev": true
     },
     "string-width": {
       "version": "1.0.2",
