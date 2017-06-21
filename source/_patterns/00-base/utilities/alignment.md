@@ -1,4 +1,6 @@
+---
 # Alignment
+---
 
 ---
 state: inreview

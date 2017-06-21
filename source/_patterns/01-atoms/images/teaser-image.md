@@ -1,4 +1,6 @@
+---
 # Teaser Image
+---
 
 ---
 state: complete

@@ -1,4 +1,6 @@
+---
 # Featured Content Image
+---
 
 ---
 state: inprogress

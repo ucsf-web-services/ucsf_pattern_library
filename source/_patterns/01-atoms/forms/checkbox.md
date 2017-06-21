@@ -1,4 +1,6 @@
+---
 # Checkbox
+---
 
 ---
 state: inprogress

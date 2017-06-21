@@ -1,4 +1,6 @@
+---
 # Offset Text Banner Image
+---
 
 ---
 state: inprogress
