@@ -1,4 +1,6 @@
+---
 # Related Content Menu
+---
 
 ---
 state: inprogress
