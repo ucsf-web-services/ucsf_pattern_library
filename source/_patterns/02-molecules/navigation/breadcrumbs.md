@@ -1,20 +1,24 @@
+---
 # Breadcrumbs
+---
 
 ---
 state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is an example of breadcrumbs.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Use breadcrumbs, indicators, or cues to indicate location or progress. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About breadcrumbs accessibility properties: https://www.w3.org/WAI/tutorials/images/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+To implement breadcrumbs, use the markup structure shown here, with the class breadcrumbs.
