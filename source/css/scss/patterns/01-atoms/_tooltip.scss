@@ -10,28 +10,37 @@
   visibility: hidden;
   background-color: black;
   color: $white;
-  text-align: center;
-  padding: 0 8px;
+  text-align: left;
+  padding: 10px;
   border-radius: 6px;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 1.4;
   position: absolute;
   z-index: 1;
-  top: -35px;
+  left: -25px;
+  top: 2em;
+  @include breakpoint($display_medium) {
+    width: 200px;
+    padding: 10px 20px;
+  }
+  @include breakpoint($display_large) {
+    width: 200px;
+    padding: 10px 20px;
+  }
 }
+
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 .tooltiptext::after {
-  top: 100%;
-  left: 50%;
-  border: solid transparent;
+  top: -12px;
+  left: 40px;
   content: " ";
   height: 0;
   width: 0;
   position: absolute;
-  border-color: rgba(0, 0, 0, 0);
-  border-top-color: $black;
+  border: solid transparent;
+  border-bottom-color: $black;
   border-width: 6px;
   margin-left: -6px;
 }

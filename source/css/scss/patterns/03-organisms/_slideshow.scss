@@ -1,4 +1,203 @@
+.slider {
+  .slick-prev:before {
+    content: "\f053";
+    text-indent: -3px;
+  }
+  .slick-next:before {
+    content: "\f054";
+    text-indent: 3px;
+  }
+  .slick-prev, .slick-next {
+    border: 2px solid $white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: $white;
+    outline: none;
+    background: transparent;
+    z-index: 5;
+    position: absolute;
+    display: block;
 
-.slideshow .flex-direction-nav li {
-  list-style: none;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+
+    top: 50%;
+    margin-top: -10px;
+    padding: 0;
+
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "FontAwesome", sans-serif;
+    color: $white;
+    font-size: 20px;
+    opacity: 1;
+    line-height: 48px;
+    display: block;
+  }
+  .slick-dots {
+    li {
+      width: 10px;
+      height: 10px;
+      margin: 0 6px;
+      button{
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        &:before {
+          border-radius: 50%;
+          width: 6px;
+          height: 6px;
+          border: 2px solid #fff;
+          content: " ";
+          opacity: 1;
+        }
+        &:hover:before {
+          opacity: 0.75;
+        }
+      }
+    }
+    li.slick-active button:before {
+      background-color: #fff;
+      z-index: 800;
+    }
+  }
+}
+
+// Hero 1
+.slick-slider.slider__hero-1 {
+  @include breakpoint($display_small) {
+    padding: 0;
+  }
+  max-width: 1320px;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 50px;
+  margin-bottom: 50px;
+    position: relative;
+    &:after {
+      content: " ";
+      position: absolute;
+      width: 30px;
+      height: 300px;
+      z-index: 0;
+      right: 0;
+      top: 0;
+    }
+    .group-slider-content {
+      padding-left: 75px;
+      padding-right: 75px;
+      overflow: auto;
+      // padding-top: 80px;
+      // padding-bottom: 30px;
+      color: #FFF;
+      position: relative;
+      // Primary Color
+      //background-color: $color--orange;
+      height: 260px;
+      @include breakpoint($display_small) {
+        padding-left: 30px;
+        padding-top: 50px;
+        padding-right: 60px;
+      }
+      .group-slider-inside {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        max-width: 68%;
+      }
+       .hero-1__title {
+        // position: relative;
+        // z-index: 12;
+        letter-spacing: -.02em;
+        line-height: 1em;
+        display: block !important;
+        margin-bottom: 20px;
+        @include breakpoint($display_medium_min) {
+          font-size: 48px;
+        }
+      }
+      .hero-1__text {
+        font-family: $font-helvetica-neue;
+        margin-bottom: 20px;
+        // display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        max-height: 40px;
+        @include breakpoint($display_medium_min) {
+          max-height: 55px;
+        }
+      }
+    }
+    .hero-1__top-image {
+      // background: url('../img/cell-roots.png') no-repeat 91.9%;
+      height: 40px;
+      width: 100%;
+      float:right;
+      margin-left: 90%;
+      position: relative;
+      .bg-slider-image {
+        background-image: url('../img/cell-roots.png');
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        width: 905px;
+        max-width: 100%;
+      }
+      img {
+        display: none;
+        height: 500px;
+      }
+    }
+    .slick-dots {
+        bottom: 45px;
+    }
+    .slick-next {
+        right: 60px;
+        top: 80px;
+
+    }
+    .slick-prev {
+        right: 130px;
+        top: 80px;
+        left: auto;
+    }
+    .paging-info {
+        bottom: 15px;
+        right: 60px;
+        @include breakpoint($display_small)  {
+          position: absolute;
+        }
+    }
+  }
+
+// Hero 5
+.slick-slider.slider__hero-5 {
+  margin-left: -20px;
+  margin-right: -20px;
+  @include breakpoint($display_medium_min) {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+  .slick-prev {
+    left: 2%;
+    display: none!important;
+  }
+  .slick-next {
+    right: 2%;
+    display: none!important;
+  }
+  @include breakpoint($display_medium_min) {
+    .slick-prev {
+      display: block!important;
+    }
+    .slick-next {
+      display: block!important;
+    }
+  }
 }

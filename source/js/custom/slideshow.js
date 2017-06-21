@@ -1,9 +1,5 @@
-/*
- * Flexslider Implementation
- * For Slideshow elements.
- */
-$(function(){
-  $('.flexslider').flexslider({
-    animation: "slide"
+$(document).ready(function(){
+  $('.slider').slick({
+    // Settings
   });
 });
