@@ -24,15 +24,31 @@
       margin: 0 auto 10px;
     }
   }
-  &__button a {
-    border: 1px solid #fff;
-    padding: 4px 10px;
-    font-size: 10px;
-    font-weight: 500;
-    letter-spacing: .14em;
-    color: #fff;
-    text-transform: uppercase;
-    border-radius: 2px;
-    font-family: $font-helvetica-neue;
+}
+
+
+// Hero 5
+.slick-slider.slider__hero-5 {
+  margin-left: -20px;
+  margin-right: -20px;
+  @include breakpoint($display_medium_min) {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+  .slick-prev {
+    left: 2%;
+    display: none!important;
+  }
+  .slick-next {
+    right: 2%;
+    display: none!important;
+  }
+  @include breakpoint($display_medium_min) {
+    .slick-prev {
+      display: block!important;
+    }
+    .slick-next {
+      display: block!important;
+    }
   }
 }
