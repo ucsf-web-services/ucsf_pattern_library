@@ -14,6 +14,7 @@ These are examples of text fields.
 
 ### Accessibility Considerations
 Use <label> element when you can. Please ensure accessibility by testing the whole page, including this element, in context.
+
 * About Accessible Form Controls: http://webaim.org/techniques/forms/advanced
 * About form markup: https://www.w3schools.com/tags/tag_form.asp
 

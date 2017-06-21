@@ -14,6 +14,7 @@ These are form buttons.
 
 ### Accessibility Considerations
 Form controls must have text alternatives that describe the information or function represented by them. Please ensure accessibility by testing the whole page, including this element, in context.
+
 * About form control accessibilty properties: http://webaim.org/techniques/forms/controls#checkbox
 * About form validation properties: https://www.w3.org/WAI/tutorials/forms/validation/
 * About form markup: https://www.w3schools.com/tags/tag_form.asp
@@ -21,6 +22,7 @@ Form controls must have text alternatives that describe the information or funct
 Color contrast and font size is important.
 The button description should be descriptive. Be sure to specify the type of button (button, reset, submit).
 Please ensure accessibility by testing the whole page, including this element, in context.
+
 * About button accessibilty properties: http://webaim.org/techniques/forms/controls
 * About button markup: https://www.w3schools.com/tags/tag_button.asp
 

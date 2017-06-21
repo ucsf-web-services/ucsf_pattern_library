@@ -14,6 +14,7 @@ These are headings.
 
 ### Accessibility Considerations
 Do not use the heading tag for styling, only for content structure. Please ensure accessibility by testing the whole page, including this element, in context.
+
 * About heading accessibilty properties: http://webaim.org/techniques/semanticstructure/#contentstructure
 
 ### SEO Considerations

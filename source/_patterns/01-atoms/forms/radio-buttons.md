@@ -17,6 +17,7 @@ Fieldset and legend HTML tags should only be used to associate groups of control
 
 Accessible Form Controls
 Form controls must have text alternatives that describe the information or function represented by them. Please ensure accessibility by testing the whole page, including this element, in context. Be sure to validate user input to help avoid user mistakes.
+
 * About form control accessibilty properties: http://webaim.org/techniques/forms/controls#radio
 * About form validation properties: https://www.w3.org/WAI/tutorials/forms/validation/
 * About form markup: https://www.w3schools.com/tags/tag_form.asp

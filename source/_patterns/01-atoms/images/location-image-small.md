@@ -13,6 +13,7 @@ This is the Small Location Image.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
+
 * About image accessibilty properties: https://www.w3.org/WAI/tutorials/images/
 
 ### SEO Considerations
