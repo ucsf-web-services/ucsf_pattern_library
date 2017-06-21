@@ -12,3 +12,20 @@ a img {
 body {
   max-width: 100%;
 }
+
+#logo {
+  img {
+    width: auto;
+    vertical-align: middle;
+    margin: 20px 0;
+    max-width: 240px;
+    @include breakpoint($display_medium) {
+      max-width: 300px;
+      margin: 0;
+    }
+    @include breakpoint($display_large) {
+      max-width: 332px;
+      margin: 0;
+    }
+  }
+}

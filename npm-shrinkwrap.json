@@ -3723,10 +3723,10 @@
       "resolved": "https://registry.npmjs.org/singularitygs/-/singularitygs-1.8.0.tgz",
       "dev": true
     },
-    "slick": {
-      "version": "1.12.2",
-      "from": "slick@latest",
-      "resolved": "https://registry.npmjs.org/slick/-/slick-1.12.2.tgz",
+    "slick-carousel": {
+      "version": "1.6.0",
+      "from": "slick-carousel@>=1.6.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/slick-carousel/-/slick-carousel-1.6.0.tgz",
       "dev": true
     },
     "sntp": {
