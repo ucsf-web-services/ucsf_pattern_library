@@ -39,6 +39,9 @@
   }
   #horizontal-tab__content {
     margin-left: 0;
+    @include breakpoint($display_small) {
+      margin-top: 7px;
+    }
     li {
       display:none;
       list-style: none;
