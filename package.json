@@ -17,13 +17,13 @@
     "jquery": "3.2.1",
     "node-sass-globbing": "^0.0.23",
     "singularitygs": "^1.7.1",
-    "slick": "^1.12.2"
+    "slick-carousel": "^1.6.0"
   },
   "scripts": {
     "start": "gulp clean && gulp compile && gulp theme",
     "preinstall": "rm -fr pattern-lab-source && composer create-project pattern-lab/edition-twig-standard pattern-lab-source -n",
     "postinstall": "./postinstall.sh",
     "server": "node_modules/gulp/bin/gulp.js patternlab:serve",
-    "cleanup": "rm -fr node_modules && rm -fr pattern-lab-source && rm -fr source/fonts/vendor/*.* && rm -fr source/css/vendor/*.* && source/js/vendor/*.*"
+    "cleanup": "rm -fr node_modules && rm -fr pattern-lab-source && rm -fr source/fonts/vendor/*.*"
   }
 }
