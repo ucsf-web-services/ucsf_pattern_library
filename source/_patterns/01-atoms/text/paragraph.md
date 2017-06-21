@@ -1,9 +1,5 @@
 # Paragraph
 
----
-state: inprogress
----
-
 ### Description
 The description of the atomic element will go here.
 
