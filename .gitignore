@@ -2,7 +2,7 @@
 pattern-lab-source
 node_modules
 source/fonts/vendor
-source/js/vendor
+# source/js/vendor
 source/css/vendor
 # IDE plugins
 .idea
