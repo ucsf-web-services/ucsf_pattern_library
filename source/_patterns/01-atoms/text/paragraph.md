@@ -1,22 +1,26 @@
+---
 # Paragraph
+---
 
 ---
 state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are examples of paragraphs.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Screen readers pause for paragraph endings. When possible, place the distinguishing information of a paragraph in the first sentence.
-* http://webaim.org/techniques/screenreader/
+Screen readers pause for paragraph endings. When possible, place the distinguishing information of a paragraph in the first sentence. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About paragraph accessibilty properties: http://webaim.org/techniques/screenreader/
+
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-The paragraph tag defines a paragraph.
-About paragraph markup: https://www.w3schools.com/tags/tag_p.asp
+To implement a paragraph, use the markup structure shown here, with the paragraph tag.
+To implement a larger paragraph, use the markup structure shown here, with the paragraph tag along with the class bigger.

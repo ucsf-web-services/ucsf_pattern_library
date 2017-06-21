@@ -1,22 +1,22 @@
+---
 # Inline Elements
+---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are examples of inline elements
 
 ### Usage
 Information regarding how is the atomic element used goes here.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Generally, inline elements may contain only data and other inline elements. An inline element occupies only the space bounded by the tags that define the inline element. There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Generally, inline elements may contain only data and other inline elements. An inline element occupies only the space bounded by the tags that define the inline element.
-
-About inline element markup: https://www.w3schools.com/html/html_formatting.asp
+Anything special technical-wise will be shared here.
