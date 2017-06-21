@@ -1,4 +1,67 @@
+.slider {
+  .slick-prev:before {
+    content: "\f053";
+    text-indent: -3px;
+  }
+  .slick-next:before {
+    content: "\f054";
+    text-indent: 3px;
+  }
+  .slick-prev, .slick-next {
+    border: 2px solid $white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: $white;
+    outline: none;
+    background: transparent;
+    z-index: 5;
+    position: absolute;
+    display: block;
 
-.slideshow .flex-direction-nav li {
-  list-style: none;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+
+    top: 50%;
+    margin-top: -10px;
+    padding: 0;
+
+  }
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "FontAwesome", sans-serif;
+    color: $white;
+    font-size: 20px;
+    opacity: 1;
+    line-height: 48px;
+    display: block;
+  }
+  .slick-dots {
+    li {
+      width: 10px;
+      height: 10px;
+      margin: 0 6px;
+      button{
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        &:before {
+          border-radius: 50%;
+          width: 6px;
+          height: 6px;
+          border: 2px solid #fff;
+          content: " ";
+          opacity: 1;
+        }
+        &:hover:before {
+          opacity: 0.75;
+        }
+      }
+    }
+    li.slick-active button:before {
+      background-color: #fff;
+      z-index: 800;
+    }
+  }
 }

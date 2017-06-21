@@ -36,6 +36,12 @@
       border-top: 2px solid $ucsf-blue;
       margin-top: 0;
     }
+    li:last-child, li.current:last-child  {
+      border-bottom-left-radius: 3px;
+      @include breakpoint($display_small) {
+        border-bottom-left-radius: 0;
+      }
+    }
   }
   #vertical-tab__content {
     margin-left: 0;

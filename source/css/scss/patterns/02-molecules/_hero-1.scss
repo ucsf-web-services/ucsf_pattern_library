@@ -1,36 +1,113 @@
-.hero-1 {
-  border-right: 10px solid $ucsf-blue;
-  @include breakpoint($display_large_min) {
-    border-right: 30px solid $ucsf-orange;
-    &__text {
-    padding: .5em;
+// Hero Buttons
+.hero__button a {
+  border: 1px solid #fff;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .14em;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font-family: $font-helvetica-neue;
+}
+
+// Hero 1
+.slick-slider.slider__hero-1 {
+  max-width: 1320px;
+  margin: 0 0 0 -50px;
+  padding-left: 0;
+  padding-right: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  @include breakpoint($display_small) {
+    padding-right: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
   }
+  &:after {
+    content: " ";
+    position: absolute;
+    width: 30px;
+    height: 300px;
+    z-index: 0;
+    right: 20px;
+    top: 0;
+    background: $darkgray;
+    @include breakpoint($display_small) {
+      right: 0;
+    }
   }
-  &__top-image {
+  .hero-1__text {
+    padding-left: 75px;
+    padding-right: 75px;
+    overflow: auto;
+    color: #FFF;
+    position: relative;
+    // Primary Color
+    background-color: $ucsf-green;
+    height: 260px;
+    @include breakpoint($display_small) {
+      padding-left: 30px;
+      padding-top: 50px;
+      padding-right: 60px;
+    }
+    > div {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      max-width: 68%;
+    }
+
+  }
+  .hero-1__title {
+    letter-spacing: -.02em;
+    line-height: 1em;
+    display: block !important;
+    margin-bottom: 20px;
+    @include breakpoint($display_medium_min) {
+      font-size: 48px;
+    }
+  }
+  .hero-1__top-image {
     height: 40px;
-    width: 75%;
-    margin-left: 25%;
+    width: 100%;
+    float:right;
+    position: relative;
+    //border:1px solid gold;
+    div {
+      display: block;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      width: 905px;
+      max-width: 100%;
+      //border: 1px solid red;
+      background-position: center center;
+    }
     img {
-      width: 100%;
-      height: 40px;
+      display: none;
+      height: 500px;
     }
   }
-  &__text {
-    background-color: $ucsf-blue;
-    padding-left: 50px;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: $white;
-    h1, p {
-      max-width: 900px;
-    }
+  .slick-dots {
+      bottom: 45px;
   }
-  &__button {
-    margin-top: 35px;
-    a {
-      font-size: 14px;
-      font-weight: 100;
-      padding: 10px 10px;
-    }
+  .slick-next {
+      right: 80px;
+      top: 100px;
+
+  }
+  .slick-prev {
+      right: 150px;
+      top: 100px;
+      left: auto;
+  }
+  .paging-info {
+      bottom: 15px;
+      right: 60px;
+      @include breakpoint($display_small)  {
+        position: absolute;
+      }
   }
 }

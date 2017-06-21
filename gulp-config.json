@@ -1,6 +1,6 @@
 {
   "sass_config": {
-    "includePaths": ["node_modules/breakpoints-js/dist/", "node_modules/singularitygs/stylesheets/", "node_modules/breakpoint-sass/stylesheets/", "node_modules/font-awesome/scss/"]
+    "includePaths": ["node_modules/breakpoints-js/dist/", "node_modules/singularitygs/stylesheets/", "node_modules/breakpoint-sass/stylesheets/", "node_modules/font-awesome/scss/", "node_modules/slick-carousel/slick/"]
   },
   "js_config": {
     "concatOrder": ["./vendor/jquery.min.js", "./vendor/*.js", "./custom/*.js"]

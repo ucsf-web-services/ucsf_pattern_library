@@ -115,8 +115,7 @@ ul.checkbox, ul.radio {
       div {
         display: inline-block;
         vertical-align: middle;
-        padding-left: 10px;
-        width: calc(100% - 20px);
+        padding-left: 30px;
       }
     }
   input {
@@ -126,9 +125,9 @@ ul.checkbox, ul.radio {
     border-radius: 50%;
     border: 1px solid $ucsf-blue;
     -webkit-appearance: none;
-    position: relative;
+    position: absolute;
     margin: 1px 0 0 0;
-    display: inline-block;
+    display: block;
     vertical-align: top;
     &:checked {
       background: $ucsf-blue;
