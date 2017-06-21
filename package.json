@@ -24,6 +24,6 @@
     "preinstall": "rm -fr pattern-lab-source && composer create-project pattern-lab/edition-twig-standard pattern-lab-source -n",
     "postinstall": "./postinstall.sh",
     "server": "node_modules/gulp/bin/gulp.js patternlab:serve",
-    "cleanup": "rm -fr node_modules && rm -fr pattern-lab-source && rm -fr source/fonts/vendor/*.*"
+    "cleanup": "rm -fr node_modules && rm -fr pattern-lab-source && rm -fr source/fonts/vendor/*.* && rm -fr source/css/vendor/*.* && source/js/vendor/*.*"
   }
 }
