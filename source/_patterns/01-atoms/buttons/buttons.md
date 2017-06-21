@@ -17,7 +17,7 @@ Color contrast and font size is important.
 The button description should be descriptive. Be sure to specify the type of button (button, reset, submit).
 Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About button accessibilty properties: http://webaim.org/techniques/forms/controls
+* About button accessibility properties: http://webaim.org/techniques/forms/controls
 * About button markup: https://www.w3schools.com/tags/tag_button.asp
 
 ### SEO Considerations

@@ -15,7 +15,7 @@ These are examples of paragraphs.
 ### Accessibility Considerations
 Screen readers pause for paragraph endings. When possible, place the distinguishing information of a paragraph in the first sentence. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About paragraph accessibilty properties: http://webaim.org/techniques/screenreader/
+* About paragraph accessibility properties: http://webaim.org/techniques/screenreader/
 
 
 ### SEO Considerations
