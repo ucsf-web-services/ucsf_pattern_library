@@ -35,6 +35,7 @@ Button color contrast and font size is important. The button description should 
 Many concepts are communicated more effectively with the addition of illustrations, maps, charts, etc. 
 
 * About image accessibility properties: http://webaim.org/techniques/images/
+
 ### SEO Considerations
 This section is left intentionally blank and is for future consideration.
 
