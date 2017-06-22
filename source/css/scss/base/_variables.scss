@@ -46,4 +46,4 @@ $display_small: $display_small_min ($display_medium_min - 1);
 @include sgs-change('debug', true);
 
 // Fonts
-$font_light: '"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif';
+$font_light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
