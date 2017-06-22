@@ -25,13 +25,25 @@ $background-gray: #E6E9ED;
 
 //** Breakpoints **//
 
-//-- Minumum Dimensions for Singularity Breakpoints
+//-- Breakpoint minimums from SiteBuilder
+$width--xsmall  : 320px;
+$width--small   : 480px;
+$width--medium  : 769px;
+$width--960  	: 960px;
+$width--large   : 1080px;
+$width--xlarge  : 1170px;
 
-$display_large_min: 820px;
-$display_medium_min: 630px;
+//-- Mobile First Responsive Breakpoints
+$display_medium_up: $width--medium;
+$display_large_up: $width--large;
+$display_960_up: $width--960;
+
+//-- Minumum Dimensions for Singularity Breakpoints
+$display_large_min: $width--large;
+$display_medium_min: $width--medium;
 $display_small_min: 0px;
 
-//-- Ranges for Breakpoint itself:
+//-- Ranges for Singularity Breakpoints:
 
 // Desktop & large display
 $display_large: $display_large_min;
@@ -40,10 +52,11 @@ $display_medium: $display_medium_min ($display_large_min - 1);
 // Handheld and small display screen
 $display_small: $display_small_min ($display_medium_min - 1);
 
-
 //** Singularity Grids **//
 // This enables debug including the grid background display
 @include sgs-change('debug', true);
 
 // Fonts
-$font_light: '"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif';
+$font_light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-helvetica-neue: "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
+$font-granjon: "Granjon LT W01 Roman", Garamond, "Times New Roman", serif;

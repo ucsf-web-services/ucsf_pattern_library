@@ -11,45 +11,50 @@
   font-family: $font-helvetica-neue;
 }
 
+.hero {
+  h2 {
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -.02em;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    @include breakpoint($display_medium_up) {
+      font-size: 48px;
+    }
+  }
+}
+
 // Hero 1
-.slick-slider.slider__hero-1 {
+.slider__hero-1 {
   max-width: 1320px;
-  margin: 0 0 0 -50px;
   padding-left: 0;
-  padding-right: 50px;
   margin-bottom: 50px;
   position: relative;
-  @include breakpoint($display_small) {
-    padding-right: 20px;
-    margin-left: -20px;
-    margin-right: -20px;
-  }
   &:after {
+    background-color: $darkgray;
     content: " ";
     position: absolute;
     width: 30px;
     height: 300px;
     z-index: 0;
-    right: 20px;
+    right: 0px;
     top: 0;
-    background: $darkgray;
-    @include breakpoint($display_small) {
-      right: 0;
-    }
   }
   .hero-1__text {
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-right: 48px;
+
     overflow: auto;
     color: #FFF;
     position: relative;
     // Primary Color
     background-color: $ucsf-green;
     height: 260px;
-    @include breakpoint($display_small) {
-      padding-left: 30px;
-      padding-top: 50px;
-      padding-right: 60px;
+    @include breakpoint($display_medium_up) {
+      padding-left: 75px;
+      padding-right: 75px;
     }
     > div {
       position: absolute;
@@ -57,7 +62,21 @@
       transform: translateY(-50%);
       max-width: 68%;
     }
-
+    p {
+      font-size: 15px;
+      @include breakpoint($display_medium_up) {
+        font-size: 18px;
+      }
+      line-height: 1.4;
+      margin-bottom: 20px;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      max-height: 40px;
+      @include breakpoint($display_medium_up) {
+        max-height: 55px;
+      }
+    }
   }
   .hero-1__title {
     letter-spacing: -.02em;
@@ -73,7 +92,6 @@
     width: 100%;
     float:right;
     position: relative;
-    //border:1px solid gold;
     div {
       display: block;
       position: absolute;
@@ -82,7 +100,6 @@
       top: 0;
       width: 905px;
       max-width: 100%;
-      //border: 1px solid red;
       background-position: center center;
     }
     img {
@@ -92,6 +109,16 @@
   }
   .slick-dots {
       bottom: 45px;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+    @include breakpoint($display_medium_up) {
+      display: inline-block !important;
+    }
+    &:hover:before {
+      opacity: 0.75;
+    }
   }
   .slick-next {
       right: 80px;
