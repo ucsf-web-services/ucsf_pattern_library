@@ -7,8 +7,8 @@
 @include add-gutter(1em);
 
 body {
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 0;
+  margin-left: 0;
   @include breakpoint($display_medium_min) {
     margin-left: 50px;
     margin-right: 50px;
