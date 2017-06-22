@@ -8,8 +8,8 @@
     <h3 class="font-helvetica-neue-light"><a href=#>Lorem ipsum dolor sit amet consec...</a></h3>
   </div>
   <div class="event-card__date-time">
-    <p><strong>Date:</strong> November 9, 2015</p>
-    <p><strong>Time:</strong> 12:00pm</p>
+    <p><strong>Date:</strong> {{ month.long }} {{ day.long }}, {{ year.long }}</p>
+    <p><strong>Time:</strong> {{ hour.short }}:{{ minute.long }}{{ hour.ampm }}</p>
   </div>
 </div>
 <!--</div>-->

@@ -36,7 +36,7 @@
       "title": "Event Image"
     },
     "featuredContent": {
-      "src":  "../../images/332x225.png",
+      "src":  "../../images/1600x1000.png",
       "alt": "Featured Content Image",
       "title": "Featured Content Image"
     },
@@ -116,9 +116,9 @@
     }
   },
   "calendarIcon": {
-      "dateContent": "2017-07-29T00:00:00-07:00",
-      "day": "Sun",
-      "numberDate": "24"
+      "dateContent": "201706-21T00:00:00-18:00",
+      "day": "Weds",
+      "numberDate": "21"
     },
   "site-name": "UCSF PatternLab",
   "title": "Page Title",
@@ -146,7 +146,7 @@
     "long": "06",
     "short": "6",
     "military": "06",
-    "ampm": "am"
+    "ampm": "PM"
   },
   "minute": {
     "long": "20",
