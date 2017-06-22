@@ -40,11 +40,6 @@
       "alt": "Featured Content Image",
       "title": "Featured Content Image"
     },
-    "calendarIcon": {
-      "src":  "../../images/64x64.png",
-      "alt": "Featured Content Image",
-      "title": "Featured Content Image"
-    },
     "locationLarge": {
       "src":  "../../images/444x296.png",
       "alt": "Location Image - Large",
@@ -120,6 +115,11 @@
       "title": "Page Title"
     }
   },
+  "calendarIcon": {
+      "dateContent": "2017-07-29T00:00:00-07:00",
+      "day": "Sun",
+      "numberDate": "24"
+    },
   "site-name": "UCSF PatternLab",
   "title": "Page Title",
   "htmlClass": "pl",

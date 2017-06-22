@@ -1,0 +1,36 @@
+.calendar-icon {
+  float: left;
+  width: 65px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 16px;
+  margin-bottom: 13px;
+  margin-top: 3px;
+  display: none;
+  @include breakpoint($display_medium_min) {
+    display: block;
+  }
+  .day {
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: .08em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: $ucsf-green;
+  }
+  .number-date {
+    text-align: center;
+    font-size: 45px;
+    line-height: 0.85;
+    padding-top: 7px;
+    color: $ucsf-navyblue;
+    font-family: $font-granjon;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0 0 8px 8px;
+    border-color: $ucsf-green;
+  }
+}

@@ -1,1 +1,4 @@
-<a href="#"><img src="{{ img.calendarIcon.src }}" alt="{{ img.calendarIcon.alt }}" title="{{  img.calendarIcon.title }}"></a>
+<div class="calendar-icon">
+  <div class="day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="{{ calendarIcon.dateContent }}">{{ calendarIcon.day }}</span></div>
+  <div class="number-date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="{{ calendarIcon.dateContent }}">{{ calendarIcon.numberDate }}</span></div>
+</div>
