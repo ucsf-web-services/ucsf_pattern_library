@@ -1,13 +1,21 @@
-# Block Webform Template
+---
+# Block Webform 
+---
+
+---
+state: inprogress
+---
 
 ### Description
-The description of the atomic element will go here.
+This is a webform block.
 
 ### Usage
 #### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Form controls must have text alternatives that describe the information or function represented by them. Please ensure accessibility by testing the whole page, including this element, in context. Be sure to validate user input to help avoid user mistakes. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About webform accessibility properties: http://webaim.org/techniques/forms/advanced
 
 ### SEO Considerations
 This section is left intentionally blank and is for future consideration.
