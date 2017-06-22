@@ -1,7 +1,13 @@
+---
 # Publication Landing Page Template
+---
+
+---
+state: inprogress
+---
 
 ### Description
-The description of the atomic element will go here.
+This is the publication landing page template.
 
 ### Usage
 #### @todo Sara fix me.

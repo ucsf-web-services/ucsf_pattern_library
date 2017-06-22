@@ -1,7 +1,13 @@
+---
 # News Landing Page Template
+---
+
+---
+state: inprogress
+---
 
 ### Description
-The description of the atomic element will go here.
+This is the news landing page template.
 
 ### Usage
 #### @todo Sara fix me.
