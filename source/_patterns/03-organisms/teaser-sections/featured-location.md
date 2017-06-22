@@ -1,17 +1,21 @@
+---
 # Featured Location
+---
 
 ---
 state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is an example of a featured location.
 
 ### Usage
 #### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Many concepts are communicated more effectively with the addition of illustrations, maps, charts, etc. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About image accessibility properties: http://webaim.org/techniques/images/
 
 ### SEO Considerations
 This section is left intentionally blank and is for future consideration.
