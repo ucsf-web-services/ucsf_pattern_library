@@ -1,4 +1,4 @@
-# Basic Page Example
+# Content Element Style Example
 
 ## Description
 TODO needs general description

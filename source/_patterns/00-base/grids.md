@@ -1,4 +1,4 @@
-# Basic Page Example
+# Grid Examples
 
 ## Description
 TODO needs general description

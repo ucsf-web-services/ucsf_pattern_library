@@ -1,4 +1,4 @@
-# Basic Page Example
+# Widget Examples
 
 ## Description
 TODO needs general description

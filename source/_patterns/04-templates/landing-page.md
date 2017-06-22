@@ -1,4 +1,4 @@
-# Basic Page Example
+# Landing Page Examples
 
 ## Description
 TODO needs general description

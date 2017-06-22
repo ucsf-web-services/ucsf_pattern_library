@@ -1,4 +1,4 @@
-# Basic Page Example
+# Messaging Examples
 
 ## Description
 TODO needs general description

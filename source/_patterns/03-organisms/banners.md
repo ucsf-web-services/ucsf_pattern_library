@@ -1,4 +1,4 @@
-# Basic Page Example
+# Banner Examples
 
 ## Description
 TODO needs general description

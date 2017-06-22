@@ -1,4 +1,4 @@
-# Basic Page Example
+# Short Teaser Examples
 
 ## Description
 TODO needs general description

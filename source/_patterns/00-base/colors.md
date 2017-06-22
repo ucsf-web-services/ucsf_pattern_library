@@ -1,4 +1,4 @@
-# Basic Page Example
+# Color Examples
 
 ## Description
 TODO needs general description
