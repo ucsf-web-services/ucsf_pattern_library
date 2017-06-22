@@ -1,5 +1,5 @@
 ---
-# Location Teaser
+title: Location Teaser
 ---
 
 ---

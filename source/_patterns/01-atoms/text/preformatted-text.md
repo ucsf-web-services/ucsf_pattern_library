@@ -1,5 +1,5 @@
 ---
-# Preformatted Text
+title: Preformatted Text
 ---
 
 ---

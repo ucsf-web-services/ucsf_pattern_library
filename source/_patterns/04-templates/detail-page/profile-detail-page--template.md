@@ -1,5 +1,5 @@
 ---
-# Profile Detail Page Template
+title: Profile Detail Page Template
 ---
 
 ---

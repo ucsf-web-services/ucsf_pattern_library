@@ -1,5 +1,5 @@
 ---
-# Homepage Iteration 2 Template
+title: Homepage Iteration 2 Template
 ---
 
 ---

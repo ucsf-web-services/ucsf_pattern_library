@@ -1,5 +1,5 @@
 ---
-# Banner Image Four
+title: Banner Image Four
 ---
 
 ---

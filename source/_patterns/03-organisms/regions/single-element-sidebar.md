@@ -1,5 +1,5 @@
 ---
-# Single Element Sidebar
+title: Single Element Sidebar
 ---
 
 ---

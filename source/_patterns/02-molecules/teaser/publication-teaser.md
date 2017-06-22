@@ -1,5 +1,5 @@
 ---
-# Publication Teaser
+title: Publication Teaser
 ---
 
 ---

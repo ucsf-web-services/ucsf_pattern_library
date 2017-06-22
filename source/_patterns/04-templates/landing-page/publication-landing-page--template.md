@@ -1,5 +1,5 @@
 ---
-# Publication Landing Page Template
+title: Publication Landing Page Template
 ---
 
 ---

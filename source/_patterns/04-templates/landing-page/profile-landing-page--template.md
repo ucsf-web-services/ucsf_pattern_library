@@ -1,5 +1,5 @@
 ---
-# Profile Landing Page Template
+title: Profile Landing Page Template
 ---
 
 ---

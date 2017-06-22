@@ -1,5 +1,5 @@
 ---
-# News Landing Page Template
+title: News Landing Page Template
 ---
 
 ---

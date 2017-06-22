@@ -1,5 +1,5 @@
 ---
-# Horizontal Line
+title: Horizontal Line
 ---
 
 ---

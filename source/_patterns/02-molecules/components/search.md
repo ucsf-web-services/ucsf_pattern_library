@@ -1,5 +1,5 @@
 ---
-# Search
+title: Search
 ---
 
 ---

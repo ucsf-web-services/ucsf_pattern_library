@@ -1,5 +1,5 @@
 ---
-# Multiple Element Sidebar
+title: Multiple Element Sidebar
 ---
 
 ---

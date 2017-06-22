@@ -1,5 +1,5 @@
 ---
-# Article Detail Page Template
+title: Article Detail Page Template
 ---
 
 ---

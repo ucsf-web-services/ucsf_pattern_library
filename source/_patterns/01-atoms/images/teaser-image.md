@@ -1,5 +1,5 @@
 ---
-# Teaser Image
+title: Teaser Image
 ---
 
 ---

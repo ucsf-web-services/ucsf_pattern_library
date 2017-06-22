@@ -1,5 +1,5 @@
 ---
-# Event Detail Page Template
+title: Event Detail Page Template
 ---
 
 ---

@@ -1,5 +1,5 @@
 ---
-# All Profiles List
+title: All Profiles List
 ---
 
 ---

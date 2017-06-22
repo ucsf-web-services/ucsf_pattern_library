@@ -1,5 +1,5 @@
 ---
-# Headings
+title: Headings
 ---
 
 ---

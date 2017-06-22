@@ -1,5 +1,5 @@
 ---
-# Inline Elements
+title: Inline Elements
 ---
 
 ---

@@ -1,5 +1,5 @@
 ---
-# Location Card
+title: Location Card
 ---
 
 ---

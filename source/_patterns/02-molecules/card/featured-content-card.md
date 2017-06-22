@@ -1,5 +1,5 @@
 ---
-# Featured Content Card
+title: Featured Content Card
 ---
 
 ---

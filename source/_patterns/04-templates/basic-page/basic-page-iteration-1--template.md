@@ -1,5 +1,5 @@
 ---
-# Basic Page Iteration 1 Template
+title: Basic Page Iteration 1 Template
 ---
 
 ---

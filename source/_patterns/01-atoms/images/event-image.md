@@ -1,5 +1,5 @@
 ---
-# Event Image
+title: Event Image
 ---
 
 ---

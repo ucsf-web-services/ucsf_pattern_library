@@ -1,5 +1,5 @@
 ---
-# Banner Image Three
+title: Banner Image Three
 ---
 
 ---

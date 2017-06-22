@@ -1,5 +1,5 @@
 ---
-# Two Column 
+title: Two Column 
 ---
 
 ---

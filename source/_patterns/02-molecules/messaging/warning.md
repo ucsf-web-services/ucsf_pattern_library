@@ -1,5 +1,5 @@
 ---
-# Warning
+title: Warning
 ---
 
 ---

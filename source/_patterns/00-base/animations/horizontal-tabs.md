@@ -1,5 +1,5 @@
 --- 
-# Horizontal Tabs 
+title: Horizontal Tabs 
 ---
 
 ---

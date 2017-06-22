@@ -1,5 +1,5 @@
 ---
-# 50/50 Banner
+title: 50/50 Banner
 ---
 
 ---

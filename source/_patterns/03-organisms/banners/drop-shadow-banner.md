@@ -1,5 +1,5 @@
 ---
-# Drop Shadow Banner
+title: Drop Shadow Banner
 ---
 
 ---

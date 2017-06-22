@@ -1,5 +1,5 @@
 ---
-# Basic Page
+title: Basic Page
 ---
 
 ---

@@ -1,5 +1,5 @@
 ---
-# Profile Card
+title: Profile Card
 ---
 
 ---

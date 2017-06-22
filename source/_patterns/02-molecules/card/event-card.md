@@ -1,5 +1,5 @@
 ---
-# Event Teaser
+title: Event Teaser
 ---
 
 ---

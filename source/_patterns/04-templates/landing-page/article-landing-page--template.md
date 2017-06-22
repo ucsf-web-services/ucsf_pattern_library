@@ -1,5 +1,5 @@
 ---
-# Article Landing Page Template
+title: Article Landing Page Template
 ---
 
 ---

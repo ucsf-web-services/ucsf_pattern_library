@@ -1,5 +1,5 @@
 ---
-# Publication Detail Page Template
+title: Publication Detail Page Template
 ---
 
 ---

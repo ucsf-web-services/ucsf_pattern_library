@@ -1,5 +1,5 @@
 ---
-# Related Content Menu
+title: Related Content Menu
 ---
 
 ---

@@ -1,5 +1,5 @@
 ---
-# Featured Content Image
+title: Featured Content Image
 ---
 
 ---

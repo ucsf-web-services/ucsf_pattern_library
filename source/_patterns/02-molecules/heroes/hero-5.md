@@ -1,5 +1,5 @@
 ---
-# Hero 5
+title: Hero 5
 ---
 
 ---

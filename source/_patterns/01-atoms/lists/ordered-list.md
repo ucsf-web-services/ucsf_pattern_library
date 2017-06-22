@@ -1,5 +1,5 @@
 ---
-# Ordered List
+title: Ordered List
 ---
 
 ---

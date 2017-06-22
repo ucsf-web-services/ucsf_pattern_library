@@ -1,5 +1,5 @@
 ---
-# All Events List
+title: All Events List
 ---
 
 ---

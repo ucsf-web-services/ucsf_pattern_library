@@ -1,5 +1,5 @@
 ---
-# Pagination
+title: Pagination
 ---
 
 ---

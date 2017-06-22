@@ -1,5 +1,5 @@
 ---
-# Featured Publications List
+title: Featured Publications List
 ---
 
 ---

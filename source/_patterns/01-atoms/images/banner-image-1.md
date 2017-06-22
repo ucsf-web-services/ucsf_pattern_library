@@ -1,5 +1,5 @@
 ---
-# Banner Image One
+title: Banner Image One
 ---
 
 ---

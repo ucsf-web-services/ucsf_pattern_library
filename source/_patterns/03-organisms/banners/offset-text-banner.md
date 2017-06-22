@@ -1,5 +1,5 @@
 ---
-# Offset Text Banner
+title: Offset Text Banner
 ---
 
 ---

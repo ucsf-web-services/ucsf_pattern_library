@@ -1,5 +1,5 @@
 ---
-# Location Image Small
+title: Location Image Small
 ---
 
 ---

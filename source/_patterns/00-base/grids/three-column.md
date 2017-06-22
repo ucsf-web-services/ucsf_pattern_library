@@ -1,5 +1,5 @@
 ---
-# Three Column 
+title: Three Column 
 ---
 
 ---

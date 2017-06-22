@@ -1,5 +1,5 @@
 --- 
-# Color Combinations 
+title: Color Combinations 
 ---
 
 ---

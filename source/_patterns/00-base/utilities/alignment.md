@@ -1,5 +1,5 @@
 ---
-# Alignment
+title: Alignment
 ---
 
 ---

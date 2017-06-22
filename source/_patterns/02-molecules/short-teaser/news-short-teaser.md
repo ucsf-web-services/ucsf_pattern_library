@@ -1,5 +1,5 @@
 ---
-# News Short Teaser
+title: News Short Teaser
 ---
 
 ---

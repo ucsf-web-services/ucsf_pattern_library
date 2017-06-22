@@ -1,5 +1,5 @@
 ---
-# News Detail Page Template
+title: News Detail Page Template
 ---
 
 ---

@@ -1,5 +1,5 @@
 ---
-# Links
+title: Links
 ---
 
 ---

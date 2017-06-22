@@ -1,5 +1,5 @@
 ---
-# Hero 4
+title: Hero 4
 ---
 
 ---

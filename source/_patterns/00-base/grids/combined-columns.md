@@ -1,5 +1,5 @@
 --- 
-# Combined Columns 
+title: Combined Columns 
 ---
 
 ---

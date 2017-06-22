@@ -1,5 +1,5 @@
 ---
-# Profile Image Small
+title: Profile Image Small
 ---
 
 ---

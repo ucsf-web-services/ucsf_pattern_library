@@ -1,5 +1,5 @@
 ---
-# Tables
+title: Tables
 ---
 
 ---

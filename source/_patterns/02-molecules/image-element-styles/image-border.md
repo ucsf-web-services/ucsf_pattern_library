@@ -1,5 +1,5 @@
 ---
-# Image Border
+title: Image Border
 ---
 
 ---

@@ -1,5 +1,5 @@
 ---
-# Call To Action Option 2
+title: Call To Action Option 2
 ---
 
 ---

@@ -1,5 +1,5 @@
 ---
-# Submenu
+title: Submenu
 ---
 
 ---

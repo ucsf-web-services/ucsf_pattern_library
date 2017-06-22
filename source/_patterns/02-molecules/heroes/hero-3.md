@@ -1,5 +1,5 @@
 ---
-# Hero 3
+title: Hero 3
 ---
 
 ---

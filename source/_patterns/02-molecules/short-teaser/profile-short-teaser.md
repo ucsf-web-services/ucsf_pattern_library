@@ -1,5 +1,5 @@
 ---
-# Profile Short Teaser
+title: Profile Short Teaser
 ---
 
 ---

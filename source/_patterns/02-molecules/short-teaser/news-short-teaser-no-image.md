@@ -1,5 +1,5 @@
 ---
-# News Short Teaser - No Image
+title: News Short Teaser - No Image
 ---
 
 ---

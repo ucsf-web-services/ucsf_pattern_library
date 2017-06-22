@@ -1,5 +1,5 @@
 --- 
-# Vertical Tabs 
+title: Vertical Tabs 
 ---
 
 ---

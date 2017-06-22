@@ -1,5 +1,5 @@
 ---
-# All Articles List
+title: All Articles List
 ---
 
 ---

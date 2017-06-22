@@ -1,5 +1,5 @@
 ---
-# Event Landing Page Template
+title: Event Landing Page Template
 ---
 
 ---

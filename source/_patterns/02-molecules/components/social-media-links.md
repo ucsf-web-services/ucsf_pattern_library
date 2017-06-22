@@ -1,5 +1,5 @@
 ---
-# Social Media Links
+title: Social Media Links
 ---
 
 ---

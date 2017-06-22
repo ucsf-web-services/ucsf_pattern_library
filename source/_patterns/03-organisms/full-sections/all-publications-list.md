@@ -1,5 +1,5 @@
 ---
-# All Publications List
+title: All Publications List
 ---
 
 ---
