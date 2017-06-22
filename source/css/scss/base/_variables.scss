@@ -52,7 +52,6 @@ $display_medium: $display_medium_min ($display_large_min - 1);
 // Handheld and small display screen
 $display_small: $display_small_min ($display_medium_min - 1);
 
-
 //** Singularity Grids **//
 // This enables debug including the grid background display
 @include sgs-change('debug', true);

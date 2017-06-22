@@ -25,6 +25,20 @@
   }
 }
 
+.hero {
+  h2 {
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: -.02em;
+    line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    @include breakpoint($display_medium_up) {
+      font-size: 48px;
+    }
+  }
+}
+
 // Hero 1
 .slider__hero-1 {
   max-width: 1320px;
