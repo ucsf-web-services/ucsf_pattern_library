@@ -19,11 +19,11 @@ body {
     vertical-align: middle;
     margin: 20px 0;
     max-width: 240px;
-    @include breakpoint($display_medium) {
+    @include breakpoint($display_medium_portrait_up) {
       max-width: 300px;
       margin: 0;
     }
-    @include breakpoint($display_large) {
+    @include breakpoint($display_medium) {
       max-width: 332px;
       margin: 0;
     }
