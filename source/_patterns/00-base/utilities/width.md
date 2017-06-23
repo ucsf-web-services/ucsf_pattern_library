@@ -1,20 +1,26 @@
-# Width
+---
+title: Width
+---
 
 ---
 state: inreview
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are examples of width.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+To implement width-one-fourth, use the markup structure shown here, with the class width-one-fourth.
+To implement width-one-third use the markup structure shown here, with the class width-one-third.
+To implement width-half, use the markup structure shown here, with the width-half.
+To implement width-two-third, use the markup structure shown here, with the class width-two-third.
+To implement width-three-fourth, use the markup structure shown here, with the class width-three-fourth.

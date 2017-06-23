@@ -1,22 +1,24 @@
-# Offset Text Banner Image
+---
+title: Offset Text Banner Image
+---
 
 ---
 state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is the Offset Banner Image.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Images must have text alternatives that describe the information or function represented by them. Logo images with text are exempt from some of the accessibility requirements. For instance, there is no minimum contrast requirement.
-* About image accessibilty properties: https://www.w3.org/WAI/tutorials/images/
+Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About image accessibility properties: https://www.w3.org/WAI/tutorials/images/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-* Be sure to specify the type of image.
-* About image markup: https://www.w3schools.com/tags/tag_img.asp
+Anything special technical-wise will be shared here.

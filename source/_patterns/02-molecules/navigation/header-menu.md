@@ -1,20 +1,24 @@
-# Header Menu
+---
+title: Header Menu
+---
 
 ---
 state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is a menu header
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Complex menus, sliders, dialogs, tab panels, etc. must all be built to support keyboard accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About menu accessibility properties: http://webaim.org/techniques/aria/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+To implement the header menu, use the markup structure shown here, with the class header-menu.

@@ -1,22 +1,24 @@
-# Headings
+---
+title: Headings
+---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are headings.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Do not use the heading tag for styling, only for content structure.
-* http://webaim.org/techniques/semanticstructure/#contentstructure
+Do not use the heading tag for styling, only for content structure. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About heading accessibility properties: http://webaim.org/techniques/semanticstructure/#contentstructure
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Do not use heading tags for styling, only for markup.
-* http://webaim.org/techniques/semanticstructure/#correctly
+Anything special technical-wise will be shared here.

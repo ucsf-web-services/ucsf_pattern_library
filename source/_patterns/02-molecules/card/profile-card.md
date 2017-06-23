@@ -1,16 +1,24 @@
-# Profile Card
+---
+title: Profile Card
+---
+
+---
+state: inprogress
+---
 
 ### Description
-The description of the atomic element will go here.
+This is a profile card.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About image accessibility properties: https://www.w3.org/WAI/tutorials/images/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+To implement the profile card, use the markup structure shown here, with the class profile-card.

@@ -1,20 +1,25 @@
-# Tool Tip
+---
+title: Tool Tip
+---
 
 ---
 state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is a tooltip.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Tooltips should become visible to sighted keyboard users when the control has keyboard focus, not just when the user hovers or clicks with a mouse. Ensure the Tooltip conveys all the information that a screen reader user would need. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About tooltip accessibility properties: http://webaim.org/techniques/aria/
+* About webform accessibility properties: http://webaim.org/techniques/forms/advanced
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-About preformatted text markup: https://www.w3schools.com/tags/tag_pre.asp
+To implement a tooltip, use the markup structure shown here, with the class tooltip.

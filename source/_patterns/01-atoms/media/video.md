@@ -1,20 +1,26 @@
-# Video
+---
+title: Video
+---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
-The description of the atomic element will go here.
+This is a video.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+In order to be fully accessible to the maximum number of users, web multimedia should include both synchronized captions AND a descriptive transcript.  Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About video accessibility properties: http://webaim.org/techniques/captions/
+* About video markup: https://www.w3schools.com/tags/tag_video.asp
+
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-* About video markup:  https://www.w3schools.com/tags/tag_video.asp
+To implement a video, use the markup structure shown here, with the class video.

@@ -1,13 +1,21 @@
-# Multiple Element Sidebar
+---
+title: Multiple Element Sidebar
+---
+
+---
+state: inprogress
+---
 
 ### Description
-The description of the atomic element will go here.
+This is the multiple element sidebar.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About link accessibility properties: http://webaim.org/techniques/hypertext/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.

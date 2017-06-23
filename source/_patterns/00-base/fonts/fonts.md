@@ -1,20 +1,24 @@
-# Fonts
+--- 
+title: Fonts 
+---
 
 ---
 state: inreview
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are the fonts.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Use the most readable fonts. Limit the number of fonts. Ensure sufficient contrast between the text and the background.  Use relative units for font size. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About font accessibility properties: http://webaim.org/techniques/fonts/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
 Anything special technical-wise will be shared here.

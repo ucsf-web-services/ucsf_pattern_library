@@ -1,18 +1,23 @@
-# Map
 ---
-state: notstarted
+title: Map
+---
+
+---
+state: inprogress
 ---
 ### Description
-The description of the atomic element will go here.
+This is a map.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Information about to make this atomic element accessible.
+Many concepts are communicated more effectively with the addition of illustrations, maps, charts, etc. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About image accessibility properties: http://webaim.org/techniques/images/
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
 Anything special technical-wise will be shared here.

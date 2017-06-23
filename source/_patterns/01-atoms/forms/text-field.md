@@ -1,22 +1,26 @@
-# Text Field
+---
+title: Text Field
+---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are examples of text fields.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+#### @todo Sara fix me.
 
 ### Accessibility Considerations
-Accessible Form Controls
-* http://webaim.org/techniques/forms/controls#textarea
+Use label element when you can. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About Accessible Form Controls: http://webaim.org/techniques/forms/advanced
+* About form markup: https://www.w3schools.com/tags/tag_form.asp
+
 
 ### SEO Considerations
-SEO information will go here.
+This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Ask users to enter what is required to complete the transaction or process; if irrelevant or excessive data is requested, users are more likely to abandon the form.
-* About form markup: https://www.w3schools.com/tags/tag_form.asp
+To implement a text field, use the markup structure shown here, with the class field-container.
