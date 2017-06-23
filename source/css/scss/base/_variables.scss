@@ -34,6 +34,7 @@ $width--large   : 1080px;
 $width--xlarge  : 1170px;
 
 //-- Mobile First Responsive Breakpoints
+$display_medium_portrait_up: (min-height $width--medium) (orientation portrait);
 $display_medium_up: $width--medium;
 $display_large_up: $width--large;
 $display_960_up: $width--960;
@@ -54,7 +55,7 @@ $display_small: $display_small_min ($display_medium_min - 1);
 
 //** Singularity Grids **//
 // This enables debug including the grid background display
-@include sgs-change('debug', true);
+//@include sgs-change('debug', true);
 
 // Fonts
 $font_light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;

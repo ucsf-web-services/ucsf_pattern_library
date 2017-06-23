@@ -15,45 +15,85 @@ body {
   }
 }
 
-//** Two Column Grid Layout **//
 .two-col{
-  @include breakpoint($display_medium) {
-    .two-col__item1 {
+  @include breakpoint($display_medium_up) {
+    .two-col__left {
       @include grid-span(3, 1);
     }
-    .two-col__item2 {
+    .two-col__right {
       @include grid-span(3, 4);
     }
   }
-  @include breakpoint($display_large) {
-    .two-col__item1 {
-      @include grid-span(6, 1);
-    }
-    .two-col__item2 {
-      @include grid-span(6, 7);
-    }
-  }
-  //Forced grids
-  @include breakpoint($display_large) {
-    .two-col__left {
-      @include grid-span(6,1);
-    }
-    .two-col__right {
-      @include grid-span(6,7);
-    }
-    .two-col__center {
-      @include grid-span(6,4);
+  &.two-col--20-80 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .two-col__left {
+          @include grid-span(2, 1);
+        }
+        .two-col__right {
+          @include grid-span(8, 3);
+        }
+      }
     }
   }
-  @include breakpoint($display_medium) {
-    .two-col__left {
-      @include grid-span(3,1);
+  &.two-col--30-70 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .two-col__left {
+          @include grid-span(3, 1);
+        }
+        .two-col__right {
+          @include grid-span(7, 4);
+        }
+      }
     }
-    .two-col__right {
-      @include grid-span(3,4);
+  }
+  &.two-col--40-60 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .two-col__left {
+          @include grid-span(4, 1);
+        }
+        .two-col__right {
+          @include grid-span(6, 5);
+        }
+      }
     }
-    .two-col__center {
-      @include grid-span(3,2.5);
+  }
+  &.two-col--60-40 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .two-col__left {
+          @include grid-span(6, 1);
+        }
+        .two-col__right {
+          @include grid-span(4, 7);
+        }
+      }
+    }
+  }
+  &.two-col--70-30 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .two-col__left {
+          @include grid-span(7, 1);
+        }
+        .two-col__right {
+          @include grid-span(3, 8);
+        }
+      }
+    }
+  }
+  &.two-col--80-20 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .two-col__left {
+          @include grid-span(8, 1);
+        }
+        .two-col__right {
+          @include grid-span(2, 9);
+        }
+      }
     }
   }
 }
