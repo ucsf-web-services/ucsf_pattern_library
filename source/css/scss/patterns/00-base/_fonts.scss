@@ -1,13 +1,15 @@
+
 .font-helvetica-neue {
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
+  font-family: $font-helvetica-neue;
 }
 
 p, body {
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
+  font-family: $font-helvetica-neue;
+  -webkit-font-smoothing: antialiased;
 }
 
 .font-granjon {
-  font-family: "Granjon LT W01 Roman", Garamond, "Times New Roman", serif;
+  font-family: $font-granjon;
 }
 
 .font-granjon-bold {
