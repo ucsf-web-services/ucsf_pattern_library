@@ -23,20 +23,7 @@
       font-size: 48px;
     }
   }
-}
-
-.hero {
-  h2 {
-    font-weight: 300;
-    font-size: 30px;
-    letter-spacing: -.02em;
-    line-height: 1em;
-    margin-top: 0;
-    margin-bottom: 20px;
-    @include breakpoint($display_medium_up) {
-      font-size: 48px;
-    }
-  }
+  position: relative;
 }
 
 // Hero 1
@@ -134,21 +121,25 @@
       opacity: 0.75;
     }
   }
-  .slick-next {
-      right: 80px;
-      top: 100px;
+
+  button.slick-next {
+    right: 60px;
+    top: 100px;
 
   }
-  .slick-prev {
-      right: 150px;
-      top: 100px;
-      left: auto;
+  button.slick-prev {
+    right: 130px;
+    top: 100px;
+    left: auto;
   }
   .paging-info {
-      bottom: 15px;
-      right: 60px;
-      @include breakpoint($display_small)  {
-        position: absolute;
-      }
+    position: absolute;
+    bottom: 30px;
+    z-index: 20;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 15px;
+    right: 60px;
   }
 }
