@@ -1,17 +1,3 @@
-<p>Three Columns</p>
-<div class="three-col container">
-  <p class="three-col__item1"><strong>One Third Left - Float</strong> Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.</p>
-  <p class="three-col__item2"><strong>One Third Center - Float</strong> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-  <p class="three-col__item3"> <strong>One Third Right - Float</strong> Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. </p>
-</div>
-<div class="three-col container">
-  <p class="three-col__left"><strong>One Third Left - Forced</strong> Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.</p>
-  <p class="three-col__center"><strong>One Third Center - Forced</strong> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-  <p class="three-col__right"> <strong>One Third Right - Forced</strong> Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis. </p>
-</div>
-<div class="three-col container">
-  <p class="three-col__two-thirds-left"><strong>Two Thirds Left - Forced</strong> Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.</p>
-</div>
-<div class="three-col container">
-  <p class="three-col__two-thirds-right"><strong>Two Thirds Right - Forced</strong> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-</div>
+{% for threecol in three_column_layouts %}
+    {%  include "base-three-column-base" with threecol %}
+{% endfor %}
