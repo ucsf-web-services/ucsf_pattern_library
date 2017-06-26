@@ -1,10 +1,10 @@
 {
   "blockquote_options": [
-    {"color_class" : "blockquote--blue", "width_class" : "width-half", "alignment_class" : "align--left"},
-    {"color_class" : "blockquote--navyblue", "width_class" : "", "alignment_class" : "align--left"},
-    {"color_class" : "blockquote--teal", "width_class" : "", "alignment_class" : "align--left"},
-    {"color_class" : "blockquote--green",  "width_class" : "", "alignment_class" : "align--right"},
-    {"color_class" : "blockquote--orange", "width_class" : "", "alignment_class" : "align--right"},
-    {"color_class" : "blockquote--blue", "width_class" : "", "alignment_class" : "align--right"}
+    {"heading" : "Left-aligned half-width quote, blue.", "color_class" : "blockquote--blue", "width_class" : "width-half", "alignment_class" : "align--left"},
+    {"heading" : "Left-aligned two-fifth, navy.", "color_class" : "blockquote--navyblue", "width_class" : "width-two-fifth", "alignment_class" : "align--left"},
+    {"heading" : "Left-aligned one-third, teal.", "color_class" : "blockquote--teal", "width_class" : "width-one-third", "alignment_class" : "align--left"},
+    {"heading" : "Right-aligned half-width, green.", "color_class" : "blockquote--green",  "width_class" : "width-half", "alignment_class" : "align--right"},
+    {"heading" : "Right-aligned two-fifth, orange.", "color_class" : "blockquote--orange", "width_class" : "width-two-fifth", "alignment_class" : "align--right"},
+    {"heading" : "Right-aligned one-third, blue. ", "color_class" : "blockquote--blue", "width_class" : "width-one-third", "alignment_class" : "align--right"}
   ]
 }
