@@ -1,9 +1,10 @@
 {
   "blockquote_options": [
-    {"color_class" : "blockquote--blue"},
-    {"color_class" : "blockquote--orange"},
-    {"color_class" : "blockquote--green"},
-    {"color_class" : "blockquote--teal"},
-    {"color_class" : "blockquote--navyblue"}
+    {"color_class" : "blockquote--blue", "width_class" : "width-half", "alignment_class" : "align--left"},
+    {"color_class" : "blockquote--navyblue", "width_class" : "", "alignment_class" : "align--left"},
+    {"color_class" : "blockquote--teal", "width_class" : "", "alignment_class" : "align--left"},
+    {"color_class" : "blockquote--green",  "width_class" : "", "alignment_class" : "align--right"},
+    {"color_class" : "blockquote--orange", "width_class" : "", "alignment_class" : "align--right"},
+    {"color_class" : "blockquote--blue", "width_class" : "", "alignment_class" : "align--right"}
   ]
 }
