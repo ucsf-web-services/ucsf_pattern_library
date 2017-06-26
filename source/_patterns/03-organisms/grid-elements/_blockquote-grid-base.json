@@ -1,8 +1,0 @@
-{
-  "title": "20/80 Grid",
-  "grid_class": "two-col--20-80",
-  "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.",
-  "show_bq": "left",
-  "color_class": "blockquote--blue"
-}
