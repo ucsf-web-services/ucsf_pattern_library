@@ -1,32 +1,36 @@
-.js-accordion__header {
-  padding-left: 20px;
-  cursor: pointer;
-  font-weight: bold;
-  background-color: transparent;
-  border: none;
-  font-size: 16px;
-  margin-bottom: 1em;
-  font-family: $font-helvetica-neue;
-  &[aria-expanded="false"]:before {
-    content: "\25B8";
-    margin-right: 10px;
+.accordion-1 {
+  .js-accordion__header {
+    padding-left: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 1em;
+    font-family: $font-helvetica-neue;
+    &[aria-expanded="false"]:before {
+      content: "\25B8";
+      margin-right: 10px;
+    }
+    &[aria-expanded="true"]:before {
+      content: "\25BE";
+      margin-right: 10px;
+    }
   }
-  &[aria-expanded="true"]:before {
-    content: "\25BE";
-    margin-right: 10px;
+
+  .js-accordion__panel {
+    padding-left: 2.5rem;
+    &[aria-hidden=true] {
+      display: none;
+    }
+    &[role="tabpanel"] .js-accordion__header {
+      display: none;
+    }
+  }
+  button.js-accordion__header {
+    display: block;
   }
 }
 
-.js-accordion__panel {
-  padding-left: 2.5rem;
-  &[aria-hidden=true] {
-    display: none;
-  }
-  &[role="tabpanel"] .js-accordion__header {
-    display: none;
-  }
-}
 
-button.js-accordion__header {
-  display: block;
-}
+
