@@ -1,28 +1,48 @@
 .accordion-2 {
-  .accordion__header {
+  button.js-accordion__header {
     background-color: $white;
     color: $ucsf-blue;
     padding: 1em;
     width: 100%;
     margin-bottom: -1px;
-    // Borders
+    margin-top:0;
+    display: block;
     border-radius: 3px;
     border-top: 2px solid $border-gray;
     border-right: 2px solid $border-gray;
     border-left: 2px solid $border-gray;
-    font-weight: normal;
-    &:before {
-      content: "+";
-      margin-right: 10px;
-    }
-    p {
-      width: inherit;
-    }
-    &.last {
+    border-bottom: none;
+    &:last-of-type {
       border-bottom: 2px solid $border-gray;
     }
   }
-  .accordion__body {
+  .js-accordion__header {
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+    font-family: $font-helvetica-neue;
+    &[aria-expanded="false"]:before {
+      content: "+";
+      margin-right: 10px;
+    }
+    &[aria-expanded="true"] {
+      color: $white;
+      background-color: $ucsf-blue;
+      border: 0;
+      border-top: 2px solid $ucsf-blue;
+      border-right: 2px solid $ucsf-blue;
+      border-left: 2px solid $ucsf-blue;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      &:before {
+        content: "-";
+        margin-right: 10px;
+      }
+    }
+
+  }
+
+  .js-accordion__panel {
     padding: 1.5em;
     border: 2px solid $ucsf-blue;
     border-bottom-right-radius: 3px;
@@ -30,24 +50,14 @@
     p {
       padding-left: 0;
     }
-  }
-  .downarrow {
-    color: $white;
-    background-color: $ucsf-blue;
-    border: 0;
-    border-top: 2px solid $ucsf-blue;
-    border-right: 2px solid $ucsf-blue;
-    border-left: 2px solid $ucsf-blue;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    &:before {
-      content: "-";
-      margin-right: 10px;
+    &[aria-hidden=true] {
+      display: none;
     }
-    &.last {
-      border-bottom: none;
+    &[role="tabpanel"] .js-accordion__header {
+      display: none;
     }
   }
+
 }
 
 

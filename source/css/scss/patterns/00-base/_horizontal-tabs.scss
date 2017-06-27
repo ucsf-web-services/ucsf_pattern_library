@@ -1,86 +1,108 @@
+.js-tabcontent[aria-hidden=true] { display: none; }
+
 .horizontal-tab{
-  #horizontal-tab__title {
+  h2.invisible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .horizontal-tab__title {
     display: inline-block;
     position: relative;
     top: 5px;
     margin-left: 0;
-    li {
-      list-style-type: none;
-      display: block;
-      float: left;
-      background-color: $white;
-      margin: auto 0;
-      padding: 1em;
-      cursor: pointer;
-      border-right: 2px solid $border-gray;
-      border-top: 2px solid $border-gray;
-      color: $ucsf-blue;
-    }
-    li.open {
-      background-color: $ucsf-blue;
-      color: $white;
-      display: block;
-      border-right: 2px solid $ucsf-blue;
-      border-top: 2px solid $ucsf-blue;
-      border-left: 2px solid $ucsf-blue;
-      margin-left: -2px;
-    }
-    li:first-child {
-      border-top-left-radius: 3px;
-      border-left: 2px solid $border-gray;
-    }
-    li:last-child {
-      border-top-right-radius: 3px;
-    }
-    li.open:first-child {
-      border-left: 2px solid $ucsf-blue;
-      margin-left: 0;
-    }
-  }
-  #horizontal-tab__content {
-    margin-left: 0;
-    @include breakpoint($display_small) {
-      margin-top: 7px;
-    }
-    li {
-      display:none;
-      list-style: none;
-      border: 2px solid $ucsf-blue;
-      background-color: $white;
-      margin-top: -2px;
-      min-height: 3em;
-      position: relative;
-      padding: 1.5em;
-      border-top-right-radius: 2px;
-      border-bottom-right-radius: 2px;
-      border-bottom-left-radius: 2px;
-      &:first-child {
+    &[role="tablist"] {
+      li {
+        list-style-type: none;
         display: block;
+        float: left;
+        margin: auto 0;
+        a {
+          background-color: $white;
+          padding: 1em;
+          cursor: pointer;
+          display: block;
+          border-right: 2px solid $border-gray;
+          border-top: 2px solid $border-gray;
+          color: $ucsf-blue;
+          &[aria-selected="true"] {
+            background-color: $ucsf-blue;
+            color: $white;
+            border-right: 2px solid $ucsf-blue;
+            border-top: 2px solid $ucsf-blue;
+            border-left: 2px solid $ucsf-blue;
+            margin-left: -2px;
+          }
+        }
+      }
+
+      li:first-child {
+        a {
+          border-top-left-radius: 3px;
+          border-left: 2px solid $border-gray;
+        }
+
+      }
+      li:last-child {
+        a {
+          border-top-right-radius: 3px;
+        }
+
+      }
+      li.first-child {
+        a[aria-selected="true"] {
+          border-left: 2px solid $ucsf-blue;
+          margin-left: 0;
+        }
       }
     }
+  }
+  .horizontal-tab__content {
+    list-style: none;
+    border: 2px solid $ucsf-blue;
+    background-color: $white;
+    margin-top: -2px;
+    min-height: 3em;
+    position: relative;
+    padding: 1.5em;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    &:first-child {
+      display: block;
+    }
+    margin-left: 0;
   }
 }
 
 @media only screen and (max-width: $display_medium_min){
   .horizontal-tab {
-    #horizontal-tab__title {
-      display: block;
+    .horizontal-tab__title {
       li {
+        display: block;
         float: none;
         width: 100%;
-        border-left: 2px solid $border-gray;
-        &:before {
-          content: "+";
-          margin-right: 10px;
+        a {
+          border-left: 2px solid $border-gray;
+          &:before {
+            content: "+";
+            margin-right: 10px;
+          }
         }
       }
-      li:first-child {
+      li:first-child a {
         border-top-left-radius: 0;
       }
-      li:last-child {
+      li:last-child a {
         border-top-right-radius: 0;
       }
-      li.open {
+      li a[aria-selected="true"] {
         margin-left: 0;
         border-left: 2px solid $ucsf-blue;
         &:before {
@@ -89,7 +111,8 @@
         }
       }
     }
-    #horizontal-tab__content li {
+    .horizontal-tab__content {
+      margin-top: 0;
       border-top-right-radius: 0;
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 0;

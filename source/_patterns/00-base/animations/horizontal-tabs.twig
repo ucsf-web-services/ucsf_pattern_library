@@ -1,12 +1,23 @@
-<div class="horizontal-tab">
-  <ul id="horizontal-tab__title">
-      <li class="open">This is the first tab title</li>
-      <li>This is the second tab</li>
-      <li>This is the third tab</li>
-  </ul>
-  <ul id="horizontal-tab__content">
-    <li class="content"><p>This is the body of the first tab...</p></li>
-    <li class="content"><p>This is the body of the second tab</p></li>
-    <li class="content"><p>And this is the body of the third tab.</p></li>
-  </ul>
+
+<div class="js-tabs horizontal-tab">
+    <ul class="js-tablist horizontal-tab__title" data-hx="h2">
+        <li class="js-tablist__item">
+            <a href="#id_first" id="label_id_first" class="js-tablist__link">This is the first tab title</a>
+        </li>
+        <li class="js-tablist__item">
+            <a href="#id_second" id="label_id_second" class="js-tablist__link">This is the second tab</a>
+        </li>
+        <li class="js-tablist__item">
+            <a href="#id_third" id="label_id_third" class="js-tablist__link">This is the third tab</a>
+        </li>
+    </ul>
+    <div id="id_first" class="js-tabcontent horizontal-tab__content">
+        <p>This is the body of the first tab...</p>
+    </div>
+    <div id="id_second" class="js-tabcontent horizontal-tab__content">
+        <p>This is the body of the second tab</p>
+    </div>
+    <div id="id_third" class="js-tabcontent horizontal-tab__content">
+        <p>And this is the body of the third tab.</p>
+    </div>
 </div>
