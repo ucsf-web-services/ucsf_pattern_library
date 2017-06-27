@@ -2522,6 +2522,12 @@
       "resolved": "https://registry.npmjs.org/jquery-accessible-accordion-aria/-/jquery-accessible-accordion-aria-2.4.2.tgz",
       "dev": true
     },
+    "jquery-accessible-tabpanel-aria": {
+      "version": "1.5.3",
+      "from": "jquery-accessible-tabpanel-aria@1.5.3",
+      "resolved": "https://registry.npmjs.org/jquery-accessible-tabpanel-aria/-/jquery-accessible-tabpanel-aria-1.5.3.tgz",
+      "dev": true
+    },
     "js-base64": {
       "version": "2.1.9",
       "from": "js-base64@>=2.1.8 <3.0.0",
