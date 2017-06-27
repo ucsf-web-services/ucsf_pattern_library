@@ -1,7 +1,3 @@
-{% for layout in two_column_layouts %}
-{{ titles.h2(layout.title) }}
-<div class="two-col {{ layout.grid_class }} container">
-  <div class="two-col__left">{{ layout.left }}</div>
-  <div class="two-col__right">{{ layout.right }}</div>
-</div>
+{% for twocol in two_column_layouts %}
+    {%  include "base-two-column-base" with twocol %}
 {% endfor %}

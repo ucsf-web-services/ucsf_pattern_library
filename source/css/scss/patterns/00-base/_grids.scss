@@ -2,7 +2,6 @@
 //@include sgs-change('gutter styles', 'split');
 @include add-grid(3 at $display_small);
 @include add-grid(6 at $display_medium);
-@include add-grid(12 at $display_large);
 
 @include add-gutter(1em);
 
@@ -100,64 +99,64 @@ body {
 
 //** Three Column Grid Layout **//
 .three-col {
-  @include breakpoint($display_medium) {
-    .three-col__item1 {
-      @include grid-span(3, 1);
-    }
-    .three-col__item2 {
-      @include grid-span(3, 4);
-    }
-    .three-col__item3 {
-      @include grid-span(3, 1);
-      clear: both;
-    }
-  }
-  @include breakpoint($display_large) {
-    .three-col__item1 {
-      @include grid-span(4, 1);
-    }
-    .three-col__item2 {
-      @include grid-span(4, 5);
-    }
-    .three-col__item3 {
-      @include grid-span(4, 9);
-    }
-  }
-  //Forced grids
-  @include breakpoint($display_medium){
+  @include breakpoint($display_medium_up) {
+    // Basic Thirds
     .three-col__left {
-      @include grid-span(3,1);
-      }
+      @include grid-span(2, 1);
+    }
     .three-col__center {
-      @include grid-span(3,4);
-      }
+      @include grid-span(2, 3);
+    }
     .three-col__right {
-      @include grid-span(3,1);
-      clear: both;
-      }
-    .three-col__two-thirds-left {
-      @include grid-span(4,1);
-      }
-    .three-col__two-thirds-right{
-      @include grid-span(4,3);
+      @include grid-span(2,5);
     }
   }
-
-  @include breakpoint($display_large){
-    .three-col__left {
-      @include grid-span(4,1);
+  // 60 - 20 - 20
+  &.three-col--60-20-20 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .three-col__left {
+          @include grid-span(6, 1);
+        }
+        .three-col__center {
+          @include grid-span(2, 7);
+        }
+        .three-col__right {
+          @include grid-span(2, 9);
+        }
       }
-    .three-col__center {
-      @include grid-span(4,5);
+    }
+  }
+  // 20 - 60 - 20
+  &.three-col--20-60-20 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .three-col__left {
+          @include grid-span(2, 1);
+        }
+        .three-col__center {
+          @include grid-span(6, 3);
+        }
+        .three-col__right {
+          @include grid-span(2, 9);
+        }
       }
-    .three-col__right {
-      @include grid-span(4,9);
+    }
+  }
+  // 20 - 20 - 60
+  &.three-col--20-20-60 {
+    @include breakpoint($display_medium_up) {
+      @include layout(10) {
+        .three-col__left {
+          @include grid-span(2, 1);
+        }
+        .three-col__center {
+          @include grid-span(2, 3);
+        }
+        .three-col__right {
+          @include grid-span(6, 5);
+        }
       }
-    .three-col__two-thirds-left {
-      @include grid-span(8,1);
-      }
-    .three-col__two-thirds-right{
-      @include grid-span(8,5);
     }
   }
 }
