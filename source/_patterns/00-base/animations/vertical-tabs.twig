@@ -1,12 +1,23 @@
-<div class="vertical-tab">
-<ul id="vertical-tab__title">
-    <li class="current">This is the first tab title</li>
-    <li>This is the second tab</li>
-    <li>This is the third tab it has a really long title to test long titles</li>
-</ul>
-<ul id="vertical-tab__content">
-    <li class="content">This is the body of the first tab...</li>
-    <li class="content">This is the body of the second tab</li>
-    <li class="content">And this is the body of the third tab.</li>
-</ul>
+
+<div class="js-tabs vertical-tab">
+    <ul class="js-tablist vertical-tab__title" data-hx="h2">
+        <li class="js-tablist__item">
+            <a href="#id_first" id="label_id_first" class="js-tablist__link">This is the first tab title</a>
+        </li>
+        <li class="js-tablist__item">
+            <a href="#id_second" id="label_id_second" class="js-tablist__link">This is the second tab</a>
+        </li>
+        <li class="js-tablist__item">
+            <a href="#id_third" id="label_id_third" class="js-tablist__link">This is the third tab</a>
+        </li>
+    </ul>
+    <div id="id_first" class="js-tabcontent vertical-tab__content">
+        <p>This is the body of the first tab...</p>
+    </div>
+    <div id="id_second" class="js-tabcontent vertical-tab__content">
+        <p>This is the body of the second tab</p>
+    </div>
+    <div id="id_third" class="js-tabcontent vertical-tab__content">
+        <p>And this is the body of the third tab.</p>
+    </div>
 </div>
