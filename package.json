@@ -17,7 +17,8 @@
     "jquery": "3.2.1",
     "node-sass-globbing": "^0.0.23",
     "singularitygs": "^1.7.1",
-    "slick-carousel": "^1.6.0"
+    "slick-carousel": "^1.6.0",
+    "jquery-accessible-accordion-aria": "2.4.2"
   },
   "scripts": {
     "start": "gulp clean && gulp compile && gulp theme",
