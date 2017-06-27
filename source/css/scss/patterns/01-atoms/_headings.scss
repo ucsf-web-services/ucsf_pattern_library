@@ -44,10 +44,6 @@ h5 {
     font-weight: bold;
   }
 }
-h6 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 
 
 .font-granjon {
@@ -65,9 +61,7 @@ h6 {
   }
   h5 {
     font-size: 16px;
-  }
-  h6 {
-    font-size: 16px;
+    font-weight: bold;
   }
 }
 
@@ -88,10 +82,7 @@ h6 {
     font-weight: bold;
     font-size: 16px;
   }
-  h6 {
-    font-size: 16px;
-  }
-  h1, h2, h5, h6 {
+  h1, h2, h5 {
     font-family: $font_light;
   }
 }
