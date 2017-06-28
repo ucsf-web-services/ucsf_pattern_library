@@ -1,17 +1,17 @@
 ul, ol {
-  margin: 0 0 0 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
   padding: 0;
   line-height: 1.4;
 }
 
 ul {
-  text-align: left;
-  li {
+  ul {
+    margin-top: 8px;
     margin-bottom: 8px;
   }
-}
-
-.ul-circle {
+  text-align: left;
   li {
     list-style: none;
     position: relative;
