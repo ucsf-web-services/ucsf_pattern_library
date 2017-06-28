@@ -23,7 +23,7 @@ body {
       max-width: 300px;
       margin: 0;
     }
-    @include breakpoint($display_medium) {
+    @include breakpoint($display_medium_up) {
       max-width: 332px;
       margin: 0;
     }
