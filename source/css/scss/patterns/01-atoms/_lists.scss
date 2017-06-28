@@ -10,6 +10,9 @@ ul {
   ul {
     margin-top: 8px;
     margin-bottom: 8px;
+    li {
+      font-size: 0.9em;
+    }
   }
   text-align: left;
   li {
@@ -29,6 +32,14 @@ ul {
 }
 
 ol {
+  ol {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    li {
+      font-size: 0.9em;
+      list-style: lower-latin;
+    }
+  }
   li {
     list-style: decimal;
     margin-bottom: 8px;
