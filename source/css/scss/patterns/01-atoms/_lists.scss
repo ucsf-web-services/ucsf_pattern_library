@@ -1,12 +1,10 @@
-ul, ol {
+
+ul.text-list {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 10px;
   padding: 0;
   line-height: 1.4;
-}
-
-ul {
   ul {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -31,7 +29,12 @@ ul {
   }
 }
 
-ol {
+ol.text-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 0;
+  line-height: 1.4;
   ol {
     margin-top: 8px;
     margin-bottom: 8px;
@@ -45,3 +48,24 @@ ol {
     margin-bottom: 8px;
   }
 }
+
+ul, ol {
+  margin: 0 0 0 10px;
+  padding: 0;
+  line-height: 1.4;
+}
+
+ul {
+  text-align: left;
+  li {
+    margin-bottom: 8px;
+  }
+}
+
+ol {
+  li {
+    list-style: decimal;
+    margin-bottom: 8px;
+  }
+}
+
