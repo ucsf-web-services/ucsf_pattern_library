@@ -20,11 +20,11 @@
     top: 70px;
     top: 70px;
 
-    @include breakpoint($width--medium) {
+    @include breakpoint($display_medium_up) {
       top: 460px;
       left: 605px;
     }
-    @include breakpoint($width--960) {
+    @include breakpoint($display_960_up) {
       top: 95px;
     }
   }
@@ -32,19 +32,30 @@
     left: 705px;
     top: 70px;
 
-    @include breakpoint($width--medium) {
+    @include breakpoint($display_medium_up) {
       top: 460px;
       left: 680px;
     }
-    @include breakpoint($width--960) {
+    @include breakpoint($display_960_up) {
       top: 95px;
     }
   }
 
-
+  .paging-info {
+    position: absolute;
+    bottom: 30px;
+    z-index: 20;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 0;
+    right: 0;
+    @include breakpoint($display_medium_up) {
+      bottom: 5px;
+      right: 10px;
+    }
+  }
 }
-
-
 
 .hero-2 {
 
