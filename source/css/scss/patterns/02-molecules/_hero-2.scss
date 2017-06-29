@@ -84,11 +84,23 @@
   }
   &__text-wrapper {
     .hero-2__text {
+      h2 {
+        margin: 0;
+        color: #FFF;
+        letter-spacing: -.02em;
+        line-height: 1em;
+        margin-bottom: 15px;
+        @include breakpoint($display_960_up) {
+          font-size: 48px;
+        }
+      }
       color: $white;
       &::-webkit-scrollbar {
         display: none;
       }
+      font-size: 15px;
       @include breakpoint($display_960_up) {
+        font-size: 18px;
         max-height: 235px;
         overflow-y: auto;
         padding-right: 17px;
