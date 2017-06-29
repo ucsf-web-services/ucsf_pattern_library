@@ -3,7 +3,7 @@ title: Location Image Large
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description

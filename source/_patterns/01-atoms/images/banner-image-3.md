@@ -3,7 +3,7 @@ title: Banner Image Three
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description

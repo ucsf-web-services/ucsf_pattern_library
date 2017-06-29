@@ -3,7 +3,7 @@ title: Calendar Icon
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description

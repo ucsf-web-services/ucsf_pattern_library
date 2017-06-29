@@ -3,8 +3,9 @@ title: Location Image Small
 ---
 
 ---
-state: inprogress
+state: complete
 ---
+
 ### Description
 This is the Small Location Image.
 
