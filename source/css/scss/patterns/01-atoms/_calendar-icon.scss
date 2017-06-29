@@ -6,9 +6,7 @@
   margin-right: 16px;
   margin-bottom: 13px;
   margin-top: 3px;
-  @include breakpoint($display_medium_min) {
-    display: block;
-  }
+  display: block;
   .day {
     text-align: center;
     text-transform: uppercase;

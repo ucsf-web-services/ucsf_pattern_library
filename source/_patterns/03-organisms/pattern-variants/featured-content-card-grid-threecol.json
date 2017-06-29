@@ -1,6 +1,5 @@
 {
   "title": "Featured Content Card Three Column Layout",
-  "grid_class": "three-col--20-60-20",
   "left_card_options": {
     "text" : {
       "featuredContent" :{
@@ -10,7 +9,7 @@
     },
     "img" : {
       "featuredContent" : {
-        "src":  "http://via.placeholder.com/520x500",
+        "src":  "http://via.placeholder.com/600x400",
         "alt": "Featured Content Image Smaller",
         "title": "Featured Content Image Smaller"
       }
