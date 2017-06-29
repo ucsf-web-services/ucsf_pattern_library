@@ -1,4 +1,5 @@
 
+
 ul.text-list {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -32,7 +33,7 @@ ul.text-list {
 ol.text-list {
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 20px;
   padding: 0;
   line-height: 1.4;
   ol {
@@ -41,7 +42,7 @@ ol.text-list {
     li {
       font-size: 0.9em;
       list-style: lower-latin;
-        margin-left: 10px;
+      margin-left: 10px;
     }
   }
   li {

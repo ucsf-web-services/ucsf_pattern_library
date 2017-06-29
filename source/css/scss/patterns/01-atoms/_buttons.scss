@@ -9,33 +9,27 @@
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
+  font-size: 18px;
 }
+
 
 .btn-1 {
   background-color: $ucsf-blue;
+  border: 1px solid $ucsf-blue;
   color: $white;
-  &:hover {
-    background-color: #66b0d8;
-    color: $white;
-  }
-  &:active{
-    background-color: $lightgray;
-    color: #007CBE;
-  }
 }
-
-.btn-2 {
+.btn-1:hover {
   background-color: $white;
   color: $ucsf-blue;
+}
+.btn-2 {
+  background-color: $white;
   border: 1px solid $ucsf-blue;
-  &:hover {
-    background-color: $lightgray;
-    color: $ucsf-blue;
-  }
-  &:active {
-    background-color: $ucsf-blue;
-    color: $white;
-  }
+  color: $ucsf-blue;
+}
+.btn-2:hover {
+  background-color: $ucsf-blue;
+  color: $white;
 }
 
 .btn-3 {
