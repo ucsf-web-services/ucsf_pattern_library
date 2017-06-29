@@ -50,7 +50,9 @@
     font-weight: bold;
     bottom: 0;
     right: 0;
+    display: none;
     @include breakpoint($display_medium_up) {
+      display: block;
       bottom: 5px;
       right: 10px;
     }
