@@ -8,7 +8,7 @@
 body {
   margin-right: 0;
   margin-left: 0;
-  @include breakpoint($display_medium_min) {
+  @include breakpoint($display_960_up) {
     margin-left: 50px;
     margin-right: 50px;
   }

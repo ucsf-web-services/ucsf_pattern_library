@@ -32,7 +32,7 @@
   margin-bottom: 50px;
   position: relative;
   &:after {
-    background-color: $darkgray;
+    background-color: $secondary-color;
     content: " ";
     position: absolute;
     width: 30px;
@@ -50,7 +50,7 @@
     color: #FFF;
     position: relative;
     // Primary Color
-    background-color: $ucsf-green;
+    background-color: $primary-color;
     height: 260px;
     @include breakpoint($display_medium_up) {
       padding-left: 75px;

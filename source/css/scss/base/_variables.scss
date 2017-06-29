@@ -1,20 +1,20 @@
 //** Color Variables ** //
 
-/*Neutral Palette */
+/* Neutral Palette */
 $black:           #000;
 $white:           #FFF;
 $lightgray:       #D1D3D3;
 $border-gray:     #DDD;
 $darkgray:        #B4B9BF;
 
-/*Primary Palette */
+/* Primary Palette */
 $ucsf-navyblue:   #052049;
 $ucsf-teal:       #058488;
 $ucsf-blue:       #007CBE;
 $ucsf-orange:     #F26D04;
 $ucsf-green:      #6EA400;
 
-/*Secondary Palette */
+/*S econdary Palette */
 $ucsf-purple:     #716FB2;
 $ucsf-coral:      #EB093C;
 $ucsf-yellow:     #FFDD00;
@@ -22,6 +22,10 @@ $ucsf-yellow:     #FFDD00;
 
 /*Other Color Variables*/
 $background-gray: #E6E9ED;
+
+/* Selected Colors */
+$primary-color: $ucsf-green;
+$secondary-color: $darkgray;
 
 //** Breakpoints **//
 
