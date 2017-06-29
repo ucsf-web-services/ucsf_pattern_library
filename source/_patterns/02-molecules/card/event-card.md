@@ -1,5 +1,5 @@
 ---
-title: Event Teaser
+title: Event Card
 ---
 
 ---
