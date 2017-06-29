@@ -3,7 +3,7 @@ title: Combined Columns
 ---
 
 ---
-state: inreview
+state: complete
 ---
 
 ### Description

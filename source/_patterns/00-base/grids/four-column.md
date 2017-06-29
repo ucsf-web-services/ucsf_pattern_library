@@ -3,7 +3,7 @@ title: Four Column
 ---
 
 ---
-state: inreview
+state: complete
 ---
 
 ### Description

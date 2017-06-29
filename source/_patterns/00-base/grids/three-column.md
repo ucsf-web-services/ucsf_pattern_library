@@ -3,7 +3,7 @@ title: Three Column
 ---
 
 ---
-state: inreview
+state: complete
 ---
 
 ### Description
