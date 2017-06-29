@@ -1,8 +1,52 @@
-.hero-2 {
+.slider.slider__hero-2 {
   max-width: 1320px;
-  min-height: 300px;
+  padding-left: 0;
+  margin-bottom: 0;
   position: relative;
-  margin-bottom: 45px;
+
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+    @include breakpoint($display_medium_up) {
+      display: inline-block !important;
+    }
+    &:hover:before {
+      opacity: 0.75;
+    }
+  }
+
+  .slick-prev {
+    left: 630px;
+    top: 70px;
+    top: 70px;
+
+    @include breakpoint($width--medium) {
+      top: 460px;
+      left: 605px;
+    }
+    @include breakpoint($width--960) {
+      top: 95px;
+    }
+  }
+  .slick-next {
+    left: 705px;
+    top: 70px;
+
+    @include breakpoint($width--medium) {
+      top: 460px;
+      left: 680px;
+    }
+    @include breakpoint($width--960) {
+      top: 95px;
+    }
+  }
+
+
+}
+
+
+
+.hero-2 {
 
   &__wrapper {
     position: relative;
@@ -14,14 +58,13 @@
       position: absolute;
       z-index: 2;
       overflow: visible;
-      margin-left: 45px;
       margin-top: 20px;
       width: 100%;
       bottom: 0px;
       top: 0;
       background-color: $secondary-color;
-
       @include breakpoint($display_960_up) {
+        margin-left: 45px;
         background: $primary-color;
         width: 735px;
         height: 420px;
@@ -90,6 +133,8 @@
         letter-spacing: -.02em;
         line-height: 1em;
         margin-bottom: 15px;
+        font-weight: 300;
+        font-size: 30px;
         @include breakpoint($display_960_up) {
           font-size: 48px;
         }
