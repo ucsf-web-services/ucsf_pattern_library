@@ -1,4 +1,4 @@
-//Accordion 1
+//Accordions
 
 $(function () {
   $('.accordion-1').accordion({ buttonsGeneratedContent: 'html' });
