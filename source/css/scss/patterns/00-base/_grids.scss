@@ -1,5 +1,5 @@
 // Establish responsive columns
-//@include sgs-change('gutter styles', 'split');
+@include add-gutter-style('split');
 @include add-grid(3 at $display_small);
 @include add-grid(6 at $display_medium);
 

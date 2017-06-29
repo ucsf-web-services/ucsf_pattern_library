@@ -1,17 +1,18 @@
-ul, ol {
-  margin: 0 0 0 10px;
+
+ul.text-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
   padding: 0;
   line-height: 1.4;
-}
-
-ul {
-  text-align: left;
-  li {
+  ul {
+    margin-top: 8px;
     margin-bottom: 8px;
+    li {
+      font-size: 0.9em;
+    }
   }
-}
-
-.ul-circle {
+  text-align: left;
   li {
     list-style: none;
     position: relative;
@@ -28,9 +29,43 @@ ul {
   }
 }
 
+ol.text-list {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 0;
+  line-height: 1.4;
+  ol {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    li {
+      font-size: 0.9em;
+      list-style: lower-latin;
+    }
+  }
+  li {
+    list-style: decimal;
+    margin-bottom: 8px;
+  }
+}
+
+ul, ol {
+  margin: 0 0 0 10px;
+  padding: 0;
+  line-height: 1.4;
+}
+
+ul {
+  text-align: left;
+  li {
+    margin-bottom: 8px;
+  }
+}
+
 ol {
   li {
     list-style: decimal;
     margin-bottom: 8px;
   }
 }
+
