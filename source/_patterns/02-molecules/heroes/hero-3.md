@@ -22,3 +22,5 @@ This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
 There are currently two H1s to show the different font styles (sans serif and serif). In reality, there should only be one H1.
+
+All sliders on heroes use slick carousel and utilize the slick.js file and are included via npm. The Js file can be found in the source/js/vendor folder.  All compilation dependencies are listed in npm-shrinkwrap.json file.
