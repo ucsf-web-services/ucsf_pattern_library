@@ -6,32 +6,32 @@
       "title": "This is the Banner Image 1"
     },
     "banner2": {
-      "src":  "../../images/735x435.png",
+      "src":  "http://via.placeholder.com/735x435",
       "alt": "This is the Banner Image 2",
       "title": "This is the Banner Image 2"
     },
     "banner3": {
-      "src":  "../../images/845x500.png",
+      "src":  "http://via.placeholder.com//845x500",
       "alt": "This is the Banner Image 3",
       "title": "This is the Banner Image 3"
     },
     "banner4": {
-      "src":  "../../images/748x500.png",
+      "src":  "http://via.placeholder.com/748x500",
       "alt": "This is the Banner Image 4",
       "title": "This is the Banner Image 4"
     },
     "banner5": {
-      "src":  "../../images/1280x500.png",
+      "src":  "http://via.placeholder.com//1280x500",
       "alt": "This is the Banner Image 5",
       "title": "This is the Banner Image 5"
     },
     "card": {
-      "src":  "../../images/170x145.png",
+      "src":  "http://via.placeholder.com/170x145",
       "alt": "Card Image",
       "title": "Card Image"
     },
     "event": {
-      "src":  "../../images/69x69.png",
+      "src":  "http://via.placeholder.com/69x69",
       "alt": "Event Image",
       "title": "Event Image"
     },
@@ -41,12 +41,12 @@
       "title": "Featured Content Image"
     },
     "locationLarge": {
-      "src":  "../../images/444x296.png",
+      "src":  "http://via.placeholder.com/444x296",
       "alt": "Location Image - Large",
       "title": "Location Image - Large"
     },
     "locationSmall": {
-      "src":  "../../images/332x222.png",
+      "src":  "http://via.placeholder.com/332x222",
       "alt": "Location Image - Small",
       "title": "Location Image - Small"
     },
@@ -56,22 +56,22 @@
       "title": "This is the Logo"
     },
     "offsetTextBanner": {
-      "src":  "../../images/776x225.png",
+      "src":  "http://via.placeholder.com/776x225",
       "alt": "Offset Text Banner Image",
       "title": "Offset Text Banner Image"
     },
     "profileLarge": {
-      "src":  "../../images/180x180.png",
+      "src":  "http://via.placeholder.com/180x180",
       "alt": "Profile Image - Large",
       "title": "Profile Image - Large"
     },
     "profileSmall": {
-      "src":  "../../images/150x150.png",
+      "src":  "http://via.placeholder.com/150x150",
       "alt": "Profile Image - Small",
       "title": "Profile Image - Small"
     },
     "teaser": {
-      "src":  "../../images/112x112.png",
+      "src":  "http://via.placeholder.com/112x112",
       "alt": "Teaser Image",
       "title": "Teaser Image"
     }

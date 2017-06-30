@@ -46,22 +46,54 @@ abbr[title="Required"] {
   }
 }
 
-//** Select Menu **/
 .select-style {
-  position: relative;
-  label {
-    width: 100%;
-    display: block;
-  }
+
   .select-wrapper {
-    width: auto;
-    position: relative;
+    width: 14em;
+  }
+
+  .ui-selectmenu-button.ui-button {
+    text-align: left;
+    white-space: nowrap;
+    width: 14em;
+  }
+
+  .ui-state-default,
+  .ui-widget-content .ui-state-default,
+  .ui-widget-header .ui-state-default,
+  .ui-button,
+  .ui-button.ui-state-disabled:hover,
+  .ui-button.ui-state-disabled:active {
+    border: 1px solid $darkgray;
+  }
+
+  .ui-button {
     display: inline-block;
+    position: relative;
+    line-height: normal;
+    margin-right: .1em;
+    cursor: pointer;
+    vertical-align: middle;
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* Support: IE <= 11 */
+    overflow: visible;
+  }
+
+  .ui-button .ui-icon {
+    background-image: url("images/ui-icons_ef8c08_256x240.png");
+  }
+
+  .ui-selectmenu-icon.ui-icon {
     &:after, &:before {
       color: $ucsf-blue;
       position: absolute;
       right: 10px;
-      top: 8px;
+      top: 10px;
       display: block;
       width: 10px;
       height: 10px;
@@ -71,34 +103,94 @@ abbr[title="Required"] {
       color: $ucsf-blue;
       position: absolute;
       right: 10px;
-      top: 0;
+      top: -2px;
       display: block;
       width: 10px;
       content: "\25BE";
       transform: rotate(180deg);
-      border-right: 1px solid $border-gray;
       height: 100%;
       line-height: 2;
       padding-right: 10px;
-      }
     }
-  select {
-    display: block;
-    background: transparent;
-    border: 1px solid $border-gray;
-    border-radius: 0;
-    font-size: 14px;
-    outline: none;
-    padding: 5px 40px 5px 5px;
-    -webkit-appearance: button;
-    -webkit-border-radius: 0;
-    -webkit-user-select: none;
-    overflow: hidden;
-    -moz-border-radius: 0;
-    position: relative;
-    z-index: 2;
+    border-left: 1px solid $darkgray;
+    float: right;
+    margin-top: 0;
+    height:31px;
+    width:31px;
   }
+
+  .ui-selectmenu-button-open .ui-selectmenu-icon.ui-icon {
+    background-color: $background-gray;
+  }
+
+  .ui-icon {
+
+  }
+
+  .ui-selectmenu-text {
+    padding: .4em 1em;
+    display: block;
+    margin-right: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .ui-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+    outline: 0;
+  }
+
+  .ui-widget.ui-widget-content {
+    border: 1px solid $darkgray;
+  }
+
+  .ui-selectmenu-menu .ui-menu {
+    overflow: auto;
+    overflow-x: hidden;
+    padding-bottom: 1px;
+  }
+
+  .ui-selectmenu-menu {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+
+  .ui-selectmenu-open {
+    display: block;
+  }
+
+  .ui-front {
+    z-index: 100;
+  }
+
+  .ui-state-active,
+  .ui-widget-content .ui-state-active,
+  .ui-widget-header .ui-state-active,
+  a.ui-button:active,
+  .ui-button:active,
+  .ui-button.ui-state-active:hover {
+    background-color: $background-gray;
+  }
+
+  .ui-menu .ui-menu-item {
+    .ui-menu-item-wrapper {
+      padding: .4em 1em;
+    }
+    margin: 0;
+    cursor: pointer;
+    /* support: IE10, see #8844 */
+    list-style-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+  }
+
 }
+
 
 //** Checkbox & Radio Buttons **/
 ul.checkbox, ul.radio {
