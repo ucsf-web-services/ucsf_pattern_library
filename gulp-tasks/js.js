@@ -9,7 +9,9 @@ module.exports = function (gulp, config) {
   var sourcemaps = require('gulp-sourcemaps'),
       concat = require('gulp-concat'),
       uglify = require('gulp-uglify'),
-      path = require('path');
+      path = require('path'),
+      gutil = require('gulp-util'),
+      tap = require('gulp-tap');
 
   function normalizePath() {
     return path
@@ -22,6 +24,9 @@ module.exports = function (gulp, config) {
 
   return function () {
     var stream = gulp.src(config.js_config.concatOrder, {cwd: normalizePath(config.patternlab.paths.source.js)} )
+      .pipe(tap(function(file) {
+        gutil.log('bundling ' + file.path);
+      }))
       .pipe(sourcemaps.init())
       .pipe(concat('script.js'))
       .pipe(uglify())
