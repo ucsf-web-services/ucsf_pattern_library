@@ -142,6 +142,13 @@
         margin-bottom: 0;
       }
     }
+    div {
+      p {
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+        padding-bottom: 0;
+      }
+    }
     &:before {
       content: " ";
       position: absolute;
