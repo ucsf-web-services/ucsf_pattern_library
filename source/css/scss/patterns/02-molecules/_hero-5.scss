@@ -1,4 +1,21 @@
+.slider_wrapper__hero-5 {
+  background-color: $darkergray;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  max-height: none;
+  @include breakpoint($display_medium_up) {
+    max-height: 500px;
+    @include clearfix;
+    margin-top: 0;
+  }
+}
+
 .slider__hero-5 {
+
+  max-height: 500px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 50px;

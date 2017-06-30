@@ -1,0 +1,16 @@
+<div class="slider slider-hero slider__hero-3">
+    {% for slides in hero3_slides %}
+        <div class="hero hero-3">
+            <div class="hero-3__top-image">
+                <div style="background-image:url('{{ img.banner3.src }}')">
+                </div>
+            </div>
+            <div class="hero-3__text">
+                <div>
+                    <h2>{{ hero.hero1.title }}</h2>
+                    <p>{{ hero.hero1.paragraph }}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
