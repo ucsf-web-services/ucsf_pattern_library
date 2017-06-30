@@ -11,6 +11,9 @@ $(document).ready(function(){
   // On Hero 2 append pager to the inner text wrapper
   $('.hero-2__text-wrapper').append("<div class='paging-info'></div>");
 
+  // On Hero 3 append pager to the main slider
+  $('.hero-3').append("<div class='paging-info'></div>");
+
   var $status = $('.paging-info');
 
   $slickElement.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){

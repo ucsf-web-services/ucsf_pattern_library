@@ -40,6 +40,7 @@ $width--xlarge  : 1170px;
 
 //-- Mobile First Responsive Breakpoints
 $display_medium_portrait_up: (min-height $width--medium) (orientation portrait);
+$display_small_up: $width--small;
 $display_medium_up: $width--medium;
 $display_large_up: $width--large;
 $display_960_up: $width--960;

@@ -102,5 +102,5 @@
   "site-name": "UCSF PatternLab",
   "title": "Page Title",
   "htmlClass": "pl",
-  "bodyClass": "body"
+  "bodyClass": "body regular-margins"
 }
