@@ -3,7 +3,7 @@ title: Paragraph
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description

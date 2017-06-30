@@ -3,7 +3,7 @@ title: Radio Buttons
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description

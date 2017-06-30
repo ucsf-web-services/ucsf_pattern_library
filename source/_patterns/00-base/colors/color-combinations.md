@@ -3,7 +3,7 @@ title: Color Combinations
 ---
 
 ---
-state:TBD
+state: TBD
 ---
 
 ### Description

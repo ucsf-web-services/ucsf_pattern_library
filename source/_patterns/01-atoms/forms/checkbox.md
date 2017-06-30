@@ -3,7 +3,7 @@ title: Checkbox
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description

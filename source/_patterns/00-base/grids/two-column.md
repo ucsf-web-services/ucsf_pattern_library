@@ -3,7 +3,7 @@ title: Two Column
 ---
 
 ---
-state: inreview
+state: complete
 ---
 
 ### Description

@@ -3,7 +3,7 @@ title: Logo
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description

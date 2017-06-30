@@ -3,7 +3,7 @@ title: Vertical Tabs
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
