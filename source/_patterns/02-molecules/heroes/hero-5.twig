@@ -1,8 +1,13 @@
-<div class="hero-5" style="background-image:url('{{ img.banner5.src }}')">
-  <div class="hero-5__text">
-    <h1 class="font-helvetica-neue-light">{{ hero.hero5.title }}</h1>
-    <div class="hero__button">
-      <a href="#" class="btn-3" id="Descriptive-Button-Action">READ MORE</a>
-    </div>
-  </div>
+<div class="slider slider-hero slider__hero-5">
+    {% for slides in hero5_slides %}
+        <div class="hero hero-5" style="background-image:url('{{ img.banner5.src }}')">
+            <div class="hero-5__text">
+                <h2 class="font-helvetica-neue-light">{{ hero.hero5.title }}</h2>
+                <div class="hero__button">
+                    <a href="#" class="btn-3__hero-5" id="Descriptive-Button-Action">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
 </div>
+
