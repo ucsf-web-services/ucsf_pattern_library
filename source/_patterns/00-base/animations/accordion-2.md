@@ -22,5 +22,3 @@ This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
 To implement the accordion-2, use the markup structure shown here, with the class accordion-2.
-
-Accordion 2 utilizes the jquery-accessible-accordion-aria.js library and is included via npm. The Js file can be found in the source/js/vendor folder. All compilation dependencies are listed in npm-shrinkwrap.json file.

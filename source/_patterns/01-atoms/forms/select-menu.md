@@ -23,5 +23,3 @@ This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
 To implement the select menu, use the markup structure shown here, with the class select-style.
-
-The Select Menu utilizes the jquery-ui.min.js library and is checked into GIT. The Js file can be found in the source/js/vendor-compiled/jquery-mui.min.js file. All compilation dependencies are listed in npm-shrinkwrap.json file.
