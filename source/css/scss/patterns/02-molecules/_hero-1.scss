@@ -139,7 +139,11 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
-    bottom: 15px;
-    right: 60px;
+    display: none;
+    @include breakpoint($display_medium_up) {
+      display: block;
+      bottom: 15px;
+      right: 60px;
+    }
   }
 }
