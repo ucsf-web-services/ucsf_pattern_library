@@ -126,7 +126,7 @@
     color: #FFF;
     max-height: 280px;
     height: 280px;
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
     padding: 30px;
     @include breakpoint($display_960_up) {
