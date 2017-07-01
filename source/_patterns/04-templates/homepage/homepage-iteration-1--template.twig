@@ -1,11 +1,10 @@
 {% extends "basic_page.twig" %}
 {% block hero %}{% include "molecules-hero-3" %}{% endblock %}
 {% block heading %}
-    <div class="triptych">
-        <div class="col-1">{% include "molecules-featured-content-card" %}</div>
-        <div class="col-2">{% include "molecules-featured-content-card" %}</div>
-        <div class="col-3">{% include "molecules-featured-content-card" %}</div>
-    </div>
+    <h1>{{ title }}</h1>
+    <p class="bigger">{{ text.homepage_paragraphs.one }}</p>
+    <p class="bigger">{{ text.homepage_paragraphs.two }}</p>
 {% endblock %}
-{% block main %}{% include "organisms-all-articles-list" %}{% endblock %}
-{% block sidebar %}{% include "organisms-multiple-element-sidebar" %}{% endblock %}
+{% block main %}
+    {% include "organisms-latest-news-list" %}
+{% endblock %}

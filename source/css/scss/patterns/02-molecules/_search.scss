@@ -1,6 +1,7 @@
 .search {
   position: relative;
   .search-form {
+    position: relative;
     display: inline;
     float: left;
     input#edit-search-block-form--2 {
@@ -14,21 +15,24 @@
   }
   input#edit-submit--2 {
     width: 35px;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
-    float: left;
-    border-bottom: 1px solid grey;
+    margin-left: -35px;
+    float:left;
     cursor: pointer;
     background: transparent;
-    z-index: 2
+    z-index: 20;
+    padding-bottom: 6px;
   }
   .fa-search{
     &:before {
       position: absolute;
-      top: 10px;
+      top: 4px;
+      right: 4px;
       padding-left: 10px;
       color: #58595b;
-      z-index: -1;
+      z-index: 10;
+
     }
   }
 }

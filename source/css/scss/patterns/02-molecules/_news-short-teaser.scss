@@ -5,6 +5,9 @@
     margin-right: 30px;
   }
   .news-short-teaser__detail {
+    a {
+      color: $black;
+    }
     p {
       margin-bottom: 5px;
     }
