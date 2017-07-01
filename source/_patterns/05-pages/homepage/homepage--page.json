@@ -51,9 +51,9 @@
       "title": "Location Image - Small"
     },
     "logo": {
-      "src":  "../../images/samples/logo.png",
-      "alt": "UCSF Logo",
-      "title": "UCSF"
+      "src":  "../../images/UCSF_SubLogo_BroadCntr_navy_RGB.png",
+      "alt": "This is the Logo",
+      "title": "This is the Logo"
     },
     "offsetTextBanner": {
       "src":  "../../images/776x225.png",
@@ -102,5 +102,52 @@
   "site-name": "UCSF PatternLab",
   "title": "Page Title",
   "htmlClass": "pl",
-  "bodyClass": "body regular-margins"
+  "bodyClass": "body regular-margins",
+  "hero3_slides":[
+    {
+      "hero": {
+        "hero3": {
+          "title": "Headline 1 lacinia bibendu nulla sed consec",
+          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+        }
+      },
+      "img": {
+        "banner3": {
+          "src": "http://via.placeholder.com//845x500",
+          "alt": "This is the Banner Image 1",
+          "title": "This is the Banner Image 1"
+        }
+      }
+    },
+    {
+      "hero": {
+        "hero3": {
+          "title": "Headline 2 lacinia bibendu nulla sed consec",
+          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+        }
+      },
+      "img": {
+        "banner3": {
+          "src": "http://via.placeholder.com//845x500",
+          "alt": "This is the Banner Image 2",
+          "title": "This is the Banner Image 2"
+        }
+      }
+    },
+    {
+      "hero": {
+        "hero3": {
+          "title": "Headline 3 lacinia bibendu nulla sed consec",
+          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+        }
+      },
+      "img": {
+        "banner3": {
+          "src": "http://via.placeholder.com//845x500",
+          "alt": "This is the Banner Image 3",
+          "title": "This is the Banner Image 3"
+        }
+      }
+    }
+  ]
 }
