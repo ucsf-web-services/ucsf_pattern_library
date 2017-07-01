@@ -1,0 +1,19 @@
+{% include "organisms-header" %}
+<div class="basic-page clearfix">
+    <div class="basic-page__hero">
+        {% block hero %}Hero Content Goes Here{% endblock %}
+    </div>
+    <section class="header clearfix">
+        {% block heading %}<h1 class="font-granjon">Page Title</h1>{% endblock %}
+    </section>
+
+    <section class="clearfix">
+        <div class="main">
+            {% block main %}Main Content Goes Here{% endblock %}
+        </div>
+        <div class="sidebar">
+            {% block sidebar %}Sidebar Content Goes Here{% endblock %}
+        </div>
+    </section>
+</div>
+{% include "organisms-footer" %}

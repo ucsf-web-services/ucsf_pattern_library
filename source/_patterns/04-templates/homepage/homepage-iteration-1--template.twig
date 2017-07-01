@@ -1,23 +1,11 @@
-{% include "organisms-header" %}
-<div class="basic-page clearfix">
-  <div class="basic-page__hero">
-      {% include "molecules-hero-3" %}
-  </div>
-  <section class="clearfix">
+{% extends "basic_page.twig" %}
+{% block hero %}{% include "molecules-hero-3" %}{% endblock %}
+{% block heading %}
     <div class="triptych">
-      <div class="col-1">{% include "molecules-featured-content-card" %}</div>
-      <div class="col-2">{% include "molecules-featured-content-card" %}</div>
-      <div class="col-3">{% include "molecules-featured-content-card" %}</div>
+        <div class="col-1">{% include "molecules-featured-content-card" %}</div>
+        <div class="col-2">{% include "molecules-featured-content-card" %}</div>
+        <div class="col-3">{% include "molecules-featured-content-card" %}</div>
     </div>
-  </section>
-
-  <section class="clearfix">
-    <div class="main">
-      {% include "organisms-all-articles-list" %}
-    </div>
-    <div class="sidebar">
-      {% include "organisms-multiple-element-sidebar" %}
-    </div>
-  </section>
-</div>
-{% include "organisms-footer" %}
+{% endblock %}
+{% block main %}{% include "organisms-all-articles-list" %}{% endblock %}
+{% block sidebar %}{% include "organisms-multiple-element-sidebar" %}{% endblock %}

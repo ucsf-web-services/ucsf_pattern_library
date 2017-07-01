@@ -83,11 +83,15 @@
       "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
     },
     "hero2": {
-      "title": "Headline 1 lacinia bibendu nulla sed consec",
+      "title": "Headline 2 lacinia bibendu nulla sed consec",
+      "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+    },
+    "hero3": {
+      "title": "Headline 3 lacinia bibendu nulla sed consec",
       "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
     },
     "hero5": {
-      "title": "Headline 1 lacinia bibendu nulla sed consec"
+      "title": "Headline 5 lacinia bibendu nulla sed consec"
     }
   },
   "text": {
@@ -124,7 +128,7 @@
   "site-name": "UCSF PatternLab",
   "title": "Page Title",
   "htmlClass": "pl",
-  "bodyClass": "body",
+  "bodyClass": "body regular-margins",
   "year": {
     "long": "2017",
     "short": "17"

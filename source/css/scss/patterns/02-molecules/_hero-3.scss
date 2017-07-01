@@ -28,9 +28,7 @@
   }
   .slick-prev,
   .slick-next {
-    @include breakpoint($display_medium_up) {
-      display: none !important;
-    }
+    display: none !important;
     @include breakpoint($display_960_up) {
       display: block !important;
     }
