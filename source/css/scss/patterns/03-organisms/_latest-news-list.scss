@@ -1,6 +1,8 @@
 .latest-news-list {
   .latest-news-list__heading {
-    border-bottom: 2px solid #B4B9BF;
+    margin-top: 40px;
+    border-bottom: 2px solid $secondary-color;
+    margin-bottom: 30px;
     h2 {
       display: inline-block;
       margin: 0;
@@ -12,19 +14,13 @@
       font-size: 12px;
     }
   }
-    .latest-news-list__item {
-      display: inline-block;
-      width: 49%;
-      .news-short-teaser {
-        margin-right: 8%;
-      }
-  }
-}
-
-@media only screen and (max-width: $display_large_min){
-  .latest-news-list {
-    .latest-news-list__item {
-      width: 100%;
+  .latest-news-list__item {
+    float: left;
+    display: inline-block;
+    @extend .width-one-third;
+    .news-short-teaser {
+      margin-top:0;
+      margin-right: 8%;
     }
   }
 }

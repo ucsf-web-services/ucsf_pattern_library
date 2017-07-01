@@ -20,7 +20,7 @@
     a {
       font-size: 16px;
       padding: 5px 0px;
-      margin: 0px 20px;
+      margin-right: 40px;
       text-decoration: none;
       display: block;
       color: $ucsf-navyblue;
@@ -30,6 +30,9 @@
         -webkit-transition: none;
         transition: none;
       }
+    }
+    li.last a {
+      margin-right: 0;
     }
   }
   .submenu__dropdown {

@@ -1,18 +1,13 @@
 <div class="latest-news-list clearfix">
     <div class= "latest-news-list__heading">
-      <h2 class="font-helvetica-neue-light">UCSF News</h2>
-      <a href="#" class="btn-2" id="see-more">SEE MORE</a>
+      <h2 class="font-helvetica-neue-light">{{ news_listing.title }}</h2>
+        {% if news_listing.link %}
+            {{ html.a(news_listing.link) }}
+        {% endif %}
     </div>
-    <div class="latest-news-list__item clearfix">
-      {% include "molecules-news-short-teaser-no-image" %}
-    </div>
-    <div class="latest-news-list__item clearfix">
-      {% include "molecules-news-short-teaser-no-image" %}
-    </div>
-    <div class="latest-news-list__item clearfix">
-      {% include "molecules-news-short-teaser-no-image" %}
-    </div>
-    <div class="latest-news-list__item clearfix">
-      {% include "molecules-news-short-teaser-no-image" %}
-    </div>
+    {% for teaser in news_listing.list %}
+        <div class="latest-news-list__item">
+            {% include "molecules-news-short-teaser-no-image" with teaser %}
+        </div>
+    {% endfor %}
 </div>

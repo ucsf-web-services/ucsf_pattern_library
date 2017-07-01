@@ -96,24 +96,28 @@
     "featuredContent": {
       "title": "This is featured content",
       "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    "homepage_paragraphs": {
+      "one": "The University of California, San Francisco offers an interdisciplinary program for graduate training in neuroscience. The purpose of this program is to train doctoral students for independent research and teaching in neuroscience. Participation in Neuroscience Program activities does not require membership in the Neuroscience Program. The program welcomes attendance of all interested UCSF faculty, students and other trainees at its retreat, seminars and journal club..",
+      "two": "Our program seeks to train students who will be expert in one particular approach to neuroscientific research, but who will also have a strong general background in other areas of neuroscience and related disciplines. To achieve this objective, our students take interdisciplinary core and advanced courses in neuroscience, as well as related courses sponsored by other graduate programs. In addition, they carry out research under the supervision of faculty members in the program."
     }
   },
 
   "site-name": "UCSF PatternLab",
-  "title": "Page Title",
+  "title": "An Interdisciplinary Approach to Neuroscience",
   "htmlClass": "pl",
-  "bodyClass": "body regular-margins",
+  "bodyClass": "body",
   "hero3_slides":[
     {
       "hero": {
         "hero3": {
-          "title": "Headline 1 lacinia bibendu nulla sed consec",
-          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+          "title": "Advancing Neuroscience",
+          "paragraph": "Our students and faculty work collaboratively and across departments to address outstanding problems in neuroscience."
         }
       },
       "img": {
         "banner3": {
-          "src": "http://via.placeholder.com//845x500",
+          "src": "../../images/samples/Glass_Brain_Adam_Gazzaley_0.jpeg",
           "alt": "This is the Banner Image 1",
           "title": "This is the Banner Image 1"
         }
@@ -122,13 +126,13 @@
     {
       "hero": {
         "hero3": {
-          "title": "Headline 2 lacinia bibendu nulla sed consec",
-          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+          "title": "Excellence in Training",
+          "paragraph": "Students work intensively with faculty members to conduct research in groundbreaking areas."
         }
       },
       "img": {
         "banner3": {
-          "src": "http://via.placeholder.com//845x500",
+          "src": "../../images/samples/Sosa&Chung.jpg",
           "alt": "This is the Banner Image 2",
           "title": "This is the Banner Image 2"
         }
@@ -137,17 +141,79 @@
     {
       "hero": {
         "hero3": {
-          "title": "Headline 3 lacinia bibendu nulla sed consec",
-          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+          "title": "Neuroscience Pioneers",
+          "paragraph": "Our faculty are among the world leaders in their respective areas of neuroscience."
         }
       },
       "img": {
         "banner3": {
-          "src": "http://via.placeholder.com//845x500",
+          "src": "../../images/samples/Kreitzer_Image_102816_update.jpg",
           "alt": "This is the Banner Image 3",
           "title": "This is the Banner Image 3"
         }
       }
     }
-  ]
+  ],
+  "news_listing": {
+    "title": "UCSF News",
+    "list": [
+      {
+        "text": {
+          "medium": "UCSF Benioff Children’s Hospitals Shine Among Finest in 9 Pediatric Specialties Nationwide"
+        },
+        "year": {
+          "long": "2017",
+          "short": "17"
+        },
+        "month": {
+          "long": "June",
+          "short": "Jun",
+          "digit": "06"
+        },
+        "day": {
+          "long": "27",
+          "short": "27",
+          "ordinal": "th"
+        }
+      },
+      {
+        "text": {
+          "medium": "Elevated Rate of Autism Symptoms Found in Children with Tourette Syndrome"
+        },
+        "year": {
+          "long": "2017",
+          "short": "17"
+        },
+        "month": {
+          "long": "June",
+          "short": "Jun",
+          "digit": "06"
+        },
+        "day": {
+          "long": "22",
+          "short": "22",
+          "ordinal": "nd"
+        }
+      },
+      {
+        "text": {
+          "medium": "Two UCSF Researchers Named 2017 Pew Scholars in the Biomedical Sciences"
+        },
+        "year": {
+          "long": "2017",
+          "short": "17"
+        },
+        "month": {
+          "long": "June",
+          "short": "Jun",
+          "digit": "06"
+        },
+        "day": {
+          "long": "15",
+          "short": "15",
+          "ordinal": "th"
+        }
+      }
+    ]
+  }
 }

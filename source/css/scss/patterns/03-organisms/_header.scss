@@ -1,4 +1,5 @@
 .header {
+  padding-bottom: 30px;
   .header__ucsf-main-menu {
     margin-left: -50px;
     margin-right: -50px;
@@ -9,14 +10,12 @@
     color: $white;
     .header__ucsf-main-menu__university {
       display: inline-block;
-      margin-left: 50px;
       height: inherit;
     }
     .header__ucsf-main-menu__links {
       display: inline-block;
       float: right;
       color: $white;
-      margin-right: 50px;
       height: inherit;
       a {
         padding-right: 40px;
@@ -30,6 +29,7 @@
   .header__section {
     margin-top: 10px;
     .header__logo {
+      margin-top: 30px;
       display: inline-block;
       float: left;
       img {
@@ -39,8 +39,14 @@
   }
   .header__social-media-search {
     overflow: auto;
-    width: 100%;
+    float: right;
     text-align: right;
+    padding-top: 10px;
+    padding-bottom: 36px;
+    position: relative;
+    height: 75px;
+
+
     .header__social-media-links {
       display: inline-block;
       margin-right: 35px;
@@ -49,7 +55,6 @@
       display: inline-block;
       vertical-align: middle;
       .search {
-      width: 275px;
       padding-top: 0;
       padding-bottom: 0;
       input {
@@ -62,7 +67,9 @@
     }
   }
   .header__header-menu {
-    width: 100%;
+    float:right;
+    clear:right;
+    overflow: visible;
     text-align: right;
   }
 }

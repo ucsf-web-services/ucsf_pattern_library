@@ -26,8 +26,8 @@ $ucsf-yellow:     #FFDD00;
 $background-gray: #E6E9ED;
 
 /* Selected Colors */
-$primary-color: $ucsf-green;
-$secondary-color: $darkgray;
+$primary-color: $ucsf-navyblue;
+$secondary-color: $ucsf-orange;
 
 //** Breakpoints **//
 
@@ -68,3 +68,4 @@ $display_small: $display_small_min ($display_medium_min - 1);
 $font_light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-helvetica-neue: "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
 $font-granjon: "Granjon LT W01 Roman", Garamond, "Times New Roman", serif;
+
