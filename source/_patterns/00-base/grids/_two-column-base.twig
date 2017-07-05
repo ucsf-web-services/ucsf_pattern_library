@@ -1,5 +1,7 @@
 {% extends "twocol.twig" %}
-{% block title %}{{ titles.h2(title) }}{% endblock %}
+{% block title %}{% if title %}{{ titles.h2(title) }}{% endif %}{% endblock %}
 {% block colclass %}{{ grid_class }}{% endblock %}
 {% block left %}{{ left }}{% endblock %}
 {% block right %}{{ right }}{% endblock %}
+{% block leftclass%}{{ leftclass }}{% endblock %}
+{% block rightclass %}{{ rightclass }}{% endblock %}

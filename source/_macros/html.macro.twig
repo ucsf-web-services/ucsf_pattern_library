@@ -1,3 +1,7 @@
 {% macro a(link) %}
     <a href="{{ link.url }}" class="{{ link.class }}" id="{{ link.id }}">{{ link.title }}</a>
 {% endmacro %}
+
+{% macro img(img) %}
+    <img src="{{ img.src }}" alt="{{ img.alt }}" title="{{  img.title }}">
+{% endmacro %}

@@ -1,6 +1,6 @@
-{% block title %}<title>Three Column Layout</title>{% endblock %}
+{% block title %}{% endblock %}
 <div class="three-col {% block colclass %}{% endblock %} container">
-    <div class="three-col__left">{%  block left %}Some left hand content{% endblock %}</div>
-    <div class="three-col__center">{%  block center %}Some center content{% endblock %}</div>
-    <div class="three-col__right">{%  block right %}Some right hand content{% endblock %}</div>
+    <div class="three-col__left {%  block leftclass %}{% endblock %}">{%  block left %}Some left hand content{% endblock %}</div>
+    <div class="three-col__center {%  block centerclass %}{% endblock %}">{%  block center %}Some center content{% endblock %}</div>
+    <div class="three-col__right {%  block rightclass %}{% endblock %}">{%  block right %}Some right hand content{% endblock %}</div>
 </div>

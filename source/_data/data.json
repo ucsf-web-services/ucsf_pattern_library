@@ -51,7 +51,12 @@
       "title": "Location Image - Small"
     },
     "logo": {
-      "src":  "../../images/UCSF_SubLogo_BroadCntr_navy_RGB.png",
+      "src":  "http://via.placeholder.com/332x222",
+      "alt": "This is the Logo",
+      "title": "This is the Logo"
+    },
+    "footer_logo": {
+      "src":  "http://via.placeholder.com/285x150",
       "alt": "This is the Logo",
       "title": "This is the Logo"
     },
@@ -186,5 +191,13 @@
   ],
   "blockquote_options": [
     {"color_class" : "blockquote--blue"}
+  ],
+  "footer_menu": [
+    {"url": "", "title": "Link 1"},
+    {"url": "", "title": "Link 2"},
+    {"url": "", "title": "Link 3"},
+    {"url": "", "title": "Link 4"},
+    {"url": "", "title": "Link 5"},
+    {"url": "", "title": "Link 6"}
   ]
 }

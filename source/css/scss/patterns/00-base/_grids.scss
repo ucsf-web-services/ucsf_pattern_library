@@ -1,7 +1,7 @@
 // Establish responsive columns
 @include add-gutter-style('split');
-@include add-grid(3 at $display_small);
-@include add-grid(6 at $display_medium);
+@include add-grid(1);
+@include add-grid(10 at $display_medium_up);
 
 @include add-gutter(1em);
 
@@ -19,81 +19,69 @@ body {
 .two-col{
   @include breakpoint($display_medium_up) {
     .two-col__left {
-      @include grid-span(3, 1);
+      @include grid-span(5, 1);
     }
     .two-col__right {
-      @include grid-span(3, 4);
+      @include grid-span(5, 6);
     }
   }
   &.two-col--20-80 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
-        .two-col__left {
-          @include grid-span(2, 1);
-        }
-        .two-col__right {
-          @include grid-span(8, 3);
-        }
+      .two-col__left {
+        @include grid-span(2, 1);
+      }
+      .two-col__right {
+        @include grid-span(8, 3);
       }
     }
   }
   &.two-col--30-70 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
-        .two-col__left {
-          @include grid-span(3, 1);
-        }
-        .two-col__right {
-          @include grid-span(7, 4);
-        }
+      .two-col__left {
+        @include grid-span(3, 1);
+      }
+      .two-col__right {
+        @include grid-span(7, 4);
       }
     }
   }
   &.two-col--40-60 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
-        .two-col__left {
-          @include grid-span(4, 1);
-        }
-        .two-col__right {
-          @include grid-span(6, 5);
-        }
+      .two-col__left {
+        @include grid-span(4, 1);
+      }
+      .two-col__right {
+        @include grid-span(6, 5);
       }
     }
   }
   &.two-col--60-40 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
-        .two-col__left {
-          @include grid-span(6, 1);
-        }
-        .two-col__right {
-          @include grid-span(4, 7);
-        }
+      .two-col__left {
+        @include grid-span(6, 1);
+      }
+      .two-col__right {
+        @include grid-span(4, 7);
       }
     }
   }
   &.two-col--70-30 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
-        .two-col__left {
-          @include grid-span(7, 1);
-        }
-        .two-col__right {
-          @include grid-span(3, 8);
-        }
+      .two-col__left {
+        @include grid-span(7, 1);
+      }
+      .two-col__right {
+        @include grid-span(3, 8);
       }
     }
   }
   &.two-col--80-20 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
-        .two-col__left {
-          @include grid-span(8, 1);
-        }
-        .two-col__right {
-          @include grid-span(2, 9);
-        }
+      .two-col__left {
+        @include grid-span(8, 1);
+      }
+      .two-col__right {
+        @include grid-span(2, 9);
       }
     }
   }
@@ -103,60 +91,96 @@ body {
 .three-col {
   @include breakpoint($display_medium_up) {
     // Basic Thirds
-    .three-col__left {
-      @include grid-span(2, 1);
-    }
-    .three-col__center {
-      @include grid-span(2, 3);
-    }
-    .three-col__right {
-      @include grid-span(2,5);
+    @include layout(6) {
+      .three-col__left {
+        @include grid-span(2, 1);
+      }
+      .three-col__center {
+        @include grid-span(2, 3);
+      }
+      .three-col__right {
+        @include grid-span(2,5);
+      }
     }
   }
   // 60 - 20 - 20
   &.three-col--60-20-20 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
-        .three-col__left {
-          @include grid-span(6, 1);
-        }
-        .three-col__center {
-          @include grid-span(2, 7);
-        }
-        .three-col__right {
-          @include grid-span(2, 9);
-        }
+      .three-col__left {
+        @include grid-span(6, 1);
+      }
+      .three-col__center {
+        @include grid-span(2, 7);
+      }
+      .three-col__right {
+        @include grid-span(2, 9);
       }
     }
   }
   // 20 - 60 - 20
   &.three-col--20-60-20 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
-        .three-col__left {
-          @include grid-span(2, 1);
-        }
-        .three-col__center {
-          @include grid-span(6, 3);
-        }
-        .three-col__right {
-          @include grid-span(2, 9);
-        }
+      .three-col__left {
+        @include grid-span(2, 1);
+      }
+      .three-col__center {
+        @include grid-span(6, 3);
+      }
+      .three-col__right {
+        @include grid-span(2, 9);
       }
     }
   }
   // 20 - 20 - 60
   &.three-col--20-20-60 {
     @include breakpoint($display_medium_up) {
-      @include layout(10) {
+      .three-col__left {
+        @include grid-span(2, 1);
+      }
+      .three-col__center {
+        @include grid-span(2, 3);
+      }
+      .three-col__right {
+        @include grid-span(6, 5);
+      }
+    }
+  }
+  // 30 - 40 - 30
+  &.three-col--30-40-30 {
+    @include breakpoint($display_medium_up) {
+      .three-col__left {
+        @include grid-span(3, 1);
+      }
+      .three-col__center {
+        @include grid-span(4, 4);
+      }
+      .three-col__right {
+        @include grid-span(3, 8);
+      }
+    }
+    &.large {
+      @include breakpoint($display_medium_up) {
+        @include layout(1) {
+          .three-col__left {
+            @include grid-span(1, 1);
+          }
+          .three-col__center {
+            @include grid-span(1, 1);
+          }
+          .three-col__right {
+            @include grid-span(1, 1);
+          }
+        }
+      }
+      @include breakpoint($display_large_up) {
         .three-col__left {
-          @include grid-span(2, 1);
+          @include grid-span(3, 1);
         }
         .three-col__center {
-          @include grid-span(2, 3);
+          @include grid-span(4, 4);
         }
         .three-col__right {
-          @include grid-span(6, 5);
+          @include grid-span(3, 8);
         }
       }
     }

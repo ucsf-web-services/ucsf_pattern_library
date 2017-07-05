@@ -55,6 +55,11 @@
       "alt": "This is the Logo",
       "title": "This is the Logo"
     },
+    "footer_logo": {
+      "src":  "../../images/samples/UCSF_SubLogo_inv.png",
+      "alt": "This is the Logo",
+      "title": "This is the Logo"
+    },
     "offsetTextBanner": {
       "src":  "../../images/776x225.png",
       "alt": "Offset Text Banner Image",
@@ -215,5 +220,13 @@
         }
       }
     ]
-  }
+  },
+  "footer_menu": [
+    {"url": "", "title": "Patient Care & Info"},
+    {"url": "", "title": "Research"},
+    {"url": "", "title": "Education"},
+    {"url": "", "title": "About us"},
+    {"url": "", "title": "News & Events"},
+    {"url": "", "title": "Support UCSF"}
+  ]
 }
