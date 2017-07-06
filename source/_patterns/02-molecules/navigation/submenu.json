@@ -1,0 +1,7 @@
+{
+  "submenu": [
+    {"url": "#", "title": "Sub Menu 1"},
+    {"url": "#", "title": "Sub Menu 2"},
+    {"url": "#", "title": "Sub Menu 3"}
+  ]
+}

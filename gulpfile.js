@@ -203,6 +203,7 @@ function watch() {
         normalizePath(paths().source.js, '**', '*'),
         normalizePath(paths().source.meta, '**', '*'),
         normalizePath(paths().source.layouts, '**', '*'),
+        normalizePath(paths().source.macros, '**', '*'),
         normalizePath(paths().source.annotations, '**', '*'),
       ],
       config: { awaitWriteFinish: true },

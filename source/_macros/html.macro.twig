@@ -1,5 +1,5 @@
 {% macro a(link) %}
-    <a href="{{ link.url }}" class="{{ link.class }}" id="{{ link.id }}">{{ link.title }}</a>
+    <a {% if link.url %}href="{{ link.url }}"{% endif %} {% if link.class %}class="{{ link.class }}"{% endif %} {% if link.id %}id="{{ link.id }}"{% endif %}>{{ link.title }}</a>
 {% endmacro %}
 
 {% macro img(img) %}

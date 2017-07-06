@@ -13,6 +13,7 @@
         "data": "./source/_data/",
         "meta": "./source/_meta/",
         "layouts": "./source/_layouts/",
+        "macros": "./source/_macros/",
         "annotations": "./source/_annotations/",
         "styleguide": "./node_modules/styleguidekit-assets-default/dist/",
         "patternlabFiles": "./views/",

@@ -16,7 +16,7 @@
                 Fax: (123) 456-7890
             </p>
         {% endset %}
-        {% if img.footer_logo %}
+        {% if img.footer_logo != 'FALSE' %}
             {% set left %}
                 <div class="footer-logo">{{ html.img(img.footer_logo) }}</div>
             {% endset %}

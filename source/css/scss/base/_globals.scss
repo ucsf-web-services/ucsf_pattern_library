@@ -1,4 +1,6 @@
 
+@import "variables.scss";
+
 body {
   margin: 0;
   padding: 0;
@@ -8,8 +10,12 @@ body {
   max-width: 1320px;
   height: auto;
   margin: 0 auto;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  @include breakpoint($display_medium_up) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 .align--left {

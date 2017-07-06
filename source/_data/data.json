@@ -199,5 +199,20 @@
     {"url": "", "title": "Link 4"},
     {"url": "", "title": "Link 5"},
     {"url": "", "title": "Link 6"}
-  ]
+  ],
+  "header": {
+    "header_menu": [
+      {"url": "#", "title": "Main Menu 1"},
+      {"url": "#", "title": "Main Menu 2"},
+      {"url": "#", "title": "Main Menu 3"},
+      {"title": "Main Menu 4", "submenu": [
+        {"url": "#", "title": "Sub Menu A"},
+        {"url": "#", "title": "Sub Menu Longer B"},
+        {"url": "#", "title": "Sub Menu C"}
+      ]},
+      {"url": "#", "title": "Main Menu 5"},
+      {"url": "#", "title": "Main Menu 6"}
+    ]
+  }
+
 }
