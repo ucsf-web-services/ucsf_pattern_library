@@ -1,6 +1,6 @@
 .submenu {
   display: block;
-  @include breakpoint($display_large_min) {
+  @include breakpoint($display_medium_up) {
     float: left;
   }
   li {
