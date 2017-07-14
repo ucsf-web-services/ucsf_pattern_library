@@ -92,7 +92,9 @@
   .header__section {
     margin-top: 10px;
     .header__logo {
-      margin-top: 30px;
+      @include breakpoint($display_medium_up) {
+        margin-top: 30px;
+      }
       display: inline-block;
       float: left;
       img {
