@@ -41,9 +41,6 @@
       margin-left: 25px;
       text-align: center;
       font-size: 22px;
-      &:first-child {
-        margin-left: 15px;
-      }
       &:before {
         width: 30px;
         height: 30px;
@@ -180,6 +177,9 @@
     text-align: right;
     position: absolute;
     @include breakpoint($display_medium_up) {
+      .header-menu {
+        overflow:visible;
+      }
       position: inherit;
     }
   }
