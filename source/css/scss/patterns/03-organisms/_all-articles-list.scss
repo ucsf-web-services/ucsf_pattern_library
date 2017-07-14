@@ -1,6 +1,6 @@
 .all-articles-list {
   .all-article-list__item {
-      border-bottom: 1px solid #B4B9BF;
+      border-bottom: 1px solid $secondary-color;
       clear: left;
       .news-teaser {
         overflow: auto;

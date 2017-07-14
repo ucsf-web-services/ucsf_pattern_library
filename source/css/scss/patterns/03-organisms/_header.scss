@@ -1,8 +1,10 @@
 .header {
   padding-bottom: 30px;
   .header__ucsf-main-menu {
-    margin-left: -50px;
-    margin-right: -50px;
+    @include breakpoint($display_medium_up) {
+      margin-left: -50px;
+      margin-right: -50px;
+    }
     height: 36px;
     padding-top: 6px;
     padding-bottom: 10px;
@@ -38,7 +40,7 @@
     }
   }
   .header__social-media-search {
-    overflow: auto;
+    overflow: hidden;
     float: right;
     text-align: right;
     padding-top: 10px;

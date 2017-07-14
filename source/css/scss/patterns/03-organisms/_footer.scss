@@ -2,7 +2,26 @@
   margin-top: 120px;
 }
 
-.footer-menu {
+#footer.footer-menu {
+  h5 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #b4b9bf;
+    padding-bottom: 5px;
+    line-height: 1em;
+    font-size:1em;
+    margin-top: 10px;
+    @include breakpoint($display_medium_up) {
+      padding-bottom: 15px;
+      margin-top: 0;
+    }
+  }
+  .footer-logo {
+    margin-bottom: 20px;
+    @include breakpoint($display_medium_up) {
+      margin-top: 32px;
+      max-width: 285px;
+    }
+  }
   padding-top: 35px;
   padding-bottom: 15px;
   background-color: $ucsf-navyblue;
@@ -14,16 +33,19 @@
   padding-left: 50px;
   clear: both;
   .footer-menu__header {
-    padding-bottom: 25px;
-    border-bottom: 1px solid #b4b9bf;
-    line-height: 1em;
-    font-weight: bold;
+
+  }
+  div.footer-menu__links-wrapper {
+    @include breakpoint($display_medium_up) {
+      padding-right: 7%;
     }
-  .footer-menu__links {
     a {
       color: #b4b9bf;
       display: block;
-      padding-bottom: 15px;
+      padding-bottom: 3px;
+      @include breakpoint($display_medium_up) {
+        padding-bottom: 15px;
+      }
       &:hover {
         color: $white;
       }
@@ -31,10 +53,16 @@
   }
   .footer-menu__address {
     .footer-menu__contact-and-links {
-      column-count: 2;
-      border-bottom: 1px solid #b4b9bf;
-      padding-bottom: 15px;
-      margin-bottom: 15px;
+      position: relative;
+      .footer-menu__social-media-links {
+        float: right;
+        position: absolute;
+        top: -5px;
+        right: -3px;
+        @include breakpoint($display_medium_up) {
+          right: -10px;
+        }
+      }
     }
   }
   .footer-menu__copyright {
@@ -42,8 +70,6 @@
     padding-bottom: 15px;
     clear: left;
     color: $white;
-  }
-  .footer-menu__address-header {
-    font-weight: bold;
+    font-size: 14.4px;
   }
 }

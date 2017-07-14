@@ -15,15 +15,19 @@
               {% include "atoms-logo" %}
           </div>
           <div class="header__social-media-search">
+              {% if header.social %}
+                  <div class="header__social-media-links">
+                      <a href="#"><i class="fa fa-facebook facebook-link" aria-hidden="true" title="facebook link"></i></a>
+                      <a href="#"><i class="fa fa-twitter twitter-link" aria-hidden="true" title='twitter link'></i></a>
+                      <a href="#"><i class="fa fa-youtube-play youtube-link" aria-hidden="true" title="youtube link"></i></a>
+                  </div>
+              {% endif %}
+              {% if header.search %}
+                  <div class="header__search">
+                      {% include "molecules-search" %}
+                  </div>
+              {% endif %}
 
-              <div class="header__social-media-links">
-                  <a href="#"><i class="fa fa-facebook facebook-link" aria-hidden="true" title="facebook link"></i></a>
-                  <a href="#"><i class="fa fa-twitter twitter-link" aria-hidden="true" title='twitter link'></i></a>
-                  <a href="#"><i class="fa fa-youtube-play youtube-link" aria-hidden="true" title="youtube link"></i></a>
-              </div>
-              <div class="header__search">
-                  {% include "molecules-search" %}
-              </div>
           </div>
           <div class="header__header-menu">
               {% include "molecules-header-menu" %}

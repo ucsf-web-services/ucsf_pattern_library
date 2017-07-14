@@ -55,11 +55,7 @@
       "alt": "This is the Logo",
       "title": "This is the Logo"
     },
-    "footer_logo": {
-      "src":  "../../images/samples/UCSF_SubLogo_inv.png",
-      "alt": "This is the Logo",
-      "title": "This is the Logo"
-    },
+    "footer_logo": "FALSE",
     "offsetTextBanner": {
       "src":  "../../images/776x225.png",
       "alt": "Offset Text Banner Image",

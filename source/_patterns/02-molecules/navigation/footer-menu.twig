@@ -1,9 +1,7 @@
-<p class="footer-menu__header">LINKS</p>
+<h5 class="footer-menu__header">Links</h5>
 <ul class="footer-menu__links">
-  <li><a href="#">Patient Care & Info</a></li>
-  <li><a href="#">Research</a></li>
-  <li><a href="#">Education</a></li>
-  <li><a href="#">About us</a></li>
-  <li><a href="#">News & Events</a></li>
-  <li><a href="#">Support UCSF</a></li>
+    {% for link in footer_menu %}
+        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
 </ul>
+

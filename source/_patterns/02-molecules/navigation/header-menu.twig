@@ -1,14 +1,16 @@
 <div class="toggle-menu"> <span class="fa fa-bars"></span><span class="fa fa-close"></span></div>
 <div class="header-menu">
   <ul>
-    <li><a href="#">Main Menu 1</a></li>
-    <li><a href="#">Main Menu 2</a></li>
-    <li><a href="#">Main Menu 3</a></li>
-    <li class="submenu__dropdown"><a href="#">Main Menu 4 Long Title <span class="fa fa-caret-down"></span><span class="fa fa-caret-right"></span></a>
-      <div class="submenu__content">
-          {% include "molecules-submenu" %}
-      </div>
-    </li>
-    <li class="last"><a href="#">Main Menu 5</a></li>
+      {% for link in header.header_menu %}
+          {% if link.submenu %}
+              <li class="submenu__dropdown"><a href="#">{{ link.title }}<span class="fa fa-caret-down"></span><span class="fa fa-caret-right"></span></a>
+                  <div class="submenu__content">
+                      {% include "molecules-submenu" with link %}
+                  </div>
+              </li>
+          {% else %}
+            <li {% if loop.last %}class="last"{% endif %}>{{ html.a(link) }}</li>
+          {% endif %}
+      {% endfor %}
   </ul>
 </div>
