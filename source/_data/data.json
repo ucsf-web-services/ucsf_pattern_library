@@ -201,6 +201,8 @@
     {"url": "", "title": "Link 6"}
   ],
   "header": {
+    "social": true,
+    "search": true,
     "header_menu": [
       {"url": "#", "title": "Main Menu 1"},
       {"url": "#", "title": "Main Menu 2"},

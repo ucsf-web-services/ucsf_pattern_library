@@ -11,15 +11,16 @@
   </div>
   <div class="header__section">
       <div class="content-container clearfix">
+          <div id="mobile-menu-toggle"><span class="fa fa-bars fa-lg"></span></div>
           <div class ="header__logo">
               {% include "atoms-logo" %}
           </div>
           <div class="header__social-media-search">
               {% if header.social %}
                   <div class="header__social-media-links">
-                      <a href="#"><i class="fa fa-facebook facebook-link" aria-hidden="true" title="facebook link"></i></a>
-                      <a href="#"><i class="fa fa-twitter twitter-link" aria-hidden="true" title='twitter link'></i></a>
-                      <a href="#"><i class="fa fa-youtube-play youtube-link" aria-hidden="true" title="youtube link"></i></a>
+                      <a href="#" class="fa fa-facebook facebook-link">Facebook</a>
+                      <a href="#" class="fa fa-twitter twitter-link">Twitter</a>
+                      <a href="#" class="fa fa-youtube youtube-link">Youtube</a>
                   </div>
               {% endif %}
               {% if header.search %}
@@ -27,7 +28,6 @@
                       {% include "molecules-search" %}
                   </div>
               {% endif %}
-
           </div>
           <div class="header__header-menu">
               {% include "molecules-header-menu" %}
