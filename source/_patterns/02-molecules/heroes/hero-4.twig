@@ -1,0 +1,25 @@
+<div class="slider slider-hero slider__hero-4">
+    {% for slide in hero4_slides %}
+        {%  if slide.hero %}
+            {% set hero = slide.hero %}
+        {% endif %}
+        {%  if slide.img %}
+            {% set img = slide.img %}
+        {% endif %}
+        <div class="hero hero-4">
+            <div class="hero-4__top-image">
+                <div style="background-image:url('{{ img.banner4.src }}')">
+                </div>
+            </div>
+            <div class="hero-4__text">
+                <div>
+                    <h2>{{ hero.hero4.title }}</h2>
+                    <p>{{ hero.hero4.paragraph }}</p>
+                    <div class="hero__button">
+                        <a href="#" class="btn-3" id="Descriptive-Button-Action">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>

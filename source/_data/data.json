@@ -95,6 +95,10 @@
       "title": "Headline 3 lacinia bibendu nulla sed consec",
       "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
     },
+    "hero4": {
+      "title": "Headline 4 lacinia bibendu nulla sed consec",
+      "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+    },
     "hero5": {
       "title": "Headline 5 lacinia bibendu nulla sed consec"
     }
@@ -180,6 +184,11 @@
     {}
   ],
   "hero3_slides":[
+    {},
+    {},
+    {}
+  ],
+  "hero4_slides":[
     {},
     {},
     {}

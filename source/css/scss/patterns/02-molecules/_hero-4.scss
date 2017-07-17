@@ -1,0 +1,129 @@
+
+
+.slider__hero-4 {
+  max-width: 1320px;
+  margin: 0 auto;
+  @include breakpoint($display_medium_up) {
+    padding-left: 25px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+  }
+
+
+  &:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    overflow: visible;
+    left: -200%;
+    right: -200%;
+    top: 0;
+    height: 100%;
+    background-color: $primary-color;
+    @include breakpoint($display_medium_up) {
+      top: 30px;
+      height: 440px;
+    }
+  }
+  &:after {
+    content: " ";
+    position: absolute;
+    width: 42%;
+    height: 395px;
+    z-index: -2;
+    left: 0px;
+    bottom: 0;
+    @include breakpoint(0 $width--medium) {
+      display: none;
+    }
+  }
+
+  .hero-4 {
+    .hero-4__top-image {
+      padding-right: 30px;
+      padding-left: 30px;
+      @include breakpoint($display_medium_up) {
+        max-width: 748px;
+        max-height: 500px;
+        float: right;
+        margin-right: 10px;
+        padding: 0;
+      }
+      div {
+        height: 250px;
+        @include breakpoint($display_small_up) {
+          height: 386px;
+        }
+        @include breakpoint($display_medium_up) {
+          height: 500px;
+          width: 748px;
+        }
+      }
+    }
+    .hero-4__text {
+      color: white;
+      z-index: 20;
+      overflow: auto;
+      position: relative;
+      width: 100%;
+      padding: 30px;
+      height: 100%;
+      top: 0px;
+      background-color: $secondary-color;
+      @include breakpoint($display_medium_up) {
+        position: absolute;
+        width: 42%;
+        height: 395px;
+        top: 105px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 100px;
+        padding-bottom: 35px;
+      }
+      & > div {
+        overflow: auto;
+        height: 100%;
+        padding-bottom: 30px;
+        &::-webkit-scrollbar {
+          display: none;
+        }
+      }
+      h2 {
+        margin-bottom: 10px;
+        line-height: 1em;
+        @include breakpoint($display_medium_up) {
+          font-size: 44px;
+        }
+      }
+      p {
+        margin-bottom: 15px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  &.slick-slider {
+
+    .slick-slide {
+      min-height: 23px;
+      position: relative;
+    }
+
+    .slick-prev,
+    .slick-next {
+      display: none !important;
+      @include breakpoint($display_medium_up) {
+        display: inline-block !important;
+      }
+    }
+
+    .slick-prev {
+      left: 56px;
+      top: 175px;
+    }
+    .slick-next {
+      left: 126px;
+      top: 175px;
+    }
+  }
+}

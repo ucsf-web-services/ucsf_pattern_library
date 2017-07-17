@@ -1,0 +1,50 @@
+{
+  "bodyClass": "body",
+  "hero4_slides":[
+    {
+      "hero": {
+        "hero4": {
+          "title": "Headline 1 lacinia bibendu nulla sed consec",
+          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+        }
+      },
+      "img": {
+        "banner4": {
+          "src": "http://via.placeholder.com/748x500",
+          "alt": "This is the Banner Image 1",
+          "title": "This is the Banner Image 1"
+        }
+      }
+    },
+    {
+      "hero": {
+        "hero4": {
+          "title": "Headline 2 lacinia bibendu nulla sed consec",
+          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+        }
+      },
+      "img": {
+        "banner4": {
+          "src": "http://via.placeholder.com/748x500",
+          "alt": "This is the Banner Image 2",
+          "title": "This is the Banner Image 2"
+        }
+      }
+    },
+    {
+      "hero": {
+        "hero4": {
+          "title": "Headline 3 lacinia bibendu nulla sed consec",
+          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+        }
+      },
+      "img": {
+        "banner4": {
+          "src": "http://via.placeholder.com/748x500",
+          "alt": "This is the Banner Image 3",
+          "title": "This is the Banner Image 3"
+        }
+      }
+    }
+  ]
+}
