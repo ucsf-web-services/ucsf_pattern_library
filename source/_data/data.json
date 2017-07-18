@@ -212,9 +212,10 @@
   "header": {
     "social": true,
     "search": true,
+    "menuType": "molecules-header-menu",
     "header_menu": [
       {"url": "#", "title": "Main Menu 1"},
-      {"url": "#", "title": "Main Menu 2"},
+      {"url": "#", "title": "Main Menu 2", "active": true},
       {"url": "#", "title": "Main Menu 3"},
       {"title": "Main Menu 4", "submenu": [
         {"url": "#", "title": "Sub Menu A"},

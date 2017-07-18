@@ -1,5 +1,5 @@
 <div class="header-menu">
-    <div class="header-menu--wrapper header-menu--underline header-menu--hover-submenu">
+    <div class="header-menu--wrapper header-menu--background-color header-menu--click-submenu">
         <ul>
             {% for link in header.header_menu %}
                 {%  set itemClassActive = '' %}
@@ -11,7 +11,7 @@
                     {%  set itemClassLast = 'last' %}
                 {% endif %}
                 {% if link.submenu %}
-                    <li class="submenu__dropdown {{ itemClassActive }} {{ itemClassLast }}"><a href="#">{{ link.title }}<span class="fa fa-caret-down full-down"></span><span class="fa fa-caret-down fa-2x mobile-click"></span><span class="fa fa-caret-right fa-2x mobile-click"></span></a>
+                    <li class="submenu__dropdown {{ itemClassActive }} {{ itemClassLast }}"><a href="#">{{ link.title }}<span class="fa fa-caret-down"></span><span class="fa fa-caret-right"></span></a>
                         <div class="submenu__content">
                             {% include "molecules-submenu" with link %}
                         </div>
@@ -23,4 +23,3 @@
         </ul>
     </div>
 </div>
-

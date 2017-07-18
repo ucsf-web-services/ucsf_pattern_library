@@ -224,5 +224,22 @@
     {"url": "", "title": "About us"},
     {"url": "", "title": "News & Events"},
     {"url": "", "title": "Support UCSF"}
-  ]
+  ],
+  "header": {
+    "social": true,
+    "search": true,
+    "menuType": "molecules-header-menu-2",
+    "header_menu": [
+      {"url": "#", "title": "Main Menu 1"},
+      {"url": "#", "title": "Main Menu 2", "active": true},
+      {"url": "#", "title": "Main Menu 3"},
+      {"title": "Main Menu 4", "submenu": [
+        {"url": "#", "title": "Sub Menu A"},
+        {"url": "#", "title": "Sub Menu Longer B"},
+        {"url": "#", "title": "Sub Menu C"}
+      ]},
+      {"url": "#", "title": "Main Menu 5"},
+      {"url": "#", "title": "Main Menu 6"}
+    ]
+  }
 }

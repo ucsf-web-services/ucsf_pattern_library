@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $('.slider').slick({
     // Settings
   });
@@ -23,6 +24,11 @@ $(document).ready(function(){
     $status.text(i + ' of ' + total);
   });
 
+  var autoplay = false;
+  if($slickElement.hasClass('slider__hero-4')) {
+    autoplay = true;
+  }
+
   $slickElement.slick({
     slide: '.hero',
     variableWidth: false,
@@ -31,7 +37,7 @@ $(document).ready(function(){
     centerMode: false,
     arrows: true,
     dots: false,
-    autoplay: false
+    autoplay: autoplay
   });
 
 
