@@ -225,6 +225,10 @@
       {"url": "#", "title": "Main Menu 5"},
       {"url": "#", "title": "Main Menu 6"}
     ]
+  },
+  "pagination": {
+    "pages": 5,
+    "active": 2
   }
 
 }
