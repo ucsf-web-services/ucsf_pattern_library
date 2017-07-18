@@ -41,5 +41,9 @@
     "basicPage": {
       "title": "UCSF in the News"
     }
+  },
+  "pagination": {
+    "pages": 4,
+    "active": 1
   }
 }
