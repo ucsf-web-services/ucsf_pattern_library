@@ -10,11 +10,13 @@
   margin-bottom: 50px;
 }
 
-.sidebar-bg-white {
+.sidebar-container {
   @extend .sidebar-general;
+}
+
+.sidebar-bg-white {
   background-color: $white;
 }
 .sidebar-bg-gray {
-  @extend .sidebar-general;
   background-color: $background-gray;
 }

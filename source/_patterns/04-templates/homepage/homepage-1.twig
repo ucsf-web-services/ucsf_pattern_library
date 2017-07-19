@@ -1,0 +1,13 @@
+{% extends "two_col_page.twig" %}
+{% block hero %}{% include heroType %}{% endblock %}
+{% block heading %}
+    <p>{{ text.homepage_paragraphs.one }}</p>
+    <p>{{ text.homepage_paragraphs.two }}</p>
+{% endblock %}
+{% block main %}
+    {% include "organisms-featured-publications-list" %}
+    {% include "organisms-latest-events-list" %}
+{% endblock %}
+{% block sidebar %}
+    {% include "organisms-multiple-element-sidebar" %}
+{% endblock %}

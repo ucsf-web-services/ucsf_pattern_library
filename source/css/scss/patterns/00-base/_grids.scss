@@ -187,6 +187,26 @@ body {
   }
 }
 
+.four-col {
+  @include breakpoint($display_medium_up) {
+    // Basic Quaters
+    @include layout(8) {
+      .four-col__left {
+        @include grid-span(2, 1);
+      }
+      .four-col__center-left {
+        @include grid-span(2, 3);
+      }
+      .four-col__center-right {
+        @include grid-span(2, 5);
+      }
+      .four-col__right {
+        @include grid-span(2, 7);
+      }
+    }
+  }
+}
+
 .container {
   @include background-grid($color: $border-gray);
   @include clearfix;

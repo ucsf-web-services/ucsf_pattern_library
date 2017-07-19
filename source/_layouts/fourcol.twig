@@ -1,0 +1,7 @@
+{% block title %}{% endblock %}
+<div class="four-col {% block colclass %}{% endblock %} container">
+    <div class="four-col__left {%  block leftclass %}{% endblock %}">{%  block left %}Some left hand content{% endblock %}</div>
+    <div class="four-col__center-left {%  block centerleftclass %}{% endblock %}">{%  block centerleft %}Some center left content{% endblock %}</div>
+    <div class="four-col__center-right {%  block centerrightclass %}{% endblock %}">{%  block centerright %}Some center right content{% endblock %}</div>
+    <div class="four-col__right {%  block rightclass %}{% endblock %}">{%  block right %}Some right hand content{% endblock %}</div>
+</div>

@@ -1,5 +1,5 @@
 ---
-title: Homepage (2 column footer, alternate header and content)
+title: Homepage - Hero 5
 ---
 
 ---

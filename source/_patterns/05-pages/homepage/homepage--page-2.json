@@ -1,4 +1,5 @@
 {
+  "heroType": "molecules-hero-3",
   "img": {
     "banner1": {
       "src":  "../../images/905x40.png",
@@ -230,16 +231,18 @@
     "search": true,
     "menuType": "molecules-header-menu-2",
     "header_menu": [
-      {"url": "#", "title": "Main Menu 1"},
-      {"url": "#", "title": "Main Menu 2", "active": true},
-      {"url": "#", "title": "Main Menu 3"},
-      {"title": "Main Menu 4", "submenu": [
-        {"url": "#", "title": "Sub Menu A"},
-        {"url": "#", "title": "Sub Menu Longer B"},
-        {"url": "#", "title": "Sub Menu C"}
+      {"url": "#", "title": "Students",  "submenu": [
+        {"url": "#", "title": "Current Students"},
+        {"url": "#", "title": "Prospective Students"}
+      ], "active": true},
+      {"title": "Seminars", "submenu": [
+        {"url": "#", "title": "Formal Seminar"},
+        {"url": "#", "title": "Journal Club"},
+        {"url": "#", "title": "RIPS"}
       ]},
-      {"url": "#", "title": "Main Menu 5"},
-      {"url": "#", "title": "Main Menu 6"}
+      {"url": "#", "title": "Calendar"},
+      {"url": "#", "title": "Faculty"},
+      {"url": "#", "title": "Contact"}
     ]
   }
 }

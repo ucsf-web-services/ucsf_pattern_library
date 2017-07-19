@@ -27,6 +27,9 @@
     }
     .breadcrumb-page-title {
         color: #999999;
+       &:hover {
+         color: #999999;
+       }
     }
   }
 }

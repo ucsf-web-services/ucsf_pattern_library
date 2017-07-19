@@ -1,8 +1,11 @@
 .slider.slider__hero-2 {
   max-width: 1320px;
   padding-left: 0;
-  margin-bottom: 0;
   position: relative;
+  margin: 0 auto;
+  @include breakpoint($display_medium_up) {
+    padding-left: 0px;
+  }
 
   .slick-prev,
   .slick-next {

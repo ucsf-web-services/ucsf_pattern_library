@@ -1,18 +1,33 @@
-<div class="lastest-events-list four-col">
-  <div class="lastest-events-list__heading">
-    <h2 class="font-helvetica-neue-light">Events</h2>
-    <a href="#" class="btn-2" id="see-more">SEE MORE</a>
-  </div>
-  <div class="lastest-events-list__item four-col__left">
-    {% include "molecules-event-card" %}
-  </div>
-  <div class="lastest-events-list__item four-col__center-left">
-    {% include "molecules-event-card" %}
-  </div>
-  <div class="lastest-events-list__item four-col__center-right">
-    {% include "molecules-event-card" %}
-  </div>
-  <div class="lastest-events-list__item four-col__right">
-    {% include "molecules-event-card" %}
-  </div>
+
+<div class="lastest-events-list">
+{% if sidebar %}
+    {% set grid = "threecol.twig" %}
+    {% set count = 3 %}
+{% else %}
+    {% set grid = "fourcol.twig" %}
+    {% set count = 4 %}
+{% endif %}
+{% embed grid %}
+    {% block title %}<div class="lastest-events-list__heading">{{ titles.h2(event_listing.title) }}</div>{% endblock %}
+    {% block colclass %}{% endblock %}
+    {% block left %}
+        {% include "molecules-event-card" with event_listing.list[0] only %}
+    {% endblock %}
+    {% if count == 3 %}
+    {% block center %}
+        {% include "molecules-event-card" with event_listing.list[1] only %}
+    {% endblock %}
+    {% else %}
+        {% block centerleft %}
+            {% include "molecules-event-card" with event_listing.list[1] only %}
+        {% endblock %}
+        {% block centerright %}
+            {% include "molecules-event-card" with event_listing.list[2] only %}
+        {% endblock %}
+    {% endif %}
+    {% block right %}
+        {% if count == 3 %}{% set final = 2 %}{% else %}{% set final = 3 %}{% endif %}
+        {% include "molecules-event-card" with event_listing.list[final] only %}
+    {% endblock %}
+{% endembed %}
 </div>

@@ -26,9 +26,13 @@
 }
 
 // Hero 1
-.slider__hero-1 {
+.slider.slider__hero-1 {
+  padding: 0;
   max-width: 1320px;
-  padding-left: 0;
+  margin: 0 auto;
+  @include breakpoint($display_medium_up) {
+    padding-left: 0px;
+  }
   margin-bottom: 50px;
   position: relative;
   &:after {

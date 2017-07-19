@@ -1,18 +1,20 @@
-<div class="sidebar-bg-white align-left multiple-element-sidebar">
-  <h2 class ="multiple-element-sidebar__section_title font-granjon">Publications</h2>
-  <div class="multiple-element-sidebar__section">
-    <div class="multiple-element-sidebar__section-item">
-      {% include "molecules-publication-teaser" %}
-    </div>
-    <div class="multiple-element-sidebar__section-item">
-      {% include "molecules-publication-teaser" %}
-    </div>
-    <div class="multiple-element-sidebar__section-item-last">
-      {% include "molecules-publication-teaser" %}
-    </div>
-  </div>
-  <h2 class ="multiple-element-sidebar__section_title font-granjon">Links</h2>
-  <div class="multiple-element-sidebar__section">
-    {% include "molecules-link-list" %}
-  </div>
-</div>
+{% embed "molecules-sidebar" with sidebar %}
+    {% block sidebar_content %}
+        {% if sidebar.sections %}
+            {% for section in sidebar.sections %}
+                {% if loop.last %}{% set lastSection = true %}{%  endif %}
+                <h2 class ="multiple-element-sidebar__section_title font-granjon">{{ section.title }}</h2>
+                <div class="multiple-element-sidebar__section">
+                {% for item in section.section_items %}
+                    <div class="multiple-element-sidebar__section-item {% if loop.last %}{% if lastSection %}multiple-element-sidebar__section-item-last{% else %}multiple-element-sidebar__section-item-last-mid{% endif %}{% endif %}">
+                    {% include item %}
+                    </div>
+                {% endfor %}
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endblock %}
+{% endembed %}
+
+
+

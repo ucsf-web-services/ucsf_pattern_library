@@ -5,3 +5,7 @@
 {% macro img(img) %}
     <img src="{{ img.src }}" alt="{{ img.alt }}" title="{{  img.title }}">
 {% endmacro %}
+
+{% macro dateContent(year, month, day, hour, minute) %}
+{{ year.long }}{{ month.digit }}-{{ day.long }}T{{ hour.long }}:{{ minute.long }}:00-8:00
+{% endmacro %}
