@@ -1,7 +1,30 @@
+
 .all-profiles-list {
-  .all-profiles-list__item {
-    border-bottom: 1px solid $background-gray;
-    padding-top: 40px;
-    padding-bottom: 40px;
+  .all-profiles-list__col {
+    width: 31%;
+    &.four-grid {
+      width: 24%;
+    }
+    clear: none;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    margin-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: $display_large_min){
+  .all-profiles-list {
+    .all-profiles-list__col {
+      width: 48.5%;
+    }
+  }
+}
+
+@media only screen and (max-width: $display_medium_min){
+  .all-profiles-list {
+    .all-profiles-list__col {
+      width: 100%;
+    }
   }
 }

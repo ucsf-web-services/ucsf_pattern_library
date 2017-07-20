@@ -238,5 +238,16 @@
   "event_listing": {
     "title": "Event Listing Title",
     "list": [{}, {}, {}, {}]
-  }
+  },
+  "profiles":[
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ]
 }
