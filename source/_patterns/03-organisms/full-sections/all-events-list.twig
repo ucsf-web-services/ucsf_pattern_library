@@ -1,33 +1,7 @@
-<div class="all-events-list four-col">
-  <div class="all-events-list__heading">
-    <h2 class="font-helvetica-neue-light">Needs to look like: http://test.test1.ucsf.edu/events Events</h2>
-  </div>
-  <div class="all-events-list__row">
-    <div class="all-events-list__item four-col__left">
-      {% include "molecules-event-card" %}
-    </div>
-    <div class="all-events-list__item four-col__center-left">
-      {% include "molecules-event-card" %}
-    </div>
-    <div class="all-events-list__item four-col__center-right">
-      {% include "molecules-event-card" %}
-    </div>
-    <div class="all-events-list__item four-col__right">
-      {% include "molecules-event-card" %}
-    </div>
-  </div>
-  <div class="all-events-list__row">
-    <div class="all-events-list__item four-col__left">
-      {% include "molecules-event-card" %}
-    </div>
-    <div class="all-events-list__item four-col__center-left">
-      {% include "molecules-event-card" %}
-    </div>
-    <div class="all-events-list__item four-col__center-right">
-      {% include "molecules-event-card" %}
-    </div>
-    <div class="all-events-list__item four-col__right">
-      {% include "molecules-event-card" %}
-    </div>
-  </div>
+<div class="all-events-list">
+    {% for event in event_listing.list %}
+        <div class="all-events-list__item">
+            {% include "molecules-event-teaser" %}
+        </div>
+    {% endfor %}
 </div>

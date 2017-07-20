@@ -1,0 +1,38 @@
+.event-teaser {
+  h3 {
+    font-size: 18px;
+  }
+  .event-teaser__image {
+    display: none;
+    @include breakpoint($display_medium_up) {
+      display: block;
+      float: left;
+    }
+
+  }
+  .event-teaser__title {
+    h3 {
+      @extend .font-helvetica-neue;
+      margin-bottom: 0px;
+      clear: right;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+  .event-teaser__date-time {
+    color: $darkdarkgray;
+    font-size: 15px;
+    display: inline-block;
+    margin: 7px 0;
+    p {
+      margin: 0px;
+    }
+  }
+  .event-teaser__detail {
+    p {
+      margin: 0;
+    }
+  }
+}

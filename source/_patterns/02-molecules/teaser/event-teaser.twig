@@ -1,1 +1,15 @@
-format this page: http://test.test1.ucsf.edu/events
+
+<div class="event-teaser clearfix">
+    <div class="event-teaser__image">
+        {% include "atoms-calendar-icon" %}
+    </div>
+    <div class="event-teaser__title">
+        <h3><a href=#>{{ text.eventTeaser.title }}</a></h3>
+    </div>
+    <div class="event-teaser__date-time">
+        <p>{{ month.long }} {{ day.long }}, {{ year.long }}, {{ hour.short }}:{{ minute.long }}{{ hour.ampm }}</p>
+    </div>
+    <div class="event-teaser__detail">
+        <p>{{ text.eventTeaser.paragraph }}</p>
+    </div>
+</div>

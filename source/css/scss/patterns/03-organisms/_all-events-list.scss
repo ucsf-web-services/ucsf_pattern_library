@@ -1,14 +1,26 @@
 .all-events-list {
-  .all-events-list__heading {
-    h2 {
-      border-bottom: 2px solid $secondary-color;
-      margin-bottom: 30px;
+  .all-events-list__item {
+    border-bottom: 1px solid $darkgray;
+    padding-bottom: 28px;
+    margin-bottom: 28px;
+  }
+
+
+
+
+  &.all-events-list--grid {
+    .all-events-list__heading {
+      h2 {
+        border-bottom: 2px solid $secondary-color;
+        margin-bottom: 30px;
+      }
+    }
+    .all-events-list__row {
+      clear: both;
+      .all-events-list__item {
+        margin-bottom: 28px;
+      }
     }
   }
-  .all-events-list__row {
-    clear: both;
-    .all-events-list__item {
-      margin-bottom: 28px;
-    }
-  }
+
 }

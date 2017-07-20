@@ -27,4 +27,12 @@ section {
   display: block;
   clear: both;
   margin-bottom: 3rem;
+  &.header {
+    h1 {
+      margin: 0 auto 20px auto;
+      padding: 0;
+    }
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
