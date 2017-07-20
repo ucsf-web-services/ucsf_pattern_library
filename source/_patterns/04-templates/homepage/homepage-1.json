@@ -7,12 +7,6 @@
     }
   },
   "news_listing": {
-    "link": {
-      "title": "SEE MORE",
-      "url": "#",
-      "class": "btn-2",
-      "id": "seemore"
-    },
     "title": "News Listing Title",
     "list": [
       {
@@ -116,6 +110,40 @@
           "short": "45"
         },
         "seconds": "11"
+      },
+      {
+        "text": {
+          "medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        },
+        "year": {
+          "long": "2013",
+          "short": "13"
+        },
+        "month": {
+          "long": "February",
+          "short": "Feb",
+          "digit": "02"
+        },
+        "dayofweek": {
+          "long": "Monday",
+          "short": "Mon"
+        },
+        "day": {
+          "long": "10",
+          "short": "10",
+          "ordinal": "th"
+        },
+        "hour": {
+          "long": "01",
+          "short": "1",
+          "military": "13",
+          "ampm": "pm"
+        },
+        "minute": {
+          "long": "20",
+          "short": "20"
+        },
+        "seconds": "31"
       }
     ]
   },

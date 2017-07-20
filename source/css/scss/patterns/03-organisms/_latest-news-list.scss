@@ -3,7 +3,11 @@
     margin-top: 40px;
     border-bottom: 2px solid $secondary-color;
     margin-bottom: 30px;
+    padding-bottom: 4px;
     h2 {
+      font-weight: 300;
+      font-size: 29px;
+      line-height: 1.1;
       display: inline-block;
       margin: 0;
     }
@@ -18,6 +22,10 @@
     float: left;
     display: inline-block;
     @extend .width-one-third;
+    &.grid {
+      @extend .width-half;
+      margin-bottom: 3%;
+    }
     .news-short-teaser {
       margin-top:0;
       margin-right: 8%;
