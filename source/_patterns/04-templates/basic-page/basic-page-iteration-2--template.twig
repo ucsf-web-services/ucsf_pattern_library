@@ -1,5 +1,5 @@
 {% extends "two_col_page.twig" %}
-{% block hero %}{% include "molecules-hero-2" %}{% endblock %}
-{% block heading %}<h1 class="font-granjon">{{ text.basicPage.title }}</h1>{% endblock %}
-{% block main %}{% include "organisms-all-articles-list" %}{% endblock %}
+{% block hero %}{% endblock %}
+{% block heading %}{% include "molecules-breadcrumbs" %}<h1 class="font-granjon">{{ text.basicPage.title }}</h1>{% endblock %}
+{% block main %}{% include "organisms-featured-location" %}{% endblock %}
 {% block sidebar %}{% include "organisms-multiple-element-sidebar" %}{% endblock %}

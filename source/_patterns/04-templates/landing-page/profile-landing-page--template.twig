@@ -1,10 +1,10 @@
 {% extends "basic_page.twig" %}
 {% block hero %}{% endblock %}
 {% block heading %}
+    {% include "molecules-breadcrumbs" %}
     <h1>People</h1>
 {% endblock %}
 {% block main %}
-    {% include "molecules-breadcrumbs" %}
     {% include "organisms-all-profiles-list" %}
     {% include "molecules-pagination" %}
 {% endblock %}
