@@ -1,0 +1,10 @@
+{% extends "basic_page.twig" %}
+{% block hero %}{% endblock %}
+{% block heading %}
+    {% include "molecules-breadcrumbs" %}
+    <h1>{{ event.title }}</h1>
+{% endblock %}
+{% block main %}
+    {% include "molecules-date-location-mini" %}
+    <div class="subsection">{% autoescape false %}{{ event.content }}{% endautoescape %}</div>
+{% endblock %}

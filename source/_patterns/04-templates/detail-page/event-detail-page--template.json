@@ -1,0 +1,30 @@
+{
+  "event": {
+    "title": "Quis nostrud exercitation",
+    "content": "<p><strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong> Nam et elit quis est varius porttitor. In varius purus turpis, a placerat elit eleifend et. Nullam vulputate mattis ipsum, sed tristique risus auctor lobortis. Aliquam ultricies id ligula sit amet eleifend. Pellentesque nec dictum augue, vitae ornare velit.</p><p>Sed quis urna id dolor efficitur placerat. Duis tempus fringilla mauris. Maecenas interdum efficitur ipsum quis rutrum. Duis sagittis lectus augue, vitae ultrices orci condimentum ac. Nulla at lobortis ex. Donec turpis magna, pulvinar vel vehicula vitae, pulvinar quis justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum, velit nec varius lobortis, odio mauris malesuada urna, ut elementum tellus mauris quis libero. Sed nec porta magna. Aliquam eu leo turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla eleifend odio non gravida tempus.</p><p>Nulla efficitur rhoncus convallis. Integer nec tempus lectus, eu lobortis ipsum. Duis pharetra egestas nisl, sit amet efficitur neque commodo id. Donec vel est tristique, pretium lorem vehicula, lacinia dolor. Donec volutpat sollicitudin rutrum. Donec efficitur nibh ut elit condimentum aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed interdum nisi eget magna volutpat tempus. Donec vitae placerat nisi. Praesent neque quam, lacinia ac eros dignissim, condimentum sollicitudin sem. Ut condimentum iaculis odio id porttitor.</p><p><strong>Nullam vel libero quis ex sodales lacinia ac ut sem.</strong> Aenean placerat congue sapien, nec sollicitudin nunc. Sed fringilla aliquet tortor in pretium. Pellentesque velit quam, blandit non urna sed, placerat sollicitudin nisl. Morbi accumsan arcu justo, sit amet congue nisi imperdiet ut. </p><p>Integer nisi risus, varius sed varius in, pretium in nulla. Phasellus est erat, iaculis ut massa nec, malesuada semper turpis. Nam eget fringilla nisl. Ut scelerisque ante quam, facilisis viverra lacus porttitor id. Aliquam tristique vel orci quis porta. </p><p>Aliquam erat volutpat. Suspendisse accumsan, tortor sodales vulputate finibus, sapien urna pretium lectus, nec tristique nunc metus sit amet mauris. Mauris quis tortor ligula. Vivamus malesuada dui vitae turpis mollis aliquet. Nunc nec lobortis felis. Suspendisse a tortor a lorem luctus consectetur sit amet sit amet metus. Ut at blandit tortor. Fusce a tellus fringilla, auctor dui ut, fermentum urna.</p>"
+  },
+  "year": {
+    "long": "2017",
+    "short": "17"
+  },
+  "month": {
+    "long": "June",
+    "short": "Jun",
+    "digit": "06"
+  },
+  "day": {
+    "long": "22",
+    "short": "22",
+    "ordinal": "nd"
+  },
+  "hour": {
+    "long": "06",
+    "short": "6",
+    "military": "06",
+    "ampm": "PM"
+  },
+  "minute": {
+    "long": "20",
+    "short": "20"
+  }
+}

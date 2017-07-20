@@ -118,6 +118,11 @@
       "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
       "paragraph": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
     },
+    "event": {
+      "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
+      "paragraph": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur.",
+      "location": "Ullamco laboris nisi"
+    },
     "publicationShortTeaser": {
       "title": "Publication Title: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
       "subtitle": "Publication Subtitle: Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
