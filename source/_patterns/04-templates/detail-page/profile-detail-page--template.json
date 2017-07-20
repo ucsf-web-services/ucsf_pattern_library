@@ -1,0 +1,8 @@
+{
+  "text": {
+    "profile": {
+      "summary": "<p>Maecenas interdum efficitur ipsum quis rutrum. Duis sagittis lectus augue, vitae ultrices orci condimentum ac. Nulla at lobortis ex. Donec turpis magna, pulvinar vel vehicula vitae, pulvinar quis justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum, velit nec varius lobortis, odio mauris malesuada urna, ut elementum tellus mauris quis libero. Sed nec porta magna. Aliquam eu leo turpis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla eleifend odio non gravida tempus. Nulla efficitur rhoncus convallis.</p><p>Integer nec tempus lectus, eu lobortis ipsum. Duis pharetra egestas nisl, sit amet efficitur neque commodo id. Donec vel est tristique, pretium lorem vehicula, lacinia dolor. Donec volutpat sollicitudin rutrum. Donec efficitur nibh ut elit condimentum aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed interdum nisi eget magna volutpat tempus. Donec vitae placerat nisi. Praesent neque quam, lacinia ac eros dignissim, condimentum sollicitudin sem. Ut condimentum iaculis odio id porttitor.</p>"
+    }
+  },
+  "bodyClass": "body profile-page"
+}

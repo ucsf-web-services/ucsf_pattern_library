@@ -107,7 +107,9 @@
     "profile": {
       "name": "Joe Bloggs",
       "title": "Designation / Job Title",
-      "info": "Primary Department / School Information"
+      "info": "Primary Department / School Information",
+      "email": "joebloggs@ucsf.edu",
+      "phone": "+1 2345 67890"
     },
     "author": "Author Name",
     "newsTeaser": {

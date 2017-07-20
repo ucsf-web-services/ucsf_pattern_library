@@ -1,0 +1,16 @@
+<div class="profile-header clearfix">
+    <div class="profile-header__image">
+        {% include "atoms-profile-image-small" %}
+    </div>
+    <div class="profile-header__detail">
+        <h4>{{ text.profile.name }}</h4>
+        <p>{{ text.profile.title }}</p>
+        <p>{{ text.profile.info }}</p>
+        <div class="profile-header__detail__contact">
+            <p>{{ html.mailto(text.profile.email) }}</p>
+            <p>{{ text.profile.phone }}</p>
+        </div>
+
+    </div>
+
+</div>

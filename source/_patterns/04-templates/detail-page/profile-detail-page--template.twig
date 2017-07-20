@@ -1,10 +1,9 @@
 {% extends "basic_page.twig" %}
 {% block hero %}{% endblock %}
-{% block heading %}
-    <h1>People</h1>
-{% endblock %}
+{% block heading %}{% endblock %}
 {% block main %}
     {% include "molecules-breadcrumbs" %}
-    {% include "organisms-all-profiles-list" %}
-    {% include "molecules-pagination" %}
+    {% include "molecules-profile-header" %}
+    <div class="subsection">{% autoescape false %}{{ text.profile.summary }}{% endautoescape %}</div>
+    {% include "organisms-featured-publications-list" %}
 {% endblock %}
