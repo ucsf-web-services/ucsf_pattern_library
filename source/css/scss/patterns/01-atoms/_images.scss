@@ -4,7 +4,8 @@ img {
 
 a img {
   &:hover {
-     filter: brightness(105%);
+    opacity: 0.5;
+    transition: all 0.25s ease-in-out;
   }
 }
 

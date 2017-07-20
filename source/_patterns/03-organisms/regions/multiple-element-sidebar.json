@@ -2,8 +2,8 @@
   "sidebar": {
     "classes": "sidebar-bg-gray align-left multiple-element-sidebar",
     "sections": [
-      {"title": "Section 1", "section_items": ["molecules-publication-teaser", "molecules-publication-teaser", "molecules-publication-teaser"]},
-      {"title": "Section 2", "section_items": ["molecules-link-list"]}
+      {"title": "Section 1", "section_items": [{"item": "molecules-publication-teaser"}, {"item": "molecules-publication-teaser"}, {"item": "molecules-publication-teaser"}]},
+      {"title": "Section 2", "section_items": [{"item": "molecules-link-list"}]}
     ]
   }
 }

@@ -104,6 +104,11 @@
     }
   },
   "text": {
+    "profile": {
+      "name": "Joe Bloggs",
+      "title": "Designation / Job Title",
+      "info": "Primary Department / School Information"
+    },
     "author": "Author Name",
     "newsTeaser": {
       "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
@@ -229,7 +234,6 @@
     "active": 3
   },
   "sidebar": {
-    "classes": ""
   },
   "event_listing": {
     "title": "Event Listing Title",

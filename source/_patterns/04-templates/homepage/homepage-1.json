@@ -122,7 +122,22 @@
   "sidebar": {
     "classes": "sidebar-bg-gray multiple-element-sidebar",
     "sections": [
-      {"title": "Section 1", "section_items": ["molecules-profile-card", "molecules-profile-card", "molecules-profile-card"]}
+      {"title": "Section 1", "section_items": [{"item": "molecules-profile-card", "data": {"text": {
+        "profile": {
+          "name": "Joe Bloggs",
+          "title": "Designation / Job Title",
+          "info": "Primary Department / School Information"
+        }}}}, {"item": "molecules-profile-card", "data": {"text": {
+        "profile": {
+          "name": "Jane Doe",
+          "title": "Designation / Job Title",
+          "info": "Primary Department / School Information"
+        }}}}, {"item": "molecules-profile-card", "data": {"text": {
+        "profile": {
+          "name": "Santa Claus",
+          "title": "Designation / Job Title",
+          "info": "Primary Department / School Information"
+        }}}}]}
     ]
   },
   "event_listing": {

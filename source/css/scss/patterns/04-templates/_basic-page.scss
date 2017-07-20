@@ -1,5 +1,8 @@
 .basic-page {
   .main {
+    & > div {
+      margin-bottom: 40px;
+    }
     margin-bottom: 2em;
     @include breakpoint($display_large_min) {
       @include grid-span(8, 1, (12));

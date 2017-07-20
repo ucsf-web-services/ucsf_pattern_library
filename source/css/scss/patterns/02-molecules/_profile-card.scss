@@ -3,7 +3,6 @@
   margin-right: 3%;
   .profile-card__detail {
     margin-top: 30px;
-    margin-bottom: 30px;
     h4 {
       font-size: 18px;
       font-weight: 400;
@@ -14,9 +13,6 @@
      p {
       margin: 0px;
       font-size: 15px;
-      &:last-of-type {
-        margin-bottom: 15px;
-      }
     }
   }
 }

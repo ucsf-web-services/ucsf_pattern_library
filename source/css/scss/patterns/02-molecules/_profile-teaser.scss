@@ -5,8 +5,9 @@
     width: 150px;
   }
   .profile-teaser__detail {
-    float: left;
+    overflow: auto;
     h4 {
+      @extend .font-helvetica-neue;
       font-weight: 300;
       font-size: 26px;
       margin-top: 0;
@@ -16,18 +17,16 @@
       font-size: 18px;
       margin: 0;
     }
+    & .profile-teaser__text {
+      padding-top: 15px;
+      p {
+        font-size: 15px;
+      }
+    }
     a {
       display: inline-block;
       margin-bottom: 30px;
     }
-    .profile-teaser__phone{
-      margin-top: 8px;
-      font-size: 16px;
-    }
   }
-  .profile-teaser__text{
-    float: left;
-    padding-top: 15px;
-    width: 100%;
-  }
+
 }
