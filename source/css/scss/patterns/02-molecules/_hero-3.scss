@@ -52,6 +52,7 @@
     }
   }
   &:after {
+    background-color: $secondary-color;
     content: " ";
     position: absolute;
     width: 213px;
@@ -59,7 +60,6 @@
     left: 0px;
     bottom: -30px;
     @include breakpoint($display_960_up) {
-      background-color: $secondary-color;
       height: 500px;
       width: 145px;
       left: 65.8%;
@@ -69,20 +69,19 @@
     }
   }
 
+  .hero__button {
+    padding-bottom: 5px;
+  }
+
   .paging-info {
-    bottom: 50px;
     z-index: 20;
     color: white;
     font-size: 15px;
     font-weight: bold;
     position: static;
+    bottom: 50px;
     @include breakpoint($display_medium_up) {
       position: absolute;
-      right: 21%;
-    }
-    @include breakpoint($collapsing-wide-breakpoint) {
-      position: absolute;
-      right: 25.5%;
     }
   }
 }

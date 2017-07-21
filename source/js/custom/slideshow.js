@@ -13,7 +13,7 @@ $(document).ready(function(){
   $('.hero-2__text-wrapper').append("<div class='paging-info'></div>");
 
   // On Hero 3 append pager to the main slider
-  $('.hero-3').append("<div class='paging-info'></div>");
+  $('.hero-3 .hero-3__text').append("<div class='paging-info'></div>");
 
   var $status = $('.paging-info');
 
