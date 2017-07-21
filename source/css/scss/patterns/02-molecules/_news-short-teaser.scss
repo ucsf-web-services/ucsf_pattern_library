@@ -1,8 +1,16 @@
 .news-short-teaser {
   margin-top: 30px;
+
   .news-short-teaser__image{
     float: left;
     margin-right: 30px;
+    overflow: hidden;
+    margin-bottom: 13px;
+  }
+  &.news-short-teaser__sidebar {
+    .news-short-teaser__image{
+      margin-right: 20px;
+    }
   }
   .news-short-teaser__detail {
     p {

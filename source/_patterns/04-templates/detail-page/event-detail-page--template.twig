@@ -2,7 +2,7 @@
 {% block hero %}{% endblock %}
 {% block heading %}
     {% include "molecules-breadcrumbs" %}
-    <h1>{{ event.title }}</h1>
+    {{ titles.h1(event.title) }}
 {% endblock %}
 {% block main %}
     {% include "molecules-date-location-mini" %}

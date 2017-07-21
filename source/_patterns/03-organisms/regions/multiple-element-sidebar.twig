@@ -3,12 +3,16 @@
         {% if sidebar.sections %}
             {% for section in sidebar.sections %}
                 {% if loop.last %}{% set lastSection = true %}{%  endif %}
-                <h2 class ="multiple-element-sidebar__section_title font-granjon">{{ section.title }}</h2>
+                <h2 class ="multiple-element-sidebar__section_title">{{ section.title }}</h2>
                 <div class="multiple-element-sidebar__section">
                 {% for section_item in section.section_items %}
                     <div class="multiple-element-sidebar__section-item {% if loop.last %}{% if lastSection %}multiple-element-sidebar__section-item-last{% else %}multiple-element-sidebar__section-item-last-mid{% endif %}{% endif %}">
-                    {% if section_item.data %}{% include section_item.item with section_item.data %}{% else %}{% include section_item.item %}{% endif %}
-
+                    {% if section_item.data %}
+                        {% set data = section_item.data|merge({"in_sidebar": true}) %}
+                        {% include section_item.item with data %}
+                    {% else %}
+                        {% include section_item.item with {"in_sidebar": true} %}
+                    {% endif %}
                     </div>
                 {% endfor %}
                 </div>

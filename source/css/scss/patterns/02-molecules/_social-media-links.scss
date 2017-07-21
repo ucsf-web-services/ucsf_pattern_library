@@ -1,94 +1,42 @@
-i {
-  &.fa {
-    font-size: 0.9em;
-    @include breakpoint($display_medium_up) {
-      font-size: 1em;
+.social-media-links {
+  .fa {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFF;
+    border-radius: 0%;
+    font-size: 14px;
+    background-color: #7B7979;
+    margin-left: 20px
+  }
+  .fa-facebook,
+  .fa-twitter,
+  .fa-youtube {
+    text-indent: 40px;
+    &:before {
+      text-indent: 0;
+      float: left;
+      width: 20px;
     }
   }
-  margin-right: 3px;
-  font-size: 12px;
-  @include breakpoint($display_medium_up) {
-    margin-right: 10px;
-  }
-}
-.facebook-link {
-  color: white;
-  padding: 4px 6px;
-  @include breakpoint($display_medium_up) {
-    padding: 5px 8px;
-  }
-  background-color: $darkgray;
-  &:hover {
-    background-color: #3b5998;
-  }
-}
-.facebook-share {
-  color: $darkgray;
-  padding: 3px 9px;
-  @include breakpoint($display_medium_up) {
-    padding: 5px 15px;
-  }
-  border-bottom: 5px solid $darkgray;
-  &:hover {
-    color: #3b5998;
-    border-bottom: 5px solid #3b5998;
-  }
-}
-.twitter-link {
-    color: white;
-    background: $darkgray;
-    padding: 4px;
-    @include breakpoint($display_medium_up) {
-      padding: 5px;
-    }
+  .fa-facebook {
     &:hover {
-      background-color: #4099FF;
+      background-color:#3C599F;
+      color: rgba(255, 255, 255, .8);
     }
-}
-.twitter-share {
-  color: $darkgray;
-  padding: 3px 9px;
-  @include breakpoint($display_medium_up) {
-    padding: 5px 15px;
   }
-  border-bottom: 5px solid $darkgray;
-  &:hover {
-    color: #4099FF;
-    border-bottom: 5px solid #4099FF;
+  .fa-twitter {
+    &:hover {
+      background-color:#32CCFE;
+      color: rgba(255, 255, 255, .8);
+    }
   }
-}
-.youtube-link {
-  color: white;
-  background: $darkgray;
-  padding: 4px;
-  @include breakpoint($display_medium_up) {
-    padding: 5px;
-  }
-  &:hover {
-    background-color: #BB0000;
-  }
-}
-.email-share {
-  color: $darkgray;
-  padding: 3px 9px;
-  @include breakpoint($display_medium_up) {
-    padding: 5px 15px;
-  }
-  border-bottom: 5px solid $darkgray;
-  &:hover {
-    color: $black;
-    border-bottom: 5px solid $black;
-  }
-}
-.generic-share{
-  color: $darkgray;
-  padding: 3px 9px;
-  @include breakpoint($display_medium_up) {
-    padding: 5px 15px;
-  }
-  border-bottom: 5px solid $darkgray;
-  &:hover {
-    color: #00BF00;
-    border-bottom: 5px solid #00BF00;
+  .fa-youtube {
+    &:hover {
+      background-color:#C52F30;
+      color: rgba(255, 255, 255, .8);
+    }
   }
 }

@@ -101,47 +101,6 @@
   }
 
   .header__social-media-links {
-    .fa {
-      padding: 0;
-      width: 20px;
-      height: 20px;
-      line-height: 20px;
-      text-align: center;
-      color: #FFF;
-      border-radius: 0%;
-      font-size: 14px;
-      background-color: #7B7979;
-      margin-left: 20px
-    }
-    .fa-facebook,
-    .fa-twitter,
-    .fa-youtube {
-      text-indent: 40px;
-      &:before {
-        text-indent: 0;
-        float: left;
-        width: 20px;
-      }
-    }
-    .fa-facebook {
-      &:hover {
-        background-color:#3C599F;
-        color: rgba(255, 255, 255, .8);
-      }
-    }
-    .fa-twitter {
-      &:hover {
-        background-color:#32CCFE;
-        color: rgba(255, 255, 255, .8);
-      }
-    }
-    .fa-youtube {
-      &:hover {
-        background-color:#C52F30;
-        color: rgba(255, 255, 255, .8);
-      }
-    }
-
     display: inline-block;
     margin-right: 35px;
   }

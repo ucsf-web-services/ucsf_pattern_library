@@ -1,0 +1,12 @@
+.figure-caption {
+  display: table;
+  margin: 0;
+  figcaption {
+    font-size: 12px;
+    line-height: 1.2;
+    padding-top: 3px;
+    margin-bottom: 10px;
+    display: table-caption;
+    caption-side: bottom;
+  }
+}

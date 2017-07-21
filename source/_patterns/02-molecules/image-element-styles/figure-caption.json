@@ -1,0 +1,10 @@
+{
+  "figure": {
+    "img": {
+      "src":  "http://via.placeholder.com//845x500",
+      "alt": "Figure",
+      "title": "Figure"
+    },
+    "caption": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+}
