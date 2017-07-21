@@ -50,6 +50,9 @@
         padding: 0;
       }
       div {
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
         height: 250px;
         @include breakpoint($display_small_up) {
           height: 386px;
