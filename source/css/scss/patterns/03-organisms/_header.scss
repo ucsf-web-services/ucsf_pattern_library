@@ -58,32 +58,10 @@
 
 
   padding-bottom: 30px;
-  .header__ucsf-main-menu {
+  .header__ucsf-top-menu {
     @include breakpoint($display_medium_up) {
       margin-left: -50px;
       margin-right: -50px;
-    }
-    height: 36px;
-    padding-top: 6px;
-    padding-bottom: 10px;
-    background-color: $ucsf-navyblue;
-    color: $white;
-    .header__ucsf-main-menu__university {
-      display: inline-block;
-      height: inherit;
-    }
-    .header__ucsf-main-menu__links {
-      display: inline-block;
-      float: right;
-      color: $white;
-      height: inherit;
-      a {
-        padding-right: 40px;
-        color: $white;
-        &:last-of-type {
-          padding-right: 0px;
-        }
-      }
     }
   }
   .header__section {

@@ -1,0 +1,38 @@
+.site-top-menu {
+  width: 100%;
+  background-color: $ucsf-navyblue;
+  font-size: 15px;
+  height: 36px;
+  ul {
+    height: 36px;
+    line-height: 36px;
+    list-style: none;
+    li {
+      margin: 0;
+      display: none;
+      float: right;
+      padding: 0px 5px;
+      @include breakpoint($display_medium_up) {
+        display: inline-block;
+      }
+      @include breakpoint($display_960_up) {
+        padding: 0px 10px;
+      }
+      @include breakpoint($display_large_up) {
+        padding: 0px 20px;
+      }
+
+      a {
+        font-weight: 300;
+        display: block;
+        color: $white;
+      }
+      &.first {
+        display: inline-block;
+        float: left;
+        padding-left: 0;
+      }
+    }
+  }
+
+}

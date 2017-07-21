@@ -234,6 +234,12 @@
     "social": true,
     "search": true,
     "menuType": "molecules-header-menu",
+    "top_menu": [
+      {"url": "#", "title": "Site Name"},
+      {"url": "#", "title": "Link 1"},
+      {"url": "#", "title": "Link 2"},
+      {"url": "#", "title": "Link 3"}
+    ],
     "header_menu": [
       {"url": "#", "title": "Main Menu 1"},
       {"url": "#", "title": "Main Menu 2", "active": true},

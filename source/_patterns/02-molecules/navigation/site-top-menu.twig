@@ -1,0 +1,9 @@
+<div class="site-top-menu">
+    <div class="content-container">
+        <ul>
+            {% for link in header.top_menu %}
+                <li class="{% if loop.first %}first top-menu__home{% endif %}">{{ html.a(link) }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
