@@ -1,0 +1,15 @@
+{% macro a(link) %}
+    <a {% if link.url %}href="{{ link.url }}"{% endif %} {% if link.class %}class="{{ link.class }}"{% endif %} {% if link.id %}id="{{ link.id }}"{% endif %}>{{ link.title }}</a>
+{% endmacro %}
+
+{% macro mailto(email) %}
+    <a href="mailto:{{ email }}">{{ email }}</a>
+{% endmacro %}
+
+{% macro img(img) %}
+    <img src="{{ img.src }}" alt="{{ img.alt }}" title="{{  img.title }}">
+{% endmacro %}
+
+{% macro dateContent(year, month, day, hour, minute) %}
+{{ year.long }}{{ month.digit }}-{{ day.long }}T{{ hour.long }}:{{ minute.long }}:00-8:00
+{% endmacro %}

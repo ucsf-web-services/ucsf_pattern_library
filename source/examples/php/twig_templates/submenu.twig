@@ -1,0 +1,7 @@
+<div class = "submenu">
+  <ul class="submenu__links">
+      {% for sublink in submenu %}
+          <li {% if loop.last %}class="last"{% endif %}>{{ html.a(sublink) }}</li>
+      {% endfor %}
+  </ul>
+</div>

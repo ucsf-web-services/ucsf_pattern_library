@@ -1,0 +1,30 @@
+{# Adding Macro include #}
+{% import "html.macro.twig" as html %}
+
+<div class="header-menu">
+    <div class="header-menu--wrapper header-menu--underline header-menu--hover-submenu">
+        <ul>
+            {% for link in header.header_menu %}
+                {%  set itemClassActive = '' %}
+                {%  set itemClassLast = '' %}
+                {%  if(link.active) %}
+                    {%  set itemClassActive = 'active' %}
+                {% endif %}
+                {% if loop.last %}
+                    {%  set itemClassLast = 'last' %}
+                {% endif %}
+                {% if link.submenu %}
+                    <li class="submenu__dropdown {{ itemClassActive }} {{ itemClassLast }}"><a href="#">{{ link.title }}<span class="fa fa-caret-down full-down"></span><span class="fa fa-caret-down fa-2x mobile-click"></span><span class="fa fa-caret-right fa-2x mobile-click"></span></a>
+                        <div class="submenu__content">
+                            {# Modified include to avoid template path processing #}
+                            {% include 'submenu.twig' with link %}
+                        </div>
+                    </li>
+                {% else %}
+                    <li class="{{ itemClassActive }} {{ itemClassLast }}">{{ html.a(link) }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+

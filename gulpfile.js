@@ -114,6 +114,35 @@ gulp.task('pl-copy:styleguide-css', function () {
     .pipe(browserSync.stream());
 });
 
+// Examples Directory copy
+gulp.task('pl-copy:exampleDirs', function () {
+  return gulp.src('**/*.*', {cwd: normalizePath(paths().source.examples)})
+    .pipe(gulp.dest(normalizePath(paths().public.examples)));
+});
+
+// Examples CSS Resources copy
+gulp.task('pl-copy:exampleResourcesCSS', function () {
+  return gulp.src(normalizePath(paths().public.css) + '/style.css')
+    .pipe(gulp.dest(normalizePath(paths().public.examples + '/php/resources/')));
+});
+
+// Examples Styleguide Resources copy
+gulp.task('pl-copy:exampleResourcesSG', function () {
+  return gulp.src(normalizePath(paths().public.styleguide) + '/css/styleguide.css')
+    .pipe(gulp.dest(normalizePath(paths().public.examples + '/php/resources/')));
+});
+
+// Examples JS Resources copy
+gulp.task('pl-copy:exampleResourcesJS', function () {
+  return gulp.src(normalizePath(paths().public.js) + '/script.js')
+    .pipe(gulp.dest(normalizePath(paths().public.examples + '/php/resources/')));
+});
+
+gulp.task('pl-copy:examples', gulp.series('pl-copy:exampleDirs', 'pl-copy:exampleResourcesCSS', 'pl-copy:exampleResourcesSG', 'pl-copy:exampleResourcesJS'));
+
+
+
+
 /******************************************************
  * PATTERN LAB CONFIGURATION - API with core library
 ******************************************************/
@@ -140,7 +169,8 @@ gulp.task('pl-assets', gulp.series(
   'pl-copy:font',
   gulp.series('pl-sass', 'pl-copy:css', function(done){done();}),
   'pl-copy:styleguide',
-  'pl-copy:styleguide-css'
+  'pl-copy:styleguide-css',
+  'pl-copy:examples'
 ));
 
 gulp.task('pl-build', shell.task([

@@ -1,0 +1,43 @@
+{
+  "img": {
+    "banner2": {
+      "src":  "http://via.placeholder.com/735x435",
+      "alt": "This is the Banner Image 2",
+      "title": "This is the Banner Image 2"
+    }
+  },
+  "hero": {
+    "hero2": {
+      "title": "Headline 2 lacinia bibendu nulla sed consec",
+      "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+    }
+  },
+  "hero2_slides":[
+    {},
+    {},
+    {}
+  ],
+  "header": {
+    "social": true,
+    "search": true,
+    "menuType": "molecules-header-menu",
+    "top_menu": [
+      {"url": "#", "title": "Site Name"},
+      {"url": "#", "title": "Link 1"},
+      {"url": "#", "title": "Link 2"},
+      {"url": "#", "title": "Link 3"}
+    ],
+    "header_menu": [
+      {"url": "#", "title": "Main Menu 1"},
+      {"url": "#", "title": "Main Menu 2", "active": true},
+      {"url": "#", "title": "Main Menu 3"},
+      {"title": "Main Menu 4", "submenu": [
+        {"url": "#", "title": "Sub Menu A"},
+        {"url": "#", "title": "Sub Menu Longer B"},
+        {"url": "#", "title": "Sub Menu C"}
+      ]},
+      {"url": "#", "title": "Main Menu 5"},
+      {"url": "#", "title": "Main Menu 6"}
+    ]
+  }
+}

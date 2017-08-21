@@ -20,7 +20,8 @@
         "js": "./source/js",
         "images": "./source/images",
         "fonts": "./source/fonts",
-        "css": "./source/css/"
+        "css": "./source/css/",
+        "examples": "./source/examples"
       },
       "public": {
         "root": "./pattern-lab-source/public/",
@@ -32,7 +33,8 @@
         "images": "./pattern-lab-source/public/images",
         "fonts": "./pattern-lab-source/public/fonts",
         "css": "./pattern-lab-source/public/css",
-        "sass": "./pattern-lab-source/public/sass"
+        "sass": "./pattern-lab-source/public/sass",
+        "examples": "./pattern-lab-source/public/examples"
       }
     }
   }
