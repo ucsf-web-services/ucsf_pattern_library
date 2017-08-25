@@ -1,7 +1,10 @@
 <div class="slider_wrapper__hero-5">
     <div class="slider slider-hero slider__hero-5">
         {% for slides in hero5_slides %}
-            <div class="hero hero-5" style="background-image:url('{{ img.banner5.src }}')">
+            <div class="hero hero-5">
+                <div class="hero-5__image">
+                    <div class="hero-5__image_background" style="background-image:url('{{ img.banner5.src }}')"></div>
+                </div>
                 <div class="hero-5__text">
                     <h2 class="font-helvetica-neue-light">{{ hero.hero5.title }}</h2>
                     <div class="hero__button">

@@ -118,6 +118,9 @@
   }
 
   &__text {
+    &::-webkit-scrollbar {
+      display: none;
+    }
     background-color: $primary-color;
     position: static;
     display: block;
@@ -125,7 +128,7 @@
     color: #FFF;
     max-height: 280px;
     height: 280px;
-    overflow: hidden;
+    overflow: auto;
     width: 100%;
     padding: 30px;
     @include breakpoint($display_960_up) {

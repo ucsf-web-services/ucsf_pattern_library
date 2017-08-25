@@ -10,7 +10,12 @@
     "list": [
       {
         "text": {
-          "medium": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
+          "medium": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur.",
+          "news": {
+            "title": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros",
+            "name": "Joe Bloggs",
+            "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
+          }
         },
         "year": {
           "long": "2013",
@@ -44,6 +49,11 @@
       },
       {
         "text": {
+          "news": {
+            "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+            "name": "Joe Bloggs",
+            "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
+          },
           "medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         "year": {
@@ -78,6 +88,11 @@
       },
       {
         "text": {
+          "news": {
+            "title": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
+            "name": "Joe Bloggs",
+            "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
+          },
           "medium": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
         },
         "year": {
@@ -112,6 +127,11 @@
       },
       {
         "text": {
+          "news": {
+            "title": "Eiusmod tempor incididunt ut labore et dolore magna aliqua",
+            "name": "Joe Bloggs",
+            "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
+          },
           "medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         },
         "year": {

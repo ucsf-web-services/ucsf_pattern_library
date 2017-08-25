@@ -1,3 +1,9 @@
+{% if sidebar %}
+    {% set layout = "grid" %}
+{% else %}
+    {% set layout = "" %}
+    {% set offset = -1 %}
+{% endif %}
 <div class="latest-news-list clearfix">
     <div class= "latest-news-list__heading">
         <h2 class="font-helvetica-neue-light">{{ news_listing.title }}</h2>
@@ -5,7 +11,7 @@
             {{ html.a(news_listing.link) }}
         {% endif %}
     </div>
-    {% for teaser in news_listing.list %}
+    {% for teaser in news_listing.list[:offset] %}
         <div class="latest-news-list__item">
             {% include "molecules-news-short-teaser-no-image" with teaser %}
         </div>

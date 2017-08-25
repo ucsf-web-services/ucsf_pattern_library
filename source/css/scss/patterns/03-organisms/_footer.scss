@@ -43,9 +43,6 @@
       color: #b4b9bf;
       display: block;
       padding-bottom: 3px;
-      @include breakpoint($display_medium_up) {
-        padding-bottom: 15px;
-      }
       &:hover {
         color: $white;
       }
