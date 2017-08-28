@@ -1,0 +1,26 @@
+---
+state: completed
+---
+
+### Description
+This is the sites top-navigation content menu.
+
+### Usage
+#### @todo Sara fix me.
+This header menu is required by the sites to link out to the greater UCSF ecosystem, which includes links to:
+
+1. University of California San Francisco
+1. About UCSF
+1. Search UCSF
+1. UCSF Medical Center
+
+### Accessibility Considerations
+Complex menus, sliders, dialogs, tab panels, etc. must all be built to support keyboard accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* About menu accessibility properties: http://webaim.org/techniques/aria/
+
+### SEO Considerations
+This section is left intentionally blank and is for future consideration.
+
+### Technical Considerations
+The links in the molecule are intentionally left as placeholders and the proper content (links to the sites above) are included in the JSON data file, in accordance to the Pattern Library's overall approach to separating content and layout.
