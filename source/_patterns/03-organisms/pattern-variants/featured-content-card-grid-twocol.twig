@@ -1,9 +1,10 @@
-{% extends "twocol.twig" %}
-{% block title %}{{ titles.h2(title) }}{% endblock %}
-{% block colclass %}{{ grid_class }}{% endblock %}
-{% block left %}
-    {% include "molecules-featured-content-card" with left_card_options %}
-{% endblock %}
-{% block right %}
-    {% include "molecules-featured-content-card" with right_card_options %}
-{% endblock %}
+{% embed "twocol.twig" %}
+    {% block title %}{{ titles.h2(title) }}{% endblock %}
+    {% block colclass %}{{ grid_class }}{% endblock %}
+    {% block left %}
+        {% include "molecules-featured-content-card" with left_card_options %}
+    {% endblock %}
+    {% block right %}
+        {% include "molecules-featured-content-card" with right_card_options %}
+    {% endblock %}
+{% endembed %}

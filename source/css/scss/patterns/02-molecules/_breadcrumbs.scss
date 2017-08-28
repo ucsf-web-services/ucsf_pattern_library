@@ -6,6 +6,7 @@
     margin-bottom: 12px;
     margin-left: 0px;
     li {
+      color: #999999;
       list-style: none;
       display: inline-block;
       font-weight: bold;
@@ -24,12 +25,6 @@
           color: $ucsf-navyblue;
         }
       }
-    }
-    .breadcrumb-page-title {
-        color: #999999;
-       &:hover {
-         color: #999999;
-       }
     }
   }
 }

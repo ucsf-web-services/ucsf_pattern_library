@@ -86,7 +86,17 @@
       "title": "Teaser Image - Small"
     }
   },
-
+  "breadcrumbs": [
+    {
+      "link": {"url": "#", "title": "Home"}
+    },
+    {
+      "link": {"url": "#", "title": "Secondary Page"}
+    },
+    {
+      "title": "Tertiary Page"
+    }
+  ],
   "hero": {
     "hero1": {
       "title": "Headline 1 lacinia bibendu nulla sed consec",

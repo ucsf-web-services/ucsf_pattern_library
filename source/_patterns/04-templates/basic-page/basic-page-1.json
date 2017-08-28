@@ -1,0 +1,128 @@
+{
+  "title": "",
+  "htmlClass": "pl",
+  "bodyClass": "body regular-margins",
+  "breadcrumbs": [
+    {
+      "link": {"url": "#", "title": "Home"}
+    },
+    {
+      "title": "Generic Page With Sidebar"
+    }
+  ],
+  "two_column_layouts": [
+    {"title": "20/80 Grid", "grid_class": "two-col--20-80", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.", "leftclass": "another-class", "rightclass": "another-class-2"},
+    {"title": "30/70 Grid", "grid_class": "two-col--30-70", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "40/60 Grid", "grid_class": "two-col--40-60", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "50/50 Grid", "grid_class": "", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "60/40 Grid", "grid_class": "two-col--60-40", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "70/30 Grid", "grid_class": "two-col--70-30", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "80/20 Grid", "grid_class": "two-col--80-20", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."}
+  ],
+  "three_column_layouts": [
+    {"title": "Thirds Grid", "grid_class": "", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "center": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.", "leftclass": "another-class", "centerclass": "another-class-2", "rightclass": "another-class-3"},
+    {"title": "60/20/20 Grid", "grid_class": "three-col--60-20-20", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "center": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "20/60/20 Grid", "grid_class": "three-col--20-60-20", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "center": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "20/20/60 Grid", "grid_class": "three-col--20-20-60", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "center": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "30/40/30 Grid", "grid_class": "three-col--30-40-30", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "center": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."},
+    {"title": "30/40/30 Large Grid", "grid_class": "three-col--30-40-30 large", "left": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.", "center": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.", "right": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis."}
+  ],
+  "featured_2_col": {
+    "title": "Featured Content Card Two Column Layout",
+    "grid_class": "",
+    "left_card_options": {
+      "img": {
+        "featuredContent": {
+          "src":  "../../images/samples/editing_dna_illustration.jpg",
+          "alt": "Featured Content Image 1",
+          "title": "Featured Content Image 1"
+        }
+      },
+      "text" : {
+        "featuredContent" :{
+          "title": "Left Hand Card",
+          "paragraph": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      }
+    },
+    "right_card_options": {
+      "img": {
+        "featuredContent": {
+          "src":  "../../images/samples/UCSF_20160411_Chan_151.jpg",
+          "alt": "Featured Content Image 2",
+          "title": "Featured Content Image 2"
+        }
+      },
+      "text" : {
+        "featuredContent" :{
+          "title": "Right Hand Card",
+          "paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+        }
+      }
+    }
+  },
+  "featured_3_col": {
+    "title": "Featured Content Card Three Column Layout",
+    "grid_class": "",
+    "left_card_options": {
+      "text" : {
+        "featuredContent" :{
+          "title": "Left Hand Card",
+          "paragraph": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+      },
+      "img" : {
+        "featuredContent" : {
+          "src":  "../../images/samples/dna_sequences.jpg",
+          "alt": "Featured Content Image Smaller",
+          "title": "Featured Content Image Smaller"
+        }
+      }
+    },
+    "center_card_options": {
+      "img" : {
+        "featuredContent" : {
+          "src":  "../../images/samples/UCSF_20170203_Students-Group_169.jpg",
+          "alt": "Featured Content Image Smaller",
+          "title": "Featured Content Image Smaller"
+        }
+      },
+      "text" : {
+        "featuredContent" :{
+          "title": "Center Card",
+          "paragraph": "Phasellus varius libero non tellus euismod suscipit. Sed tempus est sed rutrum commodo. Morbi vel feugiat purus. Nunc varius arcu ac velit rutrum, sit amet sollicitudin metus efficitur. Aliquam felis eros, sagittis ac sodales nec, imperdiet viverra magna. Cras vel lacus sit amet velit consectetur elementum. Vivamus ornare metus eu sem pellentesque euismod sit amet at ligula. Phasellus vitae fermentum est, consequat rhoncus magna."
+        }
+      }
+    },
+    "right_card_options": {
+      "text" : {
+        "featuredContent" :{
+          "title": "Right Hand Card",
+          "paragraph": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."
+        }
+      },
+      "img" : {
+        "featuredContent" : {
+          "src":  "../../images/samples/UCSF_20170203_Students-Group_273.jpg",
+          "alt": "Featured Content Image Smaller",
+          "title": "Featured Content Image Smaller"
+        }
+      }
+    }
+  },
+  "blockquote_options": [
+    {"heading" : "Left-aligned half-width quote, blue.", "color_class" : "blockquote--blue", "width_class" : "width-half", "alignment_class" : "align--left"},
+    {"heading" : "Left-aligned two-fifth, navy.", "color_class" : "blockquote--navyblue", "width_class" : "width-two-fifth", "alignment_class" : "align--left"},
+    {"heading" : "Left-aligned one-third, teal.", "color_class" : "blockquote--teal", "width_class" : "width-one-third", "alignment_class" : "align--left"},
+    {"heading" : "Right-aligned half-width, green.", "color_class" : "blockquote--green",  "width_class" : "width-half", "alignment_class" : "align--right"},
+    {"heading" : "Right-aligned two-fifth, orange.", "color_class" : "blockquote--orange", "width_class" : "width-two-fifth", "alignment_class" : "align--right"},
+    {"heading" : "Right-aligned one-third, blue. ", "color_class" : "blockquote--blue", "width_class" : "width-one-third", "alignment_class" : "align--right"}
+  ],
+  "sidebar": {
+    "classes": "sidebar-bg-gray align-left multiple-element-sidebar",
+    "sections": [
+      {"title": "Section 1", "section_items": [{"item": "molecules-publication-teaser"}, {"item": "molecules-publication-teaser"}, {"item": "molecules-publication-teaser"}]},
+      {"title": "Section 2", "section_items": [{"item": "molecules-profile-short-teaser"}]}
+    ]
+  }
+}

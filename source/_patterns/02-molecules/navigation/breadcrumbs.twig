@@ -1,7 +1,9 @@
 <div class="breadcrumbs">
   <ul class="breadcrumbs__list">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Secondary Page</a></li>
-    <li><a href="#" class="breadcrumb-page-title">Tertiary Page</a></li>
+      {% for breadcrumb in breadcrumbs %}
+          <li>
+              {% if(breadcrumb.link) %}{{ html.a(breadcrumb.link) }}{% else %}{{ breadcrumb.title }}{% endif %}
+          </li>
+      {% endfor %}
   </ul>
 </div>
