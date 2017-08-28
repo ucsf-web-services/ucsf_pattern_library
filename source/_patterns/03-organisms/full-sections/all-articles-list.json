@@ -2,7 +2,8 @@
   "all_articles_local":[
     {
       "author": "Author Name",
-      "newsTeaser": {
+      "news": {
+        "link": {"url": "#", "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod"},
         "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
         "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
       },
@@ -57,7 +58,8 @@
     {
       "test": "two",
       "author": "Author Name",
-      "newsTeaser": {
+      "news": {
+        "link": {"url": "#", "title": "In nec quam porttitor, blandit arcu a, aliquam urna"},
         "title": "In nec quam porttitor, blandit arcu a, aliquam urna",
         "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
       },
@@ -112,7 +114,8 @@
     {
       "test": "three",
       "author": "Author Name",
-      "newsTeaser": {
+      "news": {
+        "link": {"url": "#", "title": "Integer vestibulum elementum malesuada"},
         "title": "Integer vestibulum elementum malesuada",
         "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
       },

@@ -63,6 +63,9 @@
     height: 100%;
   }
   &__image_background {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 385px;
     @include breakpoint($display_medium_up) {
       height: 500px;

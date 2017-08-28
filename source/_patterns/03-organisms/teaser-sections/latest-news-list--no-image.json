@@ -12,6 +12,7 @@
         "text": {
           "medium": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur.",
           "news": {
+            "link": {"url": "#", "title": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros"},
             "title": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros",
             "name": "Joe Bloggs",
             "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
@@ -50,6 +51,7 @@
       {
         "text": {
           "news": {
+            "link": {"url": "#", "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"},
             "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             "name": "Joe Bloggs",
             "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
@@ -89,6 +91,7 @@
       {
         "text": {
           "news": {
+            "link": {"url": "#", "title": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros."},
             "title": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros.",
             "name": "Joe Bloggs",
             "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
@@ -128,6 +131,7 @@
       {
         "text": {
           "news": {
+            "link": {"url": "#", "title": "Eiusmod tempor incididunt ut labore et dolore magna aliqua"},
             "title": "Eiusmod tempor incididunt ut labore et dolore magna aliqua",
             "name": "Joe Bloggs",
             "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."

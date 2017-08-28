@@ -84,10 +84,6 @@
   },
   "text": {
     "author": "Author Name",
-    "newsTeaser": {
-      "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
-      "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
-    },
     "publicationShortTeaser": {
       "title": "Publication Title: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
       "subtitle": "Publication Subtitle: Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
@@ -160,66 +156,33 @@
       }
     }
   ],
-  "news_listing": {
-    "title": "UCSF News",
-    "list": [
-      {
-        "text": {
-          "medium": "UCSF Benioff Children’s Hospitals Shine Among Finest in 9 Pediatric Specialties Nationwide"
-        },
-        "year": {
-          "long": "2017",
-          "short": "17"
-        },
-        "month": {
-          "long": "June",
-          "short": "Jun",
-          "digit": "06"
-        },
-        "day": {
-          "long": "27",
-          "short": "27",
-          "ordinal": "th"
-        }
-      },
-      {
-        "text": {
-          "medium": "Elevated Rate of Autism Symptoms Found in Children with Tourette Syndrome"
-        },
-        "year": {
-          "long": "2017",
-          "short": "17"
-        },
-        "month": {
-          "long": "June",
-          "short": "Jun",
-          "digit": "06"
-        },
-        "day": {
-          "long": "22",
-          "short": "22",
-          "ordinal": "nd"
-        }
-      },
-      {
-        "text": {
-          "medium": "Two UCSF Researchers Named 2017 Pew Scholars in the Biomedical Sciences"
-        },
-        "year": {
-          "long": "2017",
-          "short": "17"
-        },
-        "month": {
-          "long": "June",
-          "short": "Jun",
-          "digit": "06"
-        },
-        "day": {
-          "long": "15",
-          "short": "15",
-          "ordinal": "th"
-        }
-      }
+  "header": {
+    "social": true,
+    "search": true,
+    "menuType": "molecules-header-menu",
+    "top_menu": [
+      {"url": "#", "title": "University of California San Francisco"},
+      {"url": "#", "title": "UCSF Medical Center"},
+      {"url": "#", "title": "Search UCSF"},
+      {"url": "#", "title": "About UCSF"}
+    ],
+    "header_menu": [
+      {"title": "About", "submenu": [
+        {"url": "#", "title": "Current Students"},
+        {"url": "#", "title": "Contact"}
+      ]},
+      {"title": "Admissions", "active": true, "submenu": [
+        {"url": "#", "title": "Applications Process"},
+        {"url": "#", "title": "Other Considerations"}
+      ]},
+      {"title": "Curriculum", "submenu": [
+        {"url": "#", "title": "Course List"},
+        {"url": "#", "title": "Requirements by Year"},
+        {"url": "#", "title": "Courses Outside UCSF"},
+        {"url": "#", "title": "UCSF Course Catalog"}
+      ]},
+      {"url": "#", "title": "Events", "submenu": false},
+      {"url": "#", "title": "Faculty", "submenu": false}
     ]
   },
   "footer_menu": [
@@ -229,5 +192,392 @@
     {"url": "", "title": "About us"},
     {"url": "", "title": "News & Events"},
     {"url": "", "title": "Support UCSF"}
-  ]
+  ],
+  "sidebar": {
+    "classes": "sidebar-bg-gray multiple-element-sidebar",
+    "sections": [
+      {"title": "Events", "section_items": [{"item": "molecules-event-card", "data":
+        {
+          "event": {
+            "title": "Thesis Seminar | Ashley Smart",
+            "year": {
+              "long": "2017",
+              "short": "17"
+            },
+            "month": {
+              "long": "September",
+              "short": "Sep",
+              "digit": "09"
+            },
+            "day": {
+              "long": "05",
+              "short": "5",
+              "ordinal": "th"
+            },
+            "dayofweek": {
+              "long": "Tuesday",
+              "short": "Tue"
+            },
+            "hour": {
+              "long": "03",
+              "short": "3",
+              "military": "15",
+              "ampm": "PM"
+            },
+            "minute": {
+              "long": "00",
+              "short": "00"
+            }
+          }
+      }},
+      {"item": "molecules-event-card", "data": {
+        "event": {
+          "title": "Neuroscience Retreat | Sep 17-19, 2017",
+          "year": {
+            "long": "2017",
+            "short": "17"
+          },
+          "month": {
+            "long": "September",
+            "short": "Sep",
+            "digit": "09"
+          },
+          "day": {
+            "long": "17",
+            "short": "17",
+            "ordinal": "th"
+          },
+          "dayofweek": {
+            "long": "Sunday",
+            "short": "Sun"
+          }
+        }
+      }}, {"item": "molecules-event-card", "data": {
+          "event": {
+            "title": "Formal Seminar | Thomas McHugh, RIKEN",
+            "year": {
+              "long": "2017",
+              "short": "17"
+            },
+            "month": {
+              "long": "September",
+              "short": "Sep",
+              "digit": "09"
+            },
+            "day": {
+              "long": "20",
+              "short": "20",
+              "ordinal": "th"
+            },
+            "dayofweek": {
+              "long": "Wednesday",
+              "short": "Wed"
+            },
+            "hour": {
+              "long": "11",
+              "short": "11",
+              "military": "11",
+              "ampm": "AM"
+            },
+            "minute": {
+              "long": "00",
+              "short": "00"
+            }
+          }
+        }}
+      ]}
+    ]
+  },
+  "profiles": [
+    {
+      "text": {
+        "profile": {
+          "name": "Kirsten Bibbins-Domingo, MD, PhD, MAS",
+          "title": "Professor in Residence",
+          "info": "Department of Medicine",
+          "teaser": "Kirsten Bibbins-Domingo, PhD, MD, MAS is the Lee Goldman, MD Endowed Chair in Medicine and Professor of Epidemiology and Biostatistics and Medicine. She is the Vice Dean for Population Health and Health Equity in the UCSF School of Medicine, and she directs the UCSF Center for Vulnerable Populations at Zuckerberg San Francisco General Hospital, a research center focused on discovery, implementation, policy, advocacy, and community engagement for communities at risk for poor health and inadequate healthcare."
+        }
+      },
+      "img": {
+        "profileSmall": {
+          "src":  "../../images/samples/UCSF_20170224_Bibbins-Domingo_093.jpg",
+          "alt": "Kirsten Bibbins-Domingo",
+          "title": "Kirsten Bibbins-Domingo"
+        }
+      }
+    },
+    {
+      "text": {
+        "profile": {
+          "name": "Zachary Knight, PhD",
+          "title": "Assistant Professor",
+          "info": "Physiology",
+          "teaser": "My laboratory studies the neurobiology of homeostasis in the mouse, including especially the mechanisms that control hunger, thirst, and body temperature. Our goal is to eludicate the structure and dynamics of the underlying neural circuits, so that we can begin to understand how these circuits give rise to motivated behaviors and further how they become dysregulated in conditions such as obesity. To address this challenge, we develop new technologies that enable the use of RNA sequencing to molecularly profile neurons that have specific activity patterns or connectivity."
+        }
+      },
+      "img": {
+        "profileSmall": {
+          "src":  "../../images/samples/UCSF_21051016_Marson_003.jpg",
+          "alt": "Zachary Knight",
+          "title": "Zachary Knight"
+        }
+      }
+    },
+    {
+      "text": {
+        "profile": {
+          "name": "Keith Mostov, MD, PhD",
+          "title": "Professor",
+          "info": "Anatomy",
+          "teaser": "Formation and regeneration of epithelial tubes."
+        }
+      },
+      "img": {
+        "profileSmall": {
+          "src":  "../../images/samples/UCSF_20170123_Neurosurgery_Chang_144-2.jpg",
+          "alt": "Keith Mostov",
+          "title": "Keith Mostov"
+        }
+      }
+    }
+  ],
+  "publications": [
+    {
+      "text": {
+        "publicationShortTeaser": {
+          "link": {"url": "#", "title": "Missed opportunities in cardiovascular disease prevention?: low rates of hypertension recognition for women at medicine and obstetrics-gynecology clinics."},
+          "title": "Missed opportunities in cardiovascular disease prevention?: low rates of hypertension recognition for women at medicine and obstetrics-gynecology clinics.",
+          "subtitle": "",
+          "source": "Hypertension",
+          "name": "Schmittdiel J, Selby JV, Swain B, Daugherty SL, Leong TK, Ho M, Margolis KL, O'Connor P, Magid DJ, Bibbins-Domingo K"
+        }
+      }
+    },
+    {
+      "text": {
+        "publicationShortTeaser": {
+          "link": {"url": "#", "title": "cAMP-dependent protein kinase A (PKA) regulates angiogenesis by modulating tip cell behavior in a Notch-independent manner."},
+          "title": "cAMP-dependent protein kinase A (PKA) regulates angiogenesis by modulating tip cell behavior in a Notch-independent manner.",
+          "subtitle": "",
+          "source": "Development (Cambridge, England)",
+          "name": "Nedvetsky PI, Zhao X, Mathivet T, Aspalter IM, Stanchi F, Metzger RJ, Mostov KE, Gerhardt H"
+        }
+      }
+    },
+    {
+      "text": {
+        "publicationShortTeaser": {
+          "link": {"url": "#", "title": "Intercellular transfer of GPRC5B via exosomes drives HGF-mediated outward growth."},
+          "title": "Intercellular transfer of GPRC5B via exosomes drives HGF-mediated outward growth.",
+          "subtitle": "",
+          "source": "Current biology : CB",
+          "name": "Kwon SH, Liu KD, Mostov KE"
+        }
+      }
+    }
+  ],
+  "event_listing": {
+    "title": "Events",
+    "list": [
+      {
+        "event": {
+          "title":  "Fourth Event",
+          "year": {
+            "long": "2017",
+            "short": "17"
+          },
+          "month": {
+            "long": "October",
+            "short": "Oct",
+            "digit": "10"
+          },
+          "dayofweek": {
+            "long": "Thursday",
+            "short": "Thu"
+          },
+          "day": {
+            "long": "26",
+            "short": "26",
+            "ordinal": "th"
+          },
+          "hour": {
+            "long": "08",
+            "short": "8",
+            "military": "20",
+            "ampm": "pm"
+          },
+          "minute": {
+            "long": "00",
+            "short": "00"
+          }
+        }
+      },
+      {
+        "event": {
+          "title":  "10th World Conference of Science Journalists",
+          "year": {
+            "long": "2017",
+            "short": "17"
+          },
+          "month": {
+            "long": "October",
+            "short": "Oct",
+            "digit": "10"
+          },
+          "dayofweek": {
+            "long": "Saturday",
+            "short": "Sat"
+          },
+          "day": {
+            "long": "28",
+            "short": "28",
+            "ordinal": "th"
+          },
+          "hour": {
+            "long": "06",
+            "short": "6",
+            "military": "06",
+            "ampm": "am"
+          },
+          "minute": {
+            "long": "00",
+            "short": "00"
+          }
+        }
+      }
+    ]
+  },
+  "news_listing": {
+    "title": "News",
+    "list": [
+      {
+        "img": {
+          "teaser": {
+            "src":  "../../images/samples/Haight_Ashbury_Free_Clinic_patients.jpg",
+            "alt": "Born in the Summer of Love: The Haight Ashbury Free Clinic Transformed Drug Addiction Treatment",
+            "title": "Born in the Summer of Love: The Haight Ashbury Free Clinic Transformed Drug Addiction Treatment"
+          }
+        },
+        "text": {
+          "news": {
+            "link": {"url": "#", "title": "Born in the Summer of Love: The Haight Ashbury Free Clinic Transformed Drug Addiction Treatment"},
+            "title": "Born in the Summer of Love: The Haight Ashbury Free Clinic Transformed Drug Addiction Treatment",
+            "name": "",
+            "paragraph":""
+          },
+          "medium": ""
+        },
+        "year": {
+          "long": "2017",
+          "short": "17"
+        },
+        "month": {
+          "long": "June",
+          "short": "Jun",
+          "digit": "06"
+        },
+        "day": {
+          "long": "13",
+          "short": "13",
+          "ordinal": "th"
+        }
+      },
+      {
+        "img": {
+          "teaser": {
+            "src":  "../../images/samples/epithelial_cells.jpg",
+            "alt": "Ancient Enzyme Protects Lungs from Common Irritant Produced by Bugs and Mold",
+            "title": "Ancient Enzyme Protects Lungs from Common Irritant Produced by Bugs and Mold"
+          }
+        },
+        "text": {
+          "news": {
+            "link": {"url": "#", "title": "Ancient Enzyme Protects Lungs from Common Irritant Produced by Bugs and Mold"},
+            "title": "Ancient Enzyme Protects Lungs from Common Irritant Produced by Bugs and Mold",
+            "name": "",
+            "paragraph":""
+          },
+          "medium": ""
+        },
+        "year": {
+          "long": "2017",
+          "short": "17"
+        },
+        "month": {
+          "long": "May",
+          "short": "May",
+          "digit": "05"
+        },
+        "day": {
+          "long": "12",
+          "short": "12",
+          "ordinal": "th"
+        }
+      },
+      {
+        "img": {
+          "teaser": {
+            "src":  "../../images/samples/UCSF-Advocacy-Day-group.jpg",
+            "alt": "‘Stand Up For Science’ Teach-In, Rally Highlight Importance of Public Support, Diversity in Science",
+            "title": "‘Stand Up For Science’ Teach-In, Rally Highlight Importance of Public Support, Diversity in Science"
+          }
+        },
+        "text": {
+          "news": {
+            "link": {"url": "#", "title": "‘Stand Up For Science’ Teach-In, Rally Highlight Importance of Public Support, Diversity in Science"},
+            "title": "‘Stand Up For Science’ Teach-In, Rally Highlight Importance of Public Support, Diversity in Science",
+            "name": "",
+            "paragraph":""
+          },
+          "medium": ""
+        },
+        "year": {
+          "long": "2017",
+          "short": "17"
+        },
+        "month": {
+          "long": "May",
+          "short": "May",
+          "digit": "05"
+        },
+        "day": {
+          "long": "12",
+          "short": "12",
+          "ordinal": "th"
+        }
+      },
+      {
+        "img": {
+          "teaser": {
+            "src":  "../../images/samples/biocomputation-oracl-cells-3.jpg",
+            "alt": "Search Engine: How Artificial Intelligence Techniques Are Aiding the Hunt for New Drugs",
+            "title": "Search Engine: How Artificial Intelligence Techniques Are Aiding the Hunt for New Drugs"
+          }
+        },
+        "text": {
+          "news": {
+            "link": {"url": "#", "title": "Search Engine: How Artificial Intelligence Techniques Are Aiding the Hunt for New Drugs"},
+            "title": "Search Engine: How Artificial Intelligence Techniques Are Aiding the Hunt for New Drugs",
+            "name": "",
+            "paragraph":""
+          },
+          "medium": ""
+        },
+        "year": {
+          "long": "2017",
+          "short": "17"
+        },
+        "month": {
+          "long": "March",
+          "short": "Mar",
+          "digit": "03"
+        },
+        "day": {
+          "long": "07",
+          "short": "7",
+          "ordinal": "th"
+        }
+      }
+    ]
+  }
 }

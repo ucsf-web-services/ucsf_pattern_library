@@ -1,11 +1,15 @@
 .news__byline {
+  &__content {
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+  }
   border-bottom: 1px solid #B4B9BF;
   margin-bottom: 25px;
   padding-bottom: 5px;
   margin-top: 5px;
-  font-size: 16px;
-  .news__byline__share {
+  &__share {
     float: right;
-    margin-top: -5px;
+    margin-top: 0;
   }
 }

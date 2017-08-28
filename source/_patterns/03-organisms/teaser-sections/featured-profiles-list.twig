@@ -3,13 +3,9 @@
     <div class="featured-profiles-list__heading">
         <h2>Featured Profiles</h2>
     </div>
-    <div class="row featured-profiles-list__item clearfix">
-        {% include "molecules-profile-teaser" %}
-    </div>
-    <div class="row featured-profiles-list__item clearfix">
-        {% include "molecules-profile-teaser" %}
-    </div>
-    <div class="row featured-profiles-list__item clearfix">
-        {% include "molecules-profile-teaser" %}
-    </div>
+    {% for profile in profiles %}
+        <div class="row featured-profiles-list__item clearfix">
+            {% include "molecules-profile-teaser" with profile %}
+        </div>
+    {% endfor %}
 </div>

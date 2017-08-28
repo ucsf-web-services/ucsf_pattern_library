@@ -4,12 +4,12 @@
         {% include "atoms-calendar-icon" %}
     </div>
     <div class="event-teaser__title">
-        <h3><a href=#>{{ text.eventTeaser.title }}</a></h3>
+        <h3><a href=#>{{ event.title }}</a></h3>
     </div>
     <div class="event-teaser__date-time">
-        <p>{{ month.long }} {{ day.long }}, {{ year.long }}, {{ hour.short }}:{{ minute.long }}{{ hour.ampm }}</p>
+        <p>{{ event.month.long }} {{ event.day.long }}, {{ event.year.long }}{% if event.hour %}, {{ event.hour.short }}:{{ event.minute.long }}{{ event.hour.ampm }}{% endif %}</p>
     </div>
     <div class="event-teaser__detail">
-        <p>{{ text.eventTeaser.paragraph }}</p>
+        <p>{{ event.paragraph }}</p>
     </div>
 </div>

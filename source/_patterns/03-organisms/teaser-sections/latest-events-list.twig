@@ -11,23 +11,33 @@
     {% block title %}<div class="lastest-events-list__heading">{{ titles.h2(event_listing.title) }}</div>{% endblock %}
     {% block colclass %}{% endblock %}
     {% block left %}
-        {% include "molecules-event-card" with event_listing.list[0] only %}
+        {% if event_listing.list[0] is defined %}
+            {% include "molecules-event-card" with event_listing.list[0] only %}
+        {% endif %}
     {% endblock %}
     {% if count == 3 %}
     {% block center %}
-        {% include "molecules-event-card" with event_listing.list[1] only %}
+        {% if event_listing.list[1] is defined %}
+            {% include "molecules-event-card" with event_listing.list[1] only %}
+        {% endif %}
     {% endblock %}
     {% else %}
         {% block centerleft %}
-            {% include "molecules-event-card" with event_listing.list[1] only %}
+            {% if event_listing.list[1] is defined %}
+                {% include "molecules-event-card" with event_listing.list[1] only %}
+            {% endif %}
         {% endblock %}
         {% block centerright %}
-            {% include "molecules-event-card" with event_listing.list[2] only %}
+            {% if event_listing.list[2] is defined %}
+                {% include "molecules-event-card" with event_listing.list[2] only %}
+            {% endif %}
         {% endblock %}
     {% endif %}
     {% block right %}
         {% if count == 3 %}{% set final = 2 %}{% else %}{% set final = 3 %}{% endif %}
-        {% include "molecules-event-card" with event_listing.list[final] only %}
+        {% if event_listing.list[final] is defined %}
+            {% include "molecules-event-card" with event_listing.list[final] only %}
+        {% endif %}
     {% endblock %}
 {% endembed %}
 </div>

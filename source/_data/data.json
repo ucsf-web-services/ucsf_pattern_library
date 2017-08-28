@@ -117,18 +117,12 @@
       "phone": "+1 2345 67890"
     },
     "author": "Author Name",
-    "newsTeaser": {
-      "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
-      "paragraph":"Maecenas nunc mi, consectetur vitae dui eu, malesuada posuere risus. Proin auctor ante orci, nec cursus tellus lacinia gravida. Suspendisse sodales urna sed quam euismod molestie. Nam vel lobortis diam, eu faucibus lectus. Vestibulum eleifend felis justo, sed volutpat massa gravida vitae. Donec a eros at turpis commodo luctus. Vestibulum at congue lectus. Pellentesque elementum tincidunt nisi, aliquet lobortis dolor tristique non. Ut finibus eleifend quam ac efficitur. Morbi ultricies, nisl nec ornare facilisis, sapien eros lacinia purus, eget maximus ante est sed magna. Aenean nec purus facilisis, suscipit nunc in, sodales ex. Suspendisse laoreet elit in mattis imperdiet. Proin bibendum ullamcorper maximus."
-    },
     "news": {
+      "link": {"url": "#", "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod"},
       "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
       "name": "Joe Bloggs",
-      "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
-    },
-    "eventTeaser": {
-      "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
-      "paragraph": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
+      "paragraph":"Maecenas nunc mi, consectetur vitae dui eu, malesuada posuere risus. Proin auctor ante orci, nec cursus tellus lacinia gravida. Suspendisse sodales urna sed quam euismod molestie. Nam vel lobortis diam, eu faucibus lectus. Vestibulum eleifend felis justo, sed volutpat massa gravida vitae. Donec a eros at turpis commodo luctus. Vestibulum at congue lectus. Pellentesque elementum tincidunt nisi, aliquet lobortis dolor tristique non. Ut finibus eleifend quam ac efficitur. Morbi ultricies, nisl nec ornare facilisis, sapien eros lacinia purus, eget maximus ante est sed magna. Aenean nec purus facilisis, suscipit nunc in, sodales ex. Suspendisse laoreet elit in mattis imperdiet. Proin bibendum ullamcorper maximus.",
+      "teaser":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
     },
     "event": {
       "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
@@ -136,9 +130,11 @@
       "location": "Ullamco laboris nisi"
     },
     "publicationShortTeaser": {
+      "link": {"url": "#", "title": "Publication Title: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam."},
       "title": "Publication Title: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
       "subtitle": "Publication Subtitle: Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
-      "source": "Publication Source: Cras justo odio, dapibus ac facilisis in, egestas eget quam."
+      "source": "Publication Source: Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+      "name": "Konfino J, Fernandez A, Penko J, Mason A, Martinez E, Pérez-Stable EJ, Mejía R"
     },
     "linkList": {
       "link1": "Quis nostrud exercitation",
@@ -249,8 +245,7 @@
         {"url": "#", "title": "Sub Menu Longer B"},
         {"url": "#", "title": "Sub Menu C"}
       ]},
-      {"url": "#", "title": "Main Menu 5"},
-      {"url": "#", "title": "Main Menu 6"}
+      {"url": "#", "title": "Main Menu 5"}
     ]
   },
   "pagination": {
@@ -259,17 +254,49 @@
   },
   "sidebar": {
   },
+  "event": {
+    "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
+    "paragraph": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur.",
+    "url": "",
+    "year": {
+      "long": "2017",
+      "short": "17"
+    },
+    "month": {
+      "long": "June",
+      "short": "Jun",
+      "digit": "07"
+    },
+    "dayofweek": {
+      "long": "Thursday",
+      "short": "Thu"
+    },
+    "day": {
+      "long": "22",
+      "short": "22",
+      "ordinal": "nd"
+    },
+    "hour": {
+      "long": "06",
+      "short": "6",
+      "military": "06",
+      "ampm": "PM"
+    },
+    "minute": {
+      "long": "20",
+      "short": "20"
+    }
+  },
   "event_listing": {
     "title": "Event Listing Title",
-    "list": [{}, {}, {}, {}]
+    "list": [{}, {}]
   },
-  "profiles":[
+  "profiles": [
     {},
     {},
-    {},
-    {},
-    {},
-    {},
+    {}
+  ],
+  "publications": [
     {},
     {},
     {}

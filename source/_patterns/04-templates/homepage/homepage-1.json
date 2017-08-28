@@ -192,140 +192,140 @@
     "title": "Event Listing Title Template",
     "list": [
       {
-        "text": {
-          "eventTeaser": {"title": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur." }
-        },
-        "year": {
-          "long": "2013",
-          "short": "13"
-        },
-        "month": {
-          "long": "January",
-          "short": "Jan",
-          "digit": "01"
-        },
-        "dayofweek": {
-          "long": "Sunday",
-          "short": "Sun"
-        },
-        "day": {
-          "long": "01",
-          "short": "1",
-          "ordinal": "st"
-        },
-        "hour": {
-          "long": "06",
-          "short": "6",
-          "military": "06",
-          "ampm": "am"
-        },
-        "minute": {
-          "long": "20",
-          "short": "20"
-        },
-        "seconds": "31"
+        "event": {
+          "title":  "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur.",
+          "year": {
+            "long": "2013",
+            "short": "13"
+          },
+          "month": {
+            "long": "January",
+            "short": "Jan",
+            "digit": "01"
+          },
+          "dayofweek": {
+            "long": "Sunday",
+            "short": "Sun"
+          },
+          "day": {
+            "long": "01",
+            "short": "1",
+            "ordinal": "st"
+          },
+          "hour": {
+            "long": "06",
+            "short": "6",
+            "military": "06",
+            "ampm": "am"
+          },
+          "minute": {
+            "long": "20",
+            "short": "20"
+          },
+          "seconds": "31"
+        }
       },
       {
-        "text": {
-          "eventTeaser": {"title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }
-        },
-        "year": {
-          "long": "2013",
-          "short": "13"
-        },
-        "month": {
-          "long": "February",
-          "short": "Feb",
-          "digit": "02"
-        },
-        "dayofweek": {
-          "long": "Monday",
-          "short": "Mon"
-        },
-        "day": {
-          "long": "10",
-          "short": "10",
-          "ordinal": "th"
-        },
-        "hour": {
-          "long": "01",
-          "short": "1",
-          "military": "13",
-          "ampm": "pm"
-        },
-        "minute": {
-          "long": "20",
-          "short": "20"
-        },
-        "seconds": "31"
+        "event": {
+          "title":  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "year": {
+            "long": "2013",
+            "short": "13"
+          },
+          "month": {
+            "long": "February",
+            "short": "Feb",
+            "digit": "02"
+          },
+          "dayofweek": {
+            "long": "Monday",
+            "short": "Mon"
+          },
+          "day": {
+            "long": "10",
+            "short": "10",
+            "ordinal": "th"
+          },
+          "hour": {
+            "long": "01",
+            "short": "1",
+            "military": "13",
+            "ampm": "pm"
+          },
+          "minute": {
+            "long": "20",
+            "short": "20"
+          },
+          "seconds": "31"
+        }
       },
       {
-        "text": {
-          "eventTeaser": {"title": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur." }
-        },
-        "year": {
-          "long": "2013",
-          "short": "13"
-        },
-        "month": {
-          "long": "March",
-          "short": "Mar",
-          "digit": "03"
-        },
-        "dayofweek": {
-          "long": "Tuesday",
-          "short": "Tue"
-        },
-        "day": {
-          "long": "22",
-          "short": "22",
-          "ordinal": "nd"
-        },
-        "hour": {
-          "long": "04",
-          "short": "4",
-          "military": "16",
-          "ampm": "pm"
-        },
-        "minute": {
-          "long": "45",
-          "short": "45"
-        },
-        "seconds": "11"
+        "event": {
+          "title":  "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur.",
+          "year": {
+            "long": "2013",
+            "short": "13"
+          },
+          "month": {
+            "long": "March",
+            "short": "Mar",
+            "digit": "03"
+          },
+          "dayofweek": {
+            "long": "Tuesday",
+            "short": "Tue"
+          },
+          "day": {
+            "long": "22",
+            "short": "22",
+            "ordinal": "nd"
+          },
+          "hour": {
+            "long": "04",
+            "short": "4",
+            "military": "16",
+            "ampm": "pm"
+          },
+          "minute": {
+            "long": "45",
+            "short": "45"
+          },
+          "seconds": "11"
+        }
       },
       {
-        "text": {
-          "eventTeaser": {"title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." }
-        },
-        "year": {
-          "long": "2013",
-          "short": "13"
-        },
-        "month": {
-          "long": "March",
-          "short": "Mar",
-          "digit": "03"
-        },
-        "dayofweek": {
-          "long": "Tuesday",
-          "short": "Tue"
-        },
-        "day": {
-          "long": "22",
-          "short": "22",
-          "ordinal": "nd"
-        },
-        "hour": {
-          "long": "04",
-          "short": "4",
-          "military": "16",
-          "ampm": "pm"
-        },
-        "minute": {
-          "long": "45",
-          "short": "45"
-        },
-        "seconds": "11"
+        "event": {
+          "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "year": {
+            "long": "2013",
+            "short": "13"
+          },
+          "month": {
+            "long": "March",
+            "short": "Mar",
+            "digit": "03"
+          },
+          "dayofweek": {
+            "long": "Tuesday",
+            "short": "Tue"
+          },
+          "day": {
+            "long": "22",
+            "short": "22",
+            "ordinal": "nd"
+          },
+          "hour": {
+            "long": "04",
+            "short": "4",
+            "military": "16",
+            "ampm": "pm"
+          },
+          "minute": {
+            "long": "45",
+            "short": "45"
+          },
+          "seconds": "11"
+        }
       }
     ]
   }

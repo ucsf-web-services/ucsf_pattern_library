@@ -22,9 +22,9 @@
       "title": "This is the Banner Image 4"
     },
     "banner5": {
-      "src":  "../../images/samples/img-background-hero-3.png",
-      "alt": "People Talking",
-      "title": "People Talking"
+      "src":  "../../images/samples/UCSF_20160210_Medical Center Signage_028.jpg",
+      "alt": "Building",
+      "title": "Building"
     },
     "card": {
       "src":  "../../images/samples/child-playing-project-evo.jpg",
@@ -84,10 +84,6 @@
   },
   "text": {
     "author": "Author Name",
-    "newsTeaser": {
-      "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
-      "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
-    },
     "publicationShortTeaser": {
       "title": "Publication Title: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
       "subtitle": "Publication Subtitle: Cras justo odio, dapibus ac facilisis in, egestas eget quam.",

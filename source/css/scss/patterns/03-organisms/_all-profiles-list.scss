@@ -1,7 +1,10 @@
 
 .all-profiles-list {
   .all-profiles-list__col {
-    width: 49%;
+    width: 100%;
+    @include breakpoint($display_small_up) {
+      width: 49%;
+    }
     @include breakpoint($display_medium_up) {
       width: 31%;
       &.four-grid {

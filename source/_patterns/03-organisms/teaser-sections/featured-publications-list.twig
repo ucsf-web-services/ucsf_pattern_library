@@ -3,14 +3,10 @@
         <h2>Publications</h2>
     </div>
     <div class="featured-publications__items">
+        {% for publication in publications %}
         <div class="featured-publications__item">
-            {% include "molecules-publication-teaser" %}
+            {% include "molecules-publication-teaser" with publication %}
         </div>
-        <div class="featured-publications__item">
-            {% include "molecules-publication-teaser" %}
-        </div>
-        <div class="featured-publications__item">
-            {% include "molecules-publication-teaser" %}
-        </div>
+        {% endfor %}
     </div>
 </div>

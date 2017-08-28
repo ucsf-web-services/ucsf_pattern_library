@@ -10,7 +10,7 @@
                 {% if loop.last %}
                     {%  set itemClassLast = 'last' %}
                 {% endif %}
-                {% if link.submenu %}
+                {% if link.submenu and link.submenu != false %}
                     <li class="submenu__dropdown {{ itemClassActive }} {{ itemClassLast }}"><a href="#">{{ link.title }}<span class="fa fa-caret-down full-down"></span><span class="fa fa-caret-down fa-2x mobile-click"></span><span class="fa fa-caret-right fa-2x mobile-click"></span></a>
                         <div class="submenu__content">
                             {% include "molecules-submenu" with link %}

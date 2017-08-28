@@ -80,7 +80,7 @@
   },
   "text": {
     "author": "Author Name",
-    "newsTeaser": {
+    "news": {
       "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
       "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
     },

@@ -12,6 +12,9 @@
       margin-top: 0;
       font-weight: 300;
       a {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
         color: $ucsf-navyblue;
         &:hover {
           color: $ucsf-blue;
