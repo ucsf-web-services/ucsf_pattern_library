@@ -10,16 +10,19 @@
     "sections": [
       {"title": "Section 1", "section_items": [{"item": "molecules-news-short-teaser", "data": {"text": {
         "news": {
+          "link": {"url": "#", "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod"},
           "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
           "name": "Joe Bloggs",
           "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
         }}}}, {"item": "molecules-news-short-teaser", "data": {"text": {
         "news": {
+          "link": {"url": "#", "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod"},
           "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
           "name": "Joe Bloggs",
           "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."
         }}}}, {"item": "molecules-news-short-teaser", "data": {"text": {
         "news": {
+          "link": {"url": "#", "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod"},
           "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
           "name": "Joe Bloggs",
           "paragraph":"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur."

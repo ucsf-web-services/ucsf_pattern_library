@@ -1,7 +1,7 @@
 <div class="all-events-list">
     {% for event in event_listing.list %}
         <div class="all-events-list__item">
-            {% include "molecules-event-teaser" %}
+            {% include "molecules-event-teaser" with event %}
         </div>
     {% endfor %}
 </div>

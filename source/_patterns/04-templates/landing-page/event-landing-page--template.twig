@@ -1,9 +1,5 @@
-{% extends "basic_page.twig" %}
+{% extends "two_col_page.twig" %}
 {% block hero %}{% endblock %}
-{% block heading %}
-    {% include "molecules-breadcrumbs" %}
-<h1>Events</h1>
-{% endblock %}
-{% block main %}
-    {% include "organisms-all-events-list" %}
-{% endblock %}
+{% block heading %}{% include "molecules-breadcrumbs" %}<h1>Events</h1>{% endblock %}
+{% block main %}{% include "organisms-all-events-list" %}{% endblock %}
+{% block sidebar %}{% include "organisms-multiple-element-sidebar" %}{% endblock %}

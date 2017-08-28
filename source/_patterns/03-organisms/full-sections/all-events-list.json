@@ -1,0 +1,79 @@
+{
+  "event_listing": {
+    "title": "Event Listing Title",
+    "list": [
+      {
+        "event": {
+          "link": {"url": "#", "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod"},
+          "title": "Lorem ipsum dolor sit amet consec tetur adipiscing elsed do eiusmod",
+          "paragraph": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur.",
+          "url": "",
+          "year": {
+            "long": "2017",
+            "short": "17"
+          },
+          "month": {
+            "long": "June",
+            "short": "Jun",
+            "digit": "07"
+          },
+          "dayofweek": {
+            "long": "Thursday",
+            "short": "Thu"
+          },
+          "day": {
+            "long": "22",
+            "short": "22",
+            "ordinal": "nd"
+          },
+          "hour": {
+            "long": "06",
+            "short": "6",
+            "military": "18",
+            "ampm": "PM"
+          },
+          "minute": {
+            "long": "20",
+            "short": "20"
+          }
+        }
+      },
+      {
+        "event": {
+          "link": {"url": "#", "title": "Maecenas nunc mi, consectetur vitae dui eu, malesuada posuere risus."},
+          "title": "Maecenas nunc mi, consectetur vitae dui eu, malesuada posuere risus.",
+          "paragraph": "Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur.",
+          "url": "",
+          "year": {
+            "long": "2018",
+            "short": "18"
+          },
+          "month": {
+            "long": "January",
+            "short": "Jan",
+            "digit": "07"
+          },
+          "dayofweek": {
+            "long": "Saturday",
+            "short": "Sat"
+          },
+          "day": {
+            "long": "03",
+            "short": "3",
+            "ordinal": "rd"
+          },
+          "hour": {
+            "long": "09",
+            "short": "9",
+            "military": "09",
+            "ampm": "AM"
+          },
+          "minute": {
+            "long": "00",
+            "short": "00"
+          }
+        }
+      }
+    ]
+  }
+}
