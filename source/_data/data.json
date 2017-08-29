@@ -124,7 +124,8 @@
       "title": "Designation / Job Title",
       "info": "Primary Department / School Information",
       "email": "joebloggs@ucsf.edu",
-      "phone": "+1 2345 67890"
+      "phone": "+1 2345 67890",
+      "teaser":"Maecenas nunc mi, consectetur vitae dui eu, malesuada posuere risus. Proin auctor ante orci, nec cursus tellus lacinia gravida. Suspendisse sodales urna sed quam euismod molestie. Nam vel lobortis diam, eu faucibus lectus. Vestibulum eleifend felis justo, sed volutpat massa gravida vitae. Donec a eros at turpis commodo luctus. Vestibulum at congue lectus. Pellentesque elementum tincidunt nisi, aliquet lobortis dolor tristique non. Ut finibus eleifend quam ac efficitur. Morbi ultricies, nisl nec ornare facilisis, sapien eros lacinia purus, eget maximus ante est sed magna. Aenean nec purus facilisis, suscipit nunc in, sodales ex. Suspendisse laoreet elit in mattis imperdiet. Proin bibendum ullamcorper maximus."
     },
     "author": "Author Name",
     "news": {

@@ -4,16 +4,17 @@
       margin-bottom: 40px;
     }
     margin-bottom: 2em;
-    @include breakpoint($display_large_min) {
+    @include breakpoint($display_medium_up) {
       @include grid-span(8, 1, (12));
-      padding-right: 2em;
+      @include add-gutter(10em);
+      padding-left: 0;
     }
   }
   .sidebar {
     margin-bottom: 2em;
-    @include breakpoint($display_large_min) {
+    @include breakpoint($display_medium_up) {
       @include grid-span(4, 9, (12));
-      padding-left: 2em;
+      @include add-gutter(10em);
       padding-right: 0;
       h1, h2, h3, h4, h5, h6 {
         padding-top: 0;
