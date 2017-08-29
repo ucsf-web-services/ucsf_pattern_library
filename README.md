@@ -3,7 +3,7 @@
 * Github repo source: ucsf_pattern_library_php
 * Github repo public: ucsf_pattern_library_package_php
 
-This Pattern Library, built on Pattern Lab - PHP + Twig version, has been created by the UCSF University Relations department for the following audiences and purposes.
+This Pattern Library, built on Pattern Lab - PHP + Twig version, has been created by the UCSF University Relations department for the following audiences and purposes:
 
 * Site owners/builders using UCSF StarterKit version 3 / SiteBuilder
 * Developers creating applications outside of the UCSF Drupal ecosystem
@@ -15,24 +15,28 @@ For this user group, use the pages and templates as examples of how to place you
 
 **Assumptions**
 
-1. The Pattern Library has been generated with only one of the Primary + Secondary color sets.
-1. The library includes some features and improvements not yet applied to the StarterKit v.3 / SiteBuilder in Drupal. Samples include: footer styling, location styling, improved accessible form element styling, tabular syling, and changes in H1 wieghts (200 vs. 300)
-1. Templates (basic structure) have been built out, but some sample Pages (Templates with real-like data) have yet to be built.
+1. The Pattern Library has been generated with only one of the Primary + Secondary color sets as a sample. Use your SiteBuilder wizard to choose your colors.
+1. The library includes some features and improvements not yet applied to the StarterKit v.3 / SiteBuilder in Drupal. Samples include: footer styling, location styling, improved accessible form element styling, tabs and table syling, and changes in H1 wieghts (200 vs. 300)
+1. Templates (basic structure) have been built out, but more sample Pages (Templates with real-like data) have yet to be built.
 
 ## Developers creating applications outside of the UCSF Drupal ecosystems
 
-For this group of users, use the CSS, the SASS, JS, HTML and supporting grid system to create a branded, mobile responsive tool within your custom system. This may include: basic HTML pages, PHP/Symfony/Twig applications, Drupal themes, and Java / JSP applications.
+This group of users will use the supporting assets (CSS, the SASS, JS, HTML and supporting grid system) to create a branded, mobile responsive tool within a custom system. 
 
-Some basic use cases are covered here, but this Pattern Library is intended to provide guidance about site layouts (like for the Site Owners), the base CSS, JS, and HTML framework to just "use", or the base building blocks to apply to your richer development environment and extend as needed.
+Development approaches may include: basic HTML pages, PHP/Symfony/Twig applications, Drupal themes, and Java / JSP applications.
+
+Some basic use cases of how to leverage the Pattern Library are covered in this README, but this Pattern Library is intended to provide guidance about site layouts (like for the Site Owners), the compiled base CSS, JS, and HTML framework to just "use", or the source building blocks to apply to your richer development environment and extend as needed.
 
 In all cases of Pattern Library application, these assumptions apply:
-* Don't remove Pattern Library and Pattern Lab information
+
+* Don't remove Pattern Library and Pattern Lab information from your local area
+* Keep the Pattern Library in a separate location from your code.
 * Add your customizations in your own specified "custom" directories.
-* Simply, extend the library, don't hack it.
+* Essentially, just extend and reference the library, don't hack it.
 
 ### Use case 1: Basic HTML or PHP site - no additional CSS changes
 
-1. Download the Pattern Library package (not the source repo)
+1. Clone/download the Pattern Library _package_ repo (not the source repo)
 1. Add the supporting asset directories to your site. They contain the compiled assets needed to have a basic HTML site "just work" within the framework.
 1. Add the CSS and supporting assets JS to your html head, as provided in the example HTML file.
 1. Use the page samples, page templates, and component HTML as samples for your code. Cut and paste into your HTML pages as needed.
@@ -44,9 +48,11 @@ In all cases of Pattern Library application, these assumptions apply:
 * JS /public/js/*
 * Fonts /public/fonts/*
 
+_Note:_ Supporting assets / packages loaded with NPM are defined in the package.json file at the root of the _source_ repo.
+
 **HTML Page Sample**
 
-See the HTML Page sample in /public/examples/HTML/index.html (in the package repo) or /source/examples/HTML/index.html (in the source repo).
+See the HTML Page sample in /public/examples/HTML/index.html (in the package repo) or /source/examples/HTML/index.html (in the source repo). They are the same code and are packaged for delivery with Gulp tasks from the source repo.
 
 ### Use case 2: Using PHP, Java, or another language for dynamic markup
 
@@ -54,15 +60,15 @@ See the HTML Page sample in /public/examples/HTML/index.html (in the package rep
 1. Download the supporting assets listed in the Basic HTML use case
 1. Include the supporting assets in whatever method that produces the HTML headers required by your dynamic templating system
 1. Use the sample HTML to get the markup required for the programmatically created output. For each component and template, view the pattern info in the settings cog.
-1. Also take a look at the Twig templates and JSON data files in the relative pattern source directories: /source/_patterns/[atomic-level]/[component]/[component].twig (in the source repo).
+1. Take a look at the Twig templates and JSON data files in the relative pattern source directories. They will inform how and when to use variables within the markup: /source/_patterns/[atomic-level]/[component]/[component].twig (in the source repo).
 
 #### Leveraging the Pattern Lab Twig templates
 
 You may consider leveraging the Twig templates in Pattern Lab. There are many considerations with this approach. 
 
-**Directly leveraging the Pattern Lab Twig templates is not advised.**
+_Directly leveraging the Pattern Lab Twig templates is not advised._
 
-Assume the Twig templates driving the Pattern Library as an _example only_ and do not explicitly copy and expect them to work.
+Assume the Twig templates driving the Pattern Library as an _example only_ and do not explicitly copy them into your custom repository and expect them to work.
 
 **Why not directly copy or include the Twig templates?**
 
@@ -72,7 +78,7 @@ Assume the Twig templates driving the Pattern Library as an _example only_ and d
 1. The Pattern Lab / Pattern Library Twig templates have been created to nest (create once, leverage everywhere) by being included in Twig blocks. This, for some reasons, may not be the best for your custom tool development _or_ your application may require a different type or level of Twig block inclusion.
 1. You may need to add different logic to support your custom tool's needs at the display layer. 
 
-An example of a PHP file, with a couple of Twig templates is included and /public/examples/php/README.md (in package repo) and /source/examples/php/README.md (in source repo). Note: this example requires a Composer install to use and to ensure _a compatible version of Twig_ is used. Read the README.md for more information.
+An example of a PHP file with a couple of Twig templates is included at /public/examples/php/README.md (in package repo) and at /source/examples/php/README.md (in source repo). **Note:** this example requires a Composer install to use and to ensure _a compatible version of Twig_ is used. Read the example's README.md for more information.
 
 ### Use case 3: Using Pattern Library to Inform Drupal work
 
@@ -81,21 +87,21 @@ This section is for developers applying and extending brand standards within the
 **Known limitations and constraints.**
 
 * Drupal core, for both versions, require a specific minimal version of PHP to run.
-* Drupal 7 has a specific theme to implement Twig. https://www.drupal.org/project/tfd7 and says to download Twig version 1.0 from Github. The development team working with Pattern Lab had many issues with Twig version 1.0 (the base of Twig.js) inlcuding the lack of support for some basic Twig logic. This was a blocking issue which made the team use Pattern Lab for PHP for the UCSF project.
+* Drupal 7 has a specific theme to implement Twig. https://www.drupal.org/project/tfd7 and says to download Twig version 1.0 from Github. The development team working with Pattern Lab had some issues with Twig version 1.0. This was a blocking issue which made the team use Pattern Lab for PHP for the UCSF project and Twig version 2.
 * Drupal 8 also leverages version 1.x of Twig in core, with plans to upgrade to version 2.x in 8.4 (slated for end of calendar year 2017). Version 2 also depends on PHP version 7.
 * Both versions of Drupal require special syntax to call the CMS field variables for the data insert within the Twig template.
 
 The following Drupal 8 themes and other tools were reviewed in the making of this project:
 
-* Pattern Lab Starter (Phase 2) https://github.com/phase2/pattern-lab-starter
-* Emulsify (Four Kitchens) http://emulsify.info/
+* Pattern Lab Starter (Phase 2) [https://github.com/phase2/pattern-lab-starter](https://github.com/phase2/pattern-lab-starter)
+* Emulsify (Four Kitchens) [http://emulsify.info/](http://emulsify.info/)
 * UC Davis Pattern Library (Pattern Lab v 1 with Mustache markup)
 
-If you wanted to include the Pattern Lab Twig Library within your Drupal docroot, consider the use of Component Libraries module: https://www.drupal.org/project/components although it will not have the CMS data fields required for data display.
+If you wanted to include the Pattern Lab Twig Library within your Drupal docroot, consider the use of Component Libraries module: [https://www.drupal.org/project/components](https://www.drupal.org/project/)components although it will not have the CMS data fields required for data display.
 
-Including the Pattern Lab source Twig is not recommended. This library was built to be stand-alone, but with Drupal 8 in mind. Drupal 8 can extend the structure and the layouts, but it is completely informed by the CMS Site Building architecture being used. The CMS architecture for Drupal 8 had not yet been defined for the UCSF or UC Drupal 8 template at the creation of this library. 
+Including the Pattern Lab source Twig in this method is not recommended. This library was built to be stand-alone, but with Drupal 8 in mind. Drupal 8 can extend the structure and the layouts, but it is completely informed by the CMS Site Building architecture being used. The CMS architecture for Drupal 8 had not yet been defined for the UCSF or UC Drupal 8 template at the creation of this library. 
 
-The Drupal 7 SiteBuilder doesn't always use explicit field templates for the layouts, but it uses an extension to the WYSIWYG editor and one big body field vs. well defined data structures to leverage the pattern library templates.
+Also note, the Drupal 7 UCSF SiteBuilder doesn't always use explicit fields and templates for all layouts. The WYSIWYG editor has been extended to provide custom templates and layout in one big body field vs. well defined data structures that would be best suited to leverage the Pattern Library templates.
 
 ## Developer Section
 
@@ -122,8 +128,9 @@ The UCSF patterns needed to expose many variations of a specific element or a gr
 
 *JSON files*
 
-* Core JSON file is in /source/_data/data.json 
-* Patterns can override the core data file in the pattern directory (e.g., /_patterns/05-pages/homepage/homepage--hero-1.json). These local patterns are NOT inherited (Sidecar JSON files) by other templates including the pattern. Only data in the _data/data.json is available everywhere.
+* The data populating elements (like text strings and images) is stored in JSON files. 
+* The main, globally includable JSON data file is in /source/_data/data.json 
+* Patterns can override the core data file in the pattern directory (e.g., /_patterns/05-pages/homepage/homepage--hero-1.json). These local patterns are NOT inherited by other templates including the pattern (e.g., sidecar JSON files). Only data in the _data/data.json is available everywhere.
 * See known issues with JSON data files in /source/_data/README.md
 
 ### How do I Extend SASS/CSS and JS?
@@ -132,9 +139,11 @@ Often custom development will require addition of more SASS/CSS through SASS par
 
 A "custom" directory namespace has been reserved for SASS partials and custom JS to keep custom code directories separate from the rest of the Pattern Library. Your developers may also keep these custom directories completely outside of the Pattern Library source SASS and JS by updating their Gulp config.
 
+An example custom directory has been added to the scss and the js directories, and include a sample of how to override the primary and secondary color without "hacking" the Pattern Library code.
+
 **Assumptions:** 
 
-* Really try not to hack the Pattern Library core. 
+* Really try not to hack the Pattern Library core code. 
 * You can update the primary and secondary color variables within your custom SCSS partials (they are set as default in the SASS).
 * Don't remove or change the pattern's SASS/CSS and JS, just add your code in the "custom" directories (see below).
 * Use your own SASS/JS compiler scripts, not the Pattern Lab ones. You may consider reviewing and/or copying some of the scripts from the Pattern Lab source to ensure all supporting Pattern Library assets are included correctly.
@@ -147,7 +156,7 @@ A "custom" directory namespace has been reserved for SASS partials and custom JS
 1. Use your own Gulp tasks to copy the custom directory content to the respective /public/sass/custom directory and the /public/js/custom directory. 
 1. Add your own styles and compile the SASS. The custom directories are are already mapped in the Pattern Library style.scss import rules.
 
-### What happens if the Pattern Library is updated?
+### What happens to your website if the Pattern Library is updated?
 
 This process works for any of the inclusion methods Basic HTML Include or Custom SASS/JS Extension methods. 
 
@@ -156,5 +165,38 @@ This process works for any of the inclusion methods Basic HTML Include or Custom
 1. Use a code diff / code compare tool (like SmartSynchroize from Syntevo) to check for hacked Pattern Library files. Confirm that no changes were made to your local version of the SASS / CSS. 
 1. Copy the new Pattern Library updates over to a dev version of your site. If extending the SCSS, make sure you recompile your SASS.
 1. Test the site! Is everything ok? If yes, deploy as required to production.
+
+### How do I contribute to the Pattern Library?
+
+@TODO for UR team. Insert your business process for managing requests here.
+
+@TODO for the Web Services team, insert the specific repo urls and access requirements here.
+ 
+1. Work with the UR team to add an item to the Pattern Library.
+1. Define with UR your new Pattern(s)' name and locations in the atomic structure.
+1. Clone the _source_ Pattern Library repo to your local machine.
+1. Create a new branch for your work. @TODO work with Web Services team for the UCSF branch naming convention.
+1. Follow the installation instructions in the INSTALL.md file.
+1. Follow the local npm server start instructions in the Install.md file.
+1. Follow the naming conventions and standards set up in the pattern library. See existing MD files explaining atomic sections and their use. These are seen when using the "View All" button.
+1. Add your pattern templates, supporting directory structures, md files, and JSON files to your branch locally.
+1. Review the visual changes with the UR team.
+1. Push your changes to your feature branch on GitHub.
+1. Clone the _package_ Pattern Library to your local machine in a directory structure COMPLETELY SEPARATE from the source repo.
+1. Create a new branch for your work name it the same as the branch you named it in the _source_ Pattern Library repo. @TODO work with Web Services team for the UCSF branch naming convention.
+1. Make sure your local _source_ repo is clear of all development work and the npm server has been installed and started. This generates all of the output for checking into the _package_ repo.
+1. Use some type of diff / directory compare tool to copy/update only the changes from your local running _source_ Pattern Library.
+1. Source directory to copy files _from_: [path-to-your-local-source]/pattern-lab-source/public
+1. Destination directory to copy files _to_: [path-to-your-local-source]/public
+1. Add and commit all of the changes. Push it up to the _package_ repo. At this point, UR can approve the compiled output that is used for their review site.
+1. When all is approved, create a Pull Request in each of the repos. Someone in Web Services will review your code. Once approved the code will be merged into the master branch by an approved Pattern Library developer/owner.
+
+### Future possibilities
+
+1. The master _package_ updates can be automated by githooks and a CI Environment.
+1. The _package_ output can live on an AWS server instead of on GitHub browsing (like UC Davis' implementation).
+
+
+
 
 
