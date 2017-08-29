@@ -12,6 +12,7 @@
 
 .slider__hero-5 {
 
+
   max-height: 500px;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -40,10 +41,10 @@
 .hero-5 {
 
   position: relative;
-  min-height: 500px;
   height: 385px;
   background-position: center center;
   @include breakpoint($display_medium_up) {
+    min-height: 500px;
     height: 500px;
   }
   &__image {
