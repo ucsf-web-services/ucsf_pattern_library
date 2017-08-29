@@ -24,8 +24,8 @@ $ucsf-coral:      #EB093C;
 $ucsf-yellow:     #FFDD00;
 
 /* Selected Colors */
-$primary-color: $ucsf-navyblue;
-$secondary-color: $ucsf-orange;
+$primary-color: $ucsf-navyblue !default;
+$secondary-color: $ucsf-orange !default;
 
 //** Breakpoints **//
 
