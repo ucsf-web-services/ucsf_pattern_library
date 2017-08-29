@@ -1,6 +1,7 @@
 # UCSF Pattern Library 
-Github repo source: ucsf_pattern_library_php
-Github repo public: ucsf_pattern_library_package_php
+
+* Github repo source: ucsf_pattern_library_php
+* Github repo public: ucsf_pattern_library_package_php
 
 This Pattern Library, built on Pattern Lab - PHP + Twig version, has been created by the UCSF University Relations department for the following audiences and purposes.
 
@@ -84,7 +85,7 @@ This section is for developers applying and extending brand standards within the
 * Drupal 8 also leverages version 1.x of Twig in core, with plans to upgrade to version 2.x in 8.4 (slated for end of calendar year 2017). Version 2 also depends on PHP version 7.
 * Both versions of Drupal require special syntax to call the CMS field variables for the data insert within the Twig template.
 
-The Drupal 8 themes and other tools were reviewed in the making of this project:
+The following Drupal 8 themes and other tools were reviewed in the making of this project:
 
 * Pattern Lab Starter (Phase 2) https://github.com/phase2/pattern-lab-starter
 * Emulsify (Four Kitchens) http://emulsify.info/
