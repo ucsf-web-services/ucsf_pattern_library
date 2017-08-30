@@ -2,21 +2,26 @@
   .profile-teaser__image {
     float: left;
     margin-right: 40px;
+    width: 150px;
+  }
+  h4 {
+    @extend .font-helvetica-neue;
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 0;
+    margin-bottom: 10px;
   }
   .profile-teaser__detail {
-    overflow: auto;
-    h4 {
-      @extend .font-helvetica-neue;
-      font-weight: 300;
-      font-size: 26px;
-      margin-top: 0;
-      margin-bottom: 10px;
+    & > p {
+      overflow: hidden;
     }
+    position: relative;
     p {
       font-size: 18px;
       margin: 0;
     }
     & .profile-teaser__text {
+      clear: none;
       padding-top: 15px;
       p {
         font-size: 15px;
