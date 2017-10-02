@@ -10,7 +10,7 @@ state: complete
 These are examples of links.
 
 ### Usage
-#### @todo Sara fix me.
+Hyperlink blue should stay consistent across the site to help a user understand how to navigate. The blue has been selected to heighten contrast levels.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
