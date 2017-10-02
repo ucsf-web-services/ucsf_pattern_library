@@ -10,7 +10,7 @@ state: complete
 This is preformatted text.
 
 ### Usage
-#### @todo Sara fix me.
+For most cases, this will not be used.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
