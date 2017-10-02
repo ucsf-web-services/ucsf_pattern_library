@@ -10,7 +10,7 @@ state: TBD
 These are the color combinations.
 
 ### Usage
-The UCSF Brand palette is split into primary and secondary applications. When thinking of color combinations, think of selecting one color from the primary palette, and another from the secondary palette, although other combinations are possible.
+The UCSF Brand palette is split into primary and secondary applications. When thinking of color combinations, think of selecting one color from the primary palette, and another from the secondary palette. Other combinations are possible.
 
 ### Accessibility Considerations
 Be sure there is sufficient contrast between foreground and background colors.
