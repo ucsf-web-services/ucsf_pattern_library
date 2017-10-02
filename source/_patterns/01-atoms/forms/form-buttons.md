@@ -10,7 +10,7 @@ state: complete
 These are form buttons.
 
 ### Usage
-#### @todo Sara fix me.
+Buttons usually allow a user to submit their information, and should be placed and labeled intuitively.
 
 ### Accessibility Considerations
 Form controls must have text alternatives that describe the information or function represented by them. Please ensure accessibility by testing the whole page, including this element, in context.
