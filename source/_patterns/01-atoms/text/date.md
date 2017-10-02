@@ -10,7 +10,7 @@ state: complete
 This is how a date is displayed.
 
 ### Usage
-#### @todo Sara fix me.
+This allows for universal date formatting so that other features reliant on common data can be formatted appropriately.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
