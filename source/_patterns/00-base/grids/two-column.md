@@ -10,7 +10,7 @@ state: complete
 This is a two column layout.
 
 ### Usage
-#### @todo Sara fix me.
+A two-column layout is ideal when two items have equal importance. This should not be used to display the text of an article, but can be used within an article to pair additional contextual information, such as two related images. Content in a two-columned area should be brief and use consistent styling across both columns for best effect. 
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
