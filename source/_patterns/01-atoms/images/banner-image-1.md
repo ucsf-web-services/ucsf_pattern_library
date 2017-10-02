@@ -10,7 +10,7 @@ state: inprogress
 This is Banner Image 1.
 
 ### Usage
-#### @todo Sara fix me.
+Banner 1 is predominantly text, so the image is essentially texture to create visual interest. Don't use imagery that will look uncomfortable cropped to a narrow area, such as a portrait or group photo. Try to choose more abstract visuals, such as architecture, cell structures or landscapes.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
