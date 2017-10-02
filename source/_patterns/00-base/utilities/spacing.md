@@ -10,7 +10,7 @@ state: complete
 These are examples of spacing.
 
 ### Usage
-#### @todo Sara fix me.
+Proper use of negative space is an important aspect of UCSF's Brand Identity. Elements should feel spacious yet related on the page. Elements should not feel cramped or claustrophobic.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
