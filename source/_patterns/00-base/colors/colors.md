@@ -10,7 +10,7 @@ state: complete
 These are the colors.
 
 ### Usage
-#### @todo Sara fix me.
+Colors are the digital or interactive versions of the UCSF Brand master palette, and provide opportunities for greater contrast in order to meet W3C’s Web Content Accessibility Guideline (WCAG) AA level color contrast standards. Font size and other details still need to be considered when using colored backgrounds. Visit identity.ucsf.edu for precise use cases and applications.
 
 ### Accessibility Considerations
 Be sure there is sufficient contrast between foreground and background colors.
