@@ -10,7 +10,7 @@ state: complete
 This is the Icon Image.
 
 ### Usage
-#### @todo Sara fix me.
+The icon image changes based on the day the event will take place. The color of the icon should fit with your site's chosen color scheme. 
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
