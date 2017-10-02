@@ -7,10 +7,10 @@ state: complete
 ---
 
 ### Description
-This is a Horizontal Tab.
+This is a Vertical Tab.
 
 ### Usage
-#### @todo Sara fix me.
+Vertical tabs should be used to compress related information that doesn't need to be displayed immediately on page load. Users can quickly navigate to content relevant to them. Each tab's descriptive text should be kept short, and the number of tabs shouldn't exceed 5 items.
 
 ### Accessibility Considerations
 Complex menus, sliders, dialogs, tab panels, etc. must all be built to support keyboard accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
