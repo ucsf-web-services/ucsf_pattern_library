@@ -10,7 +10,7 @@ state: complete
 These are examples of width.
 
 ### Usage
-#### @todo Sara fix me.
+Various widths should be used consistently across the site to allow for a unified user experience. Widths should adjust on smaller screens so that content can be read and navigated easily.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
