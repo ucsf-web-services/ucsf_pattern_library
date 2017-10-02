@@ -10,7 +10,7 @@ state: complete
 These are buttons.
 
 ### Usage
-#### @todo Sara fix me.
+Buttons should be used to call out desired actions. Colored buttons should be used on a white background, and white buttons should be used on a colored background. Button text should always be short, unique and descriptive (e.g. not "Click here"). Button text should be Helvetica Neue and all caps, rather than lower case or title case. Full-width buttons are desirable for smaller areas, such as sidebars or columns. 
 
 ### Accessibility Considerations
 Color contrast and font size is important.
