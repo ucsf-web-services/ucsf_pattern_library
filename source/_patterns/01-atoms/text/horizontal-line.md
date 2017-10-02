@@ -10,7 +10,7 @@ state: complete
 Thia is a horizontal line.
 
 ### Usage
-#### @todo Sara fix me.
+Horizontal lines should be used to differentiate sections or elements, and be consistently used across the site.
 
 ### Accessibility Considerations
 The HTML hr element represents a thematic break between paragraph-level elements. It may still be displayed as a horizontal rule in visual browsers, but is now defined in semantic terms, rather than presentational terms.
