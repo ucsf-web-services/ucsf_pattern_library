@@ -10,7 +10,7 @@ state: complete
 This is an unordered list.
 
 ### Usage
-#### @todo Sara fix me.
+Unordered lists should be used when there is a series of items that should be delineated on separate lines. Lists help a user quickly scan a page for relevant information.
 
 ### Accessibility Considerations
 Use different types of lists to group information according to its nature to provide orientation for users. Unordered lists are used when the order of the items is not relevant. List items in unordered lists are marked with a bullet. Please ensure accessibility by testing the whole page, including this element, in context.
