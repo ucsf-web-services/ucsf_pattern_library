@@ -10,7 +10,7 @@ state: complete
 These are examples of alignment.
 
 ### Usage
-#### @todo Sara fix me.
+For legibility, text should be left-aligned whenever possible. Right alignment is best for images or other visual information that might accompany text. Center alignment should be preserved for full-width images or other elements that are visually distinct from the main text of the page.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
