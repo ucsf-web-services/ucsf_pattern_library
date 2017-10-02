@@ -10,7 +10,7 @@ state: complete
 These are checkboxes.
 
 ### Usage
-#### @todo Sara fix me.
+A checkbox allows a user to select multiple options. Descriptions for each choice should be brief and logical.
 
 ### Accessibility Considerations
 Fieldset and legend HTML tags should only be used to associate groups of controls when a higher level description (i.e., the legend) is necessary. Single checkboxes or basic radio buttons (such as male/female for gender) that make sense from their labels alone do not require fieldset and legend. Nested fieldsets should generally be avoided.
