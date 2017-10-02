@@ -10,7 +10,7 @@ state: complete
 These are radio buttons.
 
 ### Usage
-#### @todo Sara fix me.
+Radio buttons allow a user to only select one option a time. Descriptions for each option should be as short as possible, and make sense in context.
 
 ### Accessibility Considerations
 Fieldset and legend HTML tags should only be used to associate groups of controls when a higher level description (i.e., the legend) is necessary. Single checkboxes or basic radio buttons (such as male/female for gender) that make sense from their labels alone do not require fieldset and legend. Nested fieldsets should generally be avoided.
