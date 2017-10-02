@@ -10,7 +10,7 @@ state: inprogress
 This is a tooltip.
 
 ### Usage
-#### @todo Sara fix me.
+If a user might need more guidance on an item, you can add a tooltip.
 
 ### Accessibility Considerations
 Tooltips should become visible to sighted keyboard users when the control has keyboard focus, not just when the user hovers or clicks with a mouse. Ensure the Tooltip conveys all the information that a screen reader user would need. Please ensure accessibility by testing the whole page, including this element, in context.
