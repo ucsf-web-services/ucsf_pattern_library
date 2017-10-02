@@ -10,7 +10,7 @@ state: complete
 This is a basic accordion.
 
 ### Usage
-#### @todo Sara fix me.
+Accordions should be used to compress related information that doesn't need to be displayed immediately on page load. Users can quickly navigate to content relevant to them.
 
 ### Accessibility Considerations
 Complex menus, sliders, dialogs, tab panels, etc. must all be built to support keyboard accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
