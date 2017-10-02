@@ -10,7 +10,7 @@ state: complete
 These are examples of paragraphs.
 
 ### Usage
-#### @todo Sara fix me.
+Paragraphs should be left-aligned and ideally be narrower than the full width of a page to make them easier to read. Larger paragraphs should be broken into smaller ones whenever possible to encourage scanning.
 
 ### Accessibility Considerations
 Screen readers pause for paragraph endings. When possible, place the distinguishing information of a paragraph in the first sentence. Please ensure accessibility by testing the whole page, including this element, in context.
