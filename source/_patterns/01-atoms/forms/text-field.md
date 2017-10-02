@@ -10,7 +10,7 @@ state: complete
 These are examples of text fields.
 
 ### Usage
-#### @todo Sara fix me.
+Text fields are open fields that require written entries by the user. Character count and answer validation should be considered.
 
 ### Accessibility Considerations
 Use label element when you can. Please ensure accessibility by testing the whole page, including this element, in context.
