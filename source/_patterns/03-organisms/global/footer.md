@@ -10,7 +10,7 @@ state: inprogress
 This is the footer.
 
 ### Usage
-#### @todo Sara fix me.
+The footer rests at the base of every page and contains site-wide information and navigation. Common footer elements include items like contact information. The navigation options should not mirror your top menu items.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
