@@ -10,7 +10,7 @@ state: inprogress
 This is a list for all articles.
 
 ### Usage
-#### @todo Sara fix me.
+An all articles list should have its own page. Pagination should be included so that a user has greater ability to navigate.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
