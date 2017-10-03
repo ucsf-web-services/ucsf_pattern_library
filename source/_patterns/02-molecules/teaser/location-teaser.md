@@ -10,7 +10,7 @@ state: inprogress
 This is the location teaser.
 
 ### Usage
-#### @todo Sara fix me.
+This is a quick summary of a location and should be used with proper context.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
