@@ -10,7 +10,7 @@ state: inprogress
 This is a list of locations.
 
 ### Usage
-#### @todo Sara fix me.
+A simple way to highlight articles specific locations. There should never be more than three featured at a time in a sidebar or main body area. 
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
