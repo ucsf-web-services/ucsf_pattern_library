@@ -10,7 +10,7 @@ state: inprogress
 This is a list of featured profiles.
 
 ### Usage
-#### @todo Sara fix me.
+A simple way to highlight one or more individuals. There should never be more than three featured at a time.
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
