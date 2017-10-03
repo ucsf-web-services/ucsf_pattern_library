@@ -10,7 +10,7 @@ state: inreview
 These are social media links.
 
 ### Usage
-#### @todo Sara fix me.
+Social media links are intended to sit within the header region beside the search bar, and should only be used if your site has relevant, UCSF branded social media accounts you are trying to promote. For guidelines on social media usage, visit <a href="https://identity.ucsf.edu" target="_blank">identity.ucsf.edu</a>.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
