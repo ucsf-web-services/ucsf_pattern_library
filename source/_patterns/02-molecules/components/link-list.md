@@ -10,7 +10,7 @@ state: inprogress
 This is a link list.
 
 ### Usage
-#### @todo Sara fix me.
+If there are multiple links you need to display in quick succession, you can add them. Usage examples may be a sidebar list of related sites, or related articles beneath a news item.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
