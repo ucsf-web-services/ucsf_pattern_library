@@ -10,7 +10,7 @@ state: inprogress
 This is an example of breadcrumbs.
 
 ### Usage
-#### @todo Sara fix me.
+Breadcrumbs allow a user to understand where they are and quickly navigate away to a parent page. They should sit above the main body area, and below the site title or logo.
 
 ### Accessibility Considerations
 Use breadcrumbs, indicators, or cues to indicate location or progress. Please ensure accessibility by testing the whole page, including this element, in context.
