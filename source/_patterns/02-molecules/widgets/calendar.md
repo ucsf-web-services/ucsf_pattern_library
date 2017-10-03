@@ -10,7 +10,7 @@ state: inprogress
 This is a calendar listing.
 
 ### Usage
-Calendar listings should include three or more calendar items for best effect.
+Integrate calendar items from the central UCSF Events Calendar directly onto your site. To do so, you can build a widget here: http://calendar.ucsf.edu/help/widget. Calendar listings should include three or more calendar items for best effect.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
