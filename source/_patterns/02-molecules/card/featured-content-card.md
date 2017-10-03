@@ -10,7 +10,7 @@ state: inprogress
 This is a featured content card.
 
 ### Usage
-#### @todo Sara fix me.
+Featured content cards are a way to introduce or highlight information with a big visual splash and an accent of color. They are strongest in a two- or three- column layout with other featured content cards. While they can take an image of any aspect ratio, it's recommended that the same ratio is used for all featured content cards to maintain visual consistency. 
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
