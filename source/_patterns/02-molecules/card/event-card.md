@@ -10,7 +10,7 @@ state: inprogress
 This is an event card.
 
 ### Usage
-#### @todo Sara fix me.
+Event cards should be used to display individual events. They contain basic information and should link to a bigger description.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
