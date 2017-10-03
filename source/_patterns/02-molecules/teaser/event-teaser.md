@@ -10,8 +10,7 @@ state: inprogress
 This is an event teaser.
 
 ### Usage
-#### @todo Sara fix me. 
-http://test.test1.ucsf.edu/events
+An event teaser includes a calendar icon, title, date, time and description. Teasers should be used in groups of three or more for best effect.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
