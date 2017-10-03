@@ -10,7 +10,7 @@ state: inprogress
 This is a list of all publications.
 
 ### Usage
-#### @todo Sara fix me.
+An all publications list generally rests on an individual's profile page, and only includes their specific papers. If posting on its own on a separate page, some sort of filtering is recommended, as well as navigation.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
