@@ -10,7 +10,7 @@ state: inprogress
 This is a list of latest news.
 
 ### Usage
-A simple way to highlight news articles in chronological order. There should never be more than three featured at a time in a sidebar or main body area. Four news articles can be used if added to a full-width page.
+A simple way to highlight news articles in chronological order. There should never be more than three featured at a time in a sidebar. Four news articles can be used if added to the main body of a page, or a full-width page.
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
