@@ -10,7 +10,7 @@ state: inreview
 This is a status message.
 
 ### Usage 
-An status message can be displayed if a system update needs to be displayed to an end user.
+A status message can be displayed if a system update needs to be displayed to an end user.
 
 ### Accessibility 
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
