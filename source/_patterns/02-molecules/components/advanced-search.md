@@ -10,7 +10,7 @@ state: notstarted
 This is an example of advanced search.
 
 ### Usage
-#### @todo Sara fix me.
+Advanced search features allow a user to break down their desired search criteria by one or more categories. For simple sites, an advanced search may introduce too much complexity, making the user's search experience more difficult.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
