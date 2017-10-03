@@ -5,10 +5,10 @@ state: inprogress
 ---
 
 ### Description
-The description of the atomic element will go here.
+These are examples of blockquotes.
 
 ### Usage
-Information regarding how is the atomic element used goes here.
+Blockquotes can be used on any page, and in a variety of colors and sizes. Formatting complies with UCSF Brand Guidelines, colors, and fonts. Please be aware that quotes should be kept short, and that blockquotes are meant to float left or right within a block of text.
 
 ### Accessibility Considerations
 As a general statement, the more structured your document is, the easier it will be to understand, Blockquotes create structure by indenting quotes.
