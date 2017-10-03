@@ -10,7 +10,7 @@ state: inprogress
 This is the multiple element sidebar.
 
 ### Usage
-#### @todo Sara fix me.
+Multiple molecules can be added within a sidebar; spacing and style will adjust according to their placement. Sidebars should never extend past the main body content of a page.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
