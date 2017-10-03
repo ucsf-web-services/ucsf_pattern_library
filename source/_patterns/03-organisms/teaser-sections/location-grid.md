@@ -10,7 +10,7 @@ state: inprogress
 This is a grid of location cards. Smaller versions for multiple locations.
 
 ### Usage
-#### @todo Sara fix me.
+A simple way to highlight multiple locations. There should never be more than three featured at a time in a sidebar or main body area. Four locations can be used if added to a full-width page.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
