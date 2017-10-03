@@ -10,7 +10,7 @@ state: inprogress
 This is a short teaser for news.
 
 ### Usage
-#### @todo Sara fix me.
+Add news items to other areas of your site, preferably in a group of three or more, with an attractive thumbnail image.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
