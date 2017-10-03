@@ -10,7 +10,7 @@ state: inprogress
 This is a list of latest events.
 
 ### Usage
-A simple way to highlight specific events. There should never be more than three featured at a time in a sidebar or main body area. Four events can be used if added to a full-width page.
+A simple way to highlight events in chronological order. There should never be more than three featured at a time in a sidebar or main body area. Four events can be used if added to a full-width page.
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
