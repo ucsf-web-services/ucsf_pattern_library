@@ -9,7 +9,7 @@ state: inprogress
 This is a map.
 
 ### Usage
-Add a map to any page using common map functionality. 
+Add a map to any page using Google Maps functionality. 
 
 ### Accessibility Considerations
 Many concepts are communicated more effectively with the addition of illustrations, maps, charts, etc. Please ensure accessibility by testing the whole page, including this element, in context.
