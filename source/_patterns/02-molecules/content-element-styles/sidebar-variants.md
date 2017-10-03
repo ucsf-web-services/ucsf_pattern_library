@@ -10,7 +10,7 @@ state: inreview
 These are examples of sidebars.
 
 ### Usage
-Two sidebar styles are currently available: one with a gray background, and one with a white background. Once a style is chosen, it should be used consistently across the site.
+Two sidebar styles are currently available: one with a gray background, and one with a white background. Both are designed to accommodate color accents from the interactive/digital version of the UCSF brand palette. Once a style is chosen, it should be used consistently across the site.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
