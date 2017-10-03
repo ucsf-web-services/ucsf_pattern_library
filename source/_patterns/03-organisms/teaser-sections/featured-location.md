@@ -10,7 +10,7 @@ state: inprogress
 This is an example of a featured location.
 
 ### Usage
-#### @todo Sara fix me.
+Featured locations are meant to highlight a central location. Use if you're encouraging people to come to your physical address.
 
 ### Accessibility Considerations
 Many concepts are communicated more effectively with the addition of illustrations, maps, charts, etc. Please ensure accessibility by testing the whole page, including this element, in context.
