@@ -10,7 +10,7 @@ state: inprogress
 This is an event card.
 
 ### Usage
-Event cards should be used to display individual events. They contain basic information and should link to a bigger description.
+Event cards should be used to display individual events. They contain basic information and should link to a bigger description. Titles should be short. Event cards are meant to be displayed in smaller areas, or in groups of multiple events within the main body of a page.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
