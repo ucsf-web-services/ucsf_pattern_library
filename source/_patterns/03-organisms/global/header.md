@@ -10,7 +10,7 @@ state: inprogress
 This is the header.
 
 ### Usage
-#### @todo Sara fix me.
+The header section rests at the top of every page. It should contain the navy blue navigation bar required for all UCSF sites, site title or logo, social media icons (if desired), a search feature and a top navigation menu. Elements should behave responsively on smaller screens, and should be consistent across the site.
 
 #### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
