@@ -10,7 +10,7 @@ state: inreview
 This is a warning message.
 
 ### Usage
-#### @todo Sara fix me.
+A warning message can be displayed if a user needs to take caution.
 
 ### Accessibility Considerations
 Information about to make this atomic element accessible.
