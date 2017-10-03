@@ -10,7 +10,7 @@ state: inprogress
 This is a short teaser for a profile.
 
 ### Usage
-#### @todo Sara fix me.
+Use short teasers for people profiles in groups of three or more. Make sure the thumbnail image isn't pixellated and that the image is cropped well.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
