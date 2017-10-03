@@ -10,7 +10,7 @@ state: inprogress
 This is a news teaser.
 
 ### Usage
-#### @todo Sara fix me.
+Add news items to other areas of your site, preferably in a group of three or more, with an attractive thumbnail image.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
