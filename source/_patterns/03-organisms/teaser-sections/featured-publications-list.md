@@ -10,7 +10,7 @@ state: inprogress
 This is a list of featured publications.
 
 ### Usage
-#### @todo Sara fix me.
+A simple way to highlight specific publications. There should never be more than three featured at a time in a sidebar or main body area. Four profiles can be used if added to a full-width page.
 
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
