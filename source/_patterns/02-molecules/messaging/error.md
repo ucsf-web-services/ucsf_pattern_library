@@ -10,7 +10,7 @@ state: inreview
 This is an error message.
 
 ### Usage
-An error message that can be displayed if something goes wrong for an end user that they need to fix.
+An error message can be displayed if something goes wrong for an end user.
 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
