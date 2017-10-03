@@ -10,7 +10,7 @@ state: inprogress
 This is a footer menu.
 
 ### Usage
-#### @todo Sara fix me.
+A footer menu should quickly guide people to key areas on your site, and should not be a duplicate of your top navigation. You can also include contact information, social media links or other generalized information.
 
 ### Accessibility Considerations
 Complex menus, sliders, dialogs, tab panels, etc. must all be built to support keyboard accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
