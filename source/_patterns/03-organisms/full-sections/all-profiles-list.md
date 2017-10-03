@@ -10,7 +10,7 @@ state: inprogress
 This is a list for all profiles.
 
 ### Usage
-#### @todo Sara fix me.
+An all profiles list should have its own page. Pagination should be included so that a user has greater ability to navigate.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
