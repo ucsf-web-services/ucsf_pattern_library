@@ -10,7 +10,7 @@ state: inprogress
 This is the event landing page template.
 
 ### Usage
-#### @todo Sara fix me.
+This is intended to house a feed of upcoming events. It will display key aspects for each event (title, date, etc.) but nothing more so that a series of events can fit into a small area. Further details can be found on a event detail page. 
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
