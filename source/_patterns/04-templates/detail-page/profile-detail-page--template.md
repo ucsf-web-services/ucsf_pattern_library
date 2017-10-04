@@ -10,7 +10,7 @@ state: inprogress
 This is the profile detail page.
 
 ### Usage
-A profile detail page has basic information about the person in question, an area for their personal bio, and an optional list of related publications. Always try to include a flattering, well-cropped image as the thumbnail, and customize information as needed. In Site Builder, this data synchronizes with profiles.ucsf.edu, but the general format can be adopted for other applications.
+A profile detail page has basic information about the person in question, an area for their personal bio or description of their work, and an optional list of related publications. Always try to include a flattering, well-cropped image as the thumbnail, and customize information as needed. In Site Builder, this data synchronizes with profiles.ucsf.edu, but the general format can be adopted for other applications.
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
