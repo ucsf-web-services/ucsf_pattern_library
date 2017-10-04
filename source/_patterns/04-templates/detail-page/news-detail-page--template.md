@@ -10,7 +10,7 @@ state: inprogress
 This is the news detail page.
 
 ### Usage
-#### @todo Sara fix me.
+News articles have a uniform lede and a suggested sidebar promoting the three most recent news articles. The lede contains the title, author byline and social sharing icons. The body area is completely open, and can be formatted according to its content. Generally, subheaders are advised, and pictures are encouraged.
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
