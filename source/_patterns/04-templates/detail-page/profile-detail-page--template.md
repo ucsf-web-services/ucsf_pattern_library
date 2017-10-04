@@ -10,7 +10,7 @@ state: inprogress
 This is the profile detail page.
 
 ### Usage
-#### @todo Sara fix me.
+A profile detail page has basic information about the person in question, an area for their personal bio, and an optional list of related publications. 
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
