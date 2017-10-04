@@ -10,7 +10,7 @@ state: inprogress
 This is the profile landing page template.
 
 ### Usage
-#### @todo Sara fix me.
+This is intended to house a feed of profiles. It will display key elements of each profile (name, role, department) but nothing more so that a series of items can fit into a small area. 
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
