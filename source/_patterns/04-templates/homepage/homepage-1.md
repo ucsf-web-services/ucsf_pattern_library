@@ -10,7 +10,7 @@ state: inprogress
 This is the template for the homepage iteration 1.
 
 ### Usage
-Homepages are intended to be your site's biggest splash. They need to establish who you are, key areas a user should visit, and why a user should take time to explore your content. Generally, simplicity is best; don't overwhelm a user, but provide guideposts to other pages. Try to structure your content based on order of importance. Think about why your user might be visiting your site and what they need to know first. Plan how your content change will over time and what will need to be updated. Keep text short, explore different formatting options, and use compelling imagery.
+Homepages are intended to be your site's biggest splash. They need to establish who you are, key areas a user should visit, and why a user should take time to explore your content. Generally, simplicity is best; don't overwhelm a user, but provide guideposts to other pages. Try to structure your content based on order of importance. Think about why your user might be visiting your site and what they need to know first. Plan how your content change will change over time and what will need to be updated. Keep text short, explore different formatting options, and use compelling imagery.
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
