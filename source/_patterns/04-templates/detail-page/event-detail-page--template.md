@@ -10,7 +10,7 @@ state: inprogress
 This is the event detail page.
 
 ### Usage
-#### @todo Sara fix me.
+An event detail page has a uniform lede area containing basic information about the event followed by an open content area. The accent bar should incorporate your site's overall color scheme. Information about the event should be well formatted, and could potentially contain agenda items, imagery, video or other elements to entice someone to attend.
 
 ### Accessibility Considerations
 Please ensure accessibility by testing the whole page, including these elements, in context.
