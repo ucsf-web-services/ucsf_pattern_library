@@ -8,4 +8,4 @@ Depth: Home > Articles > UCSF Contributes to the San Francisco community
 URl: your.doman.edu > articles > articles/ucsf-contributes-san-francisco-community
 
 ## Usage
-TODO - Sara - branding usage
+Landing pages are essentially feeds of information that give people a quick way to choose from a range of similar content. For instance, a news feed would fit well here.
