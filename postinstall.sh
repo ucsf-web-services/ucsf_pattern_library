@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Copying Config file to PatternLab"
-rm -fr pattern-lab-source/source
+#rm -fr pattern-lab-source/source
 cp config.yml pattern-lab-source/config/.
 echo "Copying required files from Node Modules to PatternLab"
 cp node_modules/font-awesome/fonts/* source/fonts/vendor
