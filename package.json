@@ -1,38 +1,47 @@
 {
   "name": "H42PatternLabPHP",
   "description": "PatternLabPHP Setup",
-  "version": "1.0.0",
-  "devDependencies": {
-    "breakpoint-sass": "^2.7.1",
-    "breakpoints-js": "^1.0.4",
-    "browser-sync": "2.18.12",
-    "font-awesome": "^4.7.0",
-    "gulp": "github:gulpjs/gulp#4.0",
+  "version": "1.0.2",
+  "dependencies": {
+    "gulp": "gulpjs/gulp#4.0",
     "gulp-concat": "^2.6.1",
     "gulp-flatten": "^0.3.1",
     "gulp-sass": "^2.3.2",
     "gulp-sass-error": "^1.0.4",
-    "gulp-shell": "0.6.3",
+    "gulp-shell": "^0.6.3",
     "gulp-uglify": "^2.1.2",
-    "jquery": "3.2.1",
+    "gulp-util": "^3.0.8",
+    "gulp-tap": "^1.0.1",
+    "node-sass": "^4.5.3",
     "node-sass-globbing": "^0.0.23",
+    "breakpoint-sass": "^2.7.1",
+    "patternlab-node": "^2.0.0",
+    "breakpoints-js": "^1.0.4",
+    "browser-sync": "^2.18.12",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
     "singularitygs": "^1.7.1",
     "slick-carousel": "^1.6.0",
-    "jquery-accessible-accordion-aria": "2.4.2",
-    "jquery-accessible-tabpanel-aria": "1.5.3",
-    "gulp-util": "3.0.8",
-    "gulp-tap": "1.0.1",
-    "responsive-nav": "1.0.39"
+    "jquery-accessible-accordion-aria": "^2.4.2",
+    "jquery-accessible-tabpanel-aria": "^1.5.3",
+    "responsive-nav": "^1.0.39"
   },
+  "keywords": [
+    "Pattern Lab",
+    "Atomic Web Design",
+    "Node",
+    "Gulp",
+    "Javascript"
+  ],
   "scripts": {
-    "start": "gulp clean && gulp compile && gulp theme",
-    "preinstall": "rm -fr pattern-lab-source && composer create-project pattern-lab/edition-twig-standard pattern-lab-source -n",
+    "start": "npm rebuild node-sass && gulp clean && gulp compile && gulp theme",
+    "preinstall": "./preinstall.sh",
     "postinstall": "./postinstall.sh",
-    "server": "node_modules/gulp/bin/gulp.js patternlab:serve",
-    "cleanup": "rm -fr node_modules && rm -fr pattern-lab-source && rm -fr source/fonts/vendor/*.*"
+    "server": "node_modules/gulp/bin/gulp.js patternlab:build"
   },
-  "dependencies": {
-    "latest-version": "~3.1.0",
-    "node-sass": "^4.5.3"
-  }
+  "contributors": [
+  	"Eric Guerin",
+  	"Hook42 (http://www.hook42.com)"
+  ],
+  "license": "MIT"
 }
