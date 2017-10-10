@@ -36,7 +36,7 @@
   "scripts": {
     "start": "npm rebuild node-sass && gulp clean && gulp compile && gulp theme",
     "preinstall": "./preinstall.sh",
-    "postinstall": "./postinstall.sh && gulp patternlab:build"
+    "postinstall": "./postinstall.sh && gulp patternlab:serve"
   },
   "contributors": [
   	"Eric Guerin",
