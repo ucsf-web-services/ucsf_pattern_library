@@ -30,5 +30,9 @@
     "postinstall": "./postinstall.sh",
     "server": "node_modules/gulp/bin/gulp.js patternlab:serve",
     "cleanup": "rm -fr node_modules && rm -fr pattern-lab-source && rm -fr source/fonts/vendor/*.*"
+  },
+  "dependencies": {
+    "latest-version": "~3.1.0",
+    "node-sass": "^4.5.3"
   }
 }
