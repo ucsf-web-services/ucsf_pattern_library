@@ -1,4 +1,4 @@
-# Installing Dependencies for Pattern Library
+# Installing Pattern Library and its Dependencies
 
 Please install these in the order they are listed
 
