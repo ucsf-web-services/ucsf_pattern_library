@@ -36,12 +36,14 @@
   "scripts": {
     "start": "npm rebuild node-sass && gulp clean && gulp compile && gulp theme",
     "preinstall": "./preinstall.sh",
-    "postinstall": "./postinstall.sh",
-    "server": "node_modules/gulp/bin/gulp.js patternlab:build"
+    "postinstall": "./postinstall.sh && gulp patternlab:build",
   },
   "contributors": [
   	"Eric Guerin",
   	"Hook42 (http://www.hook42.com)"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0"
+  }
 }
