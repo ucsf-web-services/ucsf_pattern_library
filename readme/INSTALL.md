@@ -3,7 +3,21 @@
 Please install these in the order they are listed
 
 ## Composer
-Please follow the directions for [installing Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) on the Composer website. We recommend you [install it globally](https://getcomposer.org/doc/00-intro.md#globally).
+Composer requires PHP 5.3.2+ to run, you need to have a working version of PHP on your development environment, you can check which version of PHP you are running by doing this in a terminal window:
+    
+    which php
+
+Sample responce: `/Applications/MAMP/bin/php/php7.0.15/bin/php`
+
+If you don't have PHP running, you will need to install PHP for your platform.
+
+* On MacOS you can use MAMP  - [MAMP Website](https://www.mamp.info/en/)
+* On Windows you can use XAMPP - [XAMPP Website ](https://www.apachefriends.org)
+* On MacOS if you have the BREW package manager you can use `brew install php70` for the latest version
+* Into Docker Containers?   Find a container that is right for you  [hub.docker.com/_/php/](https://hub.docker.com/_/php/)
+
+Please follow the directions for [Installing Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) on the Composer website. 
+We recommend you [install it globally](https://getcomposer.org/doc/00-intro.md#globally).
 
 ## NODE:
 To check if you have node installed run
@@ -81,12 +95,12 @@ If the version is NOT installed you will see an error like
 avn could not activate node 6.11.4
 ```
 In that case, install the required version with NVM:
-```
-nvm install 6.11.4
-```
+
+    nvm install 6.11.4
+
 Once you have installed the correct version of node you has use `nvm use 6.11.4` to run it in your current session.
 
-# Install [@todo: PROJECT NAME]
+# Install UCSF Pattern Library
 
 On the command line, from within this directory, run 
 
