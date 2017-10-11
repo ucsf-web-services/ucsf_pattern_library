@@ -2,10 +2,6 @@
 title: Select Menu
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a select menu.
 
