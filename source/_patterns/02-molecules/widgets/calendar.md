@@ -2,10 +2,6 @@
 title: Calendar
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a calendar listing.
 
