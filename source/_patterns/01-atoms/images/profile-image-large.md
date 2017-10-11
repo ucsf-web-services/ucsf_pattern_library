@@ -2,10 +2,6 @@
 title: Profile Image Large
 ---
 
----
-state: complete
----
-
 ### Description
 This is the Large Profile Image.
 
