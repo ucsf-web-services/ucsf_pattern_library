@@ -2,10 +2,6 @@
 title: Event Image
 ---
 
----
-state: complete
----
-
 ### Description
 This is the Event Image.
 
