@@ -1,9 +1,5 @@
 ---
-title: Header Menu (Alernate Version)
----
-
----
-state: inprogress
+title: Header Menu (Alternate Version)
 ---
 
 ### Description
