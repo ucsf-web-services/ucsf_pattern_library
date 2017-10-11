@@ -2,10 +2,6 @@
 title: Banner Image Four
 ---
 
----
-state: complete
----
-
 ### Description
 This is Banner Image 4.
 
