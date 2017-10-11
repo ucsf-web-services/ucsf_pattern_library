@@ -2,10 +2,6 @@
 title: Location Teaser
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is the location teaser.
 
