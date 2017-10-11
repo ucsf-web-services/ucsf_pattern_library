@@ -2,10 +2,6 @@
 title: Tables
 ---
 
----
-state: complete
----
-
 ### Description
 These are examples of tables.
 
