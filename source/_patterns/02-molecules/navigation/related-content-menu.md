@@ -2,10 +2,6 @@
 title: Related Content Menu
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a related content menu.
 
