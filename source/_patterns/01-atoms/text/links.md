@@ -2,10 +2,6 @@
 title: Links
 ---
 
----
-state: complete
----
-
 ### Description
 These are examples of links.
 
