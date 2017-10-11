@@ -2,10 +2,6 @@
 title: Status
 ---
 
----
-state: inreview
----
-
 ### Description 
 This is a status message.
 
