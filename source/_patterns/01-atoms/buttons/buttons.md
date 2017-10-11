@@ -2,10 +2,6 @@
 title: Buttons
 ---
 
----
-state: complete
----
-
 ### Description
 These are buttons.
 
