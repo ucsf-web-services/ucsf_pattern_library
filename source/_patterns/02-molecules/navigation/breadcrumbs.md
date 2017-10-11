@@ -2,10 +2,6 @@
 title: Breadcrumbs
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is an example of breadcrumbs.
 
