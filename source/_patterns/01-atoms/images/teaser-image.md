@@ -2,15 +2,11 @@
 title: Teaser Image
 ---
 
----
-state: complete
----
-
 ### Description
 This is the Teaser Image.
 
 ### Usage
-#### @todo Sara fix me.
+A teaser image should tease the accompanying content, and look uncluttered at a small size. Be careful of the crop, and try to choose an image with a centralized composition.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
