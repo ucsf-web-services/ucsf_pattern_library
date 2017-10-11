@@ -2,10 +2,6 @@
 title: Publication Teaser
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is the publication teaser.
 
