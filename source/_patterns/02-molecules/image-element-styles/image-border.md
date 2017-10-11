@@ -2,10 +2,6 @@
 title: Image Border
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is an image with a border.
 
