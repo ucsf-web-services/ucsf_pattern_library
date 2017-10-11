@@ -2,10 +2,6 @@
 title: Tool Tip
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a tooltip.
 
