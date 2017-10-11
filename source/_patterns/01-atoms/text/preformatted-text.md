@@ -2,10 +2,6 @@
 title: Preformatted Text
 ---
 
----
-state: complete
----
-
 ### Description
 This is preformatted text.
 
