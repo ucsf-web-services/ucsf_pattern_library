@@ -2,10 +2,6 @@
 title: Footer Menu
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a footer menu.
 
