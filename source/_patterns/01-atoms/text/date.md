@@ -2,10 +2,6 @@
 title: Date
 ---
 
----
-state: complete
----
-
 ### Description
 This is how a date is displayed.
 
