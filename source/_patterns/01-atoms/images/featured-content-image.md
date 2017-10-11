@@ -2,10 +2,6 @@
 title: Featured Content Image
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is the Featured Content Image.
 
