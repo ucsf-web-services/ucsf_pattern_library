@@ -2,15 +2,11 @@
 title: Location Image Small
 ---
 
----
-state: complete
----
-
 ### Description
 This is the Small Location Image.
 
 ### Usage
-#### @todo Sara fix me.
+This image area could be a picture or an embedded map, depending on need.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
