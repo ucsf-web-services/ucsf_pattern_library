@@ -2,10 +2,6 @@
 title: Profile Teaser
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a profile teaser.
 
