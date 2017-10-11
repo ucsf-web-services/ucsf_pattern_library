@@ -2,10 +2,6 @@
 title: Latest News List (No Image)
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a list of latest news.
 
