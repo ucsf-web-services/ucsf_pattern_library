@@ -2,10 +2,6 @@
 title: Ordered List
 ---
 
----
-state: complete
----
-
 ### Description
 This is an ordered list.
 
