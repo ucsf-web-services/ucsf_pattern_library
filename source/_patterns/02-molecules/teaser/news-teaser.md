@@ -2,10 +2,6 @@
 title: News Teaser
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a news teaser.
 
