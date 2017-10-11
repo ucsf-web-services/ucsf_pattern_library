@@ -2,10 +2,6 @@
 title: Warning
 ---
 
----
-state: inreview
----
-
 ### Description
 This is a warning message.
 
