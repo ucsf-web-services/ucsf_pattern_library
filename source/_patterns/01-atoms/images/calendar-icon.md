@@ -2,10 +2,6 @@
 title: Calendar Icon
 ---
 
----
-state: complete
----
-
 ### Description
 This is the Icon Image.
 
