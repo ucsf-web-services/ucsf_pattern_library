@@ -2,10 +2,6 @@
 title: Featured Content Card
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a featured content card.
 
