@@ -2,10 +2,6 @@
 title: Featured Publications List
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a list of featured publications.
 
