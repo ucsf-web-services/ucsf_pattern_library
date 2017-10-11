@@ -2,10 +2,6 @@
 title: Latest Articles List
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a list of the latest articles.
 
