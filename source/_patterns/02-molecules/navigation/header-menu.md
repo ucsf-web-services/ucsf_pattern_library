@@ -2,10 +2,6 @@
 title: Header Menu
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a menu header
 
