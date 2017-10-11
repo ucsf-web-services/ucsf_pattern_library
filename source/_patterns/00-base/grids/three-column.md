@@ -2,10 +2,6 @@
 title: Three Column 
 ---
 
----
-state: complete
----
-
 ### Description
 This is a three column layout.
 
