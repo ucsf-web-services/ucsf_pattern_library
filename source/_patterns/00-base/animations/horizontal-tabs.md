@@ -2,10 +2,6 @@
 title: Horizontal Tabs 
 ---
 
----
-state: complete
----
-
 ### Description
 This is a horizontal tab.
 
