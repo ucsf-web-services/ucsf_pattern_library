@@ -10,7 +10,7 @@ state: inprogress
 This is a select menu.
 
 ### Usage
-#### @todo Sara fix me.
+If you have a long list of options but a limited amount of space, a select menu is a good stylistic choice. Users can only select one item at a time, so it should only be used for questions that require a single answer. Text for each choice should be roughly the same length, and kept as short as possible.
 
 ### Accessibility Considerations
 It is recommended that multiple select menus be avoided. Not all browsers provide intuitive keyboard navigation for multiple select menus. Many users do not know to use CTRL/Command or Shift + click to select multiple items. Typically, a set of check box options can provide similar, yet more accessible functionality. Please ensure accessibility by testing the whole page, including this element, in context.
