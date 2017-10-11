@@ -2,10 +2,6 @@
 title: Error
 ---
 
----
-state: inreview
----
-
 ### Description
 This is an error message.
 
