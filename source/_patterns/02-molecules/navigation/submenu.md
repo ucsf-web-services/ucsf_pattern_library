@@ -2,10 +2,6 @@
 title: Submenu
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a submenu.
 
