@@ -1,5 +1,5 @@
 --- 
-title: Accordion 2 
+title: Accordion 
 ---
 
 ---
@@ -7,7 +7,7 @@ state: complete
 ---
 
 ### Description
-This is Accordion 2, the UCSF Accordion.
+This is an accordion.
 
 ### Usage
 Accordions should be used to compress related information that doesn't need to be displayed immediately on page load. Users can quickly navigate to content relevant to them.
