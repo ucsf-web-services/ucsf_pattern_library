@@ -2,10 +2,6 @@
 title: All Profiles List
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a list for all profiles.
 
