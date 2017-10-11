@@ -2,10 +2,6 @@
 title: Text Field
 ---
 
----
-state: complete
----
-
 ### Description
 These are examples of text fields.
 
