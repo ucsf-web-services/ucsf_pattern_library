@@ -2,10 +2,6 @@
 title: Single Element Sidebar
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is the single element sidebar.
 
