@@ -2,10 +2,6 @@
 title: Event Teaser
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is an event teaser.
 
