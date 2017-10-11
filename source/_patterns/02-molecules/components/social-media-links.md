@@ -2,10 +2,6 @@
 title: Social Media Links
 ---
 
----
-state: inreview
----
-
 ### Description
 These are social media links.
 
