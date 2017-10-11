@@ -2,10 +2,6 @@
 title: News Detail Page Template
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is the news detail page.
 
