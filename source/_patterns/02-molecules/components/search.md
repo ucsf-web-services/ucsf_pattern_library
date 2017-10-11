@@ -2,10 +2,6 @@
 title: Search
 ---
 
----
-state: inreview
----
-
 ### Description
 This is the search feature.
 
