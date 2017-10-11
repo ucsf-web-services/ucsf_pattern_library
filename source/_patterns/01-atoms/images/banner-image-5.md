@@ -2,10 +2,6 @@
 title: Banner Image Five
 ---
 
----
-state: complete
----
-
 ### Description
 This is Banner Image 5.
 
