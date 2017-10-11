@@ -1,8 +1,14 @@
 # Installing Pattern Library and its Dependencies
 
-Please install these in the order they are listed
+Please install these in the order they are listed.
 
-## Composer
+## Download Pattern Library using your GIT client
+
+Download the Pattern Library to your coding workspace using your favorite GIT client:
+
+    git clone https://github.com/ucsf-web-services/ucsf_pattern_library.git
+
+## Install PHP and Composer
 Composer requires PHP 5.3.2+ to run, you need to have a working version of PHP on your development environment, you can check which version of PHP you are running by doing this in a terminal window:
     
     which php
@@ -19,14 +25,14 @@ If you don't have PHP running, you will need to install PHP for your platform.
 Please follow the directions for [Installing Composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx) on the Composer website. 
 We recommend you [install it globally](https://getcomposer.org/doc/00-intro.md#globally).
 
-## NODE:
+## Install NODE.JS
 To check if you have node installed run
 
     node -v
 
 Otherwise [click here to install](https://nodejs.org/en/download/)
 
-## NPM:
+## Install NPM - Node Package Manager
 NPM comes installed with Node.js, but is updated more often so you can check
 about that [here](https://docs.npmjs.com/getting-started/installing-node)
 
@@ -36,7 +42,7 @@ permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 This is *PRETTY CRITICAL*, your installation will likely fail if you use sudo or root to install these packages. Especially when you run `npm install`
 
 
-## NVM
+## Install NVM - Node Version Manager
 To check if you have nvm installed run
 
     command -v nvm
@@ -49,7 +55,7 @@ You should expect to see 'nvm' returned as follows:
 
 Otherwise [click here to install](https://github.com/creationix/nvm)
 
-## AVN
+## Install AVN - Automatic Version Switching
 To check if you have avn installed run
 
     avn --version

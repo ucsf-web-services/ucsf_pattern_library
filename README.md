@@ -3,14 +3,14 @@
 * Github repo source: [https://github.com/ucsf-web-services/ucsf\_pattern\_library](https://github.com/ucsf-web-services/ucsf_pattern_library)
 * Github repo public: [https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package](https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package)
 
-This Pattern Library, built on [Pattern Lab](http://patternlab.io/), has been created by the UCSF University Relations department for the following audiences and purposes:
+This Pattern Library, built on [Pattern Lab](http://patternlab.io), has been created by the UCSF University Relations department for the following audiences and purposes:
 
 * Developers creating applications outside of the UCSF Drupal ecosystem
 * Developers applying and extending brand standards within the UCSF Drupal ecosystem, but not within the Drupal SiteBuilder environment
 * Site owners/builders using UCSF SiteBuilder (StarterKit v3) as a reference for designing out their website.
 
 
-## Developers building Web Applications and Websites that want to follow UCSF Branding Guidelines 
+## Developers building Web Applications or Websites that want to follow UCSF Branding Guidelines 
 
 This group of users will use the supporting assets (CSS, the SASS, JS, HTML and supporting grid system) to create a branded, mobile responsive tool within a custom system. 
 
@@ -27,7 +27,8 @@ In all cases of Pattern Library application, these assumptions apply:
 
 ### Installation Instructions
 Please use GIT to download the repo at `https://github.com/ucsf-web-services/ucsf_pattern_library.git`
-Please follow our installation instructions at  [INSTALL.md](readme/INSTALL.md)
+Please follow our installation instructions at 
+### [Installing Pattern Library and its Dependencies](readme/INSTALL.md)
 
 ### [Use case 1: Basic HTML or PHP site - no additional CSS changes](readme/USECASE1.md)
 
