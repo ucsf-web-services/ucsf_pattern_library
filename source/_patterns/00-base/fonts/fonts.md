@@ -2,10 +2,6 @@
 title: Fonts 
 ---
 
----
-state: complete
----
-
 ### Description
 These are the fonts.
 
