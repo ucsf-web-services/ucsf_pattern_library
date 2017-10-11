@@ -2,10 +2,6 @@
 title: News Short Teaser - No Image
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a short teaser for news with no image.
 
