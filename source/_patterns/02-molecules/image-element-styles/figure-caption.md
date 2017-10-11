@@ -2,10 +2,6 @@
 title: Figure with Caption
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is an image with a caption below.
 
