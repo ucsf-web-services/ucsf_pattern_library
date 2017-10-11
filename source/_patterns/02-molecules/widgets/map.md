@@ -2,9 +2,6 @@
 title: Map
 ---
 
----
-state: inprogress
----
 ### Description
 This is a map.
 
