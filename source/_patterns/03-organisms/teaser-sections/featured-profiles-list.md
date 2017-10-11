@@ -2,10 +2,6 @@
 title: Featured Profiles List
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a list of featured profiles.
 
