@@ -2,10 +2,6 @@
 title: Blockquote
 ---
 
----
-state: inprogress
----
-
 ### Description
 These are examples of blockquotes.
 
