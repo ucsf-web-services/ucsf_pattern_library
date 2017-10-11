@@ -2,10 +2,6 @@
 title: Link List
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a link list.
 
