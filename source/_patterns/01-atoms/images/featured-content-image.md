@@ -10,7 +10,7 @@ state: inprogress
 This is the Featured Content Image.
 
 ### Usage
-#### @todo Sara fix me.
+A featured content image can be any aspect ratio and any size to work with the featured content card, but 3:2 is recommended.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
