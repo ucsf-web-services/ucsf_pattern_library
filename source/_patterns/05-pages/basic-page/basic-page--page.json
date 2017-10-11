@@ -1,9 +1,9 @@
 {
   "img": {
     "logo": {
-      "src":  "../../images/samples/logo.png",
-      "alt": "UCSF Logo",
-      "title": "UCSF"
+      "src":  "../../images/UCSF_SubLogo_BroadCntr_navy_RGB.png",
+      "alt": "This is the Logo",
+      "title": "This is the Logo"
     },
     "banner5": {
       "src":  "../../images/samples/banner5.png",
