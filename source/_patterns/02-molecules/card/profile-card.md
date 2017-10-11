@@ -2,10 +2,6 @@
 title: Profile Card
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a profile card.
 
