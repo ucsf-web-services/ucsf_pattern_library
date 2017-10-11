@@ -2,10 +2,6 @@
 title: Latest Events List
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a list of latest events.
 
