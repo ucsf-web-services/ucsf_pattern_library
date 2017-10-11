@@ -2,10 +2,6 @@
 title: Event Card
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is an event card.
 
