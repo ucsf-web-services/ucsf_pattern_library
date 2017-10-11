@@ -100,21 +100,21 @@
       "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     "homepage_paragraphs": {
-      "one": "The University of California, San Francisco offers an interdisciplinary program for graduate training in neuroscience. The purpose of this program is to train doctoral students for independent research and teaching in neuroscience. Participation in Neuroscience Program activities does not require membership in the Neuroscience Program. The program welcomes attendance of all interested UCSF faculty, students and other trainees at its retreat, seminars and journal club..",
+      "one": "If you're looking to build a fully customized website or application, UCSF’s easy-to-use Web Patterns Library will allow you to build a unique look and feel without designing common elements from scratch. Developers across the UCSF community can borrow and contribute patterns, making it easier to forge functional, beautiful websites or applications with less effort.",
       "two": "Our program seeks to train students who will be expert in one particular approach to neuroscientific research, but who will also have a strong general background in other areas of neuroscience and related disciplines. To achieve this objective, our students take interdisciplinary core and advanced courses in neuroscience, as well as related courses sponsored by other graduate programs. In addition, they carry out research under the supervision of faculty members in the program."
     }
   },
 
   "site-name": "UCSF PatternLab",
-  "title": "An Interdisciplinary Approach to Neuroscience",
+  "title": "Welcome to UCSF’s Web Patterns Library",
   "htmlClass": "pl",
   "bodyClass": "body",
   "hero3_slides":[
     {
       "hero": {
         "hero3": {
-          "title": "Advancing Neuroscience",
-          "paragraph": "Our students and faculty work collaboratively and across departments to address outstanding problems in neuroscience."
+          "title": "Welcome to UCSF’s Web Patterns Library",
+          "paragraph": "Built using an atomic framework for easy and flexible design variations."
         }
       },
       "img": {
@@ -128,8 +128,8 @@
     {
       "hero": {
         "hero3": {
-          "title": "Excellence in Training",
-          "paragraph": "Students work intensively with faculty members to conduct research in groundbreaking areas."
+          "title": "From Small to Big",
+          "paragraph": "Items grow in complexity depending on their menu placement."
         }
       },
       "img": {
@@ -143,8 +143,8 @@
     {
       "hero": {
         "hero3": {
-          "title": "Neuroscience Pioneers",
-          "paragraph": "Our faculty are among the world leaders in their respective areas of neuroscience."
+          "title": "Putting Pieces Together",
+          "paragraph": "Elements can be combined to build new functions."
         }
       },
       "img": {
