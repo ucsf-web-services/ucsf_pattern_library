@@ -2,10 +2,6 @@
 title: Location Card
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a location card.
 
