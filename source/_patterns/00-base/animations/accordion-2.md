@@ -2,10 +2,6 @@
 title: Accordion 
 ---
 
----
-state: complete
----
-
 ### Description
 This is an accordion.
 
