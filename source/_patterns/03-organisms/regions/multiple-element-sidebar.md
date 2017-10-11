@@ -2,10 +2,6 @@
 title: Multiple Element Sidebar
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is the multiple element sidebar.
 
