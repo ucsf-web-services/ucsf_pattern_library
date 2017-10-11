@@ -2,10 +2,6 @@
 title: Spacing
 ---
 
----
-state: complete
----
-
 ### Description
 These are examples of spacing.
 
