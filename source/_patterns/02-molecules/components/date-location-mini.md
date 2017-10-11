@@ -2,10 +2,6 @@
 title: Date & Location Mini Card
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is an example of Date & Location Mini Card.
 
