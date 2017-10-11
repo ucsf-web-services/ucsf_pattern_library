@@ -2,15 +2,11 @@
 # Featured Location
 ---
 
----
-state: inprogress
----
-
 ### Description
-This is an example of a featured location.
+This is an example of a featured location list.
 
 ### Usage
-Featured locations are meant to highlight a central location. Use if you're encouraging people to come to your physical address.
+Featured locations are meant to highlight one or more locations. Use if you're encouraging people to come to one or more physical addresses.
 
 ### Accessibility Considerations
 Many concepts are communicated more effectively with the addition of illustrations, maps, charts, etc. Please ensure accessibility by testing the whole page, including this element, in context.
