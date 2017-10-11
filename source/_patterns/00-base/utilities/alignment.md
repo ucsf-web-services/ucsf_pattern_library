@@ -2,10 +2,6 @@
 title: Alignment
 ---
 
----
-state: complete
----
-
 ### Description
 These are examples of alignment.
 
