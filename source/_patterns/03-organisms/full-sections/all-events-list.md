@@ -2,10 +2,6 @@
 title: All Events List
 ---
 
----
-state: inprogress
----
-
 ### Description
 This is a list for all events.
 
