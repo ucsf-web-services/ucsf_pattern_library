@@ -2,6 +2,10 @@
 title: Profile Header
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is an example of profile header.
 
