@@ -2,6 +2,10 @@
 title: Publication Teaser
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the publication teaser.
 
