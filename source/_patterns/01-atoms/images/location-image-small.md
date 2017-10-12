@@ -2,6 +2,10 @@
 title: Location Image Small
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the Small Location Image.
 
