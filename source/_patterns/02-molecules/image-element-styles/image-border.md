@@ -2,6 +2,10 @@
 title: Image Border
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is an image with a border.
 
