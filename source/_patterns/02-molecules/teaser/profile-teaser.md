@@ -2,6 +2,10 @@
 title: Profile Teaser
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a profile teaser.
 
