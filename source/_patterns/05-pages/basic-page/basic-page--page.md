@@ -3,7 +3,7 @@ title: Basic Page
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
