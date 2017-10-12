@@ -2,6 +2,10 @@
 title: Latest News List (No Image)
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a list of latest news.
 
