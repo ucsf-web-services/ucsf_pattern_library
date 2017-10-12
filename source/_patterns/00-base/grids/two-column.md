@@ -2,6 +2,10 @@
 title: Two Column 
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a two column layout.
 
