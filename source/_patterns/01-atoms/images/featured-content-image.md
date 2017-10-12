@@ -2,6 +2,10 @@
 title: Featured Content Image
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the Featured Content Image.
 
