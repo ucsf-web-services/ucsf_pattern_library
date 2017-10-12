@@ -2,6 +2,10 @@
 title: Homepage Template
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the template for the homepage showing how different elements could be incorporated.
 
