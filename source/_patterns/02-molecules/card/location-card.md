@@ -2,6 +2,10 @@
 title: Location Card
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a location card.
 
