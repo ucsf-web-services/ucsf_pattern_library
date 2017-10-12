@@ -1,9 +1,13 @@
 p {
   line-height: 1.5em;
-  margin: 0 0 1em 0;
+  margin: 1em 0 1em 0;
 }
 
 p.bigger {
   font-size: 1.2em;
   font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;;
+}
+
+.three-col p {
+  margin: 1em 0;
 }

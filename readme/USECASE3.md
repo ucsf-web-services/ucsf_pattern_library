@@ -11,11 +11,12 @@ This section is for developers applying and extending brand standards within the
 
 The following Drupal 8 themes and other tools were reviewed in the making of this project:
 
-* Pattern Lab Starter (Phase 2) [https://github.com/phase2/pattern-lab-starter](https://github.com/phase2/pattern-lab-starter)
-* Emulsify (Four Kitchens) [http://emulsify.info/](http://emulsify.info/)
-* UC Davis Pattern Library (Pattern Lab v 1 with Mustache markup)
+* Pattern Lab Starter - Phase 2 - [https://github.com/phase2/pattern-lab-starter](https://github.com/phase2/pattern-lab-starter)
+* Emulsify - Four Kitchens  - [http://emulsify.info](http://emulsify.info)
+* Pattern Library - UC Davis - Pattern Lab v 1 with Mustache markup - [http://ucd-one-patternlab.s3-website-us-west-1.amazonaws.com](http://ucd-one-patternlab.s3-website-us-west-1.amazonaws.com) 
 
-If you wanted to include the Pattern Lab Twig Library within your Drupal docroot, consider the use of Component Libraries module: [https://www.drupal.org/project/components](https://www.drupal.org/project/)components although it will not have the CMS data fields required for data display.
+
+If you wanted to include the Pattern Lab Twig Library within your Drupal docroot, consider the use of Component Libraries module: [https://www.drupal.org/project/components](https://www.drupal.org/project/) components although it will not have the CMS data fields required for data display.
 
 Including the Pattern Lab source Twig in this method is not recommended. This library was built to be stand-alone, but with Drupal 8 in mind. Drupal 8 can extend the structure and the layouts, but it is completely informed by the CMS Site Building architecture being used. The CMS architecture for Drupal 8 had not yet been defined for the UCSF or UC Drupal 8 template at the creation of this library. 
 

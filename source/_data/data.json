@@ -162,7 +162,7 @@
     },
     "medium": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
-  "site-name": "UCSF PatternLab",
+  "site-name": "UCSF Web Pattern Library",
   "title": "Page Title",
   "htmlClass": "pl",
   "bodyClass": "body regular-margins",
@@ -242,10 +242,10 @@
     "search": true,
     "menuType": "molecules-header-menu",
     "top_menu": [
-      {"url": "#", "title": "Site Name"},
-      {"url": "#", "title": "Link 1"},
-      {"url": "#", "title": "Link 2"},
-      {"url": "#", "title": "Link 3"}
+      {"url": "#", "title": "University of California San Francisco"},
+      {"url": "#", "title": "UCSF Medical Center"},
+      {"url": "#", "title": "Search UCSF"},
+      {"url": "#", "title": "About UCSF"}
     ],
     "header_menu": [
       {"url": "#", "title": "Main Menu 1"},

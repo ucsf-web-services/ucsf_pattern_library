@@ -2,7 +2,6 @@
 @include add-gutter-style('split');
 @include add-grid(1);
 @include add-grid(10 at $display_medium_up);
-
 @include add-gutter(1em);
 
 body {

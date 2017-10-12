@@ -254,7 +254,7 @@ gulp.task('patternlab:connect', gulp.series(function (done) {
     server: {
       baseDir: normalizePath(paths().public.root)
     },
-    startPath: '/?p=pages-homepage--page',
+    startPath: '/?p=pages-basic-page-intro',
     snippetOptions: {
       // Ignore all HTML files within the templates folder
       blacklist: ['/index.html', '/', '/?*']

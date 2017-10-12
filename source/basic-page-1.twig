@@ -1,0 +1,48 @@
+{% extends "two_col_page.twig" %}
+{% block hero %}{% endblock %}
+{% block heading %}{% include "molecules-breadcrumbs" with breadcrumbs %}{% endblock %}
+{% block main %}
+    {% include "base-two-column" %}
+    {% include "base-three-column" %}
+    {% embed "twocol.twig" %}
+        {% block title %}{{ titles.h2(featured_2_col.title) }}{% endblock %}
+        {% block colclass %}{{ featured_2_col.grid_class }}{% endblock %}
+        {% block left %}
+            {% set vars = {"img": featured_2_col.left_card_options.img,
+                "text" : featured_2_col.left_card_options.text
+            } %}
+            {% include "molecules-featured-content-card" with vars %}
+        {% endblock %}
+        {% block right %}
+            {% set vars = {"img": featured_2_col.right_card_options.img,
+            "text" : featured_2_col.right_card_options.text
+            } %}
+            {% include "molecules-featured-content-card" with vars %}
+        {% endblock %}
+    {% endembed %}
+    {% embed "threecol.twig" %}
+        {% block title %}{{ titles.h2(featured_3_col.title) }}{% endblock %}
+        {% block colclass %}{{ featured_3_col.grid_class }}{% endblock %}
+        {% block left %}
+            {% set vars = {"img": featured_3_col.left_card_options.img,
+            "text" : featured_3_col.left_card_options.text
+            } %}
+            {% include "molecules-featured-content-card" with vars %}
+        {% endblock %}
+        {% block center %}
+            {% set vars = {"img": featured_3_col.center_card_options.img,
+            "text" : featured_3_col.center_card_options.text
+            } %}
+            {% include "molecules-featured-content-card" with vars %}
+        {% endblock %}
+        {% block right %}
+            {% set vars = {"img": featured_3_col.right_card_options.img,
+            "text" : featured_3_col.right_card_options.text
+            } %}
+            {% include "molecules-featured-content-card" with vars %}
+        {% endblock %}
+    {% endembed %}
+    {% include "organisms-blockquote-options" %}
+{% endblock %}
+{% block sidebar %}{% include "organisms-multiple-element-sidebar" %}{% endblock %}
+

@@ -20,6 +20,7 @@ body {
     vertical-align: middle;
     margin: 20px 0;
     max-width: 240px;
+    max-height: 111px;
     @include breakpoint($display_medium_portrait_up) {
       max-width: 300px;
       margin: 0;
