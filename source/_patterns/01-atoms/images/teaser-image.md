@@ -2,6 +2,10 @@
 title: Teaser Image
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the Teaser Image.
 
