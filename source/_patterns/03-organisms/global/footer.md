@@ -2,6 +2,10 @@
 title: Footer
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the footer.
 
