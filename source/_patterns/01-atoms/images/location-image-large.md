@@ -2,6 +2,10 @@
 title: Location Image Large
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the Large Location Image.
 
