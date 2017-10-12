@@ -2,6 +2,10 @@
 title: Figure with Caption
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is an image with a caption below.
 
