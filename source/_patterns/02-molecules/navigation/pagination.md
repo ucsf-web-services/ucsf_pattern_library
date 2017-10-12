@@ -2,6 +2,10 @@
 title: Pagination
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is an example of pagination.
 
