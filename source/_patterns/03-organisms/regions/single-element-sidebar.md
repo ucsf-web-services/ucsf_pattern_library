@@ -2,6 +2,10 @@
 title: Single Element Sidebar
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the single element sidebar.
 
