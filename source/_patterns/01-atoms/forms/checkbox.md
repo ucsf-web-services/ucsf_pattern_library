@@ -2,6 +2,10 @@
 title: Checkbox
 ---
 
+---
+state: complete
+---
+
 ### Description
 These are checkboxes.
 
