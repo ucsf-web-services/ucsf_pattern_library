@@ -2,6 +2,10 @@
 title: News Short Teaser - No Image
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a short teaser for news with no image.
 
