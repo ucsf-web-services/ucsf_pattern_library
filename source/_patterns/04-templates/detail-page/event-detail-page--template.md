@@ -2,6 +2,10 @@
 title: Event Detail Page Template
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the event detail page.
 
