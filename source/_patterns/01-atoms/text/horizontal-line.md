@@ -2,6 +2,10 @@
 title: Horizontal Line
 ---
 
+---
+state: complete
+---
+
 ### Description
 Thia is a horizontal line.
 
