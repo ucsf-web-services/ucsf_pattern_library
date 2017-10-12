@@ -2,6 +2,10 @@
 title: Basic Page Template
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the basic page template containing examples of possible content.
 
