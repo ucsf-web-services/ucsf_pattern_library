@@ -1,5 +1,9 @@
 ---
-# Featured Location
+title: Featured Location
+---
+
+---
+state: complete
 ---
 
 ### Description
