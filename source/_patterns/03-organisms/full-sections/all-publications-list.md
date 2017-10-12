@@ -2,6 +2,10 @@
 title: All Publications List
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a list of all publications.
 
