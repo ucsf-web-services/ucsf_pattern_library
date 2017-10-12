@@ -3,7 +3,7 @@ title: Hero 4
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
