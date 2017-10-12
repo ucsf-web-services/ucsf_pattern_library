@@ -2,6 +2,10 @@
 title: Featured Content Card Grid - Two Columns
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a set of featured content cards.
 
