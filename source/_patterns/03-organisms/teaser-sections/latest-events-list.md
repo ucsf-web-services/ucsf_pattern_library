@@ -2,6 +2,10 @@
 title: Latest Events List
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a list of latest events.
 
