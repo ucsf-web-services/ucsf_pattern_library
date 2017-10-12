@@ -2,6 +2,10 @@
 title: Inline Elements
 ---
 
+---
+state: complete
+---
+
 ### Description
 These are examples of inline elements.
 
