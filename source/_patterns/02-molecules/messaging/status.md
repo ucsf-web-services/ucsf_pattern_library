@@ -2,6 +2,10 @@
 title: Status
 ---
 
+---
+state: complete
+---
+
 ### Description 
 This is a status message.
 
