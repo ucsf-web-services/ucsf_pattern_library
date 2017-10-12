@@ -2,6 +2,10 @@
 title: Card Image
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the Card Image.
 
