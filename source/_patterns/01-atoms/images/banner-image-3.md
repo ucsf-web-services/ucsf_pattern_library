@@ -2,6 +2,10 @@
 title: Banner Image Three
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is Banner Image 3.
 
