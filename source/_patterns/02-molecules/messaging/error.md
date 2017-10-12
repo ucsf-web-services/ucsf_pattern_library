@@ -2,6 +2,10 @@
 title: Error
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is an error message.
 
