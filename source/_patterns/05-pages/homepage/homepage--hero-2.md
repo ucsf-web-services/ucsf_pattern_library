@@ -3,7 +3,7 @@ title: Homepage - Hero 2
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
