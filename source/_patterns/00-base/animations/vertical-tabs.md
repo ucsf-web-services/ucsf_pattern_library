@@ -2,6 +2,10 @@
 title: Vertical Tabs 
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a Vertical Tab.
 
