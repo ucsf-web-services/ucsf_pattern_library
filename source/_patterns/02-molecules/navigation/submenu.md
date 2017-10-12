@@ -2,6 +2,10 @@
 title: Submenu
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a submenu.
 
