@@ -3,7 +3,7 @@ title: Profile Detail Page Template
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
