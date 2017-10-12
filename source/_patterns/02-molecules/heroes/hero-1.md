@@ -3,7 +3,7 @@ title: Hero 1
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
