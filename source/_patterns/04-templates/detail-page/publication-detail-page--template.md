@@ -3,7 +3,7 @@ title: Publication Detail Page Template
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
