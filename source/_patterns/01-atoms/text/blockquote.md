@@ -2,6 +2,10 @@
 title: Blockquote
 ---
 
+---
+state: complete
+---
+
 ### Description
 These are examples of blockquotes.
 
