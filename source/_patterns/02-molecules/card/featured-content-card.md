@@ -2,6 +2,10 @@
 title: Featured Content Card
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a featured content card.
 
