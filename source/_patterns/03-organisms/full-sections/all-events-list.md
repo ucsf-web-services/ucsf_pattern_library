@@ -2,6 +2,10 @@
 title: All Events List
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a list for all events.
 
