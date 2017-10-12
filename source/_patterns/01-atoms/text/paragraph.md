@@ -2,6 +2,10 @@
 title: Paragraph
 ---
 
+---
+state: complete
+---
+
 ### Description
 These are examples of paragraphs.
 
