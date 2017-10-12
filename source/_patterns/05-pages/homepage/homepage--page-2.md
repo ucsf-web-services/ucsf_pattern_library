@@ -3,7 +3,7 @@ title: Homepage (2 column footer, alternate header and content)
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
