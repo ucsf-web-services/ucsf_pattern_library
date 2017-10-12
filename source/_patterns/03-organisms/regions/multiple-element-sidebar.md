@@ -2,6 +2,10 @@
 title: Multiple Element Sidebar
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the multiple element sidebar.
 
