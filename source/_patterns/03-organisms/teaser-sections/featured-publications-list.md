@@ -2,6 +2,10 @@
 title: Featured Publications List
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a list of featured publications.
 
