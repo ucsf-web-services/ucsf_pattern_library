@@ -2,6 +2,10 @@
 title: Logo
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the Logo Image.
 
