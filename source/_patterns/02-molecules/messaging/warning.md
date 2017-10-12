@@ -2,6 +2,10 @@
 title: Warning
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a warning message.
 
