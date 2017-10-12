@@ -2,6 +2,10 @@
 title: Banner Image Two
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is Banner Image 2.
 
