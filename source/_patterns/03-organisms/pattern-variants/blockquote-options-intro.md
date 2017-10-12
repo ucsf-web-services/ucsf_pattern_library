@@ -1,7 +1,7 @@
 # Blockquote Intro
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
