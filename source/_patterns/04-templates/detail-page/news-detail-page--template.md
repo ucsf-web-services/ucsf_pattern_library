@@ -2,6 +2,10 @@
 title: News Detail Page Template
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the news detail page.
 
