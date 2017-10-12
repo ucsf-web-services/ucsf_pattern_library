@@ -3,7 +3,7 @@ title: Homepage
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
