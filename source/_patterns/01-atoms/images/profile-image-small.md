@@ -2,6 +2,10 @@
 title: Profile Image Small
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the Small Profile Image.
 
