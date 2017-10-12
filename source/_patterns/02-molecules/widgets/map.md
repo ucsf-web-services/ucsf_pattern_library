@@ -2,6 +2,10 @@
 title: Map
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a map.
 
