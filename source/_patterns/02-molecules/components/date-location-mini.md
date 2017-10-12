@@ -2,6 +2,10 @@
 title: Date & Location Mini Card
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is an example of Date & Location Mini Card.
 
