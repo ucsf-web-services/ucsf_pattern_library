@@ -2,6 +2,10 @@
 title: News Short Teaser
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a short teaser for news.
 
