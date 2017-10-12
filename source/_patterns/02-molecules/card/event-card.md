@@ -2,6 +2,10 @@
 title: Event Card
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is an event card.
 
