@@ -2,6 +2,10 @@
 title: Video
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a video.
 
