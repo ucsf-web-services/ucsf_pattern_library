@@ -2,6 +2,10 @@
 title: All Articles List
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is a list for all articles.
 
