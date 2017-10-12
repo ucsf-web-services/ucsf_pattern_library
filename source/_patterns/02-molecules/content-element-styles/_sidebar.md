@@ -2,6 +2,10 @@
 title: Sidebar
 ---
 
+---
+state: complete
+---
+
 ### Description
 These are examples of sidebars.
 
