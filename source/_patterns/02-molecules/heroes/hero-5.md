@@ -3,7 +3,7 @@ title: Hero 5
 ---
 
 ---
-state: inprogress
+state: complete
 ---
 
 ### Description
