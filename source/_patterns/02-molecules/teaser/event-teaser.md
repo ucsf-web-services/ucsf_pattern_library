@@ -2,6 +2,10 @@
 title: Event Teaser
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is an event teaser.
 
