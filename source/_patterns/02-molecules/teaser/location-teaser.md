@@ -2,6 +2,10 @@
 title: Location Teaser
 ---
 
+---
+state: complete
+---
+
 ### Description
 This is the location teaser.
 
