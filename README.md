@@ -1,6 +1,6 @@
 # UCSF Web Pattern Library 
 
-* Websites.ucsf.edu Introduction to UCSF Web Pattern Library: [http://websites.ucsf.edu/custom-built-sites/web-patterns](http://websites.ucsf.edu/custom-built-sites/web-patterns)
+* Websites.ucsf.edu introduction to UCSF Web Pattern Library: [http://websites.ucsf.edu/custom-built-sites/web-patterns](http://websites.ucsf.edu/custom-built-sites/web-patterns)
 * Github repo source: [https://github.com/ucsf-web-services/ucsf\_pattern\_library](https://github.com/ucsf-web-services/ucsf_pattern_library)
 * Github repo public: [https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package](https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package)
 
