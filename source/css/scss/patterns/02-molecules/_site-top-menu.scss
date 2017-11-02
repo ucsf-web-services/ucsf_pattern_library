@@ -1,27 +1,39 @@
 .site-top-menu {
   width: 100%;
   background-color: $ucsf-navyblue;
-  font-size: 15px;
+  font-size: 14px;
   height: 36px;
   ul {
     margin: 0;
     height: 36px;
     line-height: 36px;
     list-style: none;
+
     li {
       margin: 0;
       display: none;
       float: right;
-      padding: 0px 5px;
+      padding: 0 5px;
+      + li {
+        padding: 0 0 0 5px;
+      }
       @include breakpoint($display_medium_up) {
         display: inline-block;
+
       }
       @include breakpoint($display_960_up) {
         padding: 0px 10px;
+        + li {
+          padding: 0 0 0 10px;
+        }
       }
       @include breakpoint($display_large_up) {
         padding: 0px 20px;
+        + li {
+          padding: 0 0 0 20px;
+        }
       }
+
 
       a {
         font-weight: 300;

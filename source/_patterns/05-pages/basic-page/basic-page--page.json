@@ -1,7 +1,7 @@
 {
   "img": {
     "logo": {
-      "src":  "../../images/UCSF_SubLogo_BroadCntr_navy_RGB.png",
+      "src":  "../../images/samples/UCSF_SubLogo_BroadCntr_navy_RGB.png",
       "alt": "This is the Logo",
       "title": "This is the Logo"
     },
