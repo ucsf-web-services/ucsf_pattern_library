@@ -25,3 +25,8 @@ body {
 .align--right {
   float: right;
 }
+
+.text-indent {
+  display: inline-block;
+  text-indent: -99999px;
+}

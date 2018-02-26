@@ -9,9 +9,6 @@ ul.text-list {
   ul {
     margin-top: 8px;
     margin-bottom: 8px;
-    li {
-      font-size: 0.9em;
-    }
   }
   text-align: left;
   li {
@@ -19,6 +16,7 @@ ul.text-list {
     position: relative;
     padding-left: 14px;
     margin-bottom: 8px;
+    margin-left: 13px;
     &:before {
       position: relative;
       content: "\2022";
@@ -40,7 +38,6 @@ ol.text-list {
     margin-top: 8px;
     margin-bottom: 8px;
     li {
-      font-size: 0.9em;
       list-style: lower-latin;
       margin-left: 10px;
     }
@@ -48,6 +45,7 @@ ol.text-list {
   li {
     list-style: decimal;
     margin-bottom: 8px;
+    margin-left: 13px;
   }
 }
 
@@ -61,6 +59,7 @@ ul {
   text-align: left;
   li {
     margin-bottom: 8px;
+    margin-left: 13px;
   }
 }
 
@@ -68,6 +67,6 @@ ol {
   li {
     list-style: decimal;
     margin-bottom: 8px;
+    margin-left: 13px;
   }
 }
-

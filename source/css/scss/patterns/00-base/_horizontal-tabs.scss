@@ -18,7 +18,7 @@
     top: 5px;
     margin-left: 0;
     &[role="tablist"] {
-      li {
+      li, li:first-child {
         list-style-type: none;
         display: block;
         float: left;
@@ -37,7 +37,7 @@
             border-right: 2px solid $ucsf-blue;
             border-top: 2px solid $ucsf-blue;
             border-left: 2px solid $ucsf-blue;
-            margin-left: -2px;
+            //margin-left: -2px;
           }
         }
       }
@@ -70,7 +70,7 @@
     margin-top: -2px;
     min-height: 3em;
     position: relative;
-    padding: 1.5em;
+    padding: .5em 1em;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;
@@ -84,6 +84,7 @@
 @media only screen and (max-width: $display_medium_min){
   .horizontal-tab {
     .horizontal-tab__title {
+      width: 100%;
       li {
         display: block;
         float: none;

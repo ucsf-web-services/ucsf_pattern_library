@@ -2,15 +2,25 @@
   .location-card__image {
     margin-bottom: 30px;
   }
-  .location-card__detail {
-    h3 {
-      margin: 0 0 1rem 0;
+  .location-card__contact {
+    color: $darkdarkgray;
+    p {
+      margin-top: 0;
+      &:first-child {
+        margin-bottom: 0px;
+      }
     }
-    .contact {
-      p {
-        &:first-of-type {
-          margin-bottom: 0px;
-        }
+    .location-card__phone, .location-card__fax {
+      &::before {
+        font-family: $font-awesome;
+        content: "\f095";
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
+    .location-card__fax {
+      &::before {
+        content: "\f1ac";
       }
     }
   }

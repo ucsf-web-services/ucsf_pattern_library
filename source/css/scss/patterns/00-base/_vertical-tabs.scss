@@ -53,9 +53,11 @@
       }
     }
     li:last-child {
-      border-bottom-left-radius: 0;
-      @include breakpoint($display_medium_up) {
-        border-bottom-left-radius: 3px;
+      a {
+        border-bottom-left-radius: 0;
+        @include breakpoint($display_medium_up) {
+          border-bottom-left-radius: 3px;
+        }
       }
     }
   }
@@ -67,7 +69,7 @@
     margin-left: 15em;
     min-height: 15em;
     position: relative;
-    padding: 1.5em;
+    padding: .5em 1em;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     border-bottom-left-radius: 2px;

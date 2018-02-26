@@ -1,4 +1,4 @@
 <div class="calendar-icon">
-  <div class="day"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="{{ html.dateContent(year, month, day, hour, minute) }}">{{ dayofweek.short }}</span></div>
-  <div class="number-date"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="{{ html.dateContent(year, month, day, hour, minute) }}">{{ day.long }}</span></div>
+  <div class="day"><date class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="{{ html.dateContent(year, month, day, hour, minute) }}">{{ dayofweek.short }}</date></div>
+  <div class="number-date"><date class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="{{ html.dateContent(year, month, day, hour, minute) }}">{{ day.long }}</date></div>
 </div>

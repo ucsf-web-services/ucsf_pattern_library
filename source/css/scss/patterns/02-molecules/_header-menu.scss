@@ -189,9 +189,10 @@
         display: inline-block;
       }
       margin-right: 20px;
+      margin-left: 0;
       a {
         font-size: 16px;
-        padding: 20px;
+        padding: 20px 45px 20px;
         @include breakpoint($display_medium_up) {
           padding: 5px 15px;
         }
@@ -224,11 +225,11 @@
     display: none;
   }
   .fa-caret-down {
-    width: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: right;
+    font-size: 2.5em;
     padding-left:7px;
-  }
-  ul li a {
-    padding-left: 40px;
   }
   .header-menu--click-submenu & {
 
@@ -236,9 +237,15 @@
   .header-menu--hover-submenu & {
     .fa-caret-right {
       display: inline-block;
-      width: 15px;
-      padding-left:7px;
-      float: right;
+      width: 40px;
+      height: 100%;
+      padding: 10px;
+      text-align: center;
+      font-size: 2.5em;
+      background: $lightgray;
+      position: absolute;
+      right: 0;
+      top: 0;
     }
     .fa-caret-down {
       display: none;
@@ -251,6 +258,9 @@
         display: none;
         &.full-down {
           display: inline-block;
+          font-size: 1em;
+          width:auto;
+          height: auto;
         }
       }
     }
@@ -269,10 +279,15 @@
     .header-menu--hover-submenu & {
       .fa-caret-down.mobile-click {
         display: inline-block;
-        width: 15px;
-        padding-left:7px;
-        float: right;
-        margin-top: -7px;
+        width: 40px;
+        height: 100%;
+        padding: 10px;
+        text-align: center;
+        font-size: 2.5em;
+        background: $lightgray;
+        position: absolute;
+        right: 0;
+        top: 0;
       }
       .fa-caret-right {
         display: none;

@@ -3,35 +3,32 @@
 }
 
 #footer.footer-menu {
-  h5 {
+  padding-top: 35px;
+  padding-bottom: 15px;
+  background-color: $ucsf-navyblue;
+  color: $lightgray;
+  overflow: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  clear: both;
+  .footer-menu__wrapper {
+    padding-bottom: 20px;
+  }
+  .footer-menu__header {
     text-transform: uppercase;
     border-bottom: 1px solid #b4b9bf;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     line-height: 1em;
-    font-size:1em;
-    margin-top: 10px;
-    @include breakpoint($display_medium_up) {
-      padding-bottom: 15px;
-      margin-top: 0;
-    }
+    font-size: 22px;
+    margin-top: 0;
   }
   .footer-logo {
     margin-bottom: 20px;
     @include breakpoint($display_medium_up) {
-      margin-top: 32px;
+      //margin-top: 32px;
       max-width: 285px;
     }
   }
-  padding-top: 35px;
-  padding-bottom: 15px;
-  background-color: $ucsf-navyblue;
-  color: #b4b9bf;
-  overflow: auto;
-  margin-right: -50px;
-  margin-left: -50px;
-  padding-right: 50px;
-  padding-left: 50px;
-  clear: both;
   .footer-menu__header {
 
   }

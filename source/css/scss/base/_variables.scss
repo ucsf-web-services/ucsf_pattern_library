@@ -8,20 +8,69 @@ $background-gray: #EFEFEF;
 $border-gray:     #DDD;
 $darkgray:        #B4B9BF;
 $darkergray:      #939393;
-$darkdarkgray:    #808285;
-$darkestgray:     #7b7979;
+$darkdarkgray:    #666;
+$darkestgray:     #525860;
 
 /* Primary Palette */
 $ucsf-navyblue:   #052049;
 $ucsf-teal:       #058488;
-$ucsf-blue:       #007CBE;
+$ucsf-blue:       #0071AD;
 $ucsf-orange:     #F26D04;
 $ucsf-green:      #6EA400;
 
-/*S econdary Palette */
+/* Secondary Palette */
 $ucsf-purple:     #716FB2;
 $ucsf-coral:      #EB093C;
 $ucsf-yellow:     #FFDD00;
+$ucsf-lightyellow: #FFFCE6;
+
+/* Tints */
+$color--black--tint05: #3B3B3B;
+$color--black--tint1: #4D4D4D;
+$color--black--tint2: #999999;
+$color--black--tint3: #E5E5E5;
+
+$color--grey1--tint1: #DFE0E0;
+$color--grey1--tint2: #EDEDEE;
+$color--grey1--tint3: #FAFBFB;
+
+$color--grey2--tint1: #CBCED2;
+$color--grey2--tint2: #E1E3E6;
+$color--grey2--tint3: #F8F8F9;
+
+$color--grey--tint1: $color--grey2--tint1;
+
+$color--navy--tint1: #506380;
+$color--navy--tint2: #9BA6B6;
+$color--navy--tint3: #E6E9ED;
+
+$color--blue--tint1: #5DAFDB;
+$color--blue--tint2: #A2D1EA;
+$color--blue--tint3: #E8F4FA;
+
+$color--orange--tint1: #F7A665;
+$color--orange--tint2: #FBCCA7;
+$color--orange--tint3: #FEF2E9;
+
+$color--teal--tint1: #5DBFC5;
+$color--teal--tint2: #A3DADE;
+$color--teal--tint3: #E8F6F7;
+
+$color--green--tint1: #B1D16F;
+$color--green--tint2: #D3E4AD;
+$color--green--tint3: #F4F8EA;
+
+$color--purple--tint1: #9C9AC9;
+$color--purple--tint2: #C6C5E0;
+$color--purple--tint3: #F1F1F7;
+
+$color--pink--tint1: #F25D7F;
+$color--pink--tint2: #F7A3B6;
+$color--pink--tint3: #FDE8ED;
+
+$color--yellow--tint1: #FFE74D;
+$color--yellow--tint2: #FFF199;
+$color--yellow--tint3: #FFFCE6;
 
 /* Selected Colors */
 $primary-color: $ucsf-navyblue !default;
@@ -66,4 +115,4 @@ $display_small: $display_small_min ($display_medium_min - 1);
 $font_light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-helvetica-neue: "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
 $font-granjon: "Granjon LT W01 Roman", Garamond, "Times New Roman", serif;
-
+$font-awesome: "FontAwesome";

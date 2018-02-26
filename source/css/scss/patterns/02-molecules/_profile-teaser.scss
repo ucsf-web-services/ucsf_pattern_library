@@ -1,36 +1,24 @@
 .profile-teaser {
   .profile-teaser__image {
     float: left;
-    margin-right: 40px;
+    margin-right: 30px;
     width: 150px;
   }
-  h4 {
-    @extend .font-helvetica-neue;
-    font-weight: 300;
-    font-size: 26px;
+  .profile-teaser__name {
     margin-top: 0;
     margin-bottom: 10px;
   }
   .profile-teaser__detail {
-    & > p {
-      overflow: hidden;
-    }
-    position: relative;
-    p {
-      font-size: 18px;
+    .profile-teaser__title, .profile-teaser__department {
       margin: 0;
+      color: $darkdarkgray;
     }
     & .profile-teaser__text {
       clear: none;
       padding-top: 15px;
       p {
         overflow: hidden;
-        font-size: 15px;
       }
     }
-    a {
-      display: inline-block;
-    }
   }
-
 }

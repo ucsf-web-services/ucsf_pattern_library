@@ -6,15 +6,17 @@
   clear: both;
   text-align: center;
   .pager__item {
+    display: none;
     padding: 0.5em;
-    display: inline;
     float: left;
     list-style: none;
     text-align: center;
     list-style: none;
     margin: 0 0 0.25em 0;
     font-weight: bold;
-
+    @include breakpoint($display_medium_up) {
+      display: inline;
+    }
     a {
       text-transform: capitalize;
       color: $black;
@@ -33,6 +35,10 @@
       padding: 9px 16px;
       background-color: $ucsf-blue;
       color: $white;
+      display: inline;
+    }
+    &.pager-prev, &.pager-next {
+      display: inline;
     }
   }
 }

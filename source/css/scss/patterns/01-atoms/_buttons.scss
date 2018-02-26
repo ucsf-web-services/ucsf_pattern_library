@@ -3,6 +3,9 @@
   display: inline-block;
   padding: .5rem 2rem;
   border-radius: 3px;
+  background-color: $ucsf-blue;
+  color: $white;
+  border: 1px solid $ucsf-blue;
 
   // Text
   text-decoration: none;
@@ -10,6 +13,11 @@
   font-weight: bold;
   letter-spacing: 1px;
   font-size: 18px;
+  &:hover {
+    cursor: pointer;
+    background-color: $white;
+    color: $ucsf-blue;
+  }
 }
 
 
@@ -26,10 +34,10 @@
   background-color: $white;
   border: 1px solid $ucsf-blue;
   color: $ucsf-blue;
-}
-.btn-2:hover {
-  background-color: $ucsf-blue;
-  color: $white;
+  &:hover {
+    background-color: $ucsf-blue;
+    color: $white;
+  }
 }
 
 .btn-3 {
@@ -45,4 +53,66 @@
     color: $ucsf-blue;
     border: 1px solid $ucsf-blue;
   }
+}
+
+
+
+// a[class*="btn--"] {
+//   background: $ucsf-blue;
+//   color: $white;
+//   &:hover {
+//     background: $color--blue--tint1;
+//   }
+//   &:active {
+//     background: $color--grey2--tint2;
+//     color: $ucsf-blue;
+//   }
+// }
+
+.btn--small {
+  font-size: 14px;
+}
+.btn--large {
+  font-size: 22px;
+}
+.btn--white--underline {
+  background: transparent;
+  color: $ucsf-blue;
+  border: 1px solid $ucsf-blue;
+  &:hover {
+    color: $ucsf-blue;
+    border: 1px solid $ucsf-blue;
+    background: $color--grey2--tint2;
+  }
+  &:active {
+    background: $ucsf-blue;
+    color: $white;
+    border: 1px solid $ucsf-blue;
+  }
+}
+.btn--more--white {
+  border: 1px solid rgba(255,255,255,0.3);
+  color: $white;
+  background: transparent;
+  // width: 100%;
+  &:hover {
+    color: $white;
+    background: rgba(255,255,255,0.3);
+  }
+  &:active {
+    background: rgba(255,255,255,0.3);
+    color: white !important;
+  }
+}
+
+.btn--more--reverse {
+  color: $white;
+  background: $ucsf-navyblue;
+  &:hover {
+    color: $white;
+    background: $color--navy--tint1;
+  }
+}
+.btn--full-width {
+  width: 100%;
 }

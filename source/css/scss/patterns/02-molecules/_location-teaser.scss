@@ -8,13 +8,28 @@
   }
   .location-teaser__detail{
     display: block;
-    h3 {
+    .location-teaser__title {
       margin: 0;
     }
-    .contact {
+    .location-teaser__contact {
+      color: $darkdarkgray;
       p {
-        &:first-of-type {
+        margin-top: 0;
+        &:first-child {
           margin-bottom: 0px;
+        }
+      }
+      .location-teaser__phone, .location-teaser__fax {
+        &::before {
+          font-family: $font-awesome;
+          content: "\f095";
+          display: inline-block;
+          margin-right: 5px;
+        }
+      }
+      .location-teaser__fax {
+        &::before {
+          content: "\f1ac";
         }
       }
     }

@@ -3,12 +3,28 @@
 
   #mobile-menu-toggle {
     display: block;
-    width: 25px;
+    width: 40px;
     height: 40px;
     margin-top: 15px;
     float: right;
     z-index: 201;
     position: relative;
+    cursor: pointer;
+    color: $ucsf-navyblue;
+    text-align: right;
+    fa {
+      width: 100%;
+    }
+    &.active {
+      .fa-bars::before {
+        content: "\f00d";
+      }
+    }
+    .mobile-menu-hide-text {
+      display: inline-block;
+      text-indent: -99999px;
+      text-align: left;
+    }
   }
 
   #mobile-search-block {

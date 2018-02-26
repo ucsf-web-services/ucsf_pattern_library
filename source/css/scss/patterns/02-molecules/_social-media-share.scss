@@ -2,7 +2,6 @@
   .fa {
     border-bottom: 3px solid $darkestgray;
     line-height: 1.5;
-    font-size: 12px;
     color: $darkestgray;
     margin-left: 10px;
     width: 30px;
@@ -37,5 +36,8 @@
       border-color: #00BF00;
     }
   }
+  .social-media-hide-text {
+    display: inline-block;
+    text-indent: -99999px;
+  }
 }
-

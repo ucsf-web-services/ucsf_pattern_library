@@ -1,5 +1,5 @@
---- 
-title: Accordion 
+---
+title: Accordion 2
 ---
 
 ---

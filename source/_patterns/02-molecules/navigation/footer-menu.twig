@@ -1,7 +1,8 @@
-<h5 class="footer-menu__header">Links</h5>
-<ul class="footer-menu__links">
-    {% for link in footer_menu %}
-        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-    {% endfor %}
-</ul>
-
+<div class="footer-menu__wrapper">
+  <h3 class="footer-menu__header">Links</h3>
+  <ul class="footer-menu__links">
+      {% for link in footer_menu %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+      {% endfor %}
+  </ul>
+</div>

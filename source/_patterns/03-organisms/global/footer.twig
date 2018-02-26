@@ -1,20 +1,7 @@
 <div id="footer" class="footer-menu">
     <div class="content-container">
         {% set right %}
-            <div class="footer-menu__contact-and-links">
-                <h5 class="footer-menu__address-header">Contact Us</h5>
-                <div class="footer-menu__social-media-links">
-                    <a href="#"><i class="fa fa-facebook facebook-link" aria-hidden="true" title="facebook"></i></a>
-                    <a href="#"><i class="fa fa-twitter twitter-link" aria-hidden="true" title="twitter"></i></a>
-                    <a href="#"><i class="fa fa-youtube-play youtube-link" aria-hidden="true" title= "youtube"></i></a>
-                </div>
-
-            </div>
-            <p>2330 Post St #420, San Franciso,<br />
-                California 94115, United States <br />
-                Phone: (123) 456-7890 <br />
-                Fax: (123) 456-7890
-            </p>
+          {% include "molecules-contact" %}
         {% endset %}
         {% if img.footer_logo != 'FALSE' %}
             {% set left %}

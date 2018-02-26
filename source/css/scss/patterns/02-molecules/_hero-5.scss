@@ -99,6 +99,14 @@
       color: $ucsf-navyblue;
     }
   }
+  .hero__button a {
+    background: $white;
+    color: $ucsf-navyblue;
+    &:hover {
+      background: $ucsf-blue;
+      color: $white;
+    }
+  }
 }
 
 

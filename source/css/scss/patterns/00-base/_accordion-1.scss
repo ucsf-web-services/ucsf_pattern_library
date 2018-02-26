@@ -1,25 +1,66 @@
 .accordion-1 {
-  .js-accordion__header {
-    padding-left: 20px;
+  button.js-accordion__header {
+    background-color: $background-gray;
+    color: $ucsf-navyblue;
+    padding: 1em;
+    width: 100%;
+    margin-bottom: -1px;
+    margin-top:0;
+    display: block;
+    border-radius: 3px;
+    border-top: 2px solid $white;
+    border-right: 2px solid $white;
+    border-left: 2px solid $white;
+    border-bottom: 2px solid $white;
     cursor: pointer;
-    font-weight: bold;
-    background-color: transparent;
-    border: none;
+  }
+  .js-accordion__header {
+    text-align: left;
+    font-weight: normal;
     font-size: 16px;
-    margin-bottom: 1em;
     font-family: $font-helvetica-neue;
-    &[aria-expanded="false"]:before {
-      content: "\25B8";
-      margin-right: 10px;
+    position: relative;
+    &::after {
+      font-family: "FontAwesome";
+      font-size: 25px;
+      opacity: 1;
+      line-height: 25px;
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      content: "\f105";
+      transition: transform 0.3s ease-in-out;
     }
-    &[aria-expanded="true"]:before {
-      content: "\25BE";
-      margin-right: 10px;
+    &[aria-expanded="true"] {
+      color: $white;
+      background-color: $ucsf-blue;
+      border: 0;
+      border-top: 2px solid $ucsf-blue;
+      border-right: 2px solid $ucsf-blue;
+      border-left: 2px solid $ucsf-blue;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+      &:last-of-type {
+        border-bottom: 2px solid $ucsf-blue;
+      }
+      &::after {
+        content: "\f105";
+        transform: rotate(+90deg);
+        transition: transform 0.3s ease-in-out;
+      }
     }
+
   }
 
   .js-accordion__panel {
-    padding-left: 2.5rem;
+    padding: .5em 1em;
+    border: 2px solid $ucsf-blue;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    p {
+      padding-left: 0;
+    }
     &[aria-hidden=true] {
       display: none;
     }
@@ -27,10 +68,5 @@
       display: none;
     }
   }
-  button.js-accordion__header {
-    display: block;
-  }
+
 }
-
-
-

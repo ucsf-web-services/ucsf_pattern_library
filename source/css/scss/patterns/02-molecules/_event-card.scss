@@ -15,7 +15,6 @@
   .event-card__detail {
     h3 {
       margin-bottom: 0px;
-      height: 69px;
       clear: right;
       display: -webkit-box;
       -webkit-line-clamp: 3;
@@ -24,11 +23,17 @@
     }
   }
   .event-card__date-time {
+    color: $darkdarkgray;
+    font-size: 15px;
     display: inline-block;
-    float: left;
-    clear: left;
+    margin: 7px 0;
     p {
       margin: 0px;
+    }
+  }
+  .event-card__detail {
+    p {
+      margin: 0;
     }
   }
 }

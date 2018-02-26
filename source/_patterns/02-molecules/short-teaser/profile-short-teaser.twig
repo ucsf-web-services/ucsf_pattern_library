@@ -1,7 +1,7 @@
 <div class="profile-short-teaser">
-  <div class="profile-short-teaser__detail">
-    <h4><a href="#">Firstname Lastname</a></h4>
-    <p>Designation / Job Title</p>
-    <p>Department / School Information</p>
-  </div>
+    <h3 class="profile-short-teaser__name"><a href="#">{{ text.profile.name }}</a></h3>
+    <div class="profile-short-teaser__detail">
+        <p class="profile-short-teaser__title">{{ text.profile.title }}</p>
+        <p class="profile-short-teaser__department">{{ text.profile.info|nl2br }}</p>
+    </div>
 </div>
