@@ -7,7 +7,7 @@
         <h3><a href=#>{{ event.title }}</a></h3>
     </div>
     <div class="event-teaser__date-time">
-        <p>{{ event.month.long }} {{ event.day.long }}, {{ event.year.long }}{% if event.hour %}, {{ event.hour.short }}:{{ event.minute.long }}{{ event.hour.ampm }}{% endif %}</p>
+        <p><time>{{ event.month.long }} {{ event.day.long }}, {{ event.year.long }}{% if event.hour %}, {{ event.hour.short }}:{{ event.minute.long }}{{ event.hour.ampm }}{% endif %}</time></p>
     </div>
     <div class="event-teaser__detail">
         <p>{{ event.paragraph }}</p>
