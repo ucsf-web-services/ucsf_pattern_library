@@ -1,5 +1,6 @@
 .search {
   position: relative;
+  width: 175px;
   .search-form {
     position: relative;
     display: inline;
@@ -18,24 +19,21 @@
     width: 35px;
     font-size: 18px;
     border: none;
-    //margin-left: -35px;
     float:left;
     cursor: pointer;
     background: transparent;
     z-index: 20;
     padding-bottom: 6px;
-    position: relative;
+    position: absolute;
     text-indent: -9999px;
-    margin-left: -30px;
-    &::before {
-      content: "\f002";
-    }
+    top: 0;
+    right: 0;
   }
   .fa-search{
     &:before {
-      position: relative;
+      position: absolute;
       top: 4px;
-      right: 30px;
+      right: 0;
       padding-left: 10px;
       color: #58595b;
       z-index: 10;
