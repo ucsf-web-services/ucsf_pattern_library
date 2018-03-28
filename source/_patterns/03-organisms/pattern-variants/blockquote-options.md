@@ -1,4 +1,4 @@
---- 
+---
 title: Blockquote
 ---
 
@@ -15,10 +15,10 @@ Blockquotes can be used on any page, and in a variety of colors and sizes. Forma
 ### Accessibility Considerations
 As a general statement, the more structured your document is, the easier it will be to understand, Blockquotes create structure by indenting quotes.
 
-### SEO Considerations
-SEO information will go here.
+* <a href="https://www.w3schools.com/tags/tag_blockquote.asp">About blockquote markup</a>
+
+<!-- ### SEO Considerations
+SEO information will go here. -->
 
 ### Technical Considerations
 Despite the fact that the blockquote element causes the text within it to be visually indented, this tag should not be used for its visual effect alone, only for a quote.
-
-About blockquote markup: https://www.w3schools.com/tags/tag_blockquote.asp

@@ -15,8 +15,8 @@ A quick, basic description of an upcoming event to be added to a smaller area, l
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
 
-### SEO Considerations
+<!-- ### SEO Considerations
 This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+Anything special technical-wise will be shared here. -->

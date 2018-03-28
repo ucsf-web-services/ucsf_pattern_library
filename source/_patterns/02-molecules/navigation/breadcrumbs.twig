@@ -1,9 +1,7 @@
 <div class="breadcrumbs">
   <ul class="breadcrumbs__list">
       {% for breadcrumb in breadcrumbs %}
-          <li>
-              {% if(breadcrumb.link) %}{{ html.a(breadcrumb.link) }}{% else %}{{ breadcrumb.title }}{% endif %}
-          </li>
+          <li>{% if(breadcrumb.link) %}{{ html.a(breadcrumb.link) }}{% else %}{{ breadcrumb.title }}{% endif %}</li>
       {% endfor %}
   </ul>
 </div>

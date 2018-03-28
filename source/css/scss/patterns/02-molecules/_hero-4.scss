@@ -19,7 +19,7 @@
     right: -200%;
     top: 0;
     height: 100%;
-    background-color: $primary-color;
+    background-color: $ucsf-navyblue;
     @include breakpoint($display_medium_up) {
       top: 30px;
       height: 440px;
@@ -73,7 +73,7 @@
       height: 100%;
       top: 0px;
       background-color: $secondary-color;
-      @include breakpoint($display_medium_up) {
+      @include breakpoint($display_960_up) {
         position: absolute;
         width: 42%;
         height: 395px;
@@ -83,18 +83,10 @@
         padding-top: 100px;
         padding-bottom: 35px;
       }
-      & > div {
-        overflow: auto;
-        height: 100%;
-        padding-bottom: 30px;
-        &::-webkit-scrollbar {
-          display: none;
-        }
-      }
       h2 {
         margin-bottom: 10px;
         line-height: 1em;
-        @include breakpoint($display_medium_up) {
+        @include breakpoint($display_960_up) {
           font-size: 44px;
         }
       }
@@ -110,12 +102,13 @@
     .slick-slide {
       min-height: 23px;
       position: relative;
+      line-height: 0;
     }
 
     .slick-prev,
     .slick-next {
       display: none !important;
-      @include breakpoint($display_medium_up) {
+      @include breakpoint($display_960_up) {
         display: inline-block !important;
       }
     }

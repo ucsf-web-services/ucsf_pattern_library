@@ -17,19 +17,19 @@ Please ensure accessibility by testing the whole page, including these elements,
 
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link.
 
-* About link accessibility properties: http://webaim.org/techniques/hypertext/
+* <a href="http://webaim.org/techniques/hypertext/">About link accessibility properties</a>
 
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image.
 
-* About image accessibility properties: https://www.w3.org/WAI/tutorials/images/
+* <a href="https://www.w3.org/WAI/tutorials/images/">About image accessibility properties</a>
 
 Button color contrast and font size is important. The button description should be descriptive. Be sure to specify the type of button (button, reset, submit).
 
-* About button accessibility properties: http://webaim.org/techniques/forms/controls
-* About button markup: https://www.w3schools.com/tags/tag_button.asp
+* <a href="http://webaim.org/techniques/forms/controls">About button accessibility properties</a>
+* <a href="https://www.w3schools.com/tags/tag_button.asp">About button markup</a>
 
-### SEO Considerations
-This section is left intentionally blank and is for future consideration.
+<!-- ### SEO Considerations
+This section is left intentionally blank and is for future consideration. -->
 
 ### Technical Considerations
 To implement the list of latest news use the markup structure shown here, with the set of classes latest-news-list.

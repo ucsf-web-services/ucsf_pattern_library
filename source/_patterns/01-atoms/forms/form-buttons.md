@@ -10,25 +10,16 @@ state: complete
 These are form buttons.
 
 ### Usage
-Buttons usually allow a user to submit their information, and should be placed and labeled intuitively.
+Buttons should be used to call out desired actions. Colored buttons should be used on a white background, and reversed out buttons should be used on a colored background. Button text should always be short, unique and descriptive (e.g. not "Click here"). Button text should be Helvetica Neue and all caps, rather than lower case or title case. Full-width buttons are desirable for smaller areas, such as sidebars or columns. These classes can be used on an anchor tag as well as a button tag.
 
 ### Accessibility Considerations
-Form controls must have text alternatives that describe the information or function represented by them. Please ensure accessibility by testing the whole page, including this element, in context.
+Color contrast and font size is important. The button description should be descriptive. Be sure to specify the type of button (button, reset, submit). Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About form control accessibility properties: http://webaim.org/techniques/forms/controls#checkbox
-* About form validation properties: https://www.w3.org/WAI/tutorials/forms/validation/
-* About form markup: https://www.w3schools.com/tags/tag_form.asp
+* <a href="https://webaim.org/techniques/forms/controls#button">About button accessibility properties</a>
+* <a href="https://www.w3schools.com/tags/tag_button.asp">About button markup</a>
 
-Color contrast and font size is important.
-The button description should be descriptive. Be sure to specify the type of button (button, reset, submit).
-Please ensure accessibility by testing the whole page, including this element, in context.
-
-* About button accessibility properties: http://webaim.org/techniques/forms/controls
-* About button markup: https://www.w3schools.com/tags/tag_button.asp
-
-### SEO Considerations
-This section is left intentionally blank and is for future consideration.
+<!-- ### SEO Considerations
+This section is left intentionally blank and is for future consideration. -->
 
 ### Technical Considerations
-To implement the btn btn-1, use the markup structure shown here, with the class btn btn-1.
-To implement the btn btn-2, use the markup structure shown here, with the class btn btn-2.
+The class btn is the base button, adding other classes changes the background, font, and hover colors. Font size and width classes can be added to any button to change those attributes.

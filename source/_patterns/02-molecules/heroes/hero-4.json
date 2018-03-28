@@ -4,8 +4,8 @@
     {
       "hero": {
         "hero4": {
-          "title": "Headline 1 lacinia bibendu nulla sed consec",
-          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+          "title": "Short Headline",
+          "paragraph": "Bodycopy should be short and succinct. Cras mattis consectetur purs sit amet fermen tum. Cras mattis consectetur purs sit amet fermen tum."
         }
       },
       "img": {
@@ -19,8 +19,8 @@
     {
       "hero": {
         "hero4": {
-          "title": "Headline 2 lacinia bibendu nulla sed consec",
-          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+          "title": "Medium Headline can work",
+          "paragraph": "Bodycopy should be short and succinct. Cras mattis consectetur purs sit amet fermen tum."
         }
       },
       "img": {
@@ -34,8 +34,8 @@
     {
       "hero": {
         "hero4": {
-          "title": "Headline 3 lacinia bibendu nulla sed consec",
-          "paragraph": "Bodycopy cras mattis consectetur purs sit amet fermen tum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis inter dumo."
+          "title": "Short Headline",
+          "paragraph": "Bodycopy should be short and succinct. Cras mattis consectetur purs sit amet fermen tum."
         }
       },
       "img": {

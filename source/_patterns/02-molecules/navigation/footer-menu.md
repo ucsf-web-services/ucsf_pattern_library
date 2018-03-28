@@ -15,10 +15,10 @@ A footer menu should quickly guide people to key areas on your site, and should 
 ### Accessibility Considerations
 Complex menus, sliders, dialogs, tab panels, etc. must all be built to support keyboard accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About menu accessibility properties: http://webaim.org/techniques/aria/
+* <a href="http://webaim.org/techniques/aria/">About menu accessibility properties</a>
 
-### SEO Considerations
-This section is left intentionally blank and is for future consideration.
+<!-- ### SEO Considerations
+This section is left intentionally blank and is for future consideration. -->
 
 ### Technical Considerations
 To implement the footer menu, use the markup structure shown here, with the class footer-menu__header.

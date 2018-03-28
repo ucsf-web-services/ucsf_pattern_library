@@ -22,15 +22,16 @@
 }
 .warning {
   background-color: #eaaf51;
-  border-color: #d99a36;
+  border-color: #eaaf51;
+  color: #333;
 }
 .error {
-  background-color: #de4343;
+  background-color: #c43d3d;
   border-color: #c43d3d;
 }
 .status {
-  background-color: #61b832;
-  border-color: #55a12c;
+  background-color: #448023;
+  border-color: #448023;
 }
 
 @-webkit-keyframes animate-bg {

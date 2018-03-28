@@ -1,25 +1,13 @@
-// Hero Buttons
-.hero__button a {
-  border: 1px solid #fff;
-  padding: 4px 10px;
-  font-size: 10px;
-  font-weight: 500;
-  letter-spacing: .14em;
-  color: #fff;
-  text-transform: uppercase;
-  border-radius: 2px;
-  font-family: "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
-}
-
 .hero {
   h2 {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: -.02em;
     line-height: 1em;
     margin-top: 0;
     margin-bottom: 20px;
     @include breakpoint($display_medium_up) {
       font-size: 48px;
+      margin-right: 125px;
     }
   }
   position: relative;
@@ -30,6 +18,7 @@
   padding: 0;
   max-width: 1320px;
   margin: 0 auto;
+  line-height: 0;
   @include breakpoint($display_medium_up) {
     padding-left: 0px;
   }
@@ -40,7 +29,7 @@
     content: " ";
     position: absolute;
     width: 30px;
-    height: 300px;
+    height: 100%;
     z-index: 0;
     right: 0px;
     top: 0;
@@ -49,37 +38,17 @@
     padding-left: 30px;
     padding-top: 50px;
     padding-right: 48px;
-
+    padding-bottom: 30px;
     overflow: auto;
     color: #FFF;
     position: relative;
+    font-weight: $font-weight;
     // Primary Color
-    background-color: $primary-color;
-    height: 260px;
+    background-color: $ucsf-navyblue;
     @include breakpoint($display_medium_up) {
       padding-left: 75px;
       padding-right: 75px;
-    }
-    > div {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      max-width: 68%;
-    }
-    p {
-      font-size: 15px;
-      @include breakpoint($display_medium_up) {
-        font-size: 18px;
-      }
-      line-height: 1.4;
-      margin-bottom: 20px;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-      max-height: 40px;
-      @include breakpoint($display_medium_up) {
-        max-height: 55px;
-      }
+      min-height: 260px;
     }
   }
   .hero-1__title {
@@ -140,9 +109,8 @@
     position: absolute;
     bottom: 30px;
     z-index: 20;
-    color: white;
-    font-size: 15px;
-    font-weight: bold;
+    color: $white;
+    font-size: $font-size-small;
     display: none;
     @include breakpoint($display_medium_up) {
       display: block;

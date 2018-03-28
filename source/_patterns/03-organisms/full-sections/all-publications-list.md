@@ -15,10 +15,10 @@ An all publications list generally rests on an individual's profile page, and on
 ### Accessibility Considerations
 For screen readers, links should make sense out of context. Place the distinguishing information of links at the beginning of a link. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About link accessibility properties: http://webaim.org/techniques/hypertext/
+* <a href="http://webaim.org/techniques/hypertext/">About link accessibility properties</a>
 
-### SEO Considerations
-This section is left intentionally blank and is for future consideration.
+<!-- ### SEO Considerations
+This section is left intentionally blank and is for future consideration. -->
 
 ### Technical Considerations
 To implement the a list of all publications, use the markup structure shown here, with the class all-publications-list.

@@ -2,7 +2,7 @@
   position: relative;
   padding-bottom: 20px;
   .contact-widget__header {
-    padding-bottom: 6px;
+    padding-bottom: 8px;
     margin-bottom: 14px;
     border-bottom: 1px solid $darkgray;
     float: left;
@@ -48,11 +48,12 @@
     width: 100%;
     p {
       margin-top: 0;
-      &:first-child {
-        margin-bottom: 0px;
+      margin-bottom: 0;
+      &:last-child {
+        margin-bottom: 1em;
       }
     }
-    .contact-widget__phone, .contact-widget__fax  {
+    .contact-widget__phone, .contact-widget__fax, .contact-widget__email  {
       &::before {
         font-family: $font-awesome;
         content: "\f095";
@@ -65,6 +66,11 @@
         content: "\f1ac";
       }
     }
+    .contact-widget__email {
+      &::before {
+        content: "\f199";
+      }
+    }
   }
 }
 #footer {
@@ -73,8 +79,11 @@
     font-size: 22px;
     margin-top: 0;
   }
-  .contact-widget__phone, .contact-widget__fax, .contact-widget__social-media-links a {
+  .contact-widget__phone, .contact-widget__fax, .contact-widget__email, .contact-widget__social-media-links {
     color: $lightgray;
+    a {
+      color: $lightgray;
+    }
   }
   .contact-widget__social-media-links a:hover {
     color: $white;

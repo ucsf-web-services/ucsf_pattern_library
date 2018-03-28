@@ -1,5 +1,10 @@
-.header {
+#header {
   padding-bottom: 30px;
+  // position: fixed;
+  // left: 0;
+  // right: 0;
+  // background: $white;
+  // z-index: 999;
 
   #mobile-menu-toggle {
     display: block;
@@ -115,12 +120,6 @@
       .search {
       padding-top: 0;
       padding-bottom: 0;
-      input {
-        border: 0;
-      }
-      input#edit-search-block-form, input#edit-submit {
-        border-bottom: 1px solid $lightgray;
-        }
       }
     }
   }
@@ -142,7 +141,7 @@
   }
 }
 @include breakpoint($display_medium) {
-  .header{
+  #header{
     .header__ucsf-main-menu{
       .header__ucsf-main-menu__links {
         display: none;
@@ -157,7 +156,7 @@
   }
 }
 @include breakpoint($display_small) {
-  .header {
+  #header {
     .header__ucsf-main-menu{
       .header__ucsf-main-menu__links {
         display: none;

@@ -15,10 +15,14 @@ An all profiles list should have its own page. Pagination should be included so 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About image accessibility properties: https://www.w3.org/WAI/tutorials/images/
+* <a href="http://webaim.org/techniques/hypertext/">About link accessibility properties</a>
 
-### SEO Considerations
-This section is left intentionally blank and is for future consideration.
+Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
+
+* <a href="https://www.w3.org/WAI/tutorials/images/">About image accessibility properties</a>
+
+<!-- ### SEO Considerations
+This section is left intentionally blank and is for future consideration. -->
 
 ### Technical Considerations
 To implement a list for all profiles, use the markup structure shown here, with the class all-profiles-list.

@@ -19,27 +19,26 @@
   }
 
   .slick-prev {
-    left: 630px;
-    top: 70px;
-    top: 70px;
 
     @include breakpoint($display_medium_up) {
-      top: 460px;
-      left: 605px;
+      top: 475px;
+      right: 125px;
+      left: auto;
     }
     @include breakpoint($display_960_up) {
+      left: 630px;
       top: 95px;
     }
   }
   .slick-next {
-    left: 705px;
-    top: 70px;
 
     @include breakpoint($display_medium_up) {
-      top: 460px;
-      left: 680px;
+      top: 475px;
+      right: 50px;
+      left: auto;
     }
     @include breakpoint($display_960_up) {
+      left: 705px;
       top: 95px;
     }
   }
@@ -50,7 +49,6 @@
     z-index: 20;
     color: white;
     font-size: 15px;
-    font-weight: bold;
     bottom: 0;
     right: 0;
     display: none;
@@ -81,7 +79,7 @@
       background-color: $secondary-color;
       @include breakpoint($display_960_up) {
         margin-left: 45px;
-        background: $primary-color;
+        background: $ucsf-navyblue;
         width: 735px;
         height: 420px;
         top: 40px;
@@ -149,10 +147,13 @@
         letter-spacing: -.02em;
         line-height: 1em;
         margin-bottom: 15px;
-        font-weight: 300;
         font-size: 30px;
+        @include breakpoint($display_medium_up) {
+          margin-right: 135px;
+        }
         @include breakpoint($display_960_up) {
           font-size: 48px;
+          margin-right: 0;
         }
       }
       color: $white;
@@ -162,7 +163,7 @@
       font-size: 15px;
       @include breakpoint($display_960_up) {
         font-size: 18px;
-        max-height: 235px;
+        min-height: 235px;
         overflow-y: auto;
         padding-right: 17px;
         position: absolute;
@@ -172,9 +173,10 @@
       }
     }
     @include breakpoint(0 $width--960) {
-      background-color: $primary-color;
+      background-color: $ucsf-navyblue;
+      height: auto;
     }
-    padding: 20px 20px 20px 40px;
+    padding: 40px 20px 20px 40px;
     height: 340px;
     overflow: auto;
     margin-top: 0px;
@@ -183,6 +185,7 @@
     top: -15px;
     margin-bottom: 15px;
     margin-right: 30px;
+    font-weight: $font-weight;
     @include breakpoint($display_960_up) {
       position: absolute;
       margin-top: 60px;
@@ -190,23 +193,6 @@
       width: 740px;
       margin-right: 0;
       top: 40px;
-    }
-  }
-  &__button {
-    a {
-      border: 1px solid #fff;
-      padding: 4px 10px;
-      font-size: 10px;
-      font-weight: 500;
-      letter-spacing: .14em;
-      color: #fff;
-      text-transform: uppercase;
-      border-radius: 2px;
-      &:hover {
-        text-decoration: none;
-        background-color: #FFF;
-        color: $ucsf-navyblue;
-      }
     }
   }
 }

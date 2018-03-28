@@ -73,8 +73,8 @@ $color--yellow--tint2: #FFF199;
 $color--yellow--tint3: #FFFCE6;
 
 /* Selected Colors */
-$primary-color: $ucsf-navyblue !default;
-$secondary-color: $ucsf-orange !default;
+$primary-color: $ucsf-navyblue;
+$secondary-color: $ucsf-orange;
 
 //** Breakpoints **//
 
@@ -116,3 +116,9 @@ $font_light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", He
 $font-helvetica-neue: "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "Helvetica", "Arial", sans-serif;
 $font-granjon: "Granjon LT W01 Roman", Garamond, "Times New Roman", serif;
 $font-awesome: "FontAwesome";
+$font-size: 18px;
+$font-size-medium: 16px;
+$font-size-small: 14px;
+$font-weight: 400;
+$font-weight-light: 300;
+$line-height: 1.5;

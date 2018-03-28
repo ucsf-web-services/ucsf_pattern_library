@@ -1,0 +1,9 @@
+{% extends "basic_page.twig" %}
+{% block hero %}{% endblock %}
+{% block heading %}
+  {% include "molecules-breadcrumbs" %}
+  {{ titles.h1(event.title) }}
+{% endblock %}
+{% block main %}
+    {% include "organisms-featured-publications-list" %}
+{% endblock %}

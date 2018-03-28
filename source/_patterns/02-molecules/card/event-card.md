@@ -15,10 +15,8 @@ Event cards should be used to display individual events. They contain basic info
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About image accessibility properties: https://www.w3.org/WAI/tutorials/images/
-
-### SEO Considerations
+<!-- ### SEO Considerations
 This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-To implement the event-card image, use the markup structure shown here, with the class event-card__image.
+To implement the event-card image, use the markup structure shown here, with the class event-card__image. -->

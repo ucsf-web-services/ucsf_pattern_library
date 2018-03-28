@@ -4,6 +4,7 @@
   margin: 0 auto;
   margin-bottom: 50px;
   position: relative;
+  line-height: 0;
   @include breakpoint($display_960_up) {
     padding-left: 25px;
     padding-right: 50px;
@@ -45,7 +46,7 @@
     top: 0;
     display: none;
     @include breakpoint($display_960_up) {
-      background-color: $primary-color;
+      background-color: $ucsf-navyblue;
       bottom: 25px;
       height: 475px;
       display: block;
@@ -78,10 +79,10 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
-    position: static;
-    bottom: 50px;
+    //position: static;
+    //bottom: 50px;
     @include breakpoint($display_medium_up) {
-      position: absolute;
+      //position: absolute;
     }
   }
 }
@@ -121,7 +122,7 @@
     &::-webkit-scrollbar {
       display: none;
     }
-    background-color: $primary-color;
+    background-color: $ucsf-navyblue;
     position: static;
     display: block;
     float: left;

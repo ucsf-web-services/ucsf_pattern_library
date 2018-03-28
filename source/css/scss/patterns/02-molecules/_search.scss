@@ -7,11 +7,11 @@
     float: left;
     input#edit-search-block-form--2 {
       border: none;
-      border-bottom: 1px solid grey;
+      border-bottom: 1px solid $darkestgray;
       width: 176px;
       font-size: 15px;
       position: relative;
-      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-family: $font-helvetica-neue;
       padding-right: 30px;
     }
   }
@@ -35,7 +35,7 @@
       top: 4px;
       right: 0;
       padding-left: 10px;
-      color: #58595b;
+      color: $darkestgray;
       z-index: 10;
 
     }

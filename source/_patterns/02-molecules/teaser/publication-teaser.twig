@@ -1,5 +1,10 @@
 <div class="publication-teaser">
     <h3 class="publication-teaser__title"><cite>{{ html.a(text.publicationShortTeaser.link) }}</cite></h3>
-    <p class="publication-teaser__source">{{ text.publicationShortTeaser.source }}</p>
-    <p class ="publication-teaser__name">{{ text.publicationShortTeaser.name }}</p>
+    <p class="publication-teaser__source"><em>{{ text.publicationShortTeaser.source }}</em></p>
+    <p class ="publication-teaser__name">{{ text.publicationShortTeaser.name }}. {{ text.publicationShortTeaser.year }}.</p>
+</div>
+
+<div class="publication-teaser">
+    <h3 class="publication-teaser__title"><cite>{{ html.a(text.publicationShortTeaser.link) }}</cite></h3>
+    <p class="publication-teaser__source">{{ text.publicationShortTeaser.name }}. <em>{{ text.publicationShortTeaser.source }}</em>. {{ text.publicationShortTeaser.year }}.</p>
 </div>

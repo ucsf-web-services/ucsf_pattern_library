@@ -10,16 +10,12 @@ state: complete
 These are colored background boxes.
 
 ### Usage
-Boxes can be used in different layouts.
+Boxes can be used in different layouts and sidebars and should always have white text and links.
 
 ### Accessibility Considerations
-Color contrast and font size is important.
-Please ensure accessibility by testing the whole page, including this element, in context.
+Color contrast and font size are important. White links should always be underlined. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About button accessibility properties: http://webaim.org/techniques/forms/controls
-* About button markup: https://www.w3schools.com/tags/tag_button.asp
-
-### SEO Considerations
+<!-- ### SEO Considerations
 This section is left intentionally blank and is for future consideration.
 
-### Technical Considerations
+### Technical Considerations -->

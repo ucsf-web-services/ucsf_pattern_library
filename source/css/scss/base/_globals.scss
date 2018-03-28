@@ -4,6 +4,9 @@
 body {
   margin: 0;
   padding: 0;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
 }
 
 .content-container {

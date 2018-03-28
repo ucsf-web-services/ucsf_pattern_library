@@ -17,8 +17,8 @@ Sidebars are a quick and easy way to add extra content to the body of the page. 
 ### Accessibility Considerations
 There are no specific requirements for accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
 
-### SEO Considerations
-This section is left intentionally blank and is for future consideration.
+<!-- ### SEO Considerations
+This section is left intentionally blank and is for future consideration. -->
 
 ### Technical Considerations
 To implement the sidebar-bg-white align-left, use the markup structure shown here, with the class sidebar-bg-white align-left.

@@ -18,7 +18,7 @@ Information about to make this atomic element accessible.
 ### SEO Considerations
 Complex menus, sliders, dialogs, tab panels, etc. must all be built to support keyboard accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About menu accessibility properties: http://webaim.org/techniques/aria/
+* <a href="http://webaim.org/techniques/aria/">About menu accessibility properties</a>
 
 ### Technical Considerations
 To implement the submenu, use the markup structure shown here, with the class submenu.

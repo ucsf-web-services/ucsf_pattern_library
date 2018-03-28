@@ -1,5 +1,5 @@
 ---
-title: Calendar Icon
+title: Teaser Image
 ---
 
 ---
@@ -7,18 +7,18 @@ state: complete
 ---
 
 ### Description
-This is the Icon Image.
+This is the Teaser Image.
 
 ### Usage
-The icon image changes based on the day the event will take place. The color of the icon should fit with your site's chosen color scheme. 
+A teaser image should tease the accompanying content, and look uncluttered at a small size. Be careful of the crop, and try to choose an image with a centralized composition.
 
 ### Accessibility Considerations
 Images must have text alternatives that describe the information or function represented by them. Be sure to specify the type of image. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About image accessibility properties: https://www.w3.org/WAI/tutorials/images/
+* <a href="https://www.w3.org/WAI/tutorials/images/">About image accessibility properties</a>
 
-### SEO Considerations
+<!-- ### SEO Considerations
 This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+Anything special technical-wise will be shared here. -->

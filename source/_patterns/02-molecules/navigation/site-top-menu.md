@@ -1,4 +1,4 @@
---- 
+---
 title: Site Top Menu
 ---
 
@@ -22,10 +22,10 @@ Sites with an approved UCSF logo should not include the UCSF logo in the banner 
 ### Accessibility Considerations
 Complex menus, sliders, dialogs, tab panels, etc. must all be built to support keyboard accessibility. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About menu accessibility properties: http://webaim.org/techniques/aria/
+* <a href="http://webaim.org/techniques/aria/">About menu accessibility properties</a>
 
-### SEO Considerations
-This section is left intentionally blank and is for future consideration.
+<!-- ### SEO Considerations
+This section is left intentionally blank and is for future consideration. -->
 
 ### Technical Considerations
 The links in the molecule are intentionally left as placeholders and the proper content (links to the sites above) are included in the JSON data file, in accordance to the Pattern Library's overall approach to separating content and layout.

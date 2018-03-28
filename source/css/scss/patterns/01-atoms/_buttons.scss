@@ -6,13 +6,12 @@
   background-color: $ucsf-blue;
   color: $white;
   border: 1px solid $ucsf-blue;
-
-  // Text
   text-decoration: none;
   text-transform: uppercase;
-  font-weight: bold;
+  text-align: center;
   letter-spacing: 1px;
   font-size: 18px;
+  line-height: $line-height;
   &:hover {
     cursor: pointer;
     background-color: $white;
@@ -20,17 +19,7 @@
   }
 }
 
-
-.btn-1 {
-  background-color: $ucsf-blue;
-  border: 1px solid $ucsf-blue;
-  color: $white;
-}
-.btn-1:hover {
-  background-color: $white;
-  color: $ucsf-blue;
-}
-.btn-2 {
+.btn--light {
   background-color: $white;
   border: 1px solid $ucsf-blue;
   color: $ucsf-blue;
@@ -40,7 +29,7 @@
   }
 }
 
-.btn-3 {
+.btn--dark-transparent {
   background-color: transparent;
   color: $white;
   border: 1px solid $white;
@@ -48,69 +37,31 @@
     background-color: $white;
     color: $ucsf-blue;
   }
-  &:active {
-    background-color: $lightgray;
-    color: $ucsf-blue;
-    border: 1px solid $ucsf-blue;
-  }
 }
-
-
-
-// a[class*="btn--"] {
-//   background: $ucsf-blue;
-//   color: $white;
-//   &:hover {
-//     background: $color--blue--tint1;
-//   }
-//   &:active {
-//     background: $color--grey2--tint2;
-//     color: $ucsf-blue;
-//   }
-// }
-
 .btn--small {
   font-size: 14px;
 }
 .btn--large {
   font-size: 22px;
 }
-.btn--white--underline {
-  background: transparent;
-  color: $ucsf-blue;
-  border: 1px solid $ucsf-blue;
-  &:hover {
-    color: $ucsf-blue;
-    border: 1px solid $ucsf-blue;
-    background: $color--grey2--tint2;
-  }
-  &:active {
-    background: $ucsf-blue;
-    color: $white;
-    border: 1px solid $ucsf-blue;
-  }
-}
-.btn--more--white {
-  border: 1px solid rgba(255,255,255,0.3);
+.btn--reversed {
+  border-color: $white;
   color: $white;
-  background: transparent;
+  background: $ucsf-navyblue;
   // width: 100%;
   &:hover {
     color: $white;
-    background: rgba(255,255,255,0.3);
-  }
-  &:active {
-    background: rgba(255,255,255,0.3);
-    color: white !important;
+    background: $ucsf-blue;
   }
 }
 
-.btn--more--reverse {
+.btn--dark {
   color: $white;
   background: $ucsf-navyblue;
+  border-color: $ucsf-navyblue;
   &:hover {
-    color: $white;
-    background: $color--navy--tint1;
+    color: $ucsf-navyblue;
+    background: $white;
   }
 }
 .btn--full-width {

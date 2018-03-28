@@ -11,8 +11,6 @@
 }
 
 .slider__hero-5 {
-
-
   max-height: 500px;
   margin-top: 0px;
   margin-bottom: 50px;
@@ -20,26 +18,31 @@
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 50px;
-  .slick-prev {
-    left: 30px;
-  }
-  .slick-next {
-    right: 30px;
-  }
-  .slick-prev,
-  .slick-next {
-    display: none !important;
-    @include breakpoint($display_medium_up) {
-      display: inline-block !important;
+  &.slider {
+    .slick-prev {
+      left: 30px;
     }
-    top: 50%;
-    margin-top: -25px;
+    .slick-next {
+      right: 30px;
+    }
+    .slick-prev,
+    .slick-next {
+      display: none !important;
+      @include breakpoint($display_medium_up) {
+        display: inline-block !important;
+        background: white;
+        &::before {
+          color: $ucsf-blue;
+        }
+      }
+      top: 50%;
+      margin-top: -25px;
+    }
   }
 }
 
 
 .hero-5 {
-
   position: relative;
   height: 385px;
   background-position: center center;
@@ -91,20 +94,6 @@
         font-size: 50px;
       }
       margin: 0 auto 10px;
-    }
-  }
-  & .btn-3__hero-5 {
-    @extend .btn-3;
-    &:hover {
-      color: $ucsf-navyblue;
-    }
-  }
-  .hero__button a {
-    background: $white;
-    color: $ucsf-navyblue;
-    &:hover {
-      background: $ucsf-blue;
-      color: $white;
     }
   }
 }

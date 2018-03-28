@@ -15,10 +15,10 @@ Headings should be used to enhance navigation and information hierarchy. H1 shou
 ### Accessibility Considerations
 Do not use the heading tag for styling, only for content structure. Please ensure accessibility by testing the whole page, including this element, in context.
 
-* About heading accessibility properties: http://webaim.org/techniques/semanticstructure/#contentstructure
+* <a href="http://webaim.org/techniques/semanticstructure/#contentstructure">About heading accessibility properties</a>
 
-### SEO Considerations
+<!-- ### SEO Considerations
 This section is left intentionally blank and is for future consideration.
 
 ### Technical Considerations
-Anything special technical-wise will be shared here.
+Anything special technical-wise will be shared here. -->
