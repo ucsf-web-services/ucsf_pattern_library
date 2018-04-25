@@ -1,8 +1,13 @@
 # UCSF Web Patterns Library
 
 * [Web Patterns Library website](http://webpatterns.ucsf.edu/)
-* [Github repo source](https://github.com/ucsf-web-services/ucsf_pattern_library)
-* [Github repo public](https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package)
+* [Web Patterns Source Code](https://github.com/ucsf-web-services/ucsf_pattern_library)
+** Twig templates
+** Sass
+** System configuration files
+* [Web Patterns Compiled Code](https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package)
+** HTML templates
+** CSS 
 
 This Pattern Library, built on [Pattern Lab](http://patternlab.io), has been created by the UCSF University Relations department for the following audiences and purposes:
 
