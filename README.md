@@ -1,6 +1,6 @@
 # UCSF Web Patterns Library
 
-* [Web Patterns Library website](http://webpatterns.ucsf.edu/)
+* [Web Patterns Library Website](http://webpatterns.ucsf.edu/)
    * Online demo of Patterns
    * Annotations and documentation
 * [Web Patterns Source Code](https://github.com/ucsf-web-services/ucsf_pattern_library)
