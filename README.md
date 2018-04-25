@@ -1,8 +1,8 @@
-# UCSF Web Pattern Library 
+# UCSF Web Patterns Library
 
-* Websites.ucsf.edu introduction to UCSF Web Pattern Library: [http://websites.ucsf.edu/custom-built-sites/web-patterns](http://websites.ucsf.edu/custom-built-sites/web-patterns)
-* Github repo source: [https://github.com/ucsf-web-services/ucsf\_pattern\_library](https://github.com/ucsf-web-services/ucsf_pattern_library)
-* Github repo public: [https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package](https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package)
+* [Web Patterns Library website](http://webpatterns.ucsf.edu/)
+* [Github repo source](https://github.com/ucsf-web-services/ucsf_pattern_library)
+* [Github repo public](https://github.com/ucsf-web-services/ucsf\_pattern\_library\_package)
 
 This Pattern Library, built on [Pattern Lab](http://patternlab.io), has been created by the UCSF University Relations department for the following audiences and purposes:
 
@@ -12,9 +12,9 @@ This Pattern Library, built on [Pattern Lab](http://patternlab.io), has been cre
 
 To learn more about general principals of Pattern Lab and its output (the pattern library) see [http://patternlab.io](http://patternlab.io).
 
-## Developers building Web Applications or Websites that want to follow UCSF Branding Guidelines 
+## Developers building Web Applications or Websites that want to follow UCSF Branding Guidelines
 
-This group of users will use the supporting assets (CSS, the SASS, JS, HTML and supporting grid system) to create a branded, mobile responsive tool within a custom system. 
+This group of users will use the supporting assets (CSS, the SASS, JS, HTML and supporting grid system) to create a branded, mobile responsive tool within a custom system.
 
 Development approaches may include: basic HTML pages, PHP applications, Drupal themes, and Java / JSP applications, Ruby, C# and many other languages that serve HTML pages.
 
@@ -28,17 +28,15 @@ In all use cases of the Pattern Library, these assumptions apply:
 * Don't remove existing patterns from the Pattern Lab and Library
 
 ### Installation Instructions
-Please use GIT to download the repo at `https://github.com/ucsf-web-services/ucsf_pattern_library.git`
-Please follow our installation instructions at 
-### [Installing Pattern Library and its Dependencies](readme/INSTALL.md)
+Please use GIT to download the repo: `https://github.com/ucsf-web-services/ucsf_pattern_library.git`
 
-### [Use case 1: Basic HTML or PHP site - no additional CSS changes](readme/USECASE1.md)
+Please follow our installation instructions:
 
-### [Use case 2: Using PHP, Java, or another language for dynamic markup](readme/USECASE2.md)
-
-### [Use case 3: Using Pattern Library to Inform Drupal work](readme/USECASE3.md)
-
-### User Case 4: Site owners using StarterKit version 3 / SiteBuilder
+* [Installing Pattern Library and its Dependencies](readme/INSTALL.md)
+* [Use case 1: Basic HTML or PHP site - no additional CSS changes](readme/USECASE1.md)
+* [Use case 2: Using PHP, Java, or another language for dynamic markup](readme/USECASE2.md)
+* [Use case 3: Using Pattern Library to Inform Drupal work](readme/USECASE3.md)
+<!--* User Case 4: Site owners using StarterKit version 3 / SiteBuilder-->
 
 For this user group, use the pages and templates as references of how to place your site's building blocks in a way that has been designed and tested for the best usability and the most consistent UCSF look and feel.
 
@@ -46,4 +44,3 @@ For this user group, use the pages and templates as references of how to place y
 
 1. The Pattern Library has been generated with only one of the Primary + Secondary color sets as a sample. Use your SiteBuilder wizard to choose your color combinations.
 1. The library includes some features and improvements not yet applied to the SiteBuilder (StarterKit v.3) in Drupal. Samples include: footer styling, location styling, improved accessible form element styling, and tabs and table syling.
-
