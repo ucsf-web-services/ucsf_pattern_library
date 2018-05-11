@@ -16,7 +16,7 @@ This Pattern Library, built on [Pattern Lab](http://patternlab.io), has been cre
 * Developers applying and extending brand standards within the UCSF Drupal ecosystem, but not within the Drupal SiteBuilder environment
 * Site owners/builders using UCSF SiteBuilder (StarterKit v.3) as a reference for designing out their website.
 
-To learn more about general principals of Pattern Lab and its output (the pattern library) see [http://patternlab.io](http://patternlab.io).
+To learn more about general principals, visit [Pattern Lab website](http://patternlab.io).
 
 ## Developers building Web Applications or Websites that want to follow UCSF Branding Guidelines
 

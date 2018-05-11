@@ -5,7 +5,7 @@
   }
   li {
     list-style: none;
-    float: left;
+    //float: left;
     background-color: $background-gray;
     margin: 0;
     border-bottom: 1px solid #B4B9BF;
@@ -15,7 +15,7 @@
     a {
       color: $ucsf-navyblue;
       display: inline-block;
-      padding: 15px 20px 15px 30px;
+      padding: 15px 20px;
       margin: 0;
       width: 100%;
       text-align: left;
