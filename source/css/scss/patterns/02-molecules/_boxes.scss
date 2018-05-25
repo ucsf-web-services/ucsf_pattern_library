@@ -16,6 +16,7 @@
     text-decoration: underline;
     &:hover {
       color: $white;
+      text-decoration: none;
     }
   }
 }

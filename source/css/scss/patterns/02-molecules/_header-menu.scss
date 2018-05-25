@@ -59,6 +59,7 @@
       li {
         display: block;
         a {
+          text-decoration: none;
           text-align: left;
         }
       }
@@ -90,6 +91,7 @@
               border-radius: 2px;
               -webkit-transition: none;
               transition: none;
+              text-decoration: none;
             }
             &:active {
               background-color: $background-gray;
@@ -109,6 +111,7 @@
         & > li {
           & > a {
             border-bottom: 2px solid transparent;
+            text-decoration: none;
             &:hover {
               @include breakpoint($display_medium_up) {
                 border-color: $primary-color;
@@ -122,6 +125,7 @@
           }
           &.active {
             a {
+              text-decoration: none;
               @include breakpoint($display_medium_up) {
                 border-color: $primary-color;
               }
@@ -139,6 +143,7 @@
             padding-left: 12px;
             padding-bottom: 14px;
             border-bottom: 1px solid $darkgray;
+            text-decoration: none;
             &:hover {
               border-color: $primary-color;
             }
@@ -193,6 +198,7 @@
       a {
         font-size: 16px;
         padding: 20px 45px 20px;
+        text-decoration: none;
         @include breakpoint($display_medium_up) {
           padding: 5px 15px;
         }
@@ -205,6 +211,7 @@
     li.last {
       a {
         padding-right: 0;
+        text-decoration: none;
       }
       margin-right: 0;
     }

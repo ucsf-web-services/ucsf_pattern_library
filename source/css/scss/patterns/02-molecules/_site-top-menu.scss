@@ -39,6 +39,10 @@
         font-weight: 300;
         display: block;
         color: $white;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
       }
       &.first {
         display: inline-block;

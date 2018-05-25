@@ -3,6 +3,7 @@ img {
 }
 
 a img {
+  text-decoration: none;
   &:hover {
     opacity: 0.5;
     transition: all 0.25s ease-in-out;
@@ -31,4 +32,3 @@ body {
     }
   }
 }
-
