@@ -20,7 +20,7 @@
   .js-accordion__header {
     text-align: left;
     font-weight: normal;
-    font-size: 16px;
+    font-size: $font-size;
     font-family: $font-helvetica-neue;
     position: relative;
     &::after {

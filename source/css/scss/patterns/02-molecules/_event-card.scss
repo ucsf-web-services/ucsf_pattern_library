@@ -2,7 +2,7 @@
   margin-right: 3%;
   margin-bottom: 3%;
   h3 {
-    font-size: 18px;
+    font-size: $font-size-large;
   }
   .event-card__image {
     display: none;
@@ -23,7 +23,7 @@
     }
   }
   .event-card__date-time {
-    font-size: 15px;
+    font-size: $font-size-medium;
     display: inline-block;
     margin: 7px 0;
     p {

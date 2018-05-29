@@ -7,7 +7,6 @@
   }
   .news-teaser__detail {
     h3 {
-      font-size: 25px;
       margin-bottom: 5px;
       margin-top: 0;
       font-weight: 300;
@@ -17,7 +16,7 @@
     }
     .news-teaser__author-date {
       margin-bottom: 8px;
-      font-size: 15px;
+      font-size: $font-size-medium;
     }
   }
 }

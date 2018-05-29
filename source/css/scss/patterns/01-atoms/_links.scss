@@ -1,6 +1,17 @@
 a {
   color: $ucsf-blue;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+  text-decoration-skip: ink;
   &:hover {
     text-decoration: none;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }

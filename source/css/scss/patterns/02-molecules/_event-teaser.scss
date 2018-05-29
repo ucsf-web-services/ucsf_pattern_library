@@ -1,6 +1,6 @@
 .event-teaser {
   h3 {
-    font-size: 18px;
+    font-size: $font-size-large;
   }
   .event-teaser__image {
     display: none;
@@ -21,7 +21,7 @@
     }
   }
   .event-teaser__date-time {
-    font-size: 15px;
+    font-size: $font-size-medium;
     display: inline-block;
     margin: 7px 0;
     p {
