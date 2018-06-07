@@ -15,3 +15,52 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
+a.border-link-one {
+  text-decoration: none;
+  border-bottom: 1px dashed $ucsf-green;
+  &:hover {
+    border-bottom: 2px solid $ucsf-green;
+  }
+}
+a.border-link-two {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px dashed $ucsf-blue;
+    &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: $ucsf-blue;
+        transition: width .3s;
+    }
+    &:hover {
+      border-bottom: 1px dashed transparent;
+      color: $text-color;
+      &::after {
+          width: 100%;
+          //transition: width .3s;
+      }
+    }
+}
+a.border-link-three {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px dotted $ucsf-blue;
+    &::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: $ucsf-green;
+        transition: width .3s;
+    }
+    &:hover {
+      border-bottom: 1px dotted transparent;
+      color: $text-color;
+      &::after {
+          width: 100%;
+          //transition: width .3s;
+      }
+    }
+}
