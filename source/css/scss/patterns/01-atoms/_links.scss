@@ -1,4 +1,4 @@
-a {
+/*a {
   color: $ucsf-blue;
   text-decoration: underline;
   text-decoration-skip-ink: auto;
@@ -6,17 +6,28 @@ a {
   &:hover {
     text-decoration: none;
   }
+}*/
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed $ucsf-blue;
+  padding-bottom: 2px;
+  color: $ucsf-blue;
+  &:hover {
+    border-bottom: 2px solid $ucsf-blue;
+  }
 }
 h1, h2, h3, h4, h5, h6 {
   a {
     text-decoration: none;
+    border-bottom: none;
+    padding-bottom: 0;
     &:hover {
-      text-decoration: underline;
+
     }
   }
 }
 
-a.border-link-one {
+/*a.border-link-one {
   text-decoration: none;
   border-bottom: 1px dashed $ucsf-blue;
   padding-bottom: 3px;
@@ -31,14 +42,14 @@ a.border-link-two {
   box-shadow: inset 0 0px 0 $color--blue--tint3;
   color: $ucsf-blue;
   padding-bottom: 3px;
-  //transition: /*color 0.3s ease-in-out,*/ box-shadow 0.3s ease-in-out;
+  //transition: box-shadow 0.3s ease-in-out;
   &:hover {
     transition: box-shadow 0.5s ease-in-out;
     border-bottom: 2px solid $color--blue--tint3;
     //color: white;
     box-shadow: inset 0 -100px 0 $color--blue--tint3;
   }
-}
+}*/
 
 
 
