@@ -16,7 +16,12 @@ a {
     border-bottom: 2px solid $ucsf-blue;
   }
 }
-h1, h2, h3, h4, h5, h6 {
+#footer {
+  a {
+    border-bottom-color: $white;
+  }
+}
+h1, h2, h3, h4, h5, h6, #header, .contact-widget__social-media-links {
   a {
     text-decoration: none;
     border-bottom: none;
@@ -26,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
     }
   }
 }
-
 /*a.border-link-one {
   text-decoration: none;
   border-bottom: 1px dashed $ucsf-blue;

@@ -31,6 +31,12 @@ textarea {
   padding: 5px;
   border-color: $lightgray;
 }
+input:focus, textarea:focus {
+  box-shadow: 0 0 10px $ucsf-blue;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid $ucsf-blue;
+}
 
 abbr[title="Required"] {
   text-decoration: none;
