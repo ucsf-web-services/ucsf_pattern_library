@@ -36,10 +36,10 @@
 
 
       a {
-        font-weight: 300;
         display: block;
         color: $white;
         text-decoration: none;
+        letter-spacing: 0.48px;
         &:hover {
           text-decoration: underline;
         }
