@@ -6,13 +6,20 @@
     display: inline;
     float: left;
     input#edit-search-block-form--2 {
-      border: none;
+      border: 1px solid $white;
       border-bottom: 1px solid $darkestgray;
       width: 173px;
       font-size: 15px;
       position: relative;
       font-family: $font-helvetica-neue;
+      padding: 5px;
       padding-right: 30px;
+      &:focus {
+        border: 1px solid $ucsf-blue;
+        margin: 0;
+        padding: 5px;
+        padding-right: 30px;
+      }
     }
   }
   input#edit-submit--2 {
@@ -32,7 +39,7 @@
   .fa-search{
     &:before {
       position: absolute;
-      top: 7px;
+      top: 6px;
       right: 5px;
       padding-left: 10px;
       color: $darkestgray;
