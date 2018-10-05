@@ -15,7 +15,7 @@ This top navigation menu is a required element across all UCSF websites, and mus
 1. University of California San Francisco (Left item, link: https://www.ucsf.edu)
 1. About UCSF (First item on right, link: https://www.ucsf.edu/about#active-default)
 1. Search UCSF (Second item on right, link: https://www.ucsf.edu/search)
-1. UCSF Medical Center (Third item on right, link: https://www.ucsfhealth.org)
+1. UCSF Health (Third item on right, link: https://www.ucsfhealth.org)
 
 Sites with an approved UCSF logo should not include the UCSF logo in the banner above (see http://neurograd.ucsf.edu for an example). Sites with an all text site title should include the UCSF logo in the banner above (see http://websites.ucsf.edu for an example).
 

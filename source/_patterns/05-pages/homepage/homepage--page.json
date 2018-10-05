@@ -162,7 +162,7 @@
     "menuType": "molecules-header-menu",
     "top_menu": [
       {"url": "#", "title": "University of California San Francisco"},
-      {"url": "#", "title": "UCSF Medical Center"},
+      {"url": "#", "title": "UCSF Health"},
       {"url": "#", "title": "Search UCSF"},
       {"url": "#", "title": "About UCSF"}
     ],
